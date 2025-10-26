@@ -1,0 +1,47 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 48,
+  "icon": "minecraft:stone",
+  "start": {
+    "title": {
+      "text": "أحجار من بعد آخر"
+    },
+    "description": {
+      "text": "عندما تصل إلى عالم الإند، تذكر أن تحضر لي $(red)أحجار الاند$()"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "شكرا!"
+    },
+    "description": {
+      "text": "همم… الجودة… ليست سيئة. سأستفيد منها جيدا، شكرا!"
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "minecraft:end_stone"
+      },
+      "id": "quest_giver:gift",
+      "times": 1
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/advancement grant @p only custom:trade_mason",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/addreputation reputation:villager @p 2",
+      "id": "quest_giver:command"
+    },
+    {
+      "item": {
+        "item": "minecraft:emerald"
+      },
+      "id": "quest_giver:item",
+      "times": 2
+    }
+  ]
+}

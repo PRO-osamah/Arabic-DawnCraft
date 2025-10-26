@@ -1,0 +1,47 @@
+{
+  "parent": "quest_giver:quest_0046_02b",
+  "reputation": 15,
+  "icon": "minecraft:paper",
+  "start": {
+    "title": {
+      "text": "مرحبا"
+    },
+    "description": {
+      "text": "يبدو أنك لم تكمل عقدك بعد، أم أنك نسيت مهمتك؟ أحضر لي $()5 أسنان أورك$() كدليل على إبادتك هدف."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "تفضل."
+    },
+    "description": {
+      "text": "أحسنت صنعا. ليس لدي المزيد من هدف لك في الوقت الحالي. فقط اعلم أن الشر يتربص دائما، فكن يقظا."
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "orcz:orcteeth"
+      },
+      "id": "quest_giver:gift",
+      "times": 5
+    }
+  ],
+  "rewards": [
+    {
+      "item": {
+        "item": "minecraft:emerald"
+      },
+      "id": "quest_giver:item",
+      "times": 2
+    },
+    {
+      "command": "/advancement grant @p only custom:trade_cleric",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/give @p potion{display:{Name:'[{\"text\":\"Potion of Healing\",\"italic\":false}]'},CustomPotionEffects:[{Id:6,Duration:1,Amplifier:5}]} 1",
+      "id": "quest_giver:command"
+    }
+  ]
+}

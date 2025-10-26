@@ -1,0 +1,43 @@
+{
+  "parent": "quest_giver:quest_0113_02",
+  "reputation": 16,
+  "icon": "minecraft:iron_pickaxe",
+  "start": {
+    "title": {
+      "text": "مرحبًا مجددًا!"
+    },
+    "description": {
+      "text": "ما زلت أعمل عليه! هل حصلت على عصا بعد؟"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "تفضل."
+    },
+    "description": {
+      "text": "تفضل. قد يكون هذا أفضل أعمالي حتى الآن، هه."
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "minecraft:stick"
+      },
+      "id": "quest_giver:gift",
+      "times": 1
+    }
+  ],
+  "rewards": [
+    {
+      "item": {
+        "item": "simple_mobs:gem_sword"
+      },
+      "id": "quest_giver:item",
+      "times": 1
+    },
+    {
+      "command": "/addreputation reputation:villager @p 3",
+      "id": "quest_giver:command"
+    }
+  ]
+}

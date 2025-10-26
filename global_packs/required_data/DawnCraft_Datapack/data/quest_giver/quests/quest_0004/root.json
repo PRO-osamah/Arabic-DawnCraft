@@ -1,0 +1,12 @@
+{
+  "reputation": 0,
+  "icon": "minecraft:brewing_stand",
+  "start": {
+    "title": {
+      "text": "مرحبًا!"
+    },
+    "description": {
+      "text": "مرحبًا مغامر، هل يمكنك أن تجلب لي $(red)5 لحم زومبي$()؟ أحتاجه لتحضير جرعات."
+    }
+  }
+}

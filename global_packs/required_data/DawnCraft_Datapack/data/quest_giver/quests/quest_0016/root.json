@@ -1,0 +1,12 @@
+{
+  "reputation": 3,
+  "icon": "minecraft:redstone",
+  "start": {
+    "title": {
+      "text": "مرحبًا"
+    },
+    "description": {
+      "text": "مرحبًا، تنقصني بعض القطع لإصلاح آلتي. هل يمكنك أن تحضر لي $(red)مقبض و مفتاح ربط النحاسي$()؟"
+    }
+  }
+}

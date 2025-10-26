@@ -1,0 +1,37 @@
+{
+  "parent": "quest_giver:quest_0109_01",
+  "reputation": 6,
+  "icon": "minecraft:iron_sword",
+  "start": {
+    "title": {
+      "text": "طفل مفقود"
+    },
+    "description": {
+      "text": "رجاءً أنقذ الطفل. أعده إلى المنزل."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "طفل مفقود: اكتملت"
+    },
+    "description": {
+      "text": "مذهل! لقد فعلتها حقًا! بصراحة لم أكن متفائلًا بشأن نجاة الطفل… تفضل، سأعلمك مهارة جديدة - Meteor Slam. إنها الطريقة الوحيدة التي أستطيع بها رد الجميل لك."
+    }
+  },
+  "tasks": [
+    {
+      "id": "dawncraft:follow_quest",
+      "structure": "#minecraft:village"
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/give @p epicfight:skillbook{skill:\"epicfight:meteor_slam\"}",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/addreputation reputation:villager @p 2",
+      "id": "quest_giver:command"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "parent": "quest_giver:quest_0033_01b",
+  "reputation": 7,
+  "icon": "minecraft:beef",
+  "start": {
+    "title": {
+      "text": "لحم غريب"
+    },
+    "description": {
+      "text": "هل حصلت على$(red) لحم كنغر والجلد$()؟"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "هنيئًا!"
+    },
+    "description": {
+      "text": "آه… إذًا هكذا يكون كنغر. قطعة لحم طرية فعلًا… أما الجلد على يد الآخر فليس بجودة جلد المعتاد الذي نستخدمه. لكنه تذكار جيد مع ذلك… شكرًا جزيلًا مغامر. ليس لدي الكثير لأقدمه لك… تفضل، خذ هذه شرائح اللحم البقري. لقد وصلت الذبيحة اليوم فقط لذا فهي طازجة!"
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "alexsmobs:kangaroo_meat"
+      },
+      "id": "quest_giver:gift",
+      "amount": 1
+    },
+    {
+      "item": {
+        "item": "alexsmobs:kangaroo_hide"
+      },
+      "id": "quest_giver:gift",
+      "amount": 1
+    }
+  ],
+  "rewards": [
+    {
+      "item": {
+        "item": "minecraft:beef"
+      },
+      "id": "quest_giver:item",
+      "times": 4
+    },
+    {
+      "command": "/addreputation reputation:villager @p 2",
+      "id": "quest_giver:command"
+    }
+  ]
+}

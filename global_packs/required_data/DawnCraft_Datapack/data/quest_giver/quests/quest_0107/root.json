@@ -1,0 +1,12 @@
+{
+  "reputation": 10,
+  "icon": "minecraft:log",
+  "start": {
+    "title": {
+      "text": "مرحبا!"
+    },
+    "description": {
+      "text": "مرحبا يا فتى، هل يمكنك أن تجلب لي قطعة من $(red)Dusk Log$()؟ يمكن العثور عليه في بعد Everdawn."
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "parent": "quest_giver:quest_0111_01b",
+  "reputation": 13,
+  "icon": "minecraft:iron_sword",
+  "start": {
+    "title": {
+      "text": "مرحبا مجددا!"
+    },
+    "description": {
+      "text": "أحضر لي قطعة من ورقة، سأريك مكانه على ورقة."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "تفضل."
+    },
+    "description": {
+      "text": "ها هو، من السهل رصده عندما تقترب. أتمنى لك حظ، وأحضر لي أي شيء يسقطه."
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "minecraft:paper"
+      },
+      "id": "quest_giver:gift",
+      "amount": 1
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/dc addWaypoint @p quest_giver:giant_hideout \"طلب إبادة - العملاق\"",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/loot give @p loot minecraft:guard4",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/gamestage add @p guard4 true",
+      "id": "quest_giver:command"
+    }
+  ]
+}

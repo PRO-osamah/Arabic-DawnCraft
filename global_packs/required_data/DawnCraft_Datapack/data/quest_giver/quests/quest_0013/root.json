@@ -1,0 +1,12 @@
+{
+  "reputation": 10,
+  "icon": "minecraft:white_wool",
+  "start": {
+    "title": {
+      "text": "مرحبا"
+    },
+    "description": {
+      "text": "هل تريد أن أعلمك كيفية استخدام حجر الشحذ؟ سيكلف ذلك 10 زمردات"
+    }
+  }
+}

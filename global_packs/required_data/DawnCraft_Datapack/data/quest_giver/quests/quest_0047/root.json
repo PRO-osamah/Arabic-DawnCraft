@@ -1,0 +1,12 @@
+{
+  "reputation": 0,
+  "icon": "minecraft:brewing_stand",
+  "start": {
+    "title": {
+      "text": "مرحبًا!"
+    },
+    "description": {
+      "text": "مرحبًا، هل يمكنك مساعدتي في الحصول على $(red)دمعة الشبح$()؟ أحتاجه لأبحاثي الطبية."
+    }
+  }
+}

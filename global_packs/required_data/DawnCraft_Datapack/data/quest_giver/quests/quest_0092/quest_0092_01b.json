@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 46,
+  "icon": "minecraft:ender_pearl",
+  "start": {
+    "title": {
+      "text": "مساعدة"
+    },
+    "description": {
+      "text": "رائع! هل كنت تعلم أنه عند هزيمته، تنين الاندر يسقط بيضته؟ باختصار، أود أن تسمح لي بإلقاء نظرة على $(red)بيضة تنين$(), هل يمكنك فعل ذلك من أجلي؟"
+    }
+  }
+}

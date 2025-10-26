@@ -1,0 +1,12 @@
+{
+  "reputation": 0,
+  "icon": "minecraft:poppy",
+  "start": {
+    "title": {
+      "text": "مرحبا!"
+    },
+    "description": {
+      "text": "هل يمكنك أن تحضر لي $(red)1 عشب الروح$())؟ يمكن العثور عليه في عالم النذر."
+    }
+  }
+}

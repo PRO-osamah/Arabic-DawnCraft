@@ -1,0 +1,47 @@
+{
+  "parent": "quest_giver:quest_0052_01b",
+  "reputation": 1,
+  "icon": "minecraft:wheat_seeds",
+  "start": {
+    "title": {
+      "text": "إذن؟"
+    },
+    "description": {
+      "text": "أنسيت بالفعل؟ لا تقلق، دعني أذكرك. أحتاج إلى $(red)بالة قش$()."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "شكرا!"
+    },
+    "description": {
+      "text": "بالة قش! الآن يمكننا أن نصنع لأنفسنا قش قبعات جديدة تماما! شكرا أيها الغريب."
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "farmersdelight:straw_bale"
+      },
+      "id": "quest_giver:gift",
+      "times": 1
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/advancement grant @p only custom:trade_farmer",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/addreputation reputation:villager @p 1",
+      "id": "quest_giver:command"
+    },
+    {
+      "item": {
+        "item": "minecraft:emerald"
+      },
+      "id": "quest_giver:item",
+      "times": 1
+    }
+  ]
+}

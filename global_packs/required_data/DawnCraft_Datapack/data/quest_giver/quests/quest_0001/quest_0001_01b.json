@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 5,
+  "icon": "minecraft:wooden_sword",
+  "start": {
+    "title": {
+      "text": "أحضر لي شيئًا!"
+    },
+    "description": {
+      "text": "أحتاج إلى شيء! هل يمكنك مساعدتي في إحضار $(red)4 سبائك حديد$()؟ لقد بدأت تنفد مني المواد لصنع الدروع… سأرد لك الجميل يومًا ما، أعدك!"
+    }
+  }
+}

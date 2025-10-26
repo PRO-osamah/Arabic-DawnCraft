@@ -1,0 +1,36 @@
+{
+  "parent": "quest_giver:quest_0035_02b",
+  "reputation": 35,
+  "icon": "minecraft:beef",
+  "start": {
+    "title": {
+      "text": "إنسينديوم"
+    },
+    "description": {
+      "text": "تذكّر، إن قفار الرماد في النيذر. عد إليّ بعد أن تزورها."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "تم"
+    },
+    "description": {
+      "text": "هذا مدهش… شكرًا لإخباري عن ذلك المكان. هذه مكافأتك. حسنًا، انطلق الآن… لدي قرار مهم عليّ اتخاذه."
+    }
+  },
+  "tasks": [
+    {
+      "id": "dawncraft:advancement",
+      "advancement": "custom:scarlet_rot"
+    }
+  ],
+  "rewards": [
+    {
+      "item": {
+        "item": "minecraft:emerald"
+      },
+      "id": "quest_giver:item",
+      "times": 5
+    }
+  ]
+}

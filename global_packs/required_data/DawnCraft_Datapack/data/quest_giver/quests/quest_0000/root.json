@@ -1,0 +1,12 @@
+{
+  "reputation": 25,
+  "icon": "minecraft:diamond",
+  "start": {
+    "title": {
+      "text": "انس الأمر"
+    },
+    "description": {
+      "text": "قرر قروي في اللحظة الأخيرة ألا يتحدث إليك"
+    }
+  }
+}

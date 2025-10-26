@@ -1,0 +1,47 @@
+{
+  "parent": "quest_giver:quest_0055_01b",
+  "reputation": 4,
+  "icon": "minecraft:wheat_seeds",
+  "start": {
+    "title": {
+      "text": "إذًا؟"
+    },
+    "description": {
+      "text": "هل قمت برحلة إلى عالم النذر وأحضرت $(red)فلفل شبح$() بعد؟"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "شكرًا!"
+    },
+    "description": {
+      "text": "آه، إنه يحرق يد لدي! إنه بالفعل فلفل شبح، هاها! إليك مكافأتك."
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "nourished_nether:ghost_pepper"
+      },
+      "id": "quest_giver:gift",
+      "times": 3
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/advancement grant @p only custom:trade_farmer",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/addreputation reputation:villager @p 2",
+      "id": "quest_giver:command"
+    },
+    {
+      "item": {
+        "item": "minecraft:emerald"
+      },
+      "id": "quest_giver:item",
+      "times": 5
+    }
+  ]
+}

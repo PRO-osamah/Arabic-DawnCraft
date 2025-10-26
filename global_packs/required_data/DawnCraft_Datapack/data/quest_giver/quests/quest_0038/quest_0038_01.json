@@ -1,0 +1,44 @@
+{
+  "parent": "quest_giver:quest_0038_01b",
+  "reputation": 13,
+  "icon": "minecraft:map",
+  "start": {
+    "title": {
+      "text": "استكشاف!"
+    },
+    "description": {
+      "text": "عُد إليّ عندما تنتهي من السفر إلى هذه 3 مناطق أحيائية: رمل القديمة، قمم بركانية, ميسا بيضاء"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "انتهى"
+    },
+    "description": {
+      "text": "شكرًا على شروحاتك المفصلة. أظن أنني سأتمكن من رسمها اعتمادًا على وصفك. تفضل مكافأتك."
+    }
+  },
+  "tasks": [
+    {
+      "id": "dawncraft:advancement",
+      "advancement": "custom:traveller"
+    }
+  ],
+  "rewards": [
+    {
+      "item": {
+        "item": "minecraft:emerald"
+      },
+      "id": "quest_giver:item",
+      "times": 6
+    },
+    {
+      "command": "/addreputation reputation:villager @p 2",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/advancement grant @p only custom:trade_cartographer",
+      "id": "quest_giver:command"
+    }
+  ]
+}

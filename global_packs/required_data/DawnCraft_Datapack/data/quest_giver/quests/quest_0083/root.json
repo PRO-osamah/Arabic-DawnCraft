@@ -1,0 +1,12 @@
+{
+  "reputation": 13,
+  "icon": "minecraft:iron_axe",
+  "start": {
+    "title": {
+      "text": "مرحبا!"
+    },
+    "description": {
+      "text": "مرحبا أيها المسافر، تبدو ماهرا في استرجاع أشياء! هل تود مساعدتي؟"
+    }
+  }
+}

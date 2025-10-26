@@ -1,0 +1,12 @@
+{
+  "reputation": 0,
+  "icon": "minecraft:map",
+  "start": {
+    "title": {
+      "text": "مرحبًا"
+    },
+    "description": {
+      "text": "مرحبًا يا رفيق، هل يمكنك أن تحضر لي بعض حبر حبار وورقة؟"
+    }
+  }
+}

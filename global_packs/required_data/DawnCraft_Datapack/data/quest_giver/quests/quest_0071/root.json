@@ -1,0 +1,12 @@
+{
+  "reputation": 40,
+  "icon": "minecraft:book",
+  "start": {
+    "title": {
+      "text": "مرحبًا!"
+    },
+    "description": {
+      "text": "تحياتي. هل تود الانطلاق في مغامرة من أجلي، أيها المسافر؟"
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "parent": "quest_giver:quest_0057_01b",
+  "reputation": 0,
+  "icon": "minecraft:cod",
+  "start": {
+    "title": {
+      "text": "صنع صنارة صيد"
+    },
+    "description": {
+      "text": "هل حصلت على $(red)صنارة صيد$()؟"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "شكرًا!"
+    },
+    "description": {
+      "text": "شكرًا، ليس لدي الكثير لأعطيك. أمم… خذ هذه سمك قد نيء، إنها طازجة."
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "minecraft:fishing_rod"
+      },
+      "id": "quest_giver:gift",
+      "times": 1
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/addreputation reputation:villager @p 1",
+      "id": "quest_giver:command"
+    },
+    {
+      "item": {
+        "item": "minecraft:cod"
+      },
+      "id": "quest_giver:item",
+      "times": 1
+    }
+  ]
+}

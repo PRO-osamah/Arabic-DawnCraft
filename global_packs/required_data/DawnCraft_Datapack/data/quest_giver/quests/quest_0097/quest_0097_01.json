@@ -1,0 +1,40 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 12,
+  "icon": "minecraft:redstone",
+  "start": {
+    "title": {
+      "text": "إذن؟"
+    },
+    "description": {
+      "text": "أعتذر عن الوصف المبهم… لكن المشكلة أنني لا أعرف أين تقع المنشأة ولا كيف تبدو. إنها قلعة قروي فيها Create آلية، وأعتقد أنك ستعرفها عندما تراها."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "شكرًا!"
+    },
+    "description": {
+      "text": "هذا مثير للاهتمام! مع ذلك، لا أظن أن هؤلاء قرويون بنوه بأنفسهم، فليس لديهم مهندس معهم… شخص ما يبقيهم هناك. على أي حال، شكرًا جزيلاً. إليك بسكويت."
+    }
+  },
+  "tasks": [
+    {
+      "id": "dawncraft:advancement",
+      "advancement": "custom:castle"
+    }
+  ],
+  "rewards": [
+    {
+      "item": {
+        "item": "minecraft:cookie"
+      },
+      "id": "quest_giver:item",
+      "times": 1
+    },
+    {
+      "command": "/addreputation reputation:villager @p 2",
+      "id": "quest_giver:command"
+    }
+  ]
+}

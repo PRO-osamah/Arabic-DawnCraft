@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 5,
+  "icon": "minecraft:enchanted_book",
+  "start": {
+    "title": {
+      "text": "المهارة الأساسية"
+    },
+    "description": {
+      "text": "آه… لا أظن أنك ستتمكن من العثور على العيون في وضعك الحالي. عد إلي عندما تكون قد قتلت $(red)10 ناهبون$(). سأعطيك شيئا يهيئك لرحلتك."
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:quest_0001_01",
+  "reputation": 5,
+  "icon": "minecraft:wooden_sword",
+  "start": {
+    "title": {
+      "text": "عند التفكير في الأمر…"
+    },
+    "description": {
+      "text": "عند التفكير في الأمر… هناك طريقة لأرد لك الجميل. هل يمكنك أن تجلب لي قطعة ورقة لأرسم لك خريطة؟"
+    }
+  }
+}

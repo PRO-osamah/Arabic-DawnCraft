@@ -1,0 +1,40 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 2,
+  "icon": "minecraft:map",
+  "start": {
+    "title": {
+      "text": "اصنع بوصلة!"
+    },
+    "description": {
+      "text": "ليست هدف صعبة، أليس كذلك؟ اصنع بوصلة."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "شكرا!"
+    },
+    "description": {
+      "text": "عمل جيد. يمكنك الذهاب الآن، هل كنت تتوقع مكافأة؟"
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "minecraft:compass"
+      },
+      "id": "quest_giver:craft",
+      "times": 1
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/advancement grant @p only custom:trade_cartographer",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/addreputation reputation:villager @p 1",
+      "id": "quest_giver:command"
+    }
+  ]
+}

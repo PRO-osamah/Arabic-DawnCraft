@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 37,
+  "icon": "minecraft:iron_sword",
+  "start": {
+    "title": {
+      "text": "طلب عاجل"
+    },
+    "description": {
+      "text": "الشر قادم. هل يمكنك مساعدتي في الحصول على 16 سبيكة حديد؟ أحتاج إلى صنع المزيد من الأسلحة لـ حراس… نحن غير مستعدين."
+    }
+  }
+}

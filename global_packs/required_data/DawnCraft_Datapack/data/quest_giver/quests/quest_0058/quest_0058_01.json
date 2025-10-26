@@ -1,0 +1,43 @@
+{
+  "parent": "quest_giver:quest_0058_01b",
+  "reputation": 15,
+  "icon": "minecraft:bow",
+  "start": {
+    "title": {
+      "text": "طلب صيد"
+    },
+    "description": {
+      "text": "(*تدرك أن هذه ليست طريقة هجوم أسماك قرش؛ وأنه فقط بعض أكثر أنواع قرش هدوءا مثل $(red)قرش رأس المطرقة$() تُسقط أسنانها عند الموت. لكنك قررت التزام الصمت*)"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "شكرا"
+    },
+    "description": {
+      "text": "هاهاهاها… سأحفر اسم أختي على هذا شيء وأرتديه كـ قلادة. شكرا مغامر، إليك مكافأتك"
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "alexsmobs:shark_tooth"
+      },
+      "id": "quest_giver:gift",
+      "times": 1
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/addreputation reputation:villager @p 2",
+      "id": "quest_giver:command"
+    },
+    {
+      "item": {
+        "item": "minecraft:salmon"
+      },
+      "id": "quest_giver:item",
+      "times": 6
+    }
+  ]
+}

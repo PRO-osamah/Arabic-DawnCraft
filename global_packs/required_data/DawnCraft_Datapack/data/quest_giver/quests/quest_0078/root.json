@@ -1,0 +1,12 @@
+{
+  "reputation": 48,
+  "icon": "minecraft:stone",
+  "start": {
+    "title": {
+      "text": "مرحبا!"
+    },
+    "description": {
+      "text": "إذا وصلت يوما إلى بعد عالم الإند. هل يمكنك أن تحضر لي $(red)حجر الاند$()؟"
+    }
+  }
+}

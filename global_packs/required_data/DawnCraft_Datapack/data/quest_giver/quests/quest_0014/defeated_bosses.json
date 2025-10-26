@@ -1,0 +1,30 @@
+{
+  "parent": "quest_giver:quest_0014_01",
+  "reputation": 10,
+  "icon": "minecraft:emerald",
+  "start": {
+    "title": {
+      "text": "تم الأمر بالفعل!"
+    },
+    "description": {
+      "text": "أوه؟ لقد هزمت حامل العين قبل أن أعطيك خريطة؟ هاه… أرني العين نفسها التي أسقطها حامل العين إذن. في الواقع، ارمها ثم التقطها من جديد… لا تسأل لماذا!"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "عالم الإند من الطريق"
+    },
+    "description": {
+      "text": "لم يعد لدي أي معلومات لأعطيك إياها يا صديقي. اتبع نداءك."
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "endrem:corrupted_eye"
+      },
+      "id": "quest_giver:item_pickup",
+      "times": 1
+    }
+  ]
+}

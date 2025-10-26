@@ -1,0 +1,43 @@
+{
+  "parent": "quest_giver:quest_0035_01b",
+  "reputation": 35,
+  "icon": "minecraft:beef",
+  "start": {
+    "title": {
+      "text": "سن السكين"
+    },
+    "description": {
+      "text": "هل حصلت على $(red)5 حجر عميق أحجار$() بعد؟ بدأ نصل سكيني يفقد حدته."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "تم"
+    },
+    "description": {
+      "text": "عمل رائع! كما هو متوقع، تحتوي هذه صخور على درجات حبيبات خشنة وناعمة. شكرًا جزيلاً! تفضل، خذها، إنها مكافأتك."
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "minecraft:deepslate"
+      },
+      "id": "quest_giver:gift",
+      "times": 5
+    }
+  ],
+  "rewards": [
+    {
+      "item": {
+        "item": "minecraft:emerald"
+      },
+      "id": "quest_giver:item",
+      "times": 2
+    },
+    {
+      "command": "/addreputation reputation:villager @p 1",
+      "id": "quest_giver:command"
+    }
+  ]
+}

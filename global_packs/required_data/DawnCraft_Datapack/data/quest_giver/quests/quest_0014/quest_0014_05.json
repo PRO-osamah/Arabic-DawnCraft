@@ -1,0 +1,56 @@
+{
+  "parent": "quest_giver:quest_0014_04",
+  "reputation": 10,
+  "icon": "minecraft:iron_sword",
+  "start": {
+    "title": {
+      "text": "الطريق إلى حاملي العيون"
+    },
+    "description": {
+      "text": "لدينا القليل جدا من المعلومات عن فارس روبر في حالته الحالية، لكنه ينبغي أن يكون قد ضعف كثيرا منذ الحرب الأخيرة… آه، تذكر أن تحضر لآلئ أندر. لديه هجوم خبيث لا يمكن الإفلات منه إلا عبر الانتقال الآني."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "الطريق إلى حاملي العيون"
+    },
+    "description": {
+      "text": "واو، لقد هزمت فارس روبر إذن. هل كان صعبا؟ في السابق كان واحدا من أرهب الخصوم الذين قد تواجههم في مبارزة، لكن يبدو أن العمر لحق به أخيرا. على كل حال، حامل العين التالي إنسان آخر. إنه يعيش حاليا بسلام في مزرعته… إليك خريطة إلى موقعه."
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "endrem:rogue_eye"
+      },
+      "id": "quest_giver:item_pickup",
+      "times": 1
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/dc addWaypoint @p custom:ninetail_farm \"المهمة الرئيسية - مزرعة ذو الذيل التسعة\"",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/loot give @p loot minecraft:guildmaster3",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/pmmo admin @p add crafting level 1",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/pmmo admin @p add engineering level 1",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/advancement grant @p only simple_mobs:knight_rober_quest_complete",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/gamestage add @p guildmaster5 true",
+      "id": "quest_giver:command"
+    }
+  ]
+}

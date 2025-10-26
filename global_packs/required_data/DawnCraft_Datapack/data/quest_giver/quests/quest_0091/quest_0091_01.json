@@ -1,0 +1,51 @@
+{
+  "parent": "quest_giver:quest_0091_01b",
+  "reputation": 46,
+  "icon": "minecraft:ender_pearl",
+  "start": {
+    "title": {
+      "text": "إذًا؟"
+    },
+    "description": {
+      "text": "من فضلك دعني ألقي نظرة عندما تحصل على $(red)بيضة تنين$()، لطالما كان حلمي أن أرى واحدة."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "شكرًا!"
+    },
+    "description": {
+      "text": "إذًا هكذا يبدو… هل تعلم أنه يمكنك وضع بيضة تنين وسيفقس تنين جديدًا؟ حسنًا، سأعلمك كيف تروّضه: فقط أطعمه أكبر قدر ممكن من السمك… بسيط، أليس كذلك؟"
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "minecraft:dragon_egg"
+      },
+      "id": "quest_giver:gift",
+      "times": 1
+    }
+  ],
+  "rewards": [
+    {
+      "item": {
+        "item": "minecraft:dragon_egg"
+      },
+      "id": "quest_giver:item",
+      "times": 1
+    },
+    {
+      "command": "/advancement grant @p only custom:trade_enderian",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/addreputation reputation:villager @p 3",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/pmmo admin @p add taming level 1",
+      "id": "quest_giver:command"
+    }
+  ]
+}

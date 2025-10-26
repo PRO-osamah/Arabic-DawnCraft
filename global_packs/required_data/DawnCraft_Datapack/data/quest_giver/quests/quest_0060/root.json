@@ -1,0 +1,12 @@
+{
+  "reputation": 0,
+  "icon": "minecraft:cod",
+  "start": {
+    "title": {
+      "text": "مرحبا!"
+    },
+    "description": {
+      "text": "هل تعرف أي شيء عن صنع قارب؟ في كلتا الحالتين، هل تود مساعدتي؟"
+    }
+  }
+}

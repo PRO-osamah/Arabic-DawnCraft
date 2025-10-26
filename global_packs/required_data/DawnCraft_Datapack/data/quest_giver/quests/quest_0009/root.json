@@ -1,0 +1,12 @@
+{
+  "reputation": 14,
+  "icon": "minecraft:book",
+  "start": {
+    "title": {
+      "text": "مرحبا!"
+    },
+    "description": {
+      "text": "تحياتي. لا أود إزعاجك، ولكن هل يمكنك أن تعطيني يد مع شيء ما؟"
+    }
+  }
+}

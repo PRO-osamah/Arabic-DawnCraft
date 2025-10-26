@@ -1,0 +1,12 @@
+{
+  "reputation": 7,
+  "icon": "minecraft:beef",
+  "start": {
+    "title": {
+      "text": "مرحبًا يا فتى."
+    },
+    "description": {
+      "text": "مرحبًا مغامر. هل تُصغي؟"
+    }
+  }
+}

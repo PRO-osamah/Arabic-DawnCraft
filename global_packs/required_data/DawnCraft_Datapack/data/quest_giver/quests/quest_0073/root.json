@@ -1,0 +1,12 @@
+{
+  "reputation": 8,
+  "icon": "minecraft:book",
+  "start": {
+    "title": {
+      "text": "مرحبا!"
+    },
+    "description": {
+      "text": "تحية! هل ذهبت إلى بُعد everbright أو everdawn بعد؟ على أي حال، هل يمكنك أن تعطيني يد؟"
+    }
+  }
+}

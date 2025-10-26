@@ -1,0 +1,44 @@
+{
+  "parent": "quest_giver:quest_0001_02b",
+  "reputation": 5,
+  "icon": "minecraft:iron_helmet",
+  "start": {
+    "title": {
+      "text": "مرحبًا من جديد!"
+    },
+    "description": {
+      "text": "مرحبًا من جديد! هل أحضرت لي ورقة بعد؟ أريد أن أرسم لك خريطة."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "تفضل."
+    },
+    "description": {
+      "text": "تفضل. هناك منزل موبوء بهؤلاء صيادين المرضى والمضللين… أحد أصدقائي المقربين تتبع موقعهم وعلّمه في خريطة هنا. أنا متأكد أنهم كانوا جورب بالغنائم التي حصلوا عليها من أعدائهم… اقتلهم وخذ غنائمهم. وإن استطعت، ابحث عن قلادة سرقوها مني. يحبون إخفاء أشياء تحت الطاولة. انظر إن كان بإمكانك العثور عليها، سأبذل جهدي لرد الجميل إن تمكنت من إعادة تلك القلادة إلي!"
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "minecraft:paper"
+      },
+      "id": "quest_giver:gift",
+      "amount": 1
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/dc addWaypoint @p custom:armorer_dungeon \"طلب الحداد\"",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/loot give @p loot minecraft:armorer1",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/gamestage add @p armorer1 true",
+      "id": "quest_giver:command"
+    }
+  ]
+}

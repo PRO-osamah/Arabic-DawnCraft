@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 0,
+  "icon": "minecraft:arrow",
+  "start": {
+    "title": {
+      "text": "صناعة سهم"
+    },
+    "description": {
+      "text": "تنقصني بعض ريش لصناعة سهم. هل يمكنك أن تجلب لي $(red)2 ريش$()؟ يمكنني أن أعطيك بعضا من سهام بعد أن أنتهي."
+    }
+  }
+}

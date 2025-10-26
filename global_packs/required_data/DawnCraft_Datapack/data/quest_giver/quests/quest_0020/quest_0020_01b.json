@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 16,
+  "icon": "minecraft:iron_pickaxe",
+  "start": {
+    "title": {
+      "text": "مساعدة"
+    },
+    "description": {
+      "text": "طلب مني مغامر مثلك معروفًا منذ مدة. لم أستطع حقًا مساعدته… لكن ربما تستطيع أنت. أحضر لي قطعة من ورقة. سأرسم لك خريطة إلى موقعه."
+    }
+  }
+}

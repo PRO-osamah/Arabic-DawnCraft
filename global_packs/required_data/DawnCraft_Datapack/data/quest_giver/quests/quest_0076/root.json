@@ -1,0 +1,12 @@
+{
+  "reputation": 28,
+  "icon": "minecraft:stone",
+  "start": {
+    "title": {
+      "text": "مرحبا!"
+    },
+    "description": {
+      "text": "هل يمكنك إحضار $(red)الحجر حجر القمري$() من بعد Everdawn؟ أنا فضولي بشأن جودته."
+    }
+  }
+}

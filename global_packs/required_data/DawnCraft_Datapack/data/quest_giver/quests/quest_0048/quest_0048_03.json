@@ -1,0 +1,34 @@
+{
+  "parent": "quest_giver:quest_0048_03b",
+  "reputation": 25,
+  "icon": "minecraft:brewing_stand",
+  "start": {
+    "title": {
+      "text": "إذن؟"
+    },
+    "description": {
+      "text": "اقتل 3 من حراس العاديين في القرية ثم عد إلي… لا تدع الآخرين يرونك… إذا انخفضت سمعتك كثيرا فلن أتحدث إليك… لأسباب واضحة"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "شكرا"
+    },
+    "description": {
+      "text": "هاهاها… يا لك من رجل خبيث… هاك، هكذا تستعملها… ابق مشاغبا"
+    }
+  },
+  "tasks": [
+    {
+      "entity": "guardvillagers:guard",
+      "id": "quest_giver:kill",
+      "times": 3
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/pmmo admin @p add slayer level 1",
+      "id": "quest_giver:command"
+    }
+  ]
+}

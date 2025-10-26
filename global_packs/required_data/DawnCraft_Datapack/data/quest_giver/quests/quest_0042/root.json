@@ -1,0 +1,12 @@
+{
+  "reputation": 2,
+  "icon": "minecraft:map",
+  "start": {
+    "title": {
+      "text": "مرحبا!"
+    },
+    "description": {
+      "text": "إذا كنت تسمي نفسك مغامر، فلا بد أن يكون لديك بوصلة! اصنع $(red)بوصلة$() وعد إلي."
+    }
+  }
+}

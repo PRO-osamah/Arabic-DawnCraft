@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 4,
+  "icon": "minecraft:wheat_seeds",
+  "start": {
+    "title": {
+      "text": "نصيحة"
+    },
+    "description": {
+      "text": "لم تكن محاصيلي الثمينة تنمو بشكل جيد هذه الأيام… هل تظن أنك تستطيع مساعدتي في الحصول على $(red)8 عظام$() حتى أتمكن من استخدام بعض أسمدة؟"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "reputation": 52,
+  "icon": "minecraft:ender_pearl",
+  "start": {
+    "title": {
+      "text": "مرحبا!"
+    },
+    "description": {
+      "text": "مرحبا مغامر، هناك طبق أظن أنك وحدك تستطيع إعداده لي. سأدفع بسخاء مقابله، ما رأيك؟"
+    }
+  }
+}

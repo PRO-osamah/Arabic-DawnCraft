@@ -1,0 +1,47 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 24,
+  "icon": "minecraft:iron_axe",
+  "start": {
+    "title": {
+      "text": "جمع الجذوع"
+    },
+    "description": {
+      "text": "هل حصلت على $(red)ساق خشب قرمزي$()؟"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "شكرًا!"
+    },
+    "description": {
+      "text": "شكرًا! ليس لدي زمردات في الوقت الحالي… هل ستأخذ هذه معول ألماسي؟ لقد صنعتها قبل بضع ساعات."
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "minecraft:crimson_stem"
+      },
+      "id": "quest_giver:gift",
+      "times": 1
+    }
+  ],
+  "rewards": [
+    {
+      "item": {
+        "item": "minecraft:diamond_pickaxe"
+      },
+      "id": "quest_giver:item",
+      "times": 1
+    },
+    {
+      "command": "/addreputation reputation:villager @p 2",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/advancement grant @p only custom:trade_toolsmith",
+      "id": "quest_giver:command"
+    }
+  ]
+}

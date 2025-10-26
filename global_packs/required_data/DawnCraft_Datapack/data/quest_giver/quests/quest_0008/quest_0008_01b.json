@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 13,
+  "icon": "minecraft:arrow",
+  "start": {
+    "title": {
+      "text": "مساعدة"
+    },
+    "description": {
+      "text": "سمعت أشياء جيدة عن عملك. أحتاج منك جمع بعض البضائع النادرة، تحديدًا: $(red)جلد أسد$(). أحتاج 4 منها. عد عندما تحصل على البضائع."
+    }
+  }
+}

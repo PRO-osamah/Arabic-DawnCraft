@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 8,
+  "icon": "minecraft:leather",
+  "start": {
+    "title": {
+      "text": "مساعدة"
+    },
+    "description": {
+      "text": "رائع. هل تستطيع طهي طبق يسمى $(red)عسل مزجج لحم خنزير$()؟ أنا وأصدقائي نتوق بشدة لتذوق هذا الطبق مجددًا."
+    }
+  }
+}

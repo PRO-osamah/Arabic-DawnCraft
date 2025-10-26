@@ -1,0 +1,12 @@
+{
+  "reputation": 35,
+  "icon": "minecraft:beef",
+  "start": {
+    "title": {
+      "text": "مرحبًا"
+    },
+    "description": {
+      "text": "أنت هناك! أعطني يد، هلّا فعلت؟"
+    }
+  }
+}

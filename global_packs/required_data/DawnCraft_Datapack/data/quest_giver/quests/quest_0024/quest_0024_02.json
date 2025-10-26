@@ -1,0 +1,33 @@
+{
+  "parent": "quest_giver:quest_0024_01",
+  "reputation": 6,
+  "icon": "minecraft:iron_sword",
+  "start": {
+    "title": {
+      "text": "الطفل المفقود"
+    },
+    "description": {
+      "text": "من فضلك اذهب وأنقذ الطفل وأعده إلى هنا."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "الطفل المفقود: اكتملت"
+    },
+    "description": {
+      "text": "أنت بطل بما فعلت، مغامر. لن ننسى أبدا ما فعلته من أجلنا. تفضل، سأعلمك مهارة قتال جديدة - Death حصاد."
+    }
+  },
+  "tasks": [
+    {
+      "id": "dawncraft:follow_quest",
+      "structure": "#minecraft:village"
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/give @p epicfight:skillbook{skill:\"epicfight:death_harvest\"}",
+      "id": "quest_giver:command"
+    }
+  ]
+}

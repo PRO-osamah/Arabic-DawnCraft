@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 14,
+  "icon": "minecraft:book",
+  "start": {
+    "title": {
+      "text": "طلب إحضار"
+    },
+    "description": {
+      "text": "هل يمكنك مساعدتي في إحضار 4 حبار أكياس حبر؟"
+    }
+  }
+}

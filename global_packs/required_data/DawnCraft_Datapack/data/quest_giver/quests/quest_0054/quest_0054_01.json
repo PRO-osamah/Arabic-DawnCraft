@@ -1,0 +1,30 @@
+{
+  "parent": "quest_giver:quest_0054_01b",
+  "reputation": 5,
+  "icon": "minecraft:wheat_seeds",
+  "start": {
+    "title": {
+      "text": "إذن؟"
+    },
+    "description": {
+      "text": "هل حصلت على $(red)معزقة حديدية$()؟"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "شكرا!"
+    },
+    "description": {
+      "text": "أوه، لقد حصلت عليها لنا… أنا ممتن جدا لذلك. أشعر بالحرج لطلب خدمة أخرى… ولكن هل تظن أنك تستطيع صنع $(red)2 أرغفة من خبز$() لنا؟ نحن نجيد فقط الزراعة والحصاد كما ترى. يمكنك استخدام قمح في مزرعتنا لذلك!"
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "minecraft:iron_hoe"
+      },
+      "id": "quest_giver:gift",
+      "times": 1
+    }
+  ]
+}

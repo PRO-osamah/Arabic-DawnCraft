@@ -1,0 +1,12 @@
+{
+  "reputation": 15,
+  "icon": "minecraft:cod",
+  "start": {
+    "title": {
+      "text": "مرحبا"
+    },
+    "description": {
+      "text": "مغامر، من فضلك ساعدني في شيء. أتوسل إليك"
+    }
+  }
+}

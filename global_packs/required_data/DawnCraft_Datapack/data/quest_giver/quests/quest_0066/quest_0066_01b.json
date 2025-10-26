@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 24,
+  "icon": "minecraft:leather",
+  "start": {
+    "title": {
+      "text": "مساعدة"
+    },
+    "description": {
+      "text": "أحتاجك أن تجمع $(red)2 قطعًا من دب أسود فرو$(). عد عندما تحصل على البضاعة."
+    }
+  }
+}

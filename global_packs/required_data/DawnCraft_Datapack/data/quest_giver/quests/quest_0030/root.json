@@ -1,0 +1,12 @@
+{
+  "reputation": 12,
+  "icon": "minecraft:blast_furnace",
+  "start": {
+    "title": {
+      "text": "مرحبا!"
+    },
+    "description": {
+      "text": "مرحبا! آه، مرحبا أيها الغريب، يمكن أن أستعين بمساعدتك في أمر ما!"
+    }
+  }
+}

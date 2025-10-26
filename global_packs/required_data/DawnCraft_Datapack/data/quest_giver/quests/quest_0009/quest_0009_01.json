@@ -1,0 +1,43 @@
+{
+  "parent": "quest_giver:quest_0009_01b",
+  "reputation": 14,
+  "icon": "minecraft:book",
+  "start": {
+    "title": {
+      "text": "طلب إحضار"
+    },
+    "description": {
+      "text": "من فضلك عد عندما تجمع $(red)4 أكياس حبر$()."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "شكرا!"
+    },
+    "description": {
+      "text": "شكرا جزيلا. للأسف وجدت أن مخزون ورقة لدينا أيضا ينفد… هل تظن أنك تستطيع مساعدتنا في الحصول على 10 قطع من ورقة حاليا> سنعيد التزويد قريبا، لكن سنكون ممتنين لمساعدتك."
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "minecraft:ink_sac"
+      },
+      "id": "quest_giver:gift",
+      "times": 4
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/addreputation reputation:villager @p 1",
+      "id": "quest_giver:command"
+    },
+    {
+      "item": {
+        "item": "minecraft:emerald"
+      },
+      "id": "quest_giver:item",
+      "times": 1
+    }
+  ]
+}

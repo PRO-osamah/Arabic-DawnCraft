@@ -1,0 +1,12 @@
+{
+  "reputation": 0,
+  "icon": "minecraft:poppy",
+  "start": {
+    "title": {
+      "text": "مرحبا!"
+    },
+    "description": {
+      "text": "هل يمكنك أن تعطيني $(red)1 رافليسيا$() إذا صادفت أي شيء؟"
+    }
+  }
+}

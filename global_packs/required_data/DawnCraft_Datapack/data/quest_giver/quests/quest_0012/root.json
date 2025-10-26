@@ -1,0 +1,12 @@
+{
+  "reputation": 10,
+  "icon": "minecraft:white_wool",
+  "start": {
+    "title": {
+      "text": "مرحبا"
+    },
+    "description": {
+      "text": "مرحبا، هل يمكنك أن تحضر لي دلو من حليب؟ إنني أتوق إلى تذوقه"
+    }
+  }
+}

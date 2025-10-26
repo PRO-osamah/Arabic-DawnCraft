@@ -1,0 +1,36 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 10,
+  "icon": "minecraft:cod",
+  "start": {
+    "title": {
+      "text": "افتح صنارة صيد"
+    },
+    "description": {
+      "text": "نعم أستطيع أن أعلمك كيف تصطاد، لكنه سيكلفك 18 زمردات."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "شكرا!"
+    },
+    "description": {
+      "text": "ليس بالأمر الصعب الآن، أليس كذلك؟ لكن لا تلوح كثيرا، فهذا يخيف الأسماك."
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "minecraft:emerald"
+      },
+      "id": "quest_giver:gift",
+      "times": 18
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/pmmo admin @p add fishing level 1",
+      "id": "quest_giver:command"
+    }
+  ]
+}

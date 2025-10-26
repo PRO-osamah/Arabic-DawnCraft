@@ -1,0 +1,44 @@
+{
+  "parent": "quest_giver:quest_0109_01b",
+  "reputation": 6,
+  "icon": "minecraft:iron_sword",
+  "start": {
+    "title": {
+      "text": "مرحبًا مجددًا!"
+    },
+    "description": {
+      "text": "إذا كنت مستعدًا لإنقاذ الطفل، فأعطني قطعة من ورقة، وسأرسم لك خريطة."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "تفضل."
+    },
+    "description": {
+      "text": "لقد أقام الأوغاد قاعدتهم هنا. لا بد أن الطفل ما يزال معهم… أرجوك أسرع. أعده إلينا!"
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "minecraft:paper"
+      },
+      "id": "quest_giver:gift",
+      "amount": 1
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/dc addWaypoint @p quest_giver:pillager_base \"طلب إنقاذ - قاعدة الناهبين\"",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/loot give @p loot minecraft:guard2",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/gamestage add @p guard2 true",
+      "id": "quest_giver:command"
+    }
+  ]
+}

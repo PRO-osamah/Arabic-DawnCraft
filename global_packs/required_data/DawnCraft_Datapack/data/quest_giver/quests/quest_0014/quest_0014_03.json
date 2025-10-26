@@ -1,0 +1,48 @@
+{
+  "parent": "quest_giver:quest_0014_02",
+  "reputation": 10,
+  "icon": "minecraft:iron_sword",
+  "start": {
+    "title": {
+      "text": "الطريق إلى حاملي العيون"
+    },
+    "description": {
+      "text": "أترى خريطة التي أعطيتك إياها؟ مهمتك الأولى هي إبادة $(red)ملك الغوبلن$(). ستجدهم على قمم قلاعهم."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "الطريق إلى حاملي العيون"
+    },
+    "description": {
+      "text": "عمل جيد. يبدو أنك مستعد لمواجهة $(red)غول فاسد$(). ها هو، الكائن القاطن في الموضع المحدد يحمل إحدى العيون."
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "goblinsanddungeons:goblin_crown"
+      },
+      "id": "quest_giver:item_pickup",
+      "times": 1
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/dc addWaypoint @p custom:ogre_dwelling \"المهمة الرئيسية - مسكن الغول الفاسد\"",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/loot give @p loot minecraft:guildmaster1",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/advancement grant @p only simple_mobs:goblin_king_quest_complete",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/gamestage add @p guildmaster3 true",
+      "id": "quest_giver:command"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "reputation": 16,
+  "icon": "minecraft:iron_pickaxe",
+  "start": {
+    "title": {
+      "text": "مرحبا!"
+    },
+    "description": {
+      "text": "لدي حكاية غريبة لأرويها… هل ستصغي إلي، مغامر؟"
+    }
+  }
+}
