@@ -1,0 +1,36 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 15,
+  "icon": "minecraft:iron_sword",
+  "start": {
+    "title": {
+      "text": "إذن؟"
+    },
+    "description": {
+      "text": "يمكنني تعليمك المهارة - Dancing Edge مقابل 20 زمردات. صدقني، إنها تستحق الثمن"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "شكرا"
+    },
+    "description": {
+      "text": "اختيار رائع، أتمنى لك حظ في رحلتك"
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "minecraft:emerald"
+      },
+      "id": "quest_giver:gift",
+      "times": 20
+    }
+  ],
+  "rewards": [
+    {
+      "command": "give @p epicfight:skillbook{skill:\"wom:dancing_blade\"}",
+      "id": "quest_giver:command"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "entity.netherskeletons.nether_skeleton": "هيكل عظمي من العالم السفلي",
+  "item.netherskeletons.nether_skeleton_spawn_egg": "بيضة التفريخ لهيكل عظمي من العالم السفلي",
+  "entity.netherskeletons.skelly_ghast": "سكيلغاست",
+  "item.netherskeletons.crimson_skeleton_spawn_egg": "بيضة التفريخ لهيكل عظمي قرمزي",
+  "entity.netherskeletons.crimson_skeleton": "هيكل عظمي قرمزي",
+  "entity.netherskeletons.basalt_skeleton": "هيكل عظمي من البازلت",
+  "item.netherskeletons.crying_obby_skeleton_spawn_egg": "بيضة التفريخ لهيكل عظمي من الأبسيديان الباكي",
+  "item.netherskeletons.soul_skeleton_spawn_egg": "بيضة التفريخ لهيكل عظمي للأرواح",
+  "itemGroup.tabnether_skeletons": "هياكل عظمية من العالم السفلي",
+  "item.netherskeletons.warped_skeleton_spawn_egg": "بيضة التفريخ لهيكل عظمي ملتوي",
+  "item.netherskeletons.basalt_skeleton_spawn_egg": "بيضة التفريخ لهيكل عظمي من البازلت",
+  "item.netherskeletons.skelly_ghast_spawn_egg": "بيضة التفريخ لسكيلغاست",
+  "entity.netherskeletons.warped_skeleton": "هيكل عظمي ملتوي",
+  "entity.netherskeletons.crying_obby_skeleton": "هيكل عظمي من الأبسيديان الباكي",
+  "item.netherskeletons.charred_skeleton_spawn_egg": "بيضة التفريخ لهيكل عظمي متفحم",
+  "entity.netherskeletons.soul_skeleton": "هيكل عظمي للأرواح",
+  "entity.netherskeletons.charred_skeleton": "هيكل عظمي متفحم"
+}

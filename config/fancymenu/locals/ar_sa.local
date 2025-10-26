@@ -1,0 +1,1371 @@
+helper.button.buttoninfo = معلومات الزر
+
+helper.menuinfo.identifier = معرف القائمة
+
+helper.buttoninfo.idnotfound = <لم يتم العثور على المعرّف>
+helper.buttoninfo.keynotfound = <لا يحتوي الزر على مفتاح>
+helper.buttoninfo
+helper.buttoninfo.id = المعرّف
+helper.buttoninfo.key = المفتاح
+helper.buttoninfo.labelwidth = عرض التسمية
+
+
+helper.creator.messages.sure = هل أنت متأكد؟
+helper.creator.empty = فارغ
+
+
+helper.creator.audioalreadyloaded.title = تم تحميل الصوت بالفعل!
+helper.creator.audioalreadyloaded.desc = الصوت الذي تريد إضافته هو بالفعل جزء من هذا المخطط!%n%%n%لا يمكنك إضافة نفس الصوت عدة مرات.
+
+helper.creator.invalidaudio.title = ملف صوت غير صالح!
+helper.creator.invalidaudio.desc = الملف الذي تريد تحميله غير موجود أو نوعه غير مدعوم.%n%%n%يرجى التحقق من مسار الملف والتأكد من أن ملفك WAV صالح!
+
+helper.creator.invalidimage.title = ملف صورة غير صالح!
+helper.creator.invalidimage.desc = الصورة التي تريد تحميلها غير موجودة أو نوعها غير مدعوم.%n%%n%أنواع الملفات المدعومة هي JPG/JPEG وPNG وGIF.
+
+
+helper.creator.animationnotfound.title = لم يتم العثور على الحركة!
+helper.creator.animationnotfound.desc = الحركة التي تريد إضافتها غير موجودة.%n%%n%ربما نسيت إضافة جميع المتغيرات الإلزامية إلى خصائصها؟%n%%n%تذكر دائماً أنه يجب إعادة تشغيل لعبتك%n%بعد إضافة حركة جديدة إلى مجلد الحركات.
+
+helper.creator.texttooshort.title = النص قصير جداً!
+helper.creator.texttooshort.desc = يحتاج نصك إلى حرف واحد على الأقل ليكون نصاً!%n%وإلا.. سيكون لا شيء.%n%%n%لا أحد يريد أن يكون لا شيء، فلا تفعل ذلك بنصك!
+
+helper.creator.cannotdelete.title = لا يمكن حذف العنصر!
+helper.creator.cannotdelete.desc = عذراً، لا يمكنك حذف هذا العنصر.%n%%n%ستحتاج لتعلم كيفية التعايش معه..
+
+
+helper.creator.layoutoptions.renderorder = ترتيب العرض
+helper.creator.layoutoptions.renderorder.background = الخلفية
+helper.creator.layoutoptions.renderorder.foreground = المقدمة
+
+helper.creator.layoutoptions.version.mc = إصدار ماينكرافت
+helper.creator.layoutoptions.version.fm = إصدار FancyMenu
+helper.creator.layoutoptions.version.minimum = تعيين الحد الأدنى
+helper.creator.layoutoptions.version.minimum.mc = الحد الأدنى لإصدار ماينكرافت
+helper.creator.layoutoptions.version.minimum.fm = الحد الأدنى لإصدار FancyMenu
+helper.creator.layoutoptions.version.maximum = تعيين الحد الأقصى
+helper.creator.layoutoptions.version.maximum.mc = الحد الأقصى لإصدار ماينكرافت
+helper.creator.layoutoptions.version.maximum.fm = الحد الأقصى لإصدار FancyMenu
+
+helper.creator.layoutoptions.resetbackground = إعادة ضبط الخلفية
+
+helper.creator.layoutoptions.requiredmods = المعدلات المطلوبة
+helper.creator.layoutoptions.requiredmods.desc = المعدلات المطلوبة [modid، مفصولة بفواصل]
+
+helper.creator.close = هل تريد حقاً إغلاق منشئ المخطط؟
+
+helper.creator.audio.delete = حذف
+helper.creator.audio.delete.msg = هل تريد حقاً حذف هذا الصوت؟
+
+helper.creator.add.image = صورة
+
+helper.creator.add.animation = حركة
+helper.creator.add.animation.entername = إضافة بالاسم
+helper.creator.add.animation.entername.title = اسم الحركة
+
+helper.creator.add.text = نص
+helper.creator.add.text.newtext = نص جديد
+
+helper.creator.add.button = زر
+helper.creator.add.button.label = تسمية الزر
+
+helper.creator.add.audio = صوت
+
+helper.creator.vanillabutton.autoclick = نقر تلقائي للأزرار
+helper.creator.vanillabutton.autoclick.popup = نقر تلقائي للأزرار
+
+helper.creator.backgroundoptions = خيارات الخلفية
+helper.creator.backgroundoptions.backgroundanimation = الرسوم المتحركة للخلفية
+helper.creator.backgroundoptions.backgroundimage = صورة الخلفية
+helper.creator.backgroundoptions.chooseimage = اختر صورة
+
+helper.creator.custombutton.config = إجراء الزر
+helper.creator.custombutton.config.actionvalue = قيمة الإجراء [{}]
+helper.creator.custombutton.config.actiontype = نوع الإجراء
+helper.creator.custombutton.config.actiontype.sendmessage.desc = إرسال رسالة دردشة أو أمر.
+helper.creator.custombutton.config.actiontype.sendmessage.desc.value = رسالة/أمر
+helper.creator.custombutton.config.actiontype.openlink.desc = فتح رابط في متصفحك الافتراضي.
+helper.creator.custombutton.config.actiontype.openlink.desc.value = الرابط
+helper.creator.custombutton.config.actiontype.quitgame.desc = إنهاء ماينكرافت.
+helper.creator.custombutton.config.actiontype.joinserver.desc = الانضمام إلى خادم ماينكرافت.
+helper.creator.custombutton.config.actiontype.joinserver.desc.value = عنوان الخادم
+helper.creator.custombutton.config.actiontype.loadworld.desc = تحميل عالم ماينكرافت.
+helper.creator.custombutton.config.actiontype.loadworld.desc.value = اسم مجلد العالم
+helper.creator.custombutton.config.actiontype.openfile.desc = فتح ملف أو مجلد.
+helper.creator.custombutton.config.actiontype.openfile.desc.value = المسار
+helper.creator.custombutton.config.actiontype.prevbackground.desc = التبديل إلى خلفية القائمة السابقة.
+helper.creator.custombutton.config.actiontype.nextbackground.desc = التبديل إلى خلفية القائمة التالية.
+
+helper.creator.items.setorientation = تعيين الاتجاه
+helper.creator.items.delete = حذف
+helper.creator.items.border.posx = posX
+helper.creator.items.border.posy = posY
+helper.creator.items.border.orientation = الاتجاه
+helper.creator.items.border.width = العرض
+helper.creator.items.border.height = الارتفاع
+
+helper.creator.items.button.editlabel = تحرير التسمية
+
+helper.creator.items.vanillabutton.resetorientation = إعادة ضبط الاتجاه
+
+helper.creator.items.string.setscale = تعيين المقياس
+helper.creator.items.string.setshadow = الظل: §cمعطل
+helper.creator.items.string.setnoshadow = الظل: §aمفعل
+helper.creator.items.string.edit = تحرير المحتوى
+helper.creator.items.string.border.scale = المقياس
+
+helper.creator.items.string.scale.invalidvalue.title = قيمة غير صالحة!
+helper.creator.items.string.scale.invalidvalue.desc = القيمة التي تريد تعيينها ليست قيمة مقياس صالحة!%n%%n%أمثلة لقيم المقياس: 1.0، 2.0، 0.5
+
+helper.creator.deleteobject = هل تريد حقاً §lحذف §rهذا العنصر؟
+
+helper.creator.choosefile.enterorchoose = §lأدخل المسار أو اختر ملفاً
+helper.creator.choosefile.choose = اختر ملفاً
+
+helper.creator.webstring.multiline = متعدد الأسطر: §cمعطل
+helper.creator.webstring.nomultiline = متعدد الأسطر: §aمفعل
+
+helper.creator.web.invalidurl = §c§lرابط غير صالح!%n%%n%هذا الرابط غير صالح أو غير موجود!
+helper.creator.web.enterurl = أدخل الرابط
+
+helper.creator.add.webimage = صورة من الويب
+helper.creator.add.webtext = نص من الويب
+
+
+
+helper.creator.items.button.hoverlabel = تسمية عند المرور
+helper.creator.items.button.hoverlabel.reset = إعادة ضبط تسمية المرور
+helper.creator.items.button.hoversound = صوت عند المرور
+helper.creator.items.button.hoversound.reset = إعادة ضبط صوت المرور
+
+
+helper.creator.backgroundoptions.panorama = عريض
+
+helper.creator.textures.invalidcharacters = §c§lأحرف غير صالحة!%n%%n%%n%اسم ملف صورتك يحتوي على أحرف غير صالحة!%n%%n%يرجى استخدام الأحرف "a-z" و"0-9" و"." و"_" و"-" فقط.%n%المسافات والحروف الكبيرة وأي أحرف خاصة أخرى غير مدعومة.
+
+helper.buttons.tools.overridemenu = تجاوز بـ
+helper.buttons.tools.resetoverride = إعادة ضبط التجاوز
+
+helper.buttons.tools.customguis = واجهات مخصصة
+helper.buttons.tools.customguis.open = فتح واجهة
+helper.buttons.tools.customguis.delete = حذف واجهة
+helper.buttons.tools.customguis.pickbyname = اختيار حسب الاسم
+helper.buttons.tools.customguis.openbyname = فتح بالاسم
+helper.buttons.tools.customguis.deletebyname = حذف بالاسم
+helper.buttons.tools.customguis.sure = §c§lهل أنت متأكد؟%n%%n%%n%هل تريد حقاً §lحذف §rهذه الواجهة؟%n%%n%§lلا يمكن التراجع عن هذا الإجراء!%n% %n% %n% %n%
+helper.buttons.tools.customguis.invalididentifier = §c§lمعرّف غير صالح!%n%%n%%n%لم يتم العثور على واجهة مخصصة بهذا المعرّف!%n% %n% %n% %n%
+
+helper.buttons.tools.creategui = إنشاء واجهة
+helper.buttons.tools.creategui.allowesc = السماح
+helper.buttons.tools.creategui.donotallowesc = عدم السماح
+helper.buttons.tools.creategui.invalididentifier = §cمعرّف غير صالح!
+helper.buttons.tools.creategui.identifieralreadyused = §cالمعرّف مستخدم بالفعل! يرجى اختيار آخر!
+helper.buttons.tools.creategui.allowescdesc = السماح بإغلاق القائمة بزر ESC
+helper.buttons.tools.creategui.menuidentifier = معرف القائمة
+helper.buttons.tools.creategui.menutitle = عنوان القائمة (اختياري)
+helper.buttons.tools.creategui.create = إنشاء
+
+gameintro.skip = اضغط مسافة للتخطي
+
+helper.creator.items.chooselayer = اختر عنصراً
+
+customization.items.webstring.unabletoload = تعذر تحميل نص الويب! رابط غير صالح أو لا يوجد اتصال بالإنترنت!
+
+helper.creator.custombutton.config.actiontype.opencustomgui.desc = يفتح واجهة مخصصة.
+helper.creator.custombutton.config.actiontype.opencustomgui.desc.value = معرف القائمة
+
+
+custombuttons.action.opengui.cannotopengui = §c§lتعذر فتح الواجهة!%n%%n%%n%الواجهة التي تريد فتحها غير موجودة أو غير مدعومة!%n%%n%إذا كانت هذه واجهة موجودة، يرجى الاتصال بمطور FancyMenu لإضافة دعم لها.
+
+helper.creator.custombutton.config.actiontype.opengui.desc = يفتح واجهة عبر معرف القائمة.%n%%n%يدعم واجهات فانِيلا/مود و%n%الواجهات المخصصة المصنوعة باستخدام FancyMenu.
+helper.creator.custombutton.config.actiontype.opengui.desc.value = معرف القائمة
+
+
+helper.creator.windowsize = قيود حجم النافذة
+helper.creator.windowsize.biggerthan = أكبر من
+helper.creator.windowsize.smallerthan = أصغر من
+helper.creator.windowsize.biggerthan.desc = فعّل المخطط فقط إذا كانت النافذة أكبر من X
+helper.creator.windowsize.smallerthan.desc = فعّل المخطط فقط إذا كانت النافذة أصغر من X
+helper.creator.windowsize.currentwidth = عرض النافذة الحالي
+helper.creator.windowsize.currentheight = ارتفاع النافذة الحالي
+
+helper.menuinfo.idcopied = تم النسخ إلى الحافظة!
+
+
+helper.creator.custombutton.config.actiontype.movefile.desc = ينقل ملفاً إلى مسار جديد.
+helper.creator.custombutton.config.actiontype.movefile.desc.value = مسار الملف + المسار الجديد، مفصول بـ ';'
+helper.creator.custombutton.config.actiontype.copyfile.desc = ينسخ ملفاً إلى مسار.
+helper.creator.custombutton.config.actiontype.copyfile.desc.value = مسار الملف + المسار الهدف، مفصول بـ ';'
+helper.creator.custombutton.config.actiontype.deletefile.desc = يحذف ملفاً.
+helper.creator.custombutton.config.actiontype.deletefile.desc.value = مسار الملف
+helper.creator.custombutton.config.actiontype.renamefile.desc = يعيد تسمية ملف.
+helper.creator.custombutton.config.actiontype.renamefile.desc.value = مسار الملف + الاسم الجديد مع النوع
+helper.creator.custombutton.config.actiontype.reloadmenu.desc = يعيد تحميل القائمة المعروضة حالياً.
+helper.creator.custombutton.config.actiontype.runscript.desc = يشغّل برنامجاً نصياً للزر.
+helper.creator.custombutton.config.actiontype.runscript.desc.value = اسم السكربت بدون نوع الملف
+helper.creator.custombutton.config.actiontype.downloadfile.desc = يحمّل ملفاً إلى مسار.
+helper.creator.custombutton.config.actiontype.downloadfile.desc.value = الرابط + مسار التحميل، مفصول بـ ';'
+helper.creator.custombutton.config.actiontype.unpackzip.desc = يفك ضغط ملف ZIP إلى مسار.
+helper.creator.custombutton.config.actiontype.unpackzip.desc.value = مسار الملف + المسار الهدف، مفصول بـ ';'
+
+helper.creator.custombutton.config.actionvalue.example = مثال: {}
+
+helper.creator.custombutton.config.actiontype.openlink.desc.value.example = https://google.com
+helper.creator.custombutton.config.actiontype.sendmessage.desc.value.example = مرحباً @الجميع!
+helper.creator.custombutton.config.actiontype.joinserver.desc.value.example = mc.coolserver.com
+helper.creator.custombutton.config.actiontype.loadworld.desc.value.example = myworld
+helper.creator.custombutton.config.actiontype.opencustomgui.desc.value.example = coolcustomgui
+helper.creator.custombutton.config.actiontype.opengui.desc.value.example = some.menu.identifier
+helper.creator.custombutton.config.actiontype.openfile.desc.value.example = config/fancymenu/changelog.txt
+helper.creator.custombutton.config.actiontype.movefile.desc.value.example = resources/image.jpg;folder/moveto/image.jpg
+helper.creator.custombutton.config.actiontype.copyfile.desc.value.example = resources/image.jpg;some_folder/imagecopy.jpg
+helper.creator.custombutton.config.actiontype.deletefile.desc.value.example = config/fancymenu/rickroll.gif
+helper.creator.custombutton.config.actiontype.renamefile.desc.value.example = config/fancymenu/image.jpg;newimagename.jpg
+helper.creator.custombutton.config.actiontype.downloadfile.desc.value.example = https://hoster.com/layout.zip;download/layout.zip
+helper.creator.custombutton.config.actiontype.unpackzip.desc.value.example = resources/archive.zip;resources/unpacked/
+helper.creator.custombutton.config.actiontype.runscript.desc.value.example = coolscript
+
+helper.creator.rightclick.scale = فرض مقياس الواجهة
+helper.creator.rightclick.scale.invalid = §c§lمقياس غير صالح!%n%%n%%n%يجب أن تكون قيم المقياس أكبر من 0!
+
+helper.creator.items.button.resetlabel = إعادة ضبط التسمية
+
+
+helper.creator.items.custombutton.onlydisplayin = اعرض فقط في
+helper.creator.items.custombutton.onlydisplayin.outgame = خارج اللعبة
+helper.creator.items.custombutton.onlydisplayin.singleplayer = لاعب واحد
+helper.creator.items.custombutton.onlydisplayin.multiplayer = متعدد اللاعبين
+helper.creator.items.custombutton.onlydisplayin.reset = إعادة ضبط
+
+helper.creator.items.button.clicksound = تعيين صوت النقر
+helper.creator.items.button.clicksound.reset = إعادة ضبط صوت النقر
+
+helper.popup.togglecustomization.enable = التخصيص: §cمعطل
+helper.popup.togglecustomization.disable = التخصيص: §aمفعل
+
+helper.creator.object.stretch = تمديد
+helper.creator.object.stretch.x = إلى عرض الشاشة
+helper.creator.object.stretch.y = إلى ارتفاع الشاشة
+
+helper.creator.object.stretch.unsupportedorientation = §c§lاتجاه غير مدعوم!%n%%n%%n%الاتجاه الحالي لهذا العنصر غير مدعوم بواسطة إجراء التمديد هذا.%n%%n%§lالاتجاهات المدعومة: {}
+
+helper.creator.backgroundoptions.backgroundpanorama = بانوراما الخلفية
+helper.creator.backgroundoptions.panoramas = بانورامات
+helper.creator.backgroundoptions.panoramas.set = تعيين الخلفية
+helper.creator.backgroundoptions.panoramas.set.desc = يعيّن البانوراما المحددة%n%كبأنوراما الخلفية النشطة.
+helper.creator.backgroundoptions.panoramas.clear = مسح
+helper.creator.backgroundoptions.panoramas.clear.desc = يزيل البانوراما%n%النشطة الحالية للخلفية.
+
+helper.creator.items.button.btndescription = تلميح
+helper.creator.items.button.btndescription.desc = تلميح يظهر%n%عند تمرير المؤشر على الزر.
+
+helper.buttons.customization.onoff.btndesc = تبديل التخصيصات%n%للقائمة الحالية.%n%%n%§cيجب تمكين هذا%n%§cليعمل المخطط!
+helper.buttons.customization.overridewith.btndesc = تجاوز القائمة الحالية%n%بواحدة من واجهاتك المخصصة.%n%%n%§cمهم:%n%لا ينبغي استخدامه إذا كنت%n%تريد فقط تعديل مظهر%n%قائمة موجودة.%n%%n%لتعديل قائمة، أنشئ%n%مخططاً بدلاً من ذلك!
+
+
+helper.buttons.customization.managelayouts = إدارة المخططات
+helper.buttons.customization.managelayouts.enable = §aتمكين §rالمخطط
+helper.buttons.customization.managelayouts.enabled = §aمفعل
+helper.buttons.customization.managelayouts.disable = §cتعطيل §rالمخطط
+helper.buttons.customization.managelayouts.disabled = §cمعطل
+helper.buttons.customization.managelayouts.delete = حذف المخطط
+helper.buttons.customization.managelayouts.delete.msg = §c§lهل أنت متأكد؟%n%%n%%n%هل تريد حقاً §c§lحذف §rهذا المخطط؟%n%%n%§c§lلا يمكن التراجع عن هذا الإجراء!
+helper.buttons.customization.managelayouts.layout.btndesc = §lمعلومات المخطط:%n%%n%الحالة: {}%n%إجراءات التخصيص: {}%n%%n%§cانقر بالزر الأيسر لمزيد من الخيارات!
+
+helper.creator.object.moveup = تحريك للأعلى
+helper.creator.object.moveup.desc = يحرك العنصر طبقة واحدة للأعلى.%n%%n%§cمهم:%n%العناصر المُركَّزة تكون دائماً في الأعلى،%n%لذا لن ترى التأثير%n%حتى تزيل التركيز عن العنصر.{}
+helper.creator.object.moveup.desc.subtext = %n%%n%§6§lآخر إجراء:%n%تم التحريك فوق §7{}
+helper.creator.object.movedown = تحريك للأسفل
+helper.creator.object.movedown.desc = يحرك العنصر طبقة واحدة للأسفل.%n%%n%§cمهم:%n%العناصر المُركَّزة تكون دائماً في الأعلى،%n%لذا لن ترى التأثير%n%حتى تزيل التركيز عن العنصر.{}
+helper.creator.object.movedown.desc.subtext = %n%%n%§6§lآخر إجراء:%n%تم التحريك خلف §7{}
+
+helper.buttons.customization.managelayouts.openintexteditor = فتح في محرر نصوص
+helper.buttons.customization.managelayouts.openintexteditor.desc = يفتح هذا المخطط في%n%محرر النصوص الافتراضي لديك.%n%%n%§cمهم:%n%تحتاج للنقر على زر "Reload"%n%بعد تغيير أشياء يدوياً%n%في ملفات المخططات!
+
+helper.creator.opencloseaudio = صوت الفتح/الإغلاق
+helper.creator.opencloseaudio.desc = تشغيل صوت عند%n%فتح القائمة أو إغلاقها.
+helper.creator.opencloseaudio.reset.desc = سيُعاد ضبط هذا الصوت.
+helper.creator.openaudio = صوت فتح القائمة
+helper.creator.openaudio.reset = إعادة ضبط صوت الفتح
+helper.creator.openaudio.desc = سيُشغَّل صوت عند فتح القائمة.
+helper.creator.closeaudio = صوت إغلاق القائمة
+helper.creator.closeaudio.reset = إعادة ضبط صوت الإغلاق
+helper.creator.closeaudio.desc = سيُشغَّل صوت عند إغلاق القائمة.
+
+helper.creator.deleteselectedobjects = هل تريد حقاً §lحذف §rكل العناصر المحددة؟
+
+helper.creator.multiselect.object.deleteall = حذف الكل
+helper.creator.multiselect.object.deleteall.btndesc = سيحذف جميع العناصر المحددة.
+helper.creator.multiselect.object.stretchall = تمديد الكل
+helper.creator.multiselect.object.stretchall.btndesc = يمدد كل العناصر §lالقابلة للتمديد §r%n%إلى عرض أو ارتفاع القائمة.
+helper.creator.multiselect.vanillabutton.resetorientation = إعادة ضبط الاتجاه
+helper.creator.multiselect.vanillabutton.resetorientation.btndesc = سيعيد ضبط الاتجاه%n%لكل الأزرار الافتراضية المحددة.
+helper.creator.multiselect.vanillabutton.hideall = إخفاء الكل
+helper.creator.multiselect.vanillabutton.hideall.btndesc = سيخفي جميع الأزرار الافتراضية المحددة.
+helper.creator.multiselect.button.buttontexture.btndesc = تعيين خامات الحالة العادية والتمرير%n%لجميع الأزرار المحددة.
+helper.creator.multiselect.button.clicksound.btndesc = سيعيّن صوت النقر%n%لجميع الأزرار المحددة.
+helper.creator.multiselect.button.clicksound.reset.btndesc = سيُعيد ضبط صوت النقر%n%لجميع الأزرار المحددة.
+helper.creator.multiselect.button.hoversound.btndesc = سيعيّن صوت المرور%n%لجميع الأزرار المحددة.
+helper.creator.multiselect.button.hoversound.reset.btndesc = سيُعيد ضبط صوت المرور%n%لجميع الأزرار المحددة.
+
+helper.creator.add.playerentity = كيان لاعب
+
+helper.creator.items.playerentity.setscale = تعيين المقياس
+helper.creator.items.playerentity.playername = اسم اللاعب
+helper.creator.items.playerentity.playername.auto = تلقائي
+helper.creator.items.playerentity.playername.setname = تعيين الاسم
+helper.creator.items.playerentity.skin = تعيين الجلد
+helper.creator.items.playerentity.cape = تعيين العباءة
+helper.creator.items.playerentity.texture.local = خامة محلية
+helper.creator.items.playerentity.texture.url = عنوان URL
+helper.creator.items.playerentity.rotation = الدوران
+helper.creator.items.playerentity.rotation.auto = دوران تلقائي
+helper.creator.items.playerentity.rotation.custom = دوران مخصص
+helper.creator.items.playerentity.rotation.custom.bodyx = دوران الجسم الأفقي
+helper.creator.items.playerentity.rotation.custom.bodyy = دوران الجسم العمودي
+helper.creator.items.playerentity.rotation.custom.headx = دوران الرأس الأفقي
+helper.creator.items.playerentity.rotation.custom.heady = دوران الرأس العمودي
+helper.creator.items.playerentity.showname.off = إظهار الاسم: §cمعطل
+helper.creator.items.playerentity.showname.on = إظهار الاسم: §aمفعل
+helper.creator.items.playerentity.crouching.off = الانحناء: §cمعطل
+helper.creator.items.playerentity.crouching.on = الانحناء: §aمفعل
+helper.creator.items.playerentity.parrot.off = إظهار الببغاء: §cمعطل
+helper.creator.items.playerentity.parrot.on = إظهار الببغاء: §aمفعل
+helper.creator.items.playerentity.slim.off = جلد نحيف: §cمعطل
+helper.creator.items.playerentity.slim.on = جلد نحيف: §aمفعل
+
+helper.creator.items.playerentity.setscale.btndesc = تعيين مقياس اللاعب.
+helper.creator.items.playerentity.playername.btndesc = تعيين اسم اللاعب.
+helper.creator.items.playerentity.playername.auto.btndesc = سيعيّن اللاعب تلقائياً%n%إلى مستخدم العميل.
+helper.creator.items.playerentity.playername.setname.btndesc = تعيين اسم اللاعب يدوياً.%n%%n%لا يجب أن يكون%n%مستخدماً موجوداً.
+helper.creator.items.playerentity.skin.btndesc = تعيين خامة جلد اللاعب.%n%%n%لهذا الجلد أولوية على%n%جلد اللاعب العادي.
+helper.creator.items.playerentity.cape.btndesc = تعيين خامة عباءة اللاعب.%n%%n%لهذه العباءة أولوية على%n%عباءة اللاعب العادية.
+helper.creator.items.playerentity.rotation.btndesc = تعيين دوران الجسم والرأس.
+helper.creator.items.playerentity.rotation.auto.btndesc = سيتبع اللاعب مؤشر الفأرة.
+helper.creator.items.playerentity.rotation.custom.btndesc = تعيين دوران مخصص للاعب.
+helper.creator.items.playerentity.showname.btndesc = تعيين ظهور اسم اللاعب.
+helper.creator.items.playerentity.crouching.btndesc = تحديد ما إذا كان اللاعب يجب أن ينحني أم لا.
+helper.creator.items.playerentity.parrot.btndesc = آرر!
+helper.creator.items.playerentity.slim.btndesc = تحديد ما إذا كان على اللاعب%n%استخدام تخطيط الجلد النحيف.%n%%n%للجلود النحيفة أذرع أنحف.
+
+helper.creator.items.playerentity.texture.invalidtexture.title = خامة غير صالحة!
+helper.creator.items.playerentity.texture.invalidtexture.desc = هذه الخامة إما غير موجودة أو ليست ملف خامة صالحاً.%n%%n%§lأنواع الملفات المدعومة: §rPNG
+
+popup.apply = تطبيق
+
+helper.creator.items.orientation.btndesc = يحدد نقطة الأصل التي%n%سيتم منها حساب موضع هذا العنصر.%n%%n%§cملاحظة:%n%يمكنك رؤية تأثير الاتجاه%n%على العنصر عندما تغيّر حجم%n%نافذة المحرر بعد تغيير%n%الاتجاه.
+
+helper.creator.add.slideshow = عرض شرائح
+helper.creator.add.slideshow.entername = إضافة بالاسم
+helper.creator.add.slideshow.entername.title = أدخل اسم عرض الشرائح
+
+helper.creator.backgroundoptions.backgroundslideshow = عرض شرائح الخلفية
+helper.creator.backgroundoptions.backgroundslideshow.set = تعيين الخلفية
+helper.creator.backgroundoptions.backgroundslideshow.set.desc = يعيّن عرض الشرائح المحدد%n%كعرض شرائح الخلفية النشط.
+helper.creator.backgroundoptions.backgroundslideshow.clear = مسح
+helper.creator.backgroundoptions.backgroundslideshow.clear.desc = يزيل عرض شرائح الخلفية%n%النشط حالياً.
+
+
+helper.creator.slideshownotfound = §c§lلم يتم العثور على عرض الشرائح!%n%%n%عرض الشرائح الذي أدخلته غير موجود!%n%ربما خطأ إملائي في اسم عرض الشرائح؟
+
+helper.creator.add.shapes = شكل
+helper.creator.add.shapes.rectangle = مستطيل
+
+helper.creator.items.shape.color = اللون
+helper.creator.items.shape.color.btndesc = تعيين لون HEX للشكل.%n%%n%§cملاحظة:%n%يمكنك استخدام ألوان HEX%n%لتعيين شفافية العنصر!
+
+helper.creator.object.movedown.desc.subtext.vanillabutton = %n%%n%§cلا يمكنك تحريك العناصر خلف%n%§cالأزرار الافتراضية.%n%%n%بدلاً من ذلك، يمكنك تعيين%n%§lترتيب العرض§r إلى '§lالخلفية§r'%n%لجعل جميع العناصر خلف%n%محتوى القائمة الافتراضي مثل%n%الأزرار الافتراضية.%n%%n%§lانقر بزر الفأرة الأيمن §rعلى خلفية المحرر%n%لتعيين §lترتيب العرض§r!
+
+helper.menubar.expand = توسيع شريط القوائم%n%%n%§cلإخفاء الشريط، اضغط §nCTRL + ALT + C§r§c.%n%§cإذا لم ينجح ذلك، تحقق من%n%§cإعدادات تحكم ماينكرافت.
+helper.menubar.shrink = تصغير شريط القوائم%n%%n%§cلإخفاء الشريط، اضغط §nCTRL + ALT + C§r§c.%n%§cإذا لم ينجح ذلك، تحقق من%n%§cإعدادات تحكم ماينكرافت.
+helper.menubar.settings = إعدادات FancyMenu
+
+fancymenu.config = إعدادات FancyMenu
+
+fancymenu.config.categories.general = عام
+
+fancymenu.config.enablehotkeys = تمكين اختصارات المود
+fancymenu.config.playmenumusic = موسيقى قائمة ماينكرافت الافتراضية
+fancymenu.config.stopworldmusicwhencustomizable = إيقاف موسيقى العالم
+fancymenu.config.playbackgroundsounds = أصوات مخصصة
+fancymenu.config.playbackgroundsoundsinworld = أصوات مخصصة داخل العالم
+fancymenu.config.defaultguiscale = مقياس الواجهة الافتراضي
+fancymenu.config.showdebugwarnings = تحذيرات التصحيح
+
+fancymenu.config.categories.customization = تخصيص
+
+fancymenu.config.showcustomizationbuttons = عناصر تحكم التخصيص
+fancymenu.config.softmode = الوضع المرن
+fancymenu.config.advancedmode = الوضع المتقدم
+
+fancymenu.config.categories.mainmenu = القائمة الرئيسية [عام]
+
+fancymenu.config.hidebranding = إخفاء العلامة التجارية
+fancymenu.config.hidelogo = إخفاء الشعار
+fancymenu.config.hiderealmsnotifications = إخفاء أيقونة أخبار Realms
+fancymenu.config.showmainmenufooter = تذييل القائمة الرئيسية
+fancymenu.config.hideforgenotifications = إخفاء إشعارات Forge
+fancymenu.config.copyrightposition = موضع حقوق النشر
+fancymenu.config.copyrightcolor = لون حقوق النشر
+
+fancymenu.config.categories.world_loading_screen = شاشة تحميل العالم
+
+fancymenu.config.showloadingscreenanimation = رسوم تحميل العالم المتحركة
+fancymenu.config.showloadingscreenpercent = نسبة تحميل العالم
+
+fancymenu.config.categories.mainmenu_splash = القائمة الرئيسية [نص الوميض]
+
+fancymenu.config.hidesplashtext = إخفاء نص الوميض
+fancymenu.config.splashcolor = لون نص الوميض
+fancymenu.config.splashtextfile = ملف نص وميض مخصص
+fancymenu.config.splashorientation = اتجاه نص الوميض
+fancymenu.config.splashrotation = دوران نص الوميض
+fancymenu.config.splashx = موضع X لنص الوميض
+fancymenu.config.splashy = موضع Y لنص الوميض
+
+fancymenu.config.categories.loading = تحميل اللعبة
+
+fancymenu.config.gameintroanimation = رسوم مقدمة اللعبة
+fancymenu.config.loadingscreendarkmode = الوضع الداكن لشاشة التحميل
+fancymenu.config.showanimationloadingstatus = حالة تحميل الرسوم المتحركة
+fancymenu.config.allowgameintroskip = تخطي مقدمة اللعبة
+fancymenu.config.customgameintroskiptext = نص تخطي مقدمة اللعبة
+fancymenu.config.loadinganimationcolor = لون رسوم تحميل FM
+fancymenu.config.preloadanimations = تحميل مسبق للرسوم المتحركة
+
+fancymenu.config.categories.minecraftwindow = نافذة Minecraft
+
+fancymenu.config.customwindowtitle = عنوان نافذة مخصص
+fancymenu.config.customwindowicon = أيقونة نافذة مخصصة
+
+fancymenu.config.categories.layouteditor = محرر التخطيط
+
+fancymenu.config.showvanillamovewarning = تحذير نقل العنصر
+fancymenu.config.editordeleteconfirmation = تأكيد الحذف
+
+fancymenu.config.categories.ui = واجهة FancyMenu
+
+fancymenu.config.uiscale = مقياس واجهة FancyMenu
+
+fancymenu.config.enablehotkeys.desc = ما إذا كانت مفاتيح الاختصار في FancyMenu مفعلة أم لا.%n%يلزم إعادة التشغيل بعد تغيير هذه القيمة.
+fancymenu.config.playmenumusic.desc = تفعيل أو تعطيل موسيقى قائمة Minecraft الافتراضية.
+fancymenu.config.stopworldmusicwhencustomizable.desc = ما إذا كانت موسيقى العالم الافتراضية%n%يجب إيقافها عند فتح قائمة قابلة للتخصيص.
+fancymenu.config.playbackgroundsounds.desc = تفعيل أو تعطيل أصوات خلفية القائمة%n%المضافة عبر FancyMenu.
+fancymenu.config.playbackgroundsoundsinworld.desc = إذا كان يجب تشغيل أصوات خلفية القائمة%n%المضافة عبر FancyMenu أثناء%n%وجود عالم محمّل (داخل اللعبة).
+fancymenu.config.defaultguiscale.desc = مقياس GUI افتراضي سيتم تعيينه عند أول تشغيل.%n%مفيد لحزم التعديلات.%n%يتم حفظ بيانات التخزين المؤقت في /fancymenu_data/.
+fancymenu.config.showdebugwarnings.desc = ما إذا كان FancyMenu يجب أن يطبع التحذيرات%n%في سجل اللعبة.%n%الأخطاء غير متأثرة بذلك.
+
+fancymenu.config.showcustomizationbuttons.desc = عرض عناصر تحكم تخصيص FancyMenu في القوائم.%n%يمكن تبديله بالضغط على §lCTRL + ALT + C%n%في شاشة قائمة عادية.
+fancymenu.config.softmode.desc = يعظّم توافق التعديلات عبر%n%تعطيل دعم تخصيص الخلفية%n%للقوائم القابلة للتمرير مثل%n%قوائم اللاعب الفردي والمتعدد.
+fancymenu.config.advancedmode.desc = يفعّل بعض الميزات المتقدمة التي%n%قد تضر أو تكسر اللعبة إذا%n%لم تُستخدم بشكل صحيح.
+
+fancymenu.config.hidebranding.desc = إخفاء نص العلامة التجارية في%n%الزاوية اليسرى السفلية من القائمة الرئيسية.
+fancymenu.config.hidelogo.desc = إخفاء شعار Minecraft الافتراضي%n%في القائمة الرئيسية.
+fancymenu.config.hiderealmsnotifications.desc = إخفاء أيقونة أخبار Realms%n%في القائمة الرئيسية.
+fancymenu.config.showmainmenufooter.desc = عرض تذييل في القائمة الرئيسية%n%مثل نص "اكتشف المزيد.." %n%في نهاية مقاطع Minecraft على YouTube.
+fancymenu.config.hideforgenotifications.desc = إخفاء كل إشعارات Forge مثل%n%تحذير البيتا أو إشعار تحديث Forge.
+fancymenu.config.copyrightposition.desc = تعيين موضع إشعار حقوق النشر.%n%%n%§lالقيم الممكنة:%n%top-left، top-centered، top-right،%n%bottom-left، bottom-centered،%n%bottom-right
+fancymenu.config.copyrightcolor.desc = تعيين لون HEX لإشعار حقوق النشر.
+
+fancymenu.config.showloadingscreenanimation.desc = ما إذا كانت رسوم%n%شاشة تحميل العالم%n%يجب أن تكون مرئية.
+fancymenu.config.showloadingscreenpercent.desc = ما إذا كان نص نسبة%n%شاشة تحميل العالم%n%يجب أن يكون مرئيًا.
+
+fancymenu.config.hidesplashtext.desc = ما إذا كان نص الوميض يجب أن يكون مرئيًا أم لا.
+fancymenu.config.splashcolor.desc = تعيين اللون الأساسي لنص الوميض.%n%يُسمح بقيم HEX فقط!
+fancymenu.config.splashtextfile.desc = تعيين ملف TXT مخصص لنصوص الوميض.%n%سطر نص واحد لكل سطر.%n%%n%القيمة هي مسار الملف.
+fancymenu.config.splashorientation.desc = تعيين اتجاه نص الوميض.%n%هذه هي نقطة الأصل التي%n%يتم منها حساب%n%موضع نص الوميض.%n%%n%§lالقيم الممكنة:%n%original، top-left، mid-left،%n%bottom-left، top-centered، mid-centered،%n%bottom-centered، top-right، mid-right،%n%bottom-right
+fancymenu.config.splashrotation.desc = تعيين دوران نص الوميض.
+fancymenu.config.splashx.desc = تعيين الموضع الأفقي لنص الوميض%n%باستخدام اتجاهه كنقطة أصل%n%(X:0 Y:0).
+fancymenu.config.splashy.desc = تعيين الموضع الرأسي لنص الوميض%n%باستخدام اتجاهه كنقطة أصل%n%(X:0 Y:0).
+
+fancymenu.config.gameintroanimation.desc = حدد رسمًا متحركًا بالاسم الذي%n%أعطيته له في خصائصه،%n%ليُشغَّل كمقدمة قبل%n%أن ترى القائمة الرئيسية%n%لأول مرة.%n%(مثل كل الألعاب الرائعة هناك)
+fancymenu.config.loadingscreendarkmode.desc = تفعيل الوضع الداكن لشاشة التحميل.
+fancymenu.config.showanimationloadingstatus.desc = عند التفعيل، ستعرض شاشة تحميل الرسم%n%معلومات مفصلة%n%حول عملية التحميل.
+fancymenu.config.allowgameintroskip.desc = ما إذا كان بإمكان المستخدم تخطي%n%مقدمة اللعبة بالضغط على مفتاح المسافة أم لا.
+fancymenu.config.customgameintroskiptext.desc = تعيين نص تخطي مخصص%n%لرسوم مقدمة اللعبة.
+fancymenu.config.loadinganimationcolor.desc = تعيين لون مؤشر%n%شاشة تحميل الرسوم.%n%هذا هو الرسم الذي تراه أثناء%n%قيام FancyMenu بتحميل كل%n%الرسوم.
+fancymenu.config.preloadanimations.desc = سيقوم بتحميل خامات الرسوم مسبقًا%n%عند بدء اللعبة.%n%هذا يسبب تجمّد شاشة التحميل%n%في النهاية، لكنه%n%يمنع تقطّع الرسوم%n%عند عرضها لأول مرة.
+
+fancymenu.config.customwindowtitle.desc = حدد عنوان نافذة Minecraft مخصصًا.
+fancymenu.config.customwindowicon.desc = تفعيل أيقونات نافذة Minecraft المخصصة.%n%لمزيد من المعلومات،%n%ألقِ نظرة على الويكي:%n%§lfm.keksuccino.com
+
+fancymenu.config.showvanillamovewarning.desc = تفعيل إشعار التحذير%n%عند محاولة نقل عنصر%n%فانيلا/تعديل دون%n%اتجاه في محرر التخطيط.
+fancymenu.config.editordeleteconfirmation.desc = ما إذا كان يجب عرض نافذة تأكيد%n%عند حذف عنصر.
+
+fancymenu.config.uiscale.desc = مقياس واجهة تخصيص FancyMenu.
+
+helper.ui.dynamicvariabletextfield.variables.desc = §lقيم نصوص العناصر النائبة%n%%n%أدرج عناصر نائبة ضمن النص%n%ليتم استبدالها لاحقًا بـ%n%قيم حقيقية مثل%n%اسم اللاعب أو إصدار MC.%n%%n%§l§cمهم:%n%سترى هذه القيم كـ%n%عناصر نائبة في المحرر و%n%كقيم حقيقية في القائمة الفعلية.
+helper.ui.dynamicvariabletextfield.variables.playername = اسم اللاعب
+helper.ui.dynamicvariabletextfield.variables.playername.desc = يجلب اسم اللاعب.
+helper.ui.dynamicvariabletextfield.variables.playeruuid = UUID اللاعب
+helper.ui.dynamicvariabletextfield.variables.playeruuid.desc = يجلب UUID اللاعب.
+helper.ui.dynamicvariabletextfield.variables.mcversion = إصدار Minecraft
+helper.ui.dynamicvariabletextfield.variables.mcversion.desc = يجلب إصدار Minecraft.
+helper.ui.dynamicvariabletextfield.variables.forgeversion = إصدار محمّل التعديلات
+helper.ui.dynamicvariabletextfield.variables.forgeversion.desc = يجلب إصدار محمّل التعديلات.
+helper.ui.dynamicvariabletextfield.variables.modversion = إصدار التعديل
+helper.ui.dynamicvariabletextfield.variables.modversion.desc = يجلب إصدار تعديل عبر معرّف التعديل.%n%%n%فقط استبدل 'some_mod_id' في العنصر%n%النائب بمعرّف تعديل موجود.
+helper.ui.dynamicvariabletextfield.variables.totalmods = إجمالي عدد التعديلات
+helper.ui.dynamicvariabletextfield.variables.totalmods.desc = يجلب إجمالي عدد التعديلات.%n%يشمل التعديلات المعطلة.
+helper.ui.dynamicvariabletextfield.variables.loadedmods = عدد التعديلات النشطة
+helper.ui.dynamicvariabletextfield.variables.loadedmods.desc = يجلب عدد التعديلات النشطة.%n%لا يشمل التعديلات المعطلة.
+
+helper.creator.items.string.alignment = المحاذاة
+helper.creator.items.string.alignment.desc = يضبط محاذاة النص.%n%%n%§cمفيد عندما يكون عرض النص%n%§cغير ثابت دائمًا، مثل%n%§cقيم نصوص العناصر النائبة.
+helper.creator.items.string.alignment.left = يسار
+helper.creator.items.string.alignment.right = يمين
+helper.creator.items.string.alignment.centered = مركز
+
+helper.creator.items.string.border.alignment = محاذاة
+
+helper.creator.custombutton.config.actiontype.runcmd.desc = يشغّل أمر CMD/الطرفية.%n%يدعم أوامر حسب نظام التشغيل،%n%كما في المثال.
+helper.creator.custombutton.config.actiontype.runcmd.desc.value = الأمر
+helper.creator.custombutton.config.actiontype.runcmd.desc.value.example = [windows:run.bat]; [macos:./Run]; [linux:./run.sh];
+
+helper.creator.custombutton.config.actiontype.closegui.desc = يغلق واجهة المستخدم المعروضة.
+
+helper.ui.current = القائمة الحالية
+helper.ui.current.layouts = التخطيطات
+helper.ui.current.layouts.desc = أنشئ وأدر تخطيطاتك لهذه القائمة.
+helper.ui.current.layouts.new = جديد
+helper.ui.current.layouts.new.desc = أنشئ تخطيطًا جديدًا لهذه القائمة.
+helper.ui.current.layouts.manage = إدارة التخطيطات
+helper.ui.current.layouts.manage.desc = أدر التخطيطات الحالية لهذه القائمة.
+helper.ui.current.layouts.manage.edit = تحرير
+helper.ui.current.layouts.manage.edit.desc = حرر هذا التخطيط في محرر التخطيط.
+helper.ui.current.advanced = متقدم
+helper.ui.current.advanced.desc = يحتوي على أدوات للمستخدمين المتقدمين.%n%%n%§c§lتحذير:%n%قد §cتكسر هذه الأشياء%n%الأمور ولا حاجة لها في أغلب الحالات!
+
+helper.ui.customguis = واجهات مخصصة
+helper.ui.customguis.new = جديد
+helper.ui.customguis.new.desc = أنشئ واجهة §cفارغة §rو%n%املأها بأشياء.
+helper.ui.customguis.new.sure = §c§lهل أنت متأكد؟%n%%n%%n%هل تريد حقًا إنشاء واجهة §lفارغة §rجديدة؟%n%%n%§cهذا §lليس §r§cنفس تخصيص%n%§cقائمة موجودة!%n%%n%إذا أردت تخصيص قائمة موجودة،%n%أنشئ §lتخطيطًا §rبدلًا من ذلك.%n% %n% %n%
+helper.ui.customguis.manage = إدارة الواجهات
+helper.ui.customguis.manage.desc = أدر واجهاتك الحالية.
+
+helper.ui.tools = أدوات
+helper.ui.tools.menuinfo.off = معلومات القائمة: §cمطفأة
+helper.ui.tools.menuinfo.on = معلومات القائمة: §aمفعلة
+helper.ui.tools.menuinfo.desc = إظهار معرّف هذه القائمة.%n%%n%يمكنك النقر بالزر الأيسر على المعرّف%n%لنسخه.
+helper.ui.tools.buttoninfo.off = معلومات الأزرار: §cمطفأة
+helper.ui.tools.buttoninfo.on = معلومات الأزرار: §aمفعلة
+helper.ui.tools.buttoninfo.desc = عرض معلومات عن أزرار الفانيلا%n%عند تمرير المؤشر فوقها.%n%%n%لا يؤثر على الأزرار المخصصة.
+
+helper.ui.misc = متفرقات
+helper.ui.misc.closegui = §cأغلق القائمة
+helper.ui.misc.closegui.desc = أغلق القائمة الحالية.
+helper.ui.misc.openworldloading = افتح شاشة تحميل المستوى
+helper.ui.misc.openworldloading.desc = سيفتح مثيلًا وهميًا%n%لشاشة تحميل المستوى التي%n%تُستخدم للتحميل إلى العوالم.%n%%n%يسمح لك بتخصيص هذه الشاشة.
+helper.ui.misc.openmessagescreen = افتح شاشة رسالة التراب
+helper.ui.misc.openmessagescreen.desc = سيفتح مثيلًا وهميًا%n%لشاشة رسالة التراب التي%n%تُستخدم للانضمام إلى الخوادم و%n%التحميل إلى العوالم.%n%%n%يسمح لك بتخصيص هذه الشاشة.
+
+helper.ui.reload.desc = أعد تحميل FancyMenu.%n%%n%§lسيُعاد تحميل:%n%- البانورامات%n%- عروض الشرائح%n%- إعدادات التعديل%n%- التخطيطات%n%%n%§c§lلن يُعاد تحميل:%n%- الرسوم المتحركة
+
+helper.editor.ui.unsavedwarning = §c§lهل أنت متأكد؟%n%%n%%n%ستضيع كل التغييرات غير المحفوظة للتخطيط الحالي!%n% %n% %n%
+
+helper.editor.ui.layout = التخطيط
+helper.editor.ui.layout.new = جديد
+helper.editor.ui.layout.open = فتح
+helper.editor.ui.layout.save = حفظ
+helper.editor.ui.layout.saveas = حفظ باسم
+helper.editor.ui.layout.saveas.entername = §lأدخل اسم التخطيط
+helper.editor.ui.layout.saveas.failed = §c§lفشل الحفظ!%n%%n%%n%اسم تخطيط غير مدعوم أو التخطيط موجود بالفعل!%n% %n% %n%
+helper.editor.ui.layout.properties = الخصائص
+
+helper.editor.ui.edit = تحرير
+helper.editor.ui.edit.undo = تراجع
+helper.editor.ui.edit.redo = إعادة
+helper.editor.ui.edit.copy = نسخ
+helper.editor.ui.edit.paste = لصق
+
+helper.editor.ui.element = عنصر
+helper.editor.ui.element.new = جديد
+helper.editor.ui.element.manageaudio = إدارة الصوتيات
+helper.editor.ui.element.manageaudio.loop.on = تكرار: §aمفعل
+helper.editor.ui.element.manageaudio.loop.off = تكرار: §cمطفأ
+helper.editor.ui.element.deletedvanillabuttons = أزرار الفانيلا المحذوفة
+helper.editor.ui.element.deletedvanillabuttons.entry.desc = انقر بالزر الأيسر للتراجع عن الحذف.
+
+helper.editor.ui.exit = خروج
+helper.editor.ui.exit.desc = أغلق المحرر.
+
+helper.editor.ui.layoutproperties.newelement = عنصر جديد
+
+helper.ui.warning = §lتحذير!
+helper.ui.warning.unicode = خطوط يونيكود غير مدعومة بالكامل بواسطة واجهة FancyMenu!%n%يرجى التفكير في إيقاف خطوط يونيكود في إعدادات اللغة!
+
+helper.creator.error.invalidfile = §c§lخطأ!%n%%n%%n%ملف غير صالح أو غير موجود!%n% %n% %n% %n%
+
+helper.creator.add.splash = نص وميض
+helper.creator.add.splash.single = نص وميض فردي
+helper.creator.add.splash.single.desc = أدخل محتوى نص الوميض.
+helper.creator.add.splash.multi = نص وميض متعدد
+helper.creator.add.splash.multi.desc = اختر ملف نصي يحتوي نصوص وميض.
+
+helper.creator.items.splash.bounce.on = ارتداد: §aمفعل
+helper.creator.items.splash.bounce.off = ارتداد: §cمطفأ
+helper.creator.items.splash.refresh.on = تحديث: §aمفعل
+helper.creator.items.splash.refresh.off = تحديث: §cمطفأ
+helper.creator.items.splash.refresh.desc = اختر نص وميض جديدًا في كل مرة%n%يُعاد فيها تحميل القائمة أو تُفتح.
+helper.creator.items.splash.basecolor = اللون الأساسي
+helper.creator.items.splash.rotation = الدوران
+
+helper.creator.items.delay = تأخير الظهور
+helper.creator.items.delay.off = التأخير: §cمطفأ
+helper.creator.items.delay.firsttime = التأخير: §6أول مرة
+helper.creator.items.delay.everytime = التأخير: §aكل مرة
+helper.creator.items.delay.seconds = عيّن التأخير بالثواني
+helper.creator.items.delay.fadein.off = تلاشي دخول: §cمطفأ
+helper.creator.items.delay.fadein.on = تلاشي دخول: §aمفعل
+helper.creator.items.delay.fadein.speed = عيّن سرعة تلاشي الدخول
+
+fancymenu.helper.creator.layoutoptions.randommode.on = الوضع العشوائي: §aمفعل
+fancymenu.helper.creator.layoutoptions.randommode.off = الوضع العشوائي: §cمطفأ
+fancymenu.helper.creator.layoutoptions.randommode.btn.desc = اختر تخطيطًا عشوائيًا من نفس%n%المجموعة عند فتح القائمة.%n%%n%يمكن استخدامه لعشوائية%n%الخلفيات وعناصر أخرى.
+fancymenu.helper.creator.layoutoptions.randommode.setgroup = تعيين مجموعة العشوائية
+fancymenu.helper.creator.layoutoptions.randommode.setgroup.btn.desc = عيّن مجموعة هذا التخطيط العشوائي.%n%يتم اختيار تخطيط واحد لكل مجموعة%n%عند فتح القائمة.
+fancymenu.helper.creator.layoutoptions.randommode.onlyfirsttime.on = عشوائي لأول مرة فقط: §aمفعل
+fancymenu.helper.creator.layoutoptions.randommode.onlyfirsttime.off = عشوائي لأول مرة فقط: §cمطفأ
+fancymenu.helper.creator.layoutoptions.randommode.onlyfirsttime.btn.desc = ما إذا كانت تخطيطات هذه المجموعة العشوائية%n%يجب أن تكون عشوائية في كل مرة%n%تُفتح فيها القائمة، أم يتم اختيار تخطيط واحد%n%فقط في المرة الأولى%n%التي تُفتح فيها القائمة.
+
+fancymenu.helper.creator.backgroundoptions.backgroundanimation.set = تعيين الخلفية
+fancymenu.helper.creator.backgroundoptions.backgroundanimation.set.desc = يعيّن الرسم المتحرك المحدد%n%كخلفية نشطة.
+fancymenu.helper.creator.backgroundoptions.backgroundanimation.clear = مسح
+fancymenu.helper.creator.backgroundoptions.backgroundanimation.clear.desc = يزيل الرسم المتحرك%n%النشِط الحالي للخلفية.
+
+fancymenu.helper.editor.items.buttons.buttonbackground = خلفية الزر
+fancymenu.helper.editor.items.buttons.buttonbackground.normalbackground = الخلفية العادية
+fancymenu.helper.editor.items.buttons.buttonbackground.hoverbackground = خلفية التحويم
+fancymenu.helper.editor.items.buttons.buttonbackground.type.image = صورة
+fancymenu.helper.editor.items.buttons.buttonbackground.type.image.chooseimage = اختر صورة
+fancymenu.helper.editor.items.buttons.buttonbackground.type.animation = رسوم متحركة
+fancymenu.helper.editor.items.buttons.buttonbackground.type.animation.none = لا شيء
+fancymenu.helper.editor.items.buttons.buttonbackground.loopanimation.on = تكرار خلفية الرسوم: §aمفعل
+fancymenu.helper.editor.items.buttons.buttonbackground.loopanimation.off = تكرار خلفية الرسوم: §cمطفأ
+fancymenu.helper.editor.items.buttons.buttonbackground.loopanimation.btn.desc = اجعل خلفية الرسوم تتكرر.. أو لا.
+fancymenu.helper.editor.items.buttons.buttonbackground.restartonhover.on = إعادة التشغيل عند التحويم: §aمفعل
+fancymenu.helper.editor.items.buttons.buttonbackground.restartonhover.off = إعادة التشغيل عند التحويم: §cمطفأ
+fancymenu.helper.editor.items.buttons.buttonbackground.restartonhover.btn.desc = أعد تشغيل خلفية الرسوم عند التحويم.
+
+fancymenu.helper.editor.items.visibilityrequirements = متطلبات الظهور
+fancymenu.helper.editor.items.visibilityrequirements.btn.desc = تعيين متطلبات لكي يكون العنصر مرئيًا.
+fancymenu.helper.editor.items.visibilityrequirements.enabled = {}: §aمفعّل
+fancymenu.helper.editor.items.visibilityrequirements.disabled = {}: §cمعطّل
+fancymenu.helper.editor.items.visibilityrequirements.toggle.btn.desc = §oانقر بالزر الأيسر لتبديل المتطلب.
+fancymenu.helper.editor.items.visibilityrequirements.showif = أظهر إذا
+fancymenu.helper.editor.items.visibilityrequirements.showif.btn.desc = أظهر العنصر إذا تحقّق الشرط.
+fancymenu.helper.editor.items.visibilityrequirements.showifnot = أظهر إذا لم
+fancymenu.helper.editor.items.visibilityrequirements.showifnot.btn.desc = أظهر العنصر إذا لم يتحقق الشرط.
+
+fancymenu.helper.editor.items.visibilityrequirements.singleplayer = هل هو لاعب فردي
+fancymenu.helper.editor.items.visibilityrequirements.singleplayer.desc = يتحقق مما إذا كان المستخدم في لاعب فردي.
+
+fancymenu.helper.editor.items.visibilityrequirements.multiplayer = هل هو متعدد اللاعبين
+fancymenu.helper.editor.items.visibilityrequirements.multiplayer.desc = يتحقق مما إذا كان المستخدم في متعدد اللاعبين.
+
+fancymenu.helper.editor.items.visibilityrequirements.worldloaded = هل العالم محمّل
+fancymenu.helper.editor.items.visibilityrequirements.worldloaded.desc = يتحقق مما إذا كان عالم محمّل.%n%%n%يكون العالم محمّلًا عندما يكون المستخدم%n%في عالم فردي أو متعدد.
+
+fancymenu.helper.editor.items.visibilityrequirements.realtimehour = هل ساعة الوقت الحقيقي
+fancymenu.helper.editor.items.visibilityrequirements.realtimehour.desc = يتحقق مما إذا كانت ساعة الوقت الحقيقي الحالية تساوي X.%n%%n%يمكنك فصل قيم متعددة بفاصلة،%n%للتحقق من أكثر من ساعة%n%مرة واحدة.
+fancymenu.helper.editor.items.visibilityrequirements.realtimehour.valuename = ساعة الوقت الحقيقي (افصل القيم بفاصلة)
+
+fancymenu.helper.editor.items.visibilityrequirements.realtimeminute = هل دقيقة الوقت الحقيقي
+fancymenu.helper.editor.items.visibilityrequirements.realtimeminute.desc = يتحقق مما إذا كانت دقيقة الوقت الحقيقي الحالية تساوي X.%n%%n%يمكنك فصل قيم متعددة بفاصلة،%n%للتحقق من أكثر من دقيقة%n%مرة واحدة.
+fancymenu.helper.editor.items.visibilityrequirements.realtimeminute.valuename = دقيقة الوقت الحقيقي (افصل القيم بفاصلة)
+
+fancymenu.helper.editor.items.visibilityrequirements.realtimesecond = هل ثانية الوقت الحقيقي
+fancymenu.helper.editor.items.visibilityrequirements.realtimesecond.desc = يتحقق مما إذا كانت ثانية الوقت الحقيقي الحالية تساوي X.%n%%n%يمكنك فصل قيم متعددة بفاصلة،%n%للتحقق من أكثر من ثانية%n%مرة واحدة.
+fancymenu.helper.editor.items.visibilityrequirements.realtimesecond.valuename = ثانية الوقت الحقيقي (افصل القيم بفاصلة)
+
+fancymenu.helper.editor.items.visibilityrequirements.windowwidth = هل عرض النافذة
+fancymenu.helper.editor.items.visibilityrequirements.windowwidth.desc = يتحقق مما إذا كان عرض النافذة يساوي X.%n%%n%§cالعرض الحالي: {}%n%§cالارتفاع الحالي: {}
+fancymenu.helper.editor.items.visibilityrequirements.windowwidth.valuename = عرض النافذة
+
+fancymenu.helper.editor.items.visibilityrequirements.windowheight = هل ارتفاع النافذة
+fancymenu.helper.editor.items.visibilityrequirements.windowheight.desc = يتحقق مما إذا كان ارتفاع النافذة يساوي X.%n%%n%§cالعرض الحالي: {}%n%§cالارتفاع الحالي: {}
+fancymenu.helper.editor.items.visibilityrequirements.windowheight.valuename = ارتفاع النافذة
+
+fancymenu.helper.editor.items.visibilityrequirements.windowwidthbiggerthan = هل عرض النافذة أكبر من
+fancymenu.helper.editor.items.visibilityrequirements.windowwidthbiggerthan.desc = يتحقق مما إذا كان عرض النافذة أكبر من X.%n%%n%§cالعرض الحالي: {}%n%§cالارتفاع الحالي: {}
+fancymenu.helper.editor.items.visibilityrequirements.windowwidthbiggerthan.valuename = عرض النافذة
+
+fancymenu.helper.editor.items.visibilityrequirements.windowheightbiggerthan = هل ارتفاع النافذة أكبر من
+fancymenu.helper.editor.items.visibilityrequirements.windowheightbiggerthan.desc = يتحقق مما إذا كان ارتفاع النافذة أكبر من X.%n%%n%§cالعرض الحالي: {}%n%§cالارتفاع الحالي: {}
+fancymenu.helper.editor.items.visibilityrequirements.windowheightbiggerthan.valuename = ارتفاع النافذة
+
+fancymenu.helper.editor.items.visibilityrequirements.buttonhovered = هل الزر مُحَوَّم
+fancymenu.helper.editor.items.visibilityrequirements.buttonhovered.desc = يتحقق مما إذا كان زر محدد تحت المؤشر.%n%%n%§cللحصول على معرّف عنصر زر،%n%§cانقر بزر الفأرة الأيمن عليه واضغط 'انسخ معرف العنصر'.
+fancymenu.helper.editor.items.visibilityrequirements.buttonhovered.valuename = معرّف العنصر
+
+fancymenu.helper.editor.items.visibilityrequirements.language = هل لغة اللعبة
+fancymenu.helper.editor.items.visibilityrequirements.language.desc = يتحقق من لغة لعبة محددة.
+fancymenu.helper.editor.items.visibilityrequirements.language.valuename = معرّف اللغة
+
+fancymenu.helper.editor.items.visibilityrequirements.fullscreen = هل ملء الشاشة
+fancymenu.helper.editor.items.visibilityrequirements.fullscreen.desc = يتحقق مما إذا كانت نافذة اللعبة بوضع ملء الشاشة.
+
+fancymenu.helper.editor.items.visibilityrequirements.oswindows = هل نظام التشغيل Windows
+fancymenu.helper.editor.items.visibilityrequirements.oswindows.desc = يتحقق مما إذا كان نظام التشغيل Windows.
+
+fancymenu.helper.editor.items.visibilityrequirements.osmac = هل نظام التشغيل macOS
+fancymenu.helper.editor.items.visibilityrequirements.osmac.desc = يتحقق مما إذا كان نظام التشغيل macOS.
+
+fancymenu.helper.editor.items.visibilityrequirements.oslinux = هل نظام التشغيل Linux
+fancymenu.helper.editor.items.visibilityrequirements.oslinux.desc = يتحقق مما إذا كان نظام التشغيل Linux.
+
+fancymenu.helper.editor.items.visibilityrequirements.modloaded = هل التعديل مُحمّل
+fancymenu.helper.editor.items.visibilityrequirements.modloaded.desc = يتحقق مما إذا كان تعديل محدد مُحمّلًا.%n%%n%يمكنك العثور على معرّف التعديل في قائمة التعديلات.%n%هذه القائمة متاحة افتراضيًا%n%على Forge. على Fabric، حمّل%n%تعديل 'Mod Menu'.
+fancymenu.helper.editor.items.visibilityrequirements.modloaded.valuename = معرّف التعديل
+
+fancymenu.helper.editor.items.visibilityrequirements.serveronline = هل الخادم متصل
+fancymenu.helper.editor.items.visibilityrequirements.serveronline.desc = يتحقق مما إذا كان خادم محدد متصلًا.
+fancymenu.helper.editor.items.visibilityrequirements.serveronline.valuename = Server IP
+
+fancymenu.helper.editor.items.copyid = انسخ معرّف العنصر
+fancymenu.helper.editor.items.copyid.btn.desc = انسخ معرّف هذا العنصر لاستخدامه%n%في متطلبات الظهور، إلخ.
+
+fancymenu.helper.ui.dynamicvariabletextfield.variables.local = توطين النص
+fancymenu.helper.ui.dynamicvariabletextfield.variables.local.desc = يُوطِّن نصًا بالمفتاح المعطى.%n%%n%فقط استبدل 'localization.key' في%n%العنصر النائب بمفتاح توطين.%n%%n%§cتحقق من الويكي لمعرفة كيفية إضافة%n%§cترجماتك النصية الخاصة!%n%%n%§cالويكي: fm.keksuccino.com
+
+fancymenu.config.showgrid = إظهار الشبكة
+fancymenu.config.showgrid.desc = أضف شبكة إلى المحرر لتسهيل المحاذاة.
+fancymenu.config.gridsize = حجم الشبكة
+fancymenu.config.gridsize.desc = الحجم الداخلي لمربع شبكة واحد.
+
+fancymenu.helper.editor.properties.scale.btn.desc = فرض مقياس GUI لهذه القائمة.%n%%n%سيؤدي هذا إلى تجاوز المقياس%n%المحدد في إعدادات Minecraft.%n%%n%§cيُجاوز المقياس لهذه القائمة فقط،%n%§cوليس كل القوائم.
+
+fancymenu.helper.editor.properties.autoscale.on = التحجيم التلقائي: §aمفعل
+fancymenu.helper.editor.properties.autoscale.off = التحجيم التلقائي: §cمطفأ
+fancymenu.helper.editor.properties.autoscale.btn.desc = دع FancyMenu يتعامل مع مقياس%n%القائمة، بحيث يعمل تخطيطك%n%لكل مقياس و%n%دقة.%n%%n%للقيام بذلك، غيّر حجم النافذة%n%حتى يبدو كل شيء جيدًا و%n%لا تكون العناصر متباعدة جدًا%n%عن بعضها ثم انقر%n%هذا الزر.%n%%n%§cسيجعل هذا عناصر النص تبدو%n%§cضبابية عند بعض المقاييس.%n%§cلا يمكن إصلاح ذلك وأفضل%n%§cحل بديل هو استخدام صور%n%§cبخلفية كعناصر نص.
+fancymenu.helper.editor.properties.autoscale.basesize.popup.desc.line1 = هنا يمكنك تعيين حجم نافذة الأساس لتخطيطك.
+fancymenu.helper.editor.properties.autoscale.basesize.popup.desc.line2 = يجب أن يكون هذا هو الحجم الذي صُمّم له تخطيطك.
+fancymenu.helper.editor.properties.autoscale.basesize.popup.desc.line3 = إذا أنشأته على حجم النافذة الحالي، فقط اترك القيم كما هي.
+fancymenu.helper.editor.properties.autoscale.error = §c§lحدث خطأ ما!%n%%n%فشل تعيين حجم الأساس للتحجيم التلقائي!%n%يرجى التحقق من أن كلا القيمتين §lأكبر من 0%n%وأنهما §lأعداد صالحة§r.%n% %n% %n% %n% %n%
+
+fancymenu.helper.ui.dynamicvariabletextfield.categories.other = أخرى
+fancymenu.helper.ui.dynamicvariabletextfield.categories.server = الخادم
+fancymenu.helper.ui.dynamicvariabletextfield.categories.realtime = وقت الحياة الواقعية
+fancymenu.helper.ui.dynamicvariabletextfield.categories.player = اللاعب
+fancymenu.helper.ui.dynamicvariabletextfield.categories.client = العميل
+
+fancymenu.helper.ui.dynamicvariabletextfield.variables.realtimeyear = سنة
+fancymenu.helper.ui.dynamicvariabletextfield.variables.realtimemonth = شهر
+fancymenu.helper.ui.dynamicvariabletextfield.variables.realtimeday = يوم
+fancymenu.helper.ui.dynamicvariabletextfield.variables.realtimehour = ساعة
+fancymenu.helper.ui.dynamicvariabletextfield.variables.realtimeminute = دقيقة
+fancymenu.helper.ui.dynamicvariabletextfield.variables.realtimesecond = ثانية
+
+fancymenu.helper.ui.dynamicvariabletextfield.variables.servermotd = رسالة MOTD للخادم
+fancymenu.helper.ui.dynamicvariabletextfield.variables.servermotd.desc = يجلب MOTD لخادم.%n%فقط استبدل 'someserver.com:25565'%n%بـ IP الخادم الفعلي%n%و '1' برقم السطر.%n%تتكوّن MOTD من سطرين فقط، لذا%n%القيم الوحيدة الصالحة للسطر هي%n%'1' و '2'.
+fancymenu.helper.ui.dynamicvariabletextfield.variables.serverping = PING الخادم
+fancymenu.helper.ui.dynamicvariabletextfield.variables.serverping.desc = يجلب البينغ إلى خادم.%n%%n%فقط استبدل 'someserver.com:25565' في%n%العنصر النائب بـ IP خادم صالح.
+fancymenu.helper.ui.dynamicvariabletextfield.variables.serverplayercount = عدد لاعبي الخادم
+fancymenu.helper.ui.dynamicvariabletextfield.variables.serverplayercount.desc = يجلب عدد لاعبي خادم.%n%%n%فقط استبدل 'someserver.com:25565' في%n%العنصر النائب بـ IP خادم صالح.
+fancymenu.helper.ui.dynamicvariabletextfield.variables.serverstatus = حالة الخادم
+fancymenu.helper.ui.dynamicvariabletextfield.variables.serverstatus.desc = يجلب حالة خادم (متصل/غير متصل).%n%%n%فقط استبدل 'someserver.com:25565' في%n%العنصر النائب بـ IP خادم صالح.
+fancymenu.helper.ui.dynamicvariabletextfield.variables.serverversion = إصدار الخادم
+fancymenu.helper.ui.dynamicvariabletextfield.variables.serverversion.desc = يجلب إصدار MC لخادم.%n%%n%فقط استبدل 'someserver.com:25565' في%n%العنصر النائب بـ IP خادم صالح.
+
+fancymenu.helper.ui.dynamicvariabletextfield.variables.percentram = الذاكرة المستخدمة بال%
+fancymenu.helper.ui.dynamicvariabletextfield.variables.usedram = الذاكرة المستخدمة بالميجابايت
+fancymenu.helper.ui.dynamicvariabletextfield.variables.maxram = الحد الأقصى للذاكرة بالميجابايت
+
+fancymenu.helper.editor.layoutoptions.backgroundoptions.setbackground = تعيين الخلفية
+fancymenu.helper.editor.layoutoptions.backgroundoptions.setbackground.btn.desc = عيّن صورة، رسمًا متحركًا، بانوراما%n%أو عرض شرائح كخلفية.
+fancymenu.helper.editor.layoutoptions.backgroundoptions.keepaspect.on = الحفاظ على نسبة أبعاد الخلفية: §aمفعل
+fancymenu.helper.editor.layoutoptions.backgroundoptions.keepaspect.off = الحفاظ على نسبة أبعاد الخلفية: §cمطفأ
+fancymenu.helper.editor.layoutoptions.backgroundoptions.slideimage.on = تحريك الخلفية العريضة: §aمفعل
+fancymenu.helper.editor.layoutoptions.backgroundoptions.slideimage.off = تحريك الخلفية العريضة: §cمطفأ
+fancymenu.helper.editor.layoutoptions.backgroundoptions.slideimage.btn.desc = حرّك صورة الخلفية من%n%الجهة اليسرى إلى الجهة اليمنى للنافذة،%n%إذا كان لها تنسيق عريض.%n%%n%§cيعمل فقط لصور الخلفية.%n%§cلا يعمل لعروض الشرائح أو الرسوم أو مكعبات البانوراما.
+fancymenu.helper.editor.layoutoptions.backgroundoptions.image.clear = مسح
+fancymenu.helper.editor.layoutoptions.backgroundoptions.image.clear.btn.desc = يزيل صورة الخلفية%n%النشطة الحالية.
+
+fancymenu.helper.editor.items.orientation.element.setidentifier = تعيين معرّف العنصر
+fancymenu.helper.editor.items.orientation.element.setidentifier.identifiernotfound = §c§lخطأ!%n%%n%لا يوجد عنصر بهذا المعرّف!%n%%n%%n%%n%
+fancymenu.helper.editor.items.orientation.element.btn.desc = عيّن موضع عنصر آخر كنقطة%n%أصل للاتجاه، بحيث هذا العنصر%n%سيتحرك دائمًا مع عنصره الأصل.%n%%n%§cتحتاج إلى معرّف العنصر%n%§cللعنصر الأصل هنا.%n%§cيمكنك الحصول على معرّف العنصر%n%§cعند النقر بزر الفأرة الأيمن على عنصر.
+
+fancymenu.helper.setupsharing.import.choosefromsaved = اختر من الإعدادات المحفوظة
+fancymenu.helper.setupsharing.import.choosefromsaved.btn.desc = اختر إعدادًا من الإعدادات المحفوظة.
+fancymenu.helper.setupsharing.import.choosefromsaved.tooltip = §6معلومات الإعداد:
+fancymenu.helper.setupsharing.import.choosefromsaved.tooltip.datemodified = آخر تعديل: §7{}
+fancymenu.helper.setupsharing.import.choosefromsaved.tooltip.mcversion = إصدار Minecraft: §7{}
+fancymenu.helper.setupsharing.import.choosefromsaved.tooltip.fmversion = إصدار FancyMenu: §7{}
+fancymenu.helper.setupsharing.import.choosefromsaved.tooltip.modloader = محمّل التعديلات: §7{}
+fancymenu.helper.setupsharing.import.choosefrompath = أدخل مسار الإعداد
+fancymenu.helper.setupsharing.import.choosefrompath.btn.desc = أدخل مسارًا إلى مجلد إعداد.
+fancymenu.helper.setupsharing.import.enterpath = §lأدخل مسار مجلد الإعداد:
+fancymenu.helper.setupsharing.import.differentmodloader = §c§lتحذير!%n%%n%تم إنشاء هذا الإعداد في §c{}§r، لكنك تستخدم §c{}§r!%n%%n%قد يكون الإعداد §cغير متوافق§r.%n%%n%§6هل تريد استيراده؟%n%%n%%n%
+fancymenu.helper.setupsharing.import.differentmcversion = §c§lتحذير!%n%%n%تم إنشاء هذا الإعداد في Minecraft §c{}§r،%n%لكنّك تستخدم Minecraft §c{}§r!%n%%n%قد يكون الإعداد §cغير متوافق§r.%n%%n%§6هل تريد استيراده؟%n%%n%%n%
+fancymenu.helper.setupsharing.import.differentfmversion = §c§lتحذير!%n%%n%تم إنشاء هذا الإعداد باستخدام FancyMenu §c{}§r،%n%لكنّك تستخدم FancyMenu §c{}§r!%n%%n%قد يكون الإعداد §cغير متوافق§r.%n%%n%§6هل تريد استيراده؟%n%%n%%n%
+fancymenu.helper.setupsharing.import.invalididentifiers = §c§lتحذير!%n%%n%تم العثور على تخطيطات ذات معرفات قوائم غير صالحة!%n%%n%يمكن أن يحدث هذا عندما صُمّم تخطيط في%n%إصدار آخر من MC أو مع مُطلق تعديلات آخر.%n%يمكن أن يحدث أيضًا عندما صُمّم تخطيط لقائمة%n%تعديل، لكن التعديل لم يعد مثبتًا.%n%%n%يمكن لـ FancyMenu محاولة إصلاح المعرفات لقوائم الفانيلا.%n%%n%§6هل يجب على FancyMenu محاولة إصلاح المعرفات؟%n%%n%%n%
+fancymenu.helper.setupsharing.import.success = §a§lتم بنجاح!%n%%n%تم استيراد الإعداد بنجاح!%n%%n%يرجى §6إعادة تشغيل §rاللعبة لإكمال العملية!%n%%n%%n%
+fancymenu.helper.setupsharing.import.error = §c§lخطأ!%n%%n%حدثت مشكلة أثناء محاولة استيراد الإعداد!%n%%n%يرجى إرسال السجل إلى مؤلف التعديل!%n%%n%%n%
+fancymenu.helper.setupsharing.import.confirm = §c§lهل أنت متأكد؟%n%%n%سيؤدي استيراد إعداد إلى §cاستبدال §rإعدادك الحالي!%n%%n%سيتم إنشاء نسخة احتياطية لإعداد FancyMenu الحالي لديك، لكن%n%يرجى §cعمل نسخة احتياطية كاملة يدويًا §rلمجلد Minecraft الخاص بك!%n%%n%يمكنك §6استعادة §rالنسخة الاحتياطية التلقائية من علامة §6الإعداد §rفي شريط القوائم.%n%%n%§c§lهل تريد استبدال إعدادك الآن؟%n%%n%%n%
+fancymenu.helper.setupsharing.import.importingsetup = §lيتم الاستيراد، يرجى الانتظار..
+fancymenu.helper.setupsharing.import.preparing = §lيتم التحضير، يرجى الانتظار..
+fancymenu.helper.setupsharing.import.invalidsetup = §c§lخطأ!%n%%n%هذا المجلد ليس إعداد FancyMenu صالحًا!%n%%n%%n%
+fancymenu.helper.setupsharing.export.entername = §lأدخل اسم الإعداد:
+fancymenu.helper.setupsharing.export.error = §c§lخطأ!%n%%n%حدثت مشكلة أثناء محاولة تصدير الإعداد!%n%%n%§cيرجى إرسال سجلك إلى مؤلف التعديل!%n%%n%%n%
+fancymenu.helper.setupsharing.export.confirm = §c§lهل أنت متأكد؟%n%%n%سيقوم تصدير إعدادك بتصدير إعداداتك، كل تخطيطاتك،%n%الرسوم، الموارد والمزيد، لتشاركه مع الآخرين.%n%%n%§6هل تريد تصدير إعدادك الآن؟%n%%n%%n%
+fancymenu.helper.setupsharing.export.unabletoexport = §c§lتحذير!%n%%n%تم تصدير إعدادك، لكن §c{} عنصرًا §rلم%n%§cيُصدَّر§r!%n%%n%ستحتاج إلى §cنسخ هذه العناصر يدويًا§r!%n%%n%هل تريد رؤية قائمة بالعناصر التي فشلت؟%n%%n%%n%
+fancymenu.helper.setupsharing.export.success = §a§lتم بنجاح!%n%%n%تم تصدير الإعداد بنجاح!%n%%n%§6هل تريد فتح مجلد الإعدادات؟%n%%n%%n%
+fancymenu.helper.setupsharing.import.exportingsetup = §lيتم التصدير، يرجى الانتظار..
+fancymenu.helper.setupsharing.restore.confirm = §c§lهل أنت متأكد؟%n%%n%سيؤدي استرجاع نسخة احتياطية إلى §cاستبدال §rإعداد FancyMenu الحالي لديك!%n%%n%§cيرجى عمل نسخة احتياطية كاملة يدويًا لمجلد Minecraft الخاص بك!%n%%n%§c§lهل تريد استرجاع النسخة الاحتياطية الآن؟%n%%n%%n%
+fancymenu.helper.setupsharing.restore.success = §a§lتم بنجاح!%n%%n%تم استعادة النسخة الاحتياطية للإعداد بنجاح!%n%%n%يرجى §6إعادة تشغيل §rاللعبة لإكمال العملية!%n%%n%%n%
+fancymenu.helper.setupsharing.restore.error = §c§lخطأ!%n%%n%حدث خطأ أثناء محاولة استعادة النسخة الاحتياطية!%n%%n%§6لا تقلق§r، يجب أن تكون نسختك الاحتياطية سليمة.%n%يمكنك محاولة §6استعادتها يدويًا§r.%n%%n%§6هل تريد فتح مجلد النسخة الاحتياطية؟%n%%n%%n%
+fancymenu.helper.setupsharing.restore.backingup = §lيتم إنشاء نسخة احتياطية، يرجى الانتظار..
+fancymenu.helper.setupsharing.restore.restoring = §lيتم الاستعادة، يرجى الانتظار..
+
+fancymenu.helper.ui.setup = الإعداد
+fancymenu.helper.ui.setup.import = استيراد
+fancymenu.helper.ui.setup.import.btn.desc = استيراد إعداد محفوظ.%n%%n%§c§lسيؤدي هذا إلى استبدال%n%§c§lجميع إعدادات FancyMenu الخاصة بك!
+fancymenu.helper.ui.setup.export = تصدير
+fancymenu.helper.ui.setup.export.btn.desc = صدّر إعدادك الحالي.%n%%n%يشمل ذلك الإعدادات، التخطيطات,%n%الرسوم المتحركة، الموارد والمزيد.
+fancymenu.helper.ui.setup.restore = استعادة نسخة احتياطية
+fancymenu.helper.ui.setup.restore.btn.desc = استعادة نسخة احتياطية للإعداد.%n%%n%تُنشأ النسخ الاحتياطية قبل%n%استيراد إعداد جديد.
+fancymenu.helper.ui.setup.restore.entry.btn.desc = انقر بالزر الأيسر لاستعادة النسخة الاحتياطية.
+
+fancymenu.commands.openguiscreen.error = حدث خطأ أثناء محاولة فتح الواجهة.
+fancymenu.commands.openguiscreen.cannotopen = تعذر فتح الواجهة! الواجهة التي تريد فتحها غير موجودة أو غير مدعومة! إذا كانت واجهة فانيلا، يُرجى التواصل مع مطوّر FancyMenu لإضافة الدعم لها.
+
+helper.creator.custombutton.config.actiontype.copytoclipboard.desc = نسخ النص إلى الحافظة.
+helper.creator.custombutton.config.actiontype.copytoclipboard.desc.value = نص
+helper.creator.custombutton.config.actiontype.copytoclipboard.desc.value.example = تم نسخ هذا النص إلى الحافظة!
+
+fancymenu.config.forcefullscreen = فرض ملء الشاشة
+fancymenu.config.forcefullscreen.desc = يجبر النافذة على ملء الشاشة عند البدء.%n%سيظل بإمكان المستخدمين%n%الخروج من وضع ملء الشاشة لاحقًا.
+
+helper.creator.custombutton.config.actiontype.mimicbutton.desc = محاكاة سلوك/إجراء النقر%n%لزِر فانيلا/مود.%n%%n%ستحتاج إلى §lمحدد الزر §rللزر%n%الذي تريد محاكاته.%n%%n%كيفية الحصول على §lالمحدد §rلزر:%n%%n%§l1. §rغادر المُحرّر%n%§l2. §rفعّل §lالأدوات -> معلومات الزر%n%§l3. §rحرّك المؤشر فوق الزر المستهدف%n%§l4. §rانقر بزر الفأرة الأيمن على الزر
+helper.creator.custombutton.config.actiontype.mimicbutton.desc.value = محدد الزر
+helper.creator.custombutton.config.actiontype.mimicbutton.desc.value.example = some.menu.identifier:505280
+
+fancymenu.custombutton.action.mimicbutton.unabletoexecute = §c§lخطأ!%n%%n%تعذر تنفيذ إجراء الزر!%n%%n%محدد زر غير صالح أو تعذر%n%فتح الشاشة الأصلية للزر.%n% %n% %n% %n%
+
+fancymenu.helper.ui.dynamicvariabletextfield.variables.vanillabuttonlabel = تسمية زر الفانيلا
+fancymenu.helper.ui.dynamicvariabletextfield.variables.vanillabuttonlabel.desc = احصل على تسمية زر فانيلا.%n%%n%استبدل 'some.menu.identifier:505280'%n%بمحدد الزر الصحيح%n%للزر المستهدف.%n%%n%محدد الزر هو مزيج من معرف القائمة%n%للقائمة التي يوجد فيها الزر و%n%معرّف الزر، مفصولين%n%بنقطتين.%n%%n%§cيمكنك النقر بزر الفأرة الأيمن على زر%n%§cفي المُحرّر لنسخ محدده.
+
+fancymenu.helper.editor.windowsizerestrictions.reset = إعادة تعيين قيود حجم النافذة
+fancymenu.helper.editor.windowsizerestrictions.reset.btn.desc = إعادة تعيين/إزالة جميع قيود حجم النافذة.
+fancymenu.helper.editor.windowsizerestrictions.btn.desc = اجعل التخطيط يتم تحميله فقط%n%عند أحجام نافذة محددة.%n%%n%§cيُنصح باستخدام%n%§cالعرض أو الارتفاع فقط، وليس كليهما%n%§cفي الوقت نفسه!
+
+fancymenu.config.categories.multiplayer_screen = قائمة اللعب الجماعي
+fancymenu.config.categories.singleplayer_screen = قائمة اللعب الفردي
+
+fancymenu.config.show_server_icons = إظهار أيقونات الخوادم
+fancymenu.config.show_server_icons.desc = ما إذا كانت أيقونات الخوادم يجب أن تكون مرئية.
+fancymenu.config.show_world_icons = إظهار أيقونات العوالم
+fancymenu.config.show_world_icons.desc = ما إذا كانت أيقونات العوالم يجب أن تكون مرئية.
+
+fancymenu.helper.ui.tools.buttoninfo.enablecustomizations = §cتحتاج إلى تفعيل التخصيصات%n%§cلهذه القائمة لاستخدام هذه الأداة!
+fancymenu.helper.ui.tools.buttoninfo.enablecustomizations.cursorwarning.line1 = §lتحذير!
+fancymenu.helper.ui.tools.buttoninfo.enablecustomizations.cursorwarning.line2 = تحتاج إلى تفعيل التخصيصات لـ
+fancymenu.helper.ui.tools.buttoninfo.enablecustomizations.cursorwarning.line3 = القائمة الحالية قبل استخدام أداة §lمعلومات الزر §r!
+
+fancymenu.helper.editor.items.visibilityrequirements.guiscale = هل مقياس الواجهة
+fancymenu.helper.editor.items.visibilityrequirements.guiscale.desc = تحقق مما إذا كان مقياس الواجهة الحالي هو X.%n%%n%يمكنك التحقق من أكبر من ('>')،%n%أصغر من ('<') ومساوٍ لـ X.%n%%n%على سبيل المثال، إذا كنت تريد التحقق%n%ما إذا كان المقياس أصغر من 3.20،%n%اكتب '<3.20' (بدون '').%n%وللتحقق مما إذا كان المقياس يساوي 1.0،%n%فقط اكتب '1.0' (بدون '').%n%وعند التحقق مما إذا كان المقياس أكبر من 2.20،%n%اكتب '>2.20' (بدون '').
+fancymenu.helper.editor.items.visibilityrequirements.guiscale.valuename = شرط مقياس الواجهة
+
+fancymenu.helper.editor.backgrounds.choose = اختر الخلفية
+
+fancymenu.helper.editor.backgrounds.image.desc = صورة ثابتة.%n%%n%يدعم فقط JPG/JPEG وPNG.
+fancymenu.helper.editor.backgrounds.animation.desc = رسوم متحركة. مثل فيديو، لكن ليست كذلك، كما تعلم؟%n%%n%يرجى زيارة الويكي (fm.keksuccino.com)%n%لمعرفة كيفية إنشاء الرسوم المتحركة الخاصة بك.
+fancymenu.helper.editor.backgrounds.panorama.desc = بانوراما مكعبة دوّارة مثل%n%تلك الموجودة في قائمة الفانيلا الرئيسية.%n%%n%يرجى زيارة الويكي (fm.keksuccino.com)%n%لمعرفة كيفية إنشاء بانوراماتك الخاصة.
+fancymenu.helper.editor.backgrounds.slideshow.desc = عرض شرائح يعرض مجموعة صور.%n%%n%يرجى زيارة الويكي (fm.keksuccino.com)%n%لمعرفة كيفية إنشاء عروض الشرائح الخاصة بك.
+
+fancymenu.helper.editor.backgrounds.custom.choosefile = اختر ملفًا
+fancymenu.helper.editor.backgrounds.custom.setbackground = تعيين الخلفية
+fancymenu.helper.editor.backgrounds.custom.clearbackground = مسح
+fancymenu.helper.editor.backgrounds.custom.clearbackground.desc = امسح الخلفية النشطة حاليًا من هذا النوع.
+
+fancymenu.helper.editor.extension.dummy.audio.btn.desc = §6تحتاج إلى تثبيت%n%§6§lAudio Extension §r§6لاستخدام هذا%n%§6العنصر.%n%%n%§cانقر على الزر%n%§cلفتح صفحة التنزيل.
+fancymenu.helper.editor.extension.dummy.audio.manageaudio.btn.desc = §c§lمُهمل!%n%%n%§cهذا جزء من نظام%n%§cالصوت القديم وسيُزال%n%§cقريبًا جدًا!%n%%n%§cلمزيد من المعلومات، اقرأ%n%§cتلميح الأداة للزر%n%§cلإضافة عنصر صوتي جديد.
+
+helper.creator.custombutton.config.actiontype.join_last_world.desc = الانضمام إلى آخر عالم/خادم.
+
+fancymenu.helper.ui.universal_layouts = التخطيطات العامة
+fancymenu.helper.ui.universal_layouts.btn.desc = التخطيطات العامة هي تخطيطات%n%تُطبَّق على كل قائمة قابلة للتخصيص%n%بدلًا من قائمة واحدة فقط.%n%%n%يمكن استخدامها لتطبيق%n%صور الخلفية، الأصوات، إلخ%n%على جميع القوائم دفعة واحدة.
+fancymenu.helper.ui.universal_layouts.new = تخطيط جديد
+fancymenu.helper.ui.universal_layouts.manage = إدارة التخطيطات
+
+fancymenu.helper.ui.misc.open_progress_screen = فتح شاشة التقدّم
+fancymenu.helper.ui.misc.open_progress_screen.btn.desc = سيفتح نسخة وهمية من%n%شاشة التقدّم المستخدمة%n%للانضمام إلى الخوادم%n%والدخول إلى العوالم.%n%%n%يتيح لك تخصيص هذه الشاشة.
+fancymenu.helper.ui.misc.receiving_level_screen = فتح شاشة استلام المستوى
+fancymenu.helper.ui.misc.receiving_level_screen.btn.desc = سيفتح نسخة وهمية من%n%شاشة استلام المستوى التي%n%تُستخدم للانضمام إلى الخوادم%n%والدخول إلى العوالم.%n%%n%يتيح لك تخصيص هذه الشاشة.%n%%n%§cلا يمكنك فتح هذه الشاشة%n%§cوأنت داخل عالم%n%§cأو على خادم!
+fancymenu.helper.ui.misc.open_connect_screen = فتح شاشة الاتصال
+fancymenu.helper.ui.misc.open_connect_screen.btn.desc = سيفتح نسخة وهمية من%n%شاشة الاتصال المستخدمة%n%للانضمام إلى الخوادم.%n%%n%يتيح لك تخصيص هذه الشاشة.%n%%n%§cلا يمكنك فتح هذه الشاشة%n%§cوأنت داخل عالم%n%§cأو على خادم!
+
+fancymenu.helper.editor.layoutoptions.universal_layout.options = خيارات التخطيط العام
+fancymenu.helper.editor.layoutoptions.universal_layout.options.input_menu_identifier = أدخل معرف القائمة:
+fancymenu.helper.editor.layoutoptions.universal_layout.options.choose_menu_identifier = اختر معرف القائمة
+fancymenu.helper.editor.layoutoptions.universal_layout.options.add_blacklist = إضافة قائمة إلى القائمة السوداء
+fancymenu.helper.editor.layoutoptions.universal_layout.options.add_blacklist.desc = أضف قائمة إلى القائمة السوداء%n%باستخدام §lمعرف القائمة§r.%n%%n%§cسيتم تجاهل القوائم في القائمة السوداء%n%§cمن قِبل التخطيط، لذا%n%§cلن تُطبَّق التخصيصات%n%§cعلى هذه القائمة.%n%%n%§cيمكنك الحصول على معرف%n%§cالقائمة بالنقر على%n%§c§lالأدوات -> معلومات القائمة §r§cوأنت داخل القائمة.
+fancymenu.helper.editor.layoutoptions.universal_layout.options.remove_blacklist = إزالة قائمة من القائمة السوداء
+fancymenu.helper.editor.layoutoptions.universal_layout.options.remove_blacklist.confirm = §c§lهل أنت متأكد؟%n%%n%هل تريد فعلًا §cإزالة §rهذا المعرف؟
+fancymenu.helper.editor.layoutoptions.universal_layout.options.clear_blacklist = مسح القائمة السوداء
+fancymenu.helper.editor.layoutoptions.universal_layout.options.clear_blacklist.confirm = §c§lهل أنت متأكد؟%n%%n%هل تريد فعلًا §cمسح §rالقائمة السوداء؟
+fancymenu.helper.editor.layoutoptions.universal_layout.options.add_whitelist = إضافة قائمة إلى القائمة البيضاء
+fancymenu.helper.editor.layoutoptions.universal_layout.options.add_whitelist.desc = أضف قائمة إلى القائمة البيضاء%n%باستخدام §lمعرف القائمة§r.%n%%n%§cإذا وُجدت قوائم في%n%§cالقائمة البيضاء، فهذه القوائم فقط%n%§cسيُخصصها التخطيط.%n%§cسيتم تجاهل جميع القوائم الأخرى!%n%%n%§cيمكنك الحصول على معرف%n%§cالقائمة بالنقر على%n%§c§lالأدوات -> معلومات القائمة §r§cوأنت داخل القائمة.
+fancymenu.helper.editor.layoutoptions.universal_layout.options.remove_whitelist = إزالة قائمة من القائمة البيضاء
+fancymenu.helper.editor.layoutoptions.universal_layout.options.remove_whitelist.confirm = §c§lهل أنت متأكد؟%n%%n%هل تريد فعلًا §cإزالة §rهذا المعرف؟
+fancymenu.helper.editor.layoutoptions.universal_layout.options.clear_whitelist = مسح القائمة البيضاء
+fancymenu.helper.editor.layoutoptions.universal_layout.options.clear_whitelist.confirm = §c§lهل أنت متأكد؟%n%%n%هل تريد فعلًا §cمسح §rالقائمة البيضاء؟
+
+fancymenu.guicomponents.back = رجوع
+
+fancymenu.helper.ui.dynamicvariabletextfield.variables.randomtext = نص عشوائي من ملف TXT
+fancymenu.helper.ui.dynamicvariabletextfield.variables.randomtext.desc = يختار نصًا عشوائيًا من ملف TXT.%n%%n%يدعم فترات تغيير مخصصة للنصوص.%n%%n%فقط استبدل 'randomtexts.txt' مع%n%مسار ملف TXT الخاص بك%n%واستبدل '10' بـ%n%فاصل التغيير بالثواني.%n%القيمة 0 ستجعله%n%يختار نصًا مرة واحدة لكل جلسة.
+
+fancymenu.helper.editor.items.visibilityrequirements.realtimeday = هل يوم الوقت الحقيقي
+fancymenu.helper.editor.items.visibilityrequirements.realtimeday.desc = تحقق مما إذا كان يوم الوقت الحقيقي الحالي هو X.%n%%n%يمكنك فصل عدة قيم بفاصلة،%n%للتحقق من أكثر من يوم%n%دفعة واحدة.
+fancymenu.helper.editor.items.visibilityrequirements.realtimeday.valuename = أيام الوقت الحقيقي (افصل القيم بفاصلة)
+fancymenu.helper.editor.items.visibilityrequirements.realtimemonth = هل شهر الوقت الحقيقي
+fancymenu.helper.editor.items.visibilityrequirements.realtimemonth.desc = تحقق مما إذا كان شهر الوقت الحقيقي الحالي هو X.%n%%n%يمكنك فصل عدة قيم بفاصلة،%n%للتحقق من أكثر من شهر%n%دفعة واحدة.
+fancymenu.helper.editor.items.visibilityrequirements.realtimemonth.valuename = أشهر الوقت الحقيقي (افصل القيم بفاصلة)
+fancymenu.helper.editor.items.visibilityrequirements.realtimeyear = هل سنة الوقت الحقيقي
+fancymenu.helper.editor.items.visibilityrequirements.realtimeyear.desc = تحقق مما إذا كانت سنة الوقت الحقيقي الحالية هي X.%n%%n%يمكنك فصل عدة قيم بفاصلة،%n%للتحقق من أكثر من سنة%n%دفعة واحدة.
+fancymenu.helper.editor.items.visibilityrequirements.realtimeyear.valuename = سنوات الوقت الحقيقي (افصل القيم بفاصلة)
+
+fancymenu.helper.editor.ui.element.deleted_vanilla_elements = عناصر فانيلا المحذوفة
+fancymenu.helper.editor.ui.element.deleted_vanilla_elements.desc = إدارة جميع عناصر الفانيلا المحذوفة.
+
+fancymenu.helper.editor.element.vanilla.delete.confirm = §c§lهام%n%%n%سيؤدي حذف عنصر فانيلا إلى إخفائه تمامًا.%n%لإظهاره مرة أخرى، انقر على §lالعنصر -> عناصر فانيلا المحذوفة§r.%n% %n% %n% %n%
+
+fancymenu.helper.editor.element.vanilla.deepcustomization.titlescreen.realmsnotification = أيقونة إشعارات Realms
+fancymenu.helper.editor.element.vanilla.deepcustomization.titlescreen.logo = شعار ماينكرافت
+fancymenu.helper.editor.element.vanilla.deepcustomization.titlescreen.branding = العلامة التجارية
+fancymenu.helper.editor.element.vanilla.deepcustomization.titlescreen.splash = نص السبلاش الفانيلا
+fancymenu.helper.editor.element.vanilla.deepcustomization.titlescreen.splash.orientation.reset = إعادة تعيين الاتجاه
+fancymenu.helper.editor.element.vanilla.deepcustomization.titlescreen.splash.splash_file.set = تعيين ملف سبلاش مخصص
+fancymenu.helper.editor.element.vanilla.deepcustomization.titlescreen.splash.splash_file.reset = إعادة تعيين ملف السبلاش المخصص
+fancymenu.helper.editor.element.vanilla.deepcustomization.titlescreen.splash.rotation.set = تعيين الدوران
+fancymenu.helper.editor.element.vanilla.deepcustomization.titlescreen.splash.rotation.reset = إعادة تعيين الدوران
+fancymenu.helper.editor.element.vanilla.deepcustomization.titlescreen.splash.color.set = تعيين لون HEX
+fancymenu.helper.editor.element.vanilla.deepcustomization.titlescreen.splash.color.reset = إعادة تعيين لون HEX
+fancymenu.helper.editor.element.vanilla.deepcustomization.titlescreen.forge.copyright = إشعار حقوق نشر Forge
+fancymenu.helper.editor.element.vanilla.deepcustomization.titlescreen.forge.copyright.example.line1 = < مثال نص إشعار حقوق نشر Forge >
+fancymenu.helper.editor.element.vanilla.deepcustomization.titlescreen.forge.top = إشعار Forge العلوي
+fancymenu.helper.editor.element.vanilla.deepcustomization.titlescreen.forge.top.example.line1 = §cمثال إشعار Forge العلوي
+fancymenu.helper.editor.element.vanilla.deepcustomization.titlescreen.forge.top.example.line2 = يُستخدم لعرض تحذيرات إصدارات بيتا وأشياء أخرى.
+
+fancymenu.helper.buttonaction.variables.set.desc = خزّن متغيرات لاستخدامها%n%للاستبدالات%n%ومتطلبات الظهور.
+fancymenu.helper.buttonaction.variables.set.value.desc = اسم المتغير والقيمة؛ مفصولان بنقطتين
+fancymenu.helper.buttonaction.variables.clearall.desc = يمسح جميع المتغيرات المخزنة.
+
+fancymenu.helper.buttonaction.paste_to_chat.desc = لصق نص في%n%حقل إدخال الدردشة.
+fancymenu.helper.buttonaction.paste_to_chat.value.desc = إلحاق True/False والنص؛ مفصولان بنقطتين
+
+fancymenu.helper.placeholder.get_variable = الحصول على متغير مخزّن
+fancymenu.helper.placeholder.get_variable.desc = يجلب قيمة متغير مخزّن.%n%%n%فقط استبدل 'some_variable' مع%n%اسم المتغير الفعلي.
+
+fancymenu.helper.visibilityrequirement.is_variable_value = هل قيمة متغير
+fancymenu.helper.visibilityrequirement.is_variable_value.desc = تحقق مما إذا كانت قيمة%n%متغير مخزّن هي X.%n%%n%قيمة المتطلب هي%n%مزيج من%n%اسم المتغير و%n%القيمة للتحقق مما إذا كانت تطابق%n%المخزنة.%n%%n%يحتوي المثال على اسم المتغير%n%وقيمة المتغير داخل%n%<>، لكن عليك إزالة هذه!
+fancymenu.helper.visibilityrequirement.is_variable_value.value.desc = اسم المتغير والقيمة؛ مفصولان بنقطتين
+
+fancymenu.helper.visibilityrequirement.is_server_ip = هل عنوان IP الخادم
+fancymenu.helper.visibilityrequirement.is_server_ip.desc = تحقق مما إذا كان عنوان IP الحالي للخادم هو X.
+fancymenu.helper.visibilityrequirement.is_server_ip.value.desc = عنوان IP الخادم
+
+fancymenu.helper.visibilityrequirement.is_layout_enabled = هل التخطيط مفعّل
+fancymenu.helper.visibilityrequirement.is_layout_enabled.desc = تحقق مما إذا كان تخطيط قائمة مفعّلًا.
+fancymenu.helper.visibilityrequirement.is_layout_enabled.value.desc = اسم التخطيط
+
+fancymenu.helper.ui.tools.clear_variables = مسح المتغيرات المخزّنة
+fancymenu.helper.ui.tools.clear_variables.desc = سيؤدي إلى مسح جميع القيم المخزّنة!%n%%n%§cلا يمكن التراجع عن ذلك!
+fancymenu.helper.ui.tools.clear_variables.confirm = §c§lهل أنت متأكد؟%n%%n%هل تريد فعلًا §lمسح/إعادة تعيين §rجميع المتغيرات المخزّنة؟%n%%n%§lلا يمكن التراجع عن هذا الإجراء!%n% %n% %n% %n%
+
+fancymenu.helper.buttonaction.toggle_layout.desc = تبديل تخطيط قائمة (تمكين/تعطيل)%n%بالاسم.
+fancymenu.helper.buttonaction.toggle_layout.value.desc = اسم التخطيط
+
+fancymenu.helper.buttonaction.enable_layout.desc = تمكين تخطيط قائمة%n%بالاسم.
+fancymenu.helper.buttonaction.enable_layout.value.desc = اسم التخطيط
+
+fancymenu.helper.buttonaction.disable_layout.desc = تعطيل تخطيط قائمة%n%بالاسم.
+fancymenu.helper.buttonaction.disable_layout.value.desc = اسم التخطيط
+
+fancymenu.helper.ui.visibility_requirements.manage = إدارة متطلبات الظهور
+
+fancymenu.helper.ui.button_action.set = اختر إجراءً
+
+fancymenu.guicomponents.done = تم
+
+fancymenu.helper.visibilityrequirement.gamemode.is_survival = هل البقاء
+fancymenu.helper.visibilityrequirement.gamemode.is_survival.desc = تحقق مما إذا كان اللاعب%n%حاليًا في وضع البقاء.
+fancymenu.helper.visibilityrequirement.gamemode.is_creative = هل الإبداع
+fancymenu.helper.visibilityrequirement.gamemode.is_creative.desc = تحقق مما إذا كان اللاعب%n%حاليًا في وضع الإبداع.
+fancymenu.helper.visibilityrequirement.gamemode.is_adventure = هل المغامرة
+fancymenu.helper.visibilityrequirement.gamemode.is_adventure.desc = تحقق مما إذا كان اللاعب%n%حاليًا في وضع المغامرة.
+fancymenu.helper.visibilityrequirement.gamemode.is_spectator = هل المتفرج
+fancymenu.helper.visibilityrequirement.gamemode.is_spectator.desc = تحقق مما إذا كان اللاعب%n%حاليًا في وضع المتفرج.
+
+fancymenu.customization.items.input_field = حقل إدخال نص
+fancymenu.customization.items.input_field.desc = حقل لإدخال النص.%n%%n%يمكن استخدامه لتعيين قيم%n%المتغيرات عبر إدخال المستخدم.
+fancymenu.customization.items.input_field.editor.set_variable = ربط بمتغير
+fancymenu.customization.items.input_field.editor.set_variable.desc = اربط هذا الحقل بمتغير.%n%استخدم اسم المتغير.%n%%n%يمكن أن يكون المتغير جديدًا%n%أو موجودًا مسبقًا.
+fancymenu.customization.items.input_field.editor.set_max_length = تعيين الحد الأقصى لطول النص
+fancymenu.customization.items.input_field.editor.set_type = تعيين النوع
+fancymenu.customization.items.input_field.editor.set_type.desc = عيّن نوع هذا الحقل النصي.%n%%n%يحدد النوع الأحرف التي%n%يمكن للمستخدم استخدامها في الحقل.%n%%n%على سبيل المثال:%n%إذا تم تعيين الحقل إلى%n%"أرقام فقط"، فسيكون%n%بوسع المستخدم كتابة الأرقام فقط في الحقل.
+fancymenu.customization.items.input_field.type.integer = أرقام فقط
+fancymenu.customization.items.input_field.type.decimal = أرقام عشرية فقط
+fancymenu.customization.items.input_field.type.url = عنوان URL
+fancymenu.customization.items.input_field.type.text = نص
+
+fancymenu.customization.items.slider = منزلق
+fancymenu.customization.items.slider.desc = زر منزلق.%n%%n%يمكن استخدامه لتعيين قيم%n%المتغيرات عبر إدخال المستخدم.
+fancymenu.customization.items.slider.editor.set_type = تعيين النوع
+fancymenu.customization.items.slider.editor.set_type.desc = عيّن نوع هذا المنزلق.%n%%n%عند استخدام نوع القائمة،%n%يمكنك تعيين قائمة من%n%قيم النصوص للتنقل بينها%n%عند تحريك المنزلق.%n%%n%يسمح لك نوع المدى%n%بالتنقل عبر مدى%n%من الأرقام.%n%يمكنك تعيين قيمة صغرى وكبرى%n%عند استخدام هذا النوع.
+fancymenu.customization.items.slider.editor.set_label_prefix = تعيين بادئة التسمية
+fancymenu.customization.items.slider.editor.set_label_prefix.desc = بادئة تسمية المنزلق.%n%%n%أساس تسمية المنزلق%n%هو دائمًا القيمة الحالية.
+fancymenu.customization.items.slider.editor.set_label_suffix = تعيين لاحقة التسمية
+fancymenu.customization.items.slider.editor.set_label_suffix.desc = لاحقة تسمية المنزلق.%n%%n%أساس تسمية المنزلق%n%هو دائمًا القيمة الحالية.
+fancymenu.customization.items.slider.editor.range.set_min_range_value = تعيين أدنى قيمة للمدى
+fancymenu.customization.items.slider.editor.range.set_max_range_value = تعيين أعلى قيمة للمدى
+fancymenu.customization.items.slider.editor.list.set_list_values = تعيين قيم القائمة
+fancymenu.customization.items.slider.editor.list.set_list_values.desc = قائمة القيم.%n%%n%افصل القيم بفاصلة منقوطة ( ; )!
+fancymenu.customization.items.slider.editor.list.set_list_values.error.not_enough_values = §c§lخطأ!%n%%n%تحتاج إلى قيمتين على الأقل!%n% %n% %n% %n%
+fancymenu.customization.items.slider.editor.set_variable = ربط بمتغير
+fancymenu.customization.items.slider.editor.set_variable.desc = اربط هذا المنزلق بمتغير.%n%استخدم اسم المتغير.%n%%n%يمكن أن يكون المتغير جديدًا%n%أو موجودًا مسبقًا.
+fancymenu.customization.items.slider.type.range = مدى [أرقام]
+fancymenu.customization.items.slider.type.list = قائمة [قيم نصية]
+
+fancymenu.helper.editor.global_visibility_requirements = متطلبات الظهور [على مستوى التخطيط]
+fancymenu.helper.editor.global_visibility_requirements.desc = تمامًا مثل متطلبات الظهور%n%للعناصر، سيعيّن هذا%n%هذه المتطلبات على%n%مستوى التخطيط.%n%%n%هذا يعني أن التخطيط بالكامل%n%سيكون مرئيًا/غير مرئي اعتمادًا%n%على متطلباته.
+
+fancymenu.helper.editor.items.splash.vanilla_like = نص سبلاش شبيه بالفانيلا
+fancymenu.helper.editor.items.splash.vanilla_like.desc = يضيف نص سبلاش يستخدم%n%مصدر نص السبلاش الفانيلا.
+
+fancymenu.commands.variable.get.success = §a[FancyMenu] قيمة المتغير: §6{}
+fancymenu.commands.variable.set.success = §a[FancyMenu] تم تعيين قيمة المتغير إلى: §6{}
+fancymenu.commands.variable.not_found = §c[FancyMenu] لم يتم العثور على المتغير!
+
+fancymenu.helper.editor.items.vanilla_button.copy_locator = نسخ محدد الزر
+fancymenu.helper.editor.items.vanilla_button.copy_locator.desc = محدد الزر هو مزيج%n%من معرف القائمة التي%n%ينتمي إليها هذا الزر ومعرّف الزر.%n%%n%يُستخدم محدد الزر لإجراءات%n%الأزرار مثل §o'mimicbutton'§r.
+
+fancymenu.helper.button_info.copy_locator = §lانقر بالزر الأيمن لنسخ محدد الزر!
+fancymenu.helper.button_info.copy_locator.copied = §a§lتم نسخ محدد الزر إلى الحافظة!
+
+fancymenu.helper.editor.edit_menu_title = تعديل عنوان القائمة
+fancymenu.helper.editor.edit_menu_title.desc = تعرف ذلك النص الصغير المزعج%n%في أعلى بعض القوائم%n%مثل قائمة الإيقاف المؤقت؟%n%تسمح لك هذه الميزة بتعديله!%n%%n%§cنظرًا لكيفية عمل القوائم، قد%n%§cلا تتمكن من تعديل%n%§cعنوان بعض القوائم.%n%§cإذا حدث ذلك، فلا%n%§cيوجد الكثير مما يمكنك أو يمكنني فعله.
+fancymenu.helper.editor.edit_menu_title.reset = إعادة تعيين عنوان القائمة
+fancymenu.helper.editor.edit_menu_title.reset.desc = يعيد عنوان القائمة إلى الافتراضي.
+
+fancymenu.helper.editor.items.visibilityrequirements.realtimeweekday = هل يوم الأسبوع الفعلي
+fancymenu.helper.editor.items.visibilityrequirements.realtimeweekday.desc = تحقق مما إذا كان يوم الأسبوع الحالي وفق الوقت الحقيقي هو X.%n%%n%أول يوم في الأسبوع هو الأحد!%n%%n%يمكنك فصل عدة قيم بفاصلة،%n%للتحقق من أكثر من يوم%n%دفعة واحدة.
+fancymenu.helper.editor.items.visibilityrequirements.realtimeweekday.valuename = أيام الأسبوع الفعلية (افصل القيم بفاصلة)
+
+fancymenu.helper.editor.backgrounds.animation.restart_on_load.on = إعادة تشغيل التحريك عند التحميل: §aمفعّل
+fancymenu.helper.editor.backgrounds.animation.restart_on_load.off = إعادة تشغيل التحريك عند التحميل: §cمعطّل
+fancymenu.helper.editor.backgrounds.animation.restart_on_load.desc = ما إذا كان يجب إعادة تشغيل التحريك%n%في كل مرة تُفتح فيها القائمة.
+
+fancymenu.helper.editor.element.vanilla.orientation_needed = §c§lالاتجاه مفقود!%n%%n%لتغيير حجم عناصر الفانيلا/المود أو نقلها، عليك%n%إعطاءها §lاتجاهًا §rأولًا!%n%%n%يمكنك فعل ذلك عبر §lالنقر بزر الفأرة الأيمن §rعلى العنصر.%n% %n% %n% %n%
+
+fancymenu.helper.editor.element.moving_not_allowed = §c§lغير مسموح بالنقل!%n%%n%لا يمكن نقل هذا العنصر!%n%%n%يُوصى بحذفه و%n%استبداله بعنصر مخصص.%n% %n% %n% %n%
+
+fancymenu.customization.items.text = نص
+fancymenu.customization.items.text.placeholder = < جسم عنصر نصي فارغ >
+fancymenu.customization.items.text.desc = أضف نصًا لعرضه في%n%تخطيطك.%n%%n%اختر بين مصادر محلية وعبر الإنترنت%n%لمحتوى النص.
+fancymenu.customization.items.text.alignment.left = محاذاة النص: §6يسار
+fancymenu.customization.items.text.alignment.right = محاذاة النص: §6يمين
+fancymenu.customization.items.text.alignment.center = محاذاة النص: §6وسط
+fancymenu.customization.items.text.base_color = اللون الأساسي [HEX]
+fancymenu.customization.items.text.base_color.desc = عيّن اللون الأساسي للنص.%n%استخدم أكواد ألوان HEX.
+fancymenu.customization.items.text.case_mode.normal = حالة الأحرف: §6عادي
+fancymenu.customization.items.text.case_mode.lower = حالة الأحرف: §6كلها صغيرة
+fancymenu.customization.items.text.case_mode.upper = حالة الأحرف: §6كلها كبيرة
+fancymenu.customization.items.text.scale = مقياس النص
+fancymenu.customization.items.text.shadow.on = ظل النص: §aمفعّل
+fancymenu.customization.items.text.shadow.off = ظل النص: §cمعطّل
+fancymenu.customization.items.text.source_mode.mode.direct = وضع المصدر: §6نص مباشر
+fancymenu.customization.items.text.source_mode.mode.web = وضع المصدر: §6مصدر ويب
+fancymenu.customization.items.text.source_mode.mode.local = وضع المصدر: §6مصدر محلي
+fancymenu.customization.items.text.source_mode.desc = §6نص مباشر:%n%أدخل نصًا لعرضه مباشرة.%n%%n%§6مصدر محلي:%n%استخدم ملف TXT كمصدر.%n%%n%§6مصدر ويب:%n%استخدم محتوى النص العادي%n%من موقع ويب كمصدر.%n%%n%§cسيؤدي تغيير وضع المصدر إلى%n%§cإعادة تعيين محتوى النص!%n%%n%§cيمكنك التراجع عن تغيير المصدر%n%§cبالضغط على §lCTRL + Z§r§c!
+fancymenu.customization.items.text.set_source.direct = تعيين محتوى النص
+fancymenu.customization.items.text.set_source.direct.desc = عيّن نصًا مباشرًا ليتم عرضه.
+fancymenu.customization.items.text.set_source.web = تعيين مصدر ويب
+fancymenu.customization.items.text.set_source.web.desc = اجلب محتوى النص العادي%n%من موقع ويب كنص.
+fancymenu.customization.items.text.set_source.local = تعيين مصدر محلي
+fancymenu.customization.items.text.set_source.local.desc = استخدم ملف TXT كمحتوى.
+fancymenu.customization.items.text.text_border = هامش النص
+fancymenu.customization.items.text.text_border.desc = هامش النص هو المسافة%n%بين النص والجهتين اليسرى%n%واليمنى للعنصر.
+fancymenu.customization.items.text.line_spacing = تباعد الأسطر
+fancymenu.customization.items.text.scroll_grabber_texture = خامة مقبض التمرير
+fancymenu.customization.items.text.scroll_grabber_texture.hover = خامة التحويم
+fancymenu.customization.items.text.scroll_grabber_texture.normal = الخامة العادية
+fancymenu.customization.items.text.scroll_grabber_color = لون مقبض التمرير [HEX]
+fancymenu.customization.items.text.scroll_grabber_color.hover = لون التحويم
+fancymenu.customization.items.text.scroll_grabber_color.normal = اللون العادي
+fancymenu.customization.items.text.scroll_grabber_color.desc = لون المقبض.%n%استخدم أكواد ألوان HEX.
+fancymenu.customization.items.text.status.loading = §lجاري تحميل العنصر..
+fancymenu.customization.items.text.status.unable_to_load = §c§lخطأ: تعذر التحميل!
+fancymenu.customization.items.text.scrolling.on = التمرير: §aمفعّل
+fancymenu.customization.items.text.scrolling.off = التمرير: §cمعطّل
+fancymenu.customization.items.text.scrolling.desc = إذا كان التمرير معطّلًا،%n%سيكون شريط التمرير غير مرئي%n%ولن تتمكن من التمرير%n%باستخدام عجلة الفأرة أو%n%الشريط.
+
+fancymenu.helper.placeholder.json = محلل JSON
+fancymenu.helper.placeholder.json.desc = حلّل JSON واحصل على%n%قيمة منه.%n%%n%استبدل 'path_or_link_to_json' مع%n%المسار أو الرابط إلى%n%ملف JSON الذي تريد تحليله.%n%%n%استبدل '$.some.json.path' بـ%n%مسار JSON إلى القيمة التي تريد%n%الحصول عليها.%n%%n%§6اذهب إلى §lbit.ly/jsonfm §r§6لتعرف%n%§6المزيد عن مسارات JSON.
+
+fancymenu.helper.placeholder.webtext = نص ويب
+fancymenu.helper.placeholder.webtext.desc = يجلب السطر الأول من%n%محتوى نص عادي من موقع ويب.%n%%n%استبدل 'http://somewebsite.com/textfile.txt'%n%برابط الصفحة التي%n%تريد الحصول على النص منها.
+
+fancymenu.config.categories.compatibility = التوافق
+fancymenu.config.allow_level_registry_interactions = تفاعلات سجلات العالم
+fancymenu.config.allow_level_registry_interactions.desc = السماح بالتفاعل مع جميع أنواع%n%سجلات العالم، مثل نوع العالم،%n%الكيانات، إلخ، مما قد يسبب%n%مشكلات مع تعديلات الكيانات%n%والعالم الأخرى.%n%%n%§cسيؤدي تعطيل هذا أيضًا إلى تعطيل%n%§cعناصر كيان اللاعب!
+
+fancymenu.config.show_unicode_warning = إظهار تحذير Unicode
+fancymenu.config.show_unicode_warning.desc = ما إذا كان يجب إظهار التحذير الأحمر%n%الذي يخبرك بأن خطوط Unicode%n%ليست متوافقة بالكامل%n%مع واجهة FancyMenu.
+
+fancymenu.helper.ui.dynamicvariabletextfield.variables.guiwidth = عرض الشاشة
+fancymenu.helper.ui.dynamicvariabletextfield.variables.guiwidth.desc = عرض القائمة الحالية.
+fancymenu.helper.ui.dynamicvariabletextfield.variables.guiheight = ارتفاع الشاشة
+fancymenu.helper.ui.dynamicvariabletextfield.variables.guiheight.desc = ارتفاع القائمة الحالية.
+
+fancymenu.helper.placeholder.stringify = تحويل إلى سلسلة
+fancymenu.helper.placeholder.stringify.desc = يحوّل النص إلى سلسلة عبر تهريب جميع%n%محارف البنية ( " { } ).%n%%n%هذا مفيد عند تضمين%n%استبدالات أخرى كقيمة. إذا كان%n%الاستبدال المتضمن المستبدَل قد%n%يحتوي محارف بنية ليست%n%جزءًا من استبدال آخر، فستحتاج%n%إلى تهريبها.%n%%n%§cسيتم استبدال placeholders داخل القيمة%n%§cأولًا، لذا لا داعي للقلق من%n%§cتحويلها إلى سلسلة.
+
+fancymenu.helper.ui.dynamicvariabletextfield.categories.advanced = متقدّم
+fancymenu.helper.ui.dynamicvariabletextfield.categories.gui = واجهة
+
+fancymenu.helper.placeholder.elementheight = ارتفاع العنصر
+fancymenu.helper.placeholder.elementheight.desc = يجلب ارتفاع عنصر%n%بواسطة معرّف العنصر.%n%%n%فقط استبدل 'some.element.id' مع%n%بمعرّف العنصر الفعلي.%n%%n%§cيمكنك الحصول على معرّفات العناصر%n%§cبالنقر بزر الفأرة الأيمن عليها في المُحرّر.
+fancymenu.helper.placeholder.elementwidth = عرض العنصر
+fancymenu.helper.placeholder.elementwidth.desc = يجلب عرض عنصر%n%بواسطة معرّف العنصر.%n%%n%فقط استبدل 'some.element.id' مع%n%بمعرّف العنصر الفعلي.%n%%n%§cيمكنك الحصول على معرّفات العناصر%n%§cبالنقر بزر الفأرة الأيمن عليها في المُحرّر.
+fancymenu.helper.placeholder.elementposx = موضع X للعنصر
+fancymenu.helper.placeholder.elementposx.desc = يجلب موضع X لعنصر%n%بواسطة معرّف العنصر.%n%%n%فقط استبدل 'some.element.id' مع%n%بمعرّف العنصر الفعلي.%n%%n%§cيمكنك الحصول على معرّفات العناصر%n%§cبالنقر بزر الفأرة الأيمن عليها في المُحرّر.
+fancymenu.helper.placeholder.elementposy = موضع Y للعنصر
+fancymenu.helper.placeholder.elementposy.desc = يجلب موضع Y لعنصر%n%بواسطة معرّف العنصر.%n%%n%فقط استبدل 'some.element.id' مع%n%بمعرّف العنصر الفعلي.%n%%n%§cيمكنك الحصول على معرّفات العناصر%n%§cبالنقر بزر الفأرة الأيمن عليها في المُحرّر.
+fancymenu.helper.placeholder.calc = آلة حاسبة
+fancymenu.helper.placeholder.calc.desc = يحل التعابير الحسابية.%n%%n%فقط استبدل مثال التعبير%n%بالتعبير الحقيقي.%n%%n%عيّن 'decimal' إلى 'false' إذا%n%كان على الاستبدال أن يُرجع LONG%n%بدلًا من DOUBLE.
+fancymenu.helper.placeholder.mouseposx = موضع X للفأرة
+fancymenu.helper.placeholder.mouseposx.desc = يجلب موضع X للفأرة.%n%%n%§cيُرجع دائمًا 10 داخل المُحرّر،%n%§cلتتمكن من تعديل العنصر%n%§cبدون أن يتبع مؤشر الفأرة عند%n%§cاستخدامه للقياس/التموضع المتقدم.
+fancymenu.helper.placeholder.mouseposy = موضع Y للفأرة
+fancymenu.helper.placeholder.mouseposy.desc = يجلب موضع Y للفأرة.%n%%n%§cيُرجع دائمًا 10 داخل المُحرّر،%n%§cلتتمكن من تعديل العنصر%n%§cبدون أن يتبع مؤشر الفأرة عند%n%§cاستخدامه للقياس/التموضع المتقدم.
+fancymenu.helper.placeholder.guiscale = مقياس الواجهة
+fancymenu.helper.placeholder.guiscale.desc = يجلب مقياس الواجهة.
+
+fancymenu.helper.editor.items.visibilityrequirements.is_text = هل نص
+fancymenu.helper.editor.items.visibilityrequirements.is_text.desc = تحقق مما إذا كان نص يطابق آخر.%n%%n%أوضاع المقارنة:%n%equals، contains، starts-with، ends-with%n%%n%اضبط النقاط الثلاث بعد متغير 'mode'%n%إلى وضع المقارنة الذي تريد استخدامه.%n%%n%اضبط النقاط الثلاث بعد متغير 'text'%n%على النص الذي تريد التحقق منه.%n%%n%اضبط النقاط الثلاث بعد متغير 'compare_with'%n%على النص الذي تريد%n%مقارنة الأول به.%n%%n%§cيمكنك التحقق من نصوص/أوضاع متعددة%n%§cدفعة واحدة بفصل أقسام المقارنة%n%§cعدّة بفواصل.
+fancymenu.helper.editor.items.visibilityrequirements.is_text.valuename = قسم/أقسام المقارنة
+
+fancymenu.helper.editor.items.visibilityrequirements.is_number = هل رقم
+fancymenu.helper.editor.items.visibilityrequirements.is_number.desc = تحقق مما إذا كان رقم يطابق آخر.%n%%n%أوضاع المقارنة:%n%equals، bigger-than، smaller-than,%n%bigger-than-or-equals,%n%smaller-than-or-equals%n%%n%اضبط النقاط الثلاث بعد متغير 'mode'%n%إلى وضع المقارنة الذي تريد استخدامه.%n%%n%اضبط النقاط الثلاث بعد متغير 'number'%n%على الرقم الذي تريد التحقق منه.%n%%n%اضبط النقاط الثلاث بعد متغير 'compare_with'%n%على الرقم الذي تريد%n%مقارنته به.%n%%n%§cيمكنك التحقق من أرقام/أوضاع متعددة%n%§cدفعة واحدة بفصل أقسام المقارنة%n%§cعدّة بفواصل.
+fancymenu.helper.editor.items.visibilityrequirements.is_number.valuename = قسم/أقسام المقارنة
+
+fancymenu.helper.editor.items.features.advanced_positioning = التموضع المتقدم
+fancymenu.helper.editor.items.features.advanced_positioning.active = التموضع المتقدم (§6نشط§r)
+fancymenu.helper.editor.items.features.advanced_positioning.desc = §cللخبراء فقط!%n%%n%يسمح لك بتعيين%n%موضع العنصر يدويًا.%n%%n%تدعم المواضع المتقدمة الاستبدالات،%n%لذا يمكنك حساب المواضع%n%باستخدام استبدال الآلة الحاسبة،%n%وجلب مواضع عناصر أخرى%n%وغير ذلك الكثير.%n%%n%يمكن العثور على العديد من الاستبدالات المفيدة لتموضع%n%العناصر%n%ضمن فئتي "واجهة" و"متقدّم"%n%للاستبدالات.%n%%n%§cلن تتمكن من تغيير الحجم أو%n%§cسحب وتحريك العنصر أثناء%n%§cاستخدام هذه الميزة.%n%%n%§cلـ"تعطيلها"، فقط عيّن كلا%n%§cموضعي X وY إلى%n%§cقيمة فارغة.
+fancymenu.helper.editor.items.features.advanced_positioning.posx = موضع X
+fancymenu.helper.editor.items.features.advanced_positioning.posy = موضع Y
+
+fancymenu.helper.editor.items.features.advanced_sizing = التحجيم المتقدم
+fancymenu.helper.editor.items.features.advanced_sizing.active = التحجيم المتقدم (§6نشط§r)
+fancymenu.helper.editor.items.features.advanced_sizing.desc = §cللخبراء فقط!%n%%n%يسمح لك بتعيين%n%حجم العنصر يدويًا.%n%%n%تدعم الأحجام المتقدمة الاستبدالات،%n%لذا يمكنك حساب الأحجام%n%باستخدام استبدال الآلة الحاسبة،%n%وجلب أحجام عناصر أخرى%n%وغير ذلك الكثير.%n%%n%يمكن العثور على العديد من الاستبدالات المفيدة لتحجيم%n%العناصر%n%ضمن فئتي "واجهة" و"متقدّم"%n%للاستبدالات.%n%%n%§cلن تتمكن من تغيير حجم%n%§cالعنصر على المحاور التي%n%§cتم تجاوزها بقيمة حجم متقدم.%n%%n%§cلـ"إلغاء" التجاوز، فقط عيّن%n%§cقيمة التحجيم المتقدم المعنية%n%§cإلى قيمة فارغة/خالية.
+fancymenu.helper.editor.items.features.advanced_sizing.width = العرض
+fancymenu.helper.editor.items.features.advanced_sizing.height = الارتفاع
+
+fancymenu.helper.editor.properties.autoscale.forced_scale_needed = تحتاج إلى تعيين §lمقياس واجهة قسري%n%قبل أن تتمكن من استخدام التحجيم التلقائي!%n%%n%يُنصح باستخدام 2%n%كمقياس واجهة قسري.%n%%n%§cلتعيين مقياس واجهة قسري،%n%§cانقر بزر الفأرة الأيمن على خلفية المُحرّر%n%§cوانقر على §lفرض مقياس الواجهة§r§c.
+
+fancymenu.customization.items.ticker = مؤقّت إطارات
+fancymenu.customization.items.ticker.desc = يتيح لك تنفيذ إجراءات%n%كل تيك.%n%%n%يدعم التزامن غير المتزامن%n%وفواصل التأخير بين التيكات.%n%%n%يمكن ضبطه ليعمل مرة واحدة%n%في كل مرة تفتح فيها القائمة.%n%%n%§cهذا العنصر مرئي فقط%n%§cداخل المُحرّر.
+fancymenu.customization.items.ticker.add_action = إضافة إجراء
+fancymenu.customization.items.ticker.add_action.desc = أضف إجراءً جديدًا إلى قائمة%n%الإجراءات التي سينفذها هذا المؤقّت.
+fancymenu.customization.items.ticker.manage_actions = إدارة الإجراءات
+fancymenu.customization.items.ticker.manage_actions.desc = أضف، احذف وعدّل إجراءات هذا المؤقّت.
+fancymenu.customization.items.ticker.manage_actions.action = §lإجراء: §r{}
+fancymenu.customization.items.ticker.manage_actions.value = §lقيمة: §r{}
+fancymenu.customization.items.ticker.manage_actions.remove = إزالة
+fancymenu.customization.items.ticker.manage_actions.remove.confirm = §c§lهل أنت متأكد؟%n%%n%هل تريد فعلًا إزالة هذا الإجراء؟%n% %n% %n% %n%
+fancymenu.customization.items.ticker.manage_actions.edit = تعديل
+fancymenu.customization.items.ticker.tick_delay = تأخير التيك [مللي ثانية]
+fancymenu.customization.items.ticker.tick_delay.desc = عيّن التأخير بين التيكات بالمللي ثانية.
+fancymenu.customization.items.ticker.async.on = غير متزامن: §aمفعّل
+fancymenu.customization.items.ticker.async.off = غير متزامن: §cمعطّل
+fancymenu.customization.items.ticker.async.desc = ما إذا كان يجب أن يعمل المؤقّت%n%في خيط منفصل (غير متزامن).
+fancymenu.customization.items.ticker.tick_mode.normal = وضع التيك: §6عادي
+fancymenu.customization.items.ticker.tick_mode.once_per_session = وضع التيك: §6جلسة
+fancymenu.customization.items.ticker.tick_mode.on_menu_load = وضع التيك: §6تحميل القائمة
+fancymenu.customization.items.ticker.tick_mode.desc = §lعادي: §rيعمل المؤقّت في كل تيك.%n%%n%§lجلسة: §rيعمل المؤقّت مرة%n%في كل جلسة لعب.%n%%n%§lتحميل القائمة: §rيعمل المؤقّت مرة%n%في كل مرة تحمّل فيها القائمة.%n%تذكر أن القوائم تُعاد%n%تحميلها أيضًا عند تغيير%n%حجم النافذة.
+
+fancymenu.helper.editor.items.visibilityrequirements.is_element_hovered = هل العنصر مُحوم عليه
+fancymenu.helper.editor.items.visibilityrequirements.is_element_hovered.desc = تحقق مما إذا كان عنصرٌ محوّمًا عليه.%n%استخدم معرّف العنصر لتحديده.%n%%n%يمكنك الحصول على معرّف عنصر%n%بالنقر بزر الفأرة الأيمن عليه في المُحرّر.
+fancymenu.helper.editor.items.visibilityrequirements.is_element_hovered.valuename = معرّف العنصر المستهدف
+
+fancymenu.helper.editor.items.playerentity = كيان اللاعب
+fancymenu.helper.editor.items.playerentity.desc = كيان لاعب قابل للتخصيص.
+
+fancymenu.helper.editor.items.playerentity.copy_client_player.off = نسخ لاعب العميل: §cمعطّل
+fancymenu.helper.editor.items.playerentity.copy_client_player.on = نسخ لاعب العميل: §aمفعّل
+fancymenu.helper.editor.items.playerentity.copy_client_player.desc = اجعل الكيان يشبه%n%لاعب العميل تلقائيًا.%n%%n%ينسخ الاسم، والجلد، والرداء.
+fancymenu.helper.editor.items.playerentity.copy_client_player.blocked_until_disabled = §cلا يمكنك فعل ذلك بينما%n%§c"نسخ لاعب العميل" مفعّل.
+fancymenu.helper.editor.items.playerentity.set_player_name = تعيين اسم اللاعب
+fancymenu.helper.editor.items.playerentity.set_player_name.desc = عيّن اسم اللاعب.%n%%n%يمكنك استخدام أي اسم هنا،%n%ولا يجب أن يكون%n%مستخدمًا موجودًا.
+
+fancymenu.helper.editor.items.playerentity.skin.auto.off = الزي التلقائي: §cمتوقف
+fancymenu.helper.editor.items.playerentity.skin.auto.on = الزي التلقائي: §aمفعّل
+fancymenu.helper.editor.items.playerentity.skin.auto.desc = يحاول اختيار الزي تلقائيًا%n%استنادًا إلى اسم لاعب%n%العنصر.
+fancymenu.helper.editor.items.playerentity.skin.auto.blocked_until_disabled = §cلا يمكنك فعل ذلك بينما%n%§c"الزي التلقائي" مفعّل.
+fancymenu.helper.editor.items.playerentity.skin.set = تعيين ملمس الزي
+fancymenu.helper.editor.items.playerentity.skin.set.desc = عيّن ملمس الزي.%n%يدعم الخامات المحلية والويب.
+fancymenu.helper.editor.items.playerentity.skin.set.local = تعيين ملمس زي محلي
+fancymenu.helper.editor.items.playerentity.skin.set.web = تعيين ملمس زي من الويب
+
+fancymenu.helper.editor.items.playerentity.cape.auto.off = العباءة التلقائية: §cمتوقفة
+fancymenu.helper.editor.items.playerentity.cape.auto.on = العباءة التلقائية: §aمفعّلة
+fancymenu.helper.editor.items.playerentity.cape.auto.desc = يحاول اختيار العباءة تلقائيًا%n%استنادًا إلى اسم لاعب%n%العنصر.
+fancymenu.helper.editor.items.playerentity.cape.auto.blocked_until_disabled = §cلا يمكنك فعل ذلك بينما%n%§c"العباءة التلقائية" مفعّلة.
+fancymenu.helper.editor.items.playerentity.cape.set = تعيين ملمس العباءة
+fancymenu.helper.editor.items.playerentity.cape.set.desc = عيّن ملمس العباءة.%n%يدعم الخامات المحلية والويب.
+fancymenu.helper.editor.items.playerentity.cape.set.local = تعيين ملمس عباءة محلي
+fancymenu.helper.editor.items.playerentity.cape.set.web = تعيين ملمس عباءة من الويب
+
+fancymenu.helper.editor.items.playerentity.scale = تعيين مقياس الكيان
+fancymenu.helper.editor.items.playerentity.scale.desc = عيّن مقياس الكيان.%n%%n%المقياس الافتراضي هو 30.
+
+fancymenu.helper.editor.items.playerentity.rotation.follow_mouse.off = اتّباع الفأرة: §cمتوقف
+fancymenu.helper.editor.items.playerentity.rotation.follow_mouse.on = اتّباع الفأرة: §aمفعّل
+fancymenu.helper.editor.items.playerentity.rotation.follow_mouse.desc = إذا تم التفعيل، سيتبع اللاعب%n%مؤشر الفأرة.
+fancymenu.helper.editor.items.playerentity.rotation.custom = تعيين دوران اللاعب
+fancymenu.helper.editor.items.playerentity.rotation.custom.desc = عيّن دوران رأس وجسم اللاعب.
+fancymenu.helper.editor.items.playerentity.rotation.custom.disabled = §cلا يمكنك فعل ذلك بينما%n%§c"اتّباع الفأرة" مفعّل.
+fancymenu.helper.editor.items.playerentity.rotation.bodyx = دوران الجسم على المحور X: {}
+fancymenu.helper.editor.items.playerentity.rotation.bodyy = دوران الجسم على المحور Y: {}
+fancymenu.helper.editor.items.playerentity.rotation.headx = دوران الرأس على المحور X: {}
+fancymenu.helper.editor.items.playerentity.rotation.heady = دوران الرأس على المحور Y: {}
+
+fancymenu.helper.editor.items.playerentity.slim.off = زي نحيف: §cمتوقف
+fancymenu.helper.editor.items.playerentity.slim.on = زي نحيف: §aمفعّل
+fancymenu.helper.editor.items.playerentity.slim.desc = إذا كان يجب أن يكون الزي نحيفًا.
+
+fancymenu.helper.editor.items.playerentity.crouching.off = الانحناء: §cمتوقف
+fancymenu.helper.editor.items.playerentity.crouching.on = الانحناء: §aمفعّل
+fancymenu.helper.editor.items.playerentity.crouching.desc = إذا كان يجب أن ينحني اللاعب.
+
+fancymenu.helper.editor.items.playerentity.show_name.off = إظهار اسم اللاعب: §cمتوقف
+fancymenu.helper.editor.items.playerentity.show_name.on = إظهار اسم اللاعب: §aمفعّل
+fancymenu.helper.editor.items.playerentity.show_name.desc = إذا كان يجب أن يكون اسم اللاعب مرئيًا.
+
+fancymenu.helper.editor.items.playerentity.parrot.off = ببغاء: §cمتوقف
+fancymenu.helper.editor.items.playerentity.parrot.on = ببغاء: §aمفعّل
+fancymenu.helper.editor.items.playerentity.parrot.desc = إذا كان يجب أن يكون لدى اللاعب ببغاء%n%على كتفه.
+
+fancymenu.helper.editor.items.playerentity.parrot_left.off = ببغاء على الكتف الأيسر: §cمتوقف
+fancymenu.helper.editor.items.playerentity.parrot_left.on = ببغاء على الكتف الأيسر: §aمفعّل
+fancymenu.helper.editor.items.playerentity.parrot_left.desc = إذا كان يجب أن يكون ببغاء كتف اللاعب%n%على الكتف الأيسر.
+
+fancymenu.helper.editor.items.playerentity.baby.off = طفل: §cمتوقف
+fancymenu.helper.editor.items.playerentity.baby.on = طفل: §aمفعّل
+fancymenu.helper.editor.items.playerentity.baby.desc = إذا كان يجب أن يكون اللاعب طفلًا.
+
+fancymenu.guicomponents.cancel = إلغاء
+
+fancymenu.ui.text_editor.placeholders = عناصر نائبة
+fancymenu.ui.text_editor.cut = قص
+fancymenu.ui.text_editor.copy = نسخ
+fancymenu.ui.text_editor.paste = لصق
+fancymenu.ui.text_editor.select_all = تحديد الكل
+fancymenu.ui.text_editor.error.multiline_support = الهدف لا يدعم النص متعدد الأسطر.
+fancymenu.ui.text_editor.placeholders.back_to_categories = رجوع
+
+fancymenu.config.variables_to_reset_on_launch = متغيرات لإعادة التعيين
+fancymenu.config.variables_to_reset_on_launch.desc = قائمة بأسماء المتغيرات مفصولة بفواصل%n%يجب إعادة تعيينها في كل مرة%n%يتم فيها تشغيل اللعبة.
+
+fancymenu.customization.items.custom_button.add_action = إضافة إجراء
+fancymenu.customization.items.custom_button.add_action.desc = أضف إجراءً جديدًا إلى قائمة%n%الإجراءات التي يجب أن ينفذها هذا الزر.
+fancymenu.customization.items.custom_button.manage_actions = إدارة الإجراءات
+fancymenu.customization.items.custom_button.manage_actions.desc = أضف، أزل، وعدّل إجراءات هذا الزر.
+
+fancymenu.editor.actions.add.set_action_value = تعيين قيمة الإجراء [{}]
+fancymenu.editor.actions.add.set_action_value.generic = تعيين قيمة الإجراء
+
+fancymenu.editor.elements.web_image.enter_url = أدخل رابط الصورة
+
+fancymenu.editor.elements.splash.single.enter_text = أدخل نص الوميض
+
+fancymenu.editor.elements.visibilityrequirements.edit_value = تحرير قيمة المتطلب
+
+fancymenu.editor.loading_requirement.category.window = النافذة
+fancymenu.editor.loading_requirement.category.world = العالم
+fancymenu.editor.loading_requirement.category.gui = واجهة المستخدم الرسومية
+fancymenu.editor.loading_requirement.category.realtime = الوقت الحقيقي
+fancymenu.editor.loading_requirement.category.system = النظام
+
+fancymenu.editor.loading_requirement.elements.loading_requirements = متطلبات التحميل
+fancymenu.editor.loading_requirement.elements.loading_requirements.desc = إدارة متطلبات التحميل لهذا العنصر.%n%%n%يمكن استخدام متطلبات التحميل%n%لتحديد الحالات التي%n%يجب عندها أن يُحمّل عنصر أو يظهر.
+
+fancymenu.editor.loading_requirement.layouts.loading_requirements = متطلبات التحميل [على مستوى التخطيط]
+fancymenu.editor.loading_requirement.layouts.loading_requirements.desc = إدارة متطلبات التحميل لهذا التخطيط.%n%%n%يمكن استخدام متطلبات التحميل%n%لتحديد الحالات التي%n%يجب عندها أن يُحمّل تخطيط أو يظهر.
+
+fancymenu.editor.loading_requirement.screens.lists.back = رجوع
+fancymenu.editor.loading_requirement.screens.add_requirement = إضافة متطلب
+fancymenu.editor.loading_requirement.screens.add_group = إضافة مجموعة
+fancymenu.editor.loading_requirement.screens.edit_requirement = تحرير متطلب
+fancymenu.editor.loading_requirement.screens.edit_group = تحرير مجموعة
+fancymenu.editor.loading_requirement.screens.remove_requirement = إزالة متطلب
+fancymenu.editor.loading_requirement.screens.remove_group = إزالة مجموعة
+fancymenu.editor.loading_requirement.screens.remove_requirement.confirm = §c§lهل أنت متأكد؟%n%%n%هل تريد حقًا §cإزالة §rالمتطلب المحدد؟%n%لا يمكن التراجع عن هذا الإجراء!
+fancymenu.editor.loading_requirement.screens.remove_group.confirm = §c§lهل أنت متأكد؟%n%%n%هل تريد حقًا §cإزالة §rالمجموعة المحددة؟%n%لا يمكن التراجع عن هذا الإجراء!
+fancymenu.editor.loading_requirement.screens.requirement.info.mode = الوضع:
+fancymenu.editor.loading_requirement.screens.requirement.info.mode.normal = عادي
+fancymenu.editor.loading_requirement.screens.requirement.info.mode.opposite = معاكس
+fancymenu.editor.loading_requirement.screens.requirement.info.value = القيمة:
+fancymenu.editor.loading_requirement.screens.requirement.info.value.none = لا شيء
+fancymenu.editor.loading_requirement.screens.build_screen.requirement_description = وصف المتطلب
+fancymenu.editor.loading_requirement.screens.build_screen.available_requirements = المتطلبات المتاحة
+fancymenu.editor.loading_requirement.screens.build_screen.requirement_mode.normal = وضع المتطلب: §6عادي
+fancymenu.editor.loading_requirement.screens.build_screen.requirement_mode.opposite = وضع المتطلب: §6معاكس
+fancymenu.editor.loading_requirement.screens.build_screen.requirement_mode.desc = يحدد وضع المتطلب ما%n%يجب أن يخبر به المتطلب العنصر الأب%n%عندما يتحقق شرطه.%n%%n%§6عادي §rيعني أنه يعيد "صحيح" ("نعم، حمّل!")%n%عندما يتحقق شرطه.%n%%n%§6معاكس §rيعني أنه يعيد "صحيح" عندما%n%لا يتحقق شرطه.
+fancymenu.editor.loading_requirement.screens.build_screen.edit_value = تحرير قيمة المتطلب
+fancymenu.editor.loading_requirement.screens.build_screen.edit_value.desc.no_value = §6هذا المتطلب بلا قيمة.%n%§6لا تحتاج إلى تعيين واحدة.
+fancymenu.editor.loading_requirement.screens.build_screen.edit_value.desc.normal = حرر قيمة المتطلب المختار.
+fancymenu.editor.loading_requirement.screens.build_screen.finish.desc.no_requirement_selected = §cيجب أن تختار متطلبًا أولًا!
+fancymenu.editor.loading_requirement.screens.build_screen.finish.desc.no_value_set = §cيجب أن تحرر قيمة المتطلب أولًا!
+fancymenu.editor.loading_requirement.screens.build_group_screen.mode.and = وضع المجموعة: §6و
+fancymenu.editor.loading_requirement.screens.build_group_screen.mode.or = وضع المجموعة: §6أو
+fancymenu.editor.loading_requirement.screens.build_group_screen.mode.desc = يحدد وضع المجموعة كيفية%n%تعامل المجموعة مع متطلباتها.%n%%n%§6و §rيعني أن جميع المتطلبات%n%يجب أن تكون "صحيحة"، مما يعني ببساطة%n%أنها يجب أن تقول "نعم، حمّل!".%n%%n%§6أو §rيعني أن متطلبًا واحدًا فقط%n%يحتاج أن يكون "صحيحًا".
+fancymenu.editor.loading_requirement.screens.build_group_screen.finish.no_requirements_added = §cيجب أن تضيف متطلبًا واحدًا على الأقل أولًا!
+fancymenu.editor.loading_requirement.screens.build_group_screen.finish.identifier_already_used = §cمعرّف المجموعة مستخدم بالفعل%n%§cلمجموعة أخرى!
+fancymenu.editor.loading_requirement.screens.build_group_screen.finish.identifier_too_short = §cمعرّف المجموعة قصير جدًا!
+fancymenu.editor.loading_requirement.screens.build_group_screen.add_requirement.desc = أضف متطلبًا إلى هذه المجموعة.
+fancymenu.editor.loading_requirement.screens.build_group_screen.edit_requirement.desc = حرر المتطلب المحدد.
+fancymenu.editor.loading_requirement.screens.build_group_screen.remove_requirement.desc = أزل المتطلب المحدد.
+fancymenu.editor.loading_requirement.screens.build_group_screen.no_requirement_selected = §cيجب أن تختار متطلبًا أولًا!
+fancymenu.editor.loading_requirement.screens.build_group_screen.group_requirements = متطلبات المجموعة
+fancymenu.editor.loading_requirement.screens.build_group_screen.group_identifier = معرّف فريد للمجموعة
+fancymenu.editor.loading_requirement.screens.manage_screen.manage = إدارة متطلبات التحميل
+fancymenu.editor.loading_requirement.screens.manage_screen.group.info = مجموعة تضم {} متطلبًا
+fancymenu.editor.loading_requirement.screens.manage_screen.add_requirement.desc = أضف متطلبًا جديدًا.
+fancymenu.editor.loading_requirement.screens.manage_screen.add_group.desc = أضف مجموعة متطلبات جديدة.%n%%n%يمكن لمجموعات المتطلبات احتواء%n%عدة متطلبات وبالمجمل%n%تجعلها متطلبًا واحدًا كبيرًا.%n%%n%لمجموعات المتطلبات وضعان.%n%في وضع §6و §rيجب أن تعيد كل المتطلبات%n%"صحيح" (أي "نعم، حمّل!")،%n%أما في وضع §6أو §rفيكفي أن يعيد متطلب واحد%n%"صحيح".
+fancymenu.editor.loading_requirement.screens.manage_screen.no_entry_selected = §cيجب أن تختار مجموعة أو متطلبًا!
+fancymenu.editor.loading_requirement.screens.manage_screen.edit.generic = تحرير
+fancymenu.editor.loading_requirement.screens.manage_screen.edit.desc = حرر المجموعة أو المتطلب المحدد.
+fancymenu.editor.loading_requirement.screens.manage_screen.remove.generic = إزالة
+fancymenu.editor.loading_requirement.screens.manage_screen.remove.desc = أزل المجموعة أو المتطلب المحدد.
+fancymenu.editor.loading_requirement.screens.manage_screen.requirements_and_groups = المتطلبات والمجموعات
+
+fancymenu.editor.action.screens.add_action = إضافة إجراء
+fancymenu.editor.action.screens.add_action.desc = أضف إجراءً جديدًا.
+fancymenu.editor.action.screens.edit_action = تحرير إجراء
+fancymenu.editor.action.screens.edit_action.desc = حرر الإجراء المحدد.
+fancymenu.editor.action.screens.remove_action = إزالة إجراء
+fancymenu.editor.action.screens.remove_action.desc = أزل الإجراء المحدد.
+fancymenu.editor.action.screens.finish.no_action_selected = §cيجب أن تختار إجراءً أولًا!
+fancymenu.editor.action.screens.remove_action.confirm = §c§lهل أنت متأكد؟%n%%n%هل تريد حقًا §cإزالة §rالإجراء المحدد؟%n%لا يمكن التراجع عن ذلك!
+fancymenu.editor.action.screens.build_screen.edit_value = تحرير قيمة الإجراء
+fancymenu.editor.action.screens.build_screen.edit_value.desc.normal = حرر قيمة هذا الإجراء.
+fancymenu.editor.action.screens.build_screen.edit_value.desc.no_value = §6هذا الإجراء بلا قيمة.%n%§6لا تحتاج إلى تعيين واحدة.
+fancymenu.editor.action.screens.build_screen.action_description = وصف الإجراء
+fancymenu.editor.action.screens.build_screen.available_actions = الإجراءات المتاحة
+fancymenu.editor.action.screens.build_screen.finish.no_value_set = §cيجب أن تحرر قيمة الإجراء أولًا!
+fancymenu.editor.action.screens.manage_screen.info.value = القيمة:
+fancymenu.editor.action.screens.manage_screen.info.value.none = لا شيء
+fancymenu.editor.action.screens.manage_screen.manage = إدارة الإجراءات
+fancymenu.editor.action.screens.manage_screen.actions = الإجراءات
+fancymenu.editor.action.screens.move_action_up = نقل الإجراء للأعلى
+fancymenu.editor.action.screens.move_action_up.desc = انقل هذا الإجراء لأعلى في القائمة،%n%ليُنفذ في وقت أبكر.
+fancymenu.editor.action.screens.move_action_down = نقل الإجراء للأسفل
+fancymenu.editor.action.screens.move_action_down.desc = انقل هذا الإجراء لأسفل في القائمة،%n%ليُنفذ لاحقًا.
+
+fancymenu.editor.elements.button.manage_actions.desc = إدارة الإجراءات التي يجب أن ينفذها هذا الزر%n%عند النقر.
+
+fancymenu.editor.elements.ticker.manage_actions.desc = إدارة الإجراءات التي يجب أن%n%ينفذها هذا الشريط المتحرك.
+
+fancymenu.guicomponents.confirm = تأكيد

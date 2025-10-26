@@ -1,0 +1,12 @@
+{
+  "reputation": 15,
+  "icon": "minecraft:iron_sword",
+  "start": {
+    "title": {
+      "text": "مرحبا"
+    },
+    "description": {
+      "text": "مرحبا، سمعت أنك تبحث عن مهارات قتال جديدة لتتعلمها، أظن أن لدي ما تحتاجه تماما"
+    }
+  }
+}

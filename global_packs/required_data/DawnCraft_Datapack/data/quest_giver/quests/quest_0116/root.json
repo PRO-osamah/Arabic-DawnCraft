@@ -1,0 +1,12 @@
+{
+  "reputation": 5,
+  "icon": "minecraft:iron_sword",
+  "start": {
+    "title": {
+      "text": "عرض"
+    },
+    "description": {
+      "text": "هل تهتم بعرض، يا فتى؟"
+    }
+  }
+}

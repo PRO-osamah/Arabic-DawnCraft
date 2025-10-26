@@ -1,0 +1,19 @@
+{
+  "item.darkersouls.dragonslayer_swordspear": "سيف-رمح قاتل التنانين",
+  "item.darkersouls.dragonslayer_spear": "رمح قاتل التنانين",
+  "item.darkersouls.storm_curved_sword": "سيف العاصفة المنحني",
+  "item.darkersouls.lightning": "رمح البرق",
+  "item.darkersouls.crown_of_tempest": "تاج العاصفة",
+  "item.darkersouls.nameless_king_chestplate": "درع صدري ذهبي",
+  "item.darkersouls.nameless_king_leggings": "ثوب العاصفة",
+  "item.darkersouls.golden_greaves": "واقيات ساقين ذهبية",
+  "item.darkersouls.great_belfry": "جرس عظيم",
+  "item.darkersouls.nameless_king_spawn_egg": "بيضة استدعاء الملك بلا اسم",
+  "entity.darkersouls.nameless_king": "الملك بلا اسم",
+  "entity.darkersouls.lightning_projectile": "البرق",
+  "entity.darkersouls.wind_no_collision": "الريح",
+  "itemGroup.darksoulsentities": "Darker Souls - الكيانات",
+  "itemGroup.darksoulsweapons": "Darker Souls - الأسلحة",
+  "itemGroup.darksoulsarmour": "Darker Souls - الدروع",
+  "itemGroup.darksoulsmagic": "Darker Souls - التعاويذ"
+}

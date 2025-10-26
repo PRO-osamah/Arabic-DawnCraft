@@ -1,0 +1,8 @@
+{
+  "key.categories.placebo": "Placebo",
+  "placebo.toggleTrails": "تبديل آثار Patreon",
+  "placebo.toggleWings": "تبديل أجنحة Patreon",
+  "placebo.cmd.serialize_success": "تم حفظ %s إلى %s.",
+  "placebo.cmd.serialize_failure": "حدث خطأ أثناء عملية التسلسل.",
+  "placebo.cmd.not_found": "لم يتم العثور على %s."
+}

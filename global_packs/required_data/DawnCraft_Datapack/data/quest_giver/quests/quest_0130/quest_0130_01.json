@@ -1,0 +1,36 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 15,
+  "icon": "minecraft:iron_sword",
+  "start": {
+    "title": {
+      "text": "إذن؟"
+    },
+    "description": {
+      "text": "يمكنني تعليمك المهارة - التحمل الناهب مقابل 18 زمردات"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "شكرا"
+    },
+    "description": {
+      "text": "استمتع بالنهب، لكن لا تستمتع كثيرا"
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "minecraft:emerald"
+      },
+      "id": "quest_giver:gift",
+      "times": 18
+    }
+  ],
+  "rewards": [
+    {
+      "command": "give @p epicfight:skillbook{skill:\"epicfight:stamina_pillager\"}",
+      "id": "quest_giver:command"
+    }
+  ]
+}

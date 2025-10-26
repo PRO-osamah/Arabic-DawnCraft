@@ -1,0 +1,17 @@
+{
+  "item.hunterillager.spawnegg_hunterillager": "بيضة استدعاء صياد الإليجر",
+  "item.hunterillager.quivers": "جعب",
+  "item.hunterillager.boomerang": "بوميرانغ",
+  "item.hunterillager.quiver.desc": "يمكنك تخزين السهم بالنقر بزر الفأرة الأيمن أثناء حمل الجعبة والسهم.",
+  "entity.hunterillager.hunterillager": "صياد الإليجر",
+  "subtitles.hunterillager.idle": "صياد الإليجر يتمتم",
+  "subtitles.hunterillager.hurt": "صياد الإليجر يتألم",
+  "subtitles.hunterillager.death": "صياد الإليجر يموت",
+  "subtitles.hunterillager.cheer": "صياد الإليجر يهتف",
+  "subtitles.hunterillager.laugh": "صياد الإليجر يضحك",
+  "death.attack.hunterillager.boomerang": "أصيب %1$s ببوميرانغ %2$s",
+  "hunterillager.config.structureSpacing": "تباعد توليد بيت الصياد",
+  "hunterillager.config.foodWhitelist": "قائمة سماح طعام صياد الإليجر",
+  "hunterillager.config.attackableWhitelist": "قائمة سماح الأهداف القابلة للهجوم لصياد الإليجر",
+  "enchantment.hunterillager.bounce": "ارتداد"
+}

@@ -1,0 +1,9 @@
+{
+  "message.followme.follow": "%1$s يتبعك الآن.",
+  "message.followme.unfollow": "%1$s لم يعد يتبعك.",
+  "message.followme.followingplayer": "%1$s يتبع %2$s بالفعل.",
+  "text.followme.following": "يتبع",
+  "key.followme.follow.desc": "بدء/إيقاف الاتباع",
+  "key.followme.stop.desc": "إيقاف جميع الاتباع",
+  "key.followme.category": "اتبعني"
+}

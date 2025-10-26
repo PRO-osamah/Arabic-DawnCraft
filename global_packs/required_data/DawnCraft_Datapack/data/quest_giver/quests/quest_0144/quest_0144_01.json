@@ -1,0 +1,36 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 15,
+  "icon": "minecraft:iron_sword",
+  "start": {
+    "title": {
+      "text": "إذًا؟"
+    },
+    "description": {
+      "text": "يمكنني تعليمك المهارة - Dodge Master مقابل 15 زمردات. ما رأيك؟"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "شكرًا"
+    },
+    "description": {
+      "text": "تفضل، هذه إحدى أصعب المهارات استخدامًا، لكنها فعالة جدًا عند تنفيذها بشكل سليم"
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "minecraft:emerald"
+      },
+      "id": "quest_giver:gift",
+      "times": 15
+    }
+  ],
+  "rewards": [
+    {
+      "command": "give @p epicfight:skillbook{skill:\"wom:dodge_master\"}",
+      "id": "quest_giver:command"
+    }
+  ]
+}

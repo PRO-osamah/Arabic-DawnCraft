@@ -1,0 +1,5 @@
+{
+  "gamerule.useAggroFix": "استخدام نظام العداء",
+  "enchantment.aggrofix.aggronizing": "إثارة العداء",
+  "gamerule.useAggroFix.description": "يبدل تفعيل نظام العداء"
+}

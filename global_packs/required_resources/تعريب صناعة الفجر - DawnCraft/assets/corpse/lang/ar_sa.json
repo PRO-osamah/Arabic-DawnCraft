@@ -1,0 +1,21 @@
+{
+  "entity.corpse.corpse": "جثة",
+  "entity.corpse.corpse_of": "جثة %s",
+  "button.corpse.previous": "السابق",
+  "button.corpse.next": "التالي",
+  "gui.corpse.page": "%s من %s",
+  "gui.corpse.death_history.title": "سجل وفيات اللاعب",
+  "gui.corpse.death_history.name": "الاسم",
+  "gui.corpse.death_history.date_format": "yyyy/MM/dd HH:mm:ss",
+  "gui.corpse.death_history.dimension": "البعد",
+  "gui.corpse.death_history.location": "الموقع",
+  "button.corpse.show_items": "العناصر",
+  "key.corpse.death_history": "فتح سجل وفيات اللاعب",
+  "message.corpse.no_death_history": "لا يوجد سجل وفيات للاعب",
+  "chat.corpse.teleport_death_location": "انتقل إلى موقع الموت %s",
+  "tooltip.corpse.teleport": "الانتقال الآني",
+  "tooltip.corpse.death_date": "توفي في %s",
+  "tooltip.corpse.item_count": "يحتوي على %s كومة(ات)",
+  "button.corpse.transfer_items": "نقل العناصر",
+  "button.corpse.additional_items": "عناصر إضافية"
+}

@@ -1,0 +1,7 @@
+{
+  "simplebackups.backup_started": "بدأ النسخ الاحتياطي...",
+  "simplebackups.backup_finished": "اكتمل النسخ الاحتياطي خلال %s (%s | %s)",
+  "simplebackups.commands.only_modified": "لا يقتصر النسخ الاحتياطي على الملفات المعدلة، يرجى التحقق من ملف الإعدادات",
+  "simplebackups.commands.is_merging": "عملية دمج جارية بالفعل",
+  "simplebackups.commands.finished": "اكتمل دمج النسخ الاحتياطية بنجاح"
+}

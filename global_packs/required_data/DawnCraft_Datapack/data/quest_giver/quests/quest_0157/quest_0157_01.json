@@ -1,0 +1,40 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 15,
+  "icon": "minecraft:map",
+  "start": {
+    "title": {
+      "text": "أمر هدف مستحيل"
+    },
+    "description": {
+      "text": "أريدك أن تكمل 2 أهداف: أن تتلقى بركة طائر الشمس النبيل، وأن تستدعي غولم ثلجي متحوّر… ثم سأنظر في تسليمك الألم"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "شكرا"
+    },
+    "description": {
+      "text": "مذهل… خذه، فقد سقط حامله السابق أمام وحوش ضارية… عسى أن يختلف مصيرك عن مصيره"
+    }
+  },
+  "tasks": [
+    {
+      "id": "dawncraft:advancement",
+      "advancement": "mutantmonsters:frosty_the_snow_golem"
+    },
+    {
+      "id": "dawncraft:advancement",
+      "advancement": "alexsmobs:alexsmobs/sunbird_blessing"
+    }
+  ],
+  "rewards": [
+    {
+      "item": {
+        "item": "wom:agony"
+      },
+      "id": "quest_giver:item",
+      "times": 1
+    }
+  ]
+}

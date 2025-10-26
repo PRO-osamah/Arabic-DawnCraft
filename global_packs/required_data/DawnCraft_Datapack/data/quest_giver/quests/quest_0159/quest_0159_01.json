@@ -1,0 +1,40 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 15,
+  "icon": "minecraft:map",
+  "start": {
+    "title": {
+      "text": "مهمة هدف مستحيلة!"
+    },
+    "description": {
+      "text": "أكمل اثنتين من أهداف كما أطلب، وعندها فقط سأفكر في منحك روين القوية. احصل على بركة نمر بعد إطعامه اللحوم، ونهب مفاعل النيذر في كومة سامة التابعة للنيذر."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "شكراً!"
+    },
+    "description": {
+      "text": "عمل ممتاز! ها هو. الكثير من معرفة مختوم داخل حافة النصل…"
+    }
+  },
+  "tasks": [
+    {
+      "id": "dawncraft:advancement",
+      "advancement": "alexsmobs:alexsmobs/tigers_blessing"
+    },
+    {
+      "id": "dawncraft:advancement",
+      "advancement": "incendium:toxic_heap/nuclear_fusion"
+    }
+  ],
+  "rewards": [
+    {
+      "item": {
+        "item": "wom:ruine"
+      },
+      "id": "quest_giver:item",
+      "times": 1
+    }
+  ]
+}

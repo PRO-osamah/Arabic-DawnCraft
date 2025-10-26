@@ -1,0 +1,4 @@
+{
+  "commands.polymorph.conflicts.starting": "جاري البحث عن تعارضات في الوصفات...",
+  "commands.polymorph.conflicts.success": "تم العثور على %d من التعارضات المحتملة. راجع logs/conflicts.log لمزيد من التفاصيل."
+}

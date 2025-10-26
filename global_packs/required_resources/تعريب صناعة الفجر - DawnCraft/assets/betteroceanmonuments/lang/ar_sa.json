@@ -1,0 +1,10 @@
+{
+  "Use /locate betteroceanmonuments:ocean_monument instead!": "استخدم /locate betteroceanmonuments:ocean_monument بدلا من ذلك!",
+  "text.autoconfig.betteroceanmonuments-fabric-1_18.title": "نصب المحيط المحسنة من YUNG",
+  "text.autoconfig.betteroceanmonuments-fabric-1_18.option.general.startMinY": "الحد الأدنى لقيمة Y لبدء نصب المحيط",
+  "text.autoconfig.betteroceanmonuments-fabric-1_18.option.general.startMinY.@Tooltip": "الحد الأدنى لقيمة y التي يمكن أن يظهر عندها نصب المحيط.",
+  "text.autoconfig.betteroceanmonuments-fabric-1_18.option.general.startMaxY": "الحد الأقصى لقيمة Y لبدء نصب المحيط",
+  "text.autoconfig.betteroceanmonuments-fabric-1_18.option.general.startMaxY.@Tooltip": "الحد الأقصى لقيمة y التي يمكن أن يظهر عندها نصب المحيط.",
+  "text.autoconfig.betteroceanmonuments-fabric-1_18.option.general.disableVanillaMonuments": "تعطيل نصب المحيط الافتراضية",
+  "text.autoconfig.betteroceanmonuments-fabric-1_18.option.general.disableVanillaMonuments.@Tooltip": "ما إذا كان يجب تعطيل نصب المحيط الافتراضية."
+}

@@ -1,0 +1,36 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 15,
+  "icon": "minecraft:iron_sword",
+  "start": {
+    "title": {
+      "text": "إذًا؟"
+    },
+    "description": {
+      "text": "إذًا، يمكنني أن أعلّمك مهارة Parrying مقابل 20 زمردات… ما رأيك؟"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "شكرًا"
+    },
+    "description": {
+      "text": "تفضل مغامر"
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "minecraft:emerald"
+      },
+      "id": "quest_giver:gift",
+      "times": 20
+    }
+  ],
+  "rewards": [
+    {
+      "command": "give @p epicfight:skillbook{skill:\"epicfight:parrying\"}",
+      "id": "quest_giver:command"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "reputation": 15,
+  "icon": "minecraft:iron_sword",
+  "start": {
+    "title": {
+      "text": "مرحبا!"
+    },
+    "description": {
+      "text": "لدي تقنية شرقية قديمة أستطيع تعليمك إياها مقابل 25 زمردات…"
+    }
+  }
+}

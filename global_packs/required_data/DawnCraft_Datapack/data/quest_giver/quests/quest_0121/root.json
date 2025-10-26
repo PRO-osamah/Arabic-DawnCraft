@@ -1,0 +1,12 @@
+{
+  "reputation": 19,
+  "icon": "minecraft:iron_pickaxe",
+  "start": {
+    "title": {
+      "text": "مرحبا!"
+    },
+    "description": {
+      "text": "إن حارس الإندر حراس غرض مهم جدا. هل تود معرفة مكانه؟"
+    }
+  }
+}

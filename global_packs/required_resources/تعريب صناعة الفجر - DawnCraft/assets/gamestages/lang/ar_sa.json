@@ -1,0 +1,17 @@
+{
+  "commands.gamestage.add.sender": "تم فتح المرحلة %s لـ %s!",
+  "commands.gamestage.add.target": "لقد فتحت المرحلة %s!",
+  "commands.gamestage.remove.sender": "تمت إزالة المرحلة %s من %s!",
+  "commands.gamestage.remove.target": "لقد فقدت الوصول إلى المرحلة %s!",
+  "commands.gamestage.check.failure": "ليس لدى %s المرحلة %s",
+  "commands.gamestage.check.success": "لدى %s المرحلة %s",
+  "commands.gamestage.info.empty": "ليس لدى %s أي مراحل مفتوحة.",
+  "commands.gamestage.info.stages": "لدى %s المراحل التالية. %s",
+  "commands.gamestage.clear.sender": "تمت إزالة %d مراحل من %s",
+  "commands.gamestage.clear.target": "لقد فقدت %d مراحل!",
+  "commands.gamestage.playeronly": "عذرًا، للاعبين فقط!",
+  "commands.gamestage.reloadfakes.info": "تم إعادة تحميل مراحل اللاعبين الوهميين.",
+  "commands.gamestage.reloadknown.info": "تم تحميل %d مراحل معروفة.",
+  "commands.gamestage.all.target": "لقد فتحت جميع المراحل المعروفة!",
+  "commands.gamestage.all.sender": "لقد فتح %s جميع المراحل المعروفة!"
+}

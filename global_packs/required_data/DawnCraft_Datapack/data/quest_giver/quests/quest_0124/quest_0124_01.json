@@ -1,0 +1,45 @@
+{
+  "parent": "quest_giver:quest_0124_01b",
+  "reputation": 15,
+  "icon": "minecraft:map",
+  "start": {
+    "title": {
+      "text": "هدف مستحيلة!"
+    },
+    "description": {
+      "text": "هل تلقيت بركة أوركا بالفعل؟"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "شكرا!"
+    },
+    "description": {
+      "text": "مثير للاهتمام… هكذا يتم الأمر. أنت شخص مثير للاهتمام. أنا سعيد لأنني صادفتك! الآن يجب أن أذهب… وفقك الله."
+    }
+  },
+  "tasks": [
+    {
+      "id": "dawncraft:advancement",
+      "advancement": "alexsmobs:alexsmobs/orcas_might"
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/dc addWaypoint @p custom:rootless \"القصر العائم\"",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/loot give @p loot minecraft:hunter1",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/addreputation reputation:villager @p 3",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/gamestage add @p hunter1 true",
+      "id": "quest_giver:command"
+    }
+  ]
+}

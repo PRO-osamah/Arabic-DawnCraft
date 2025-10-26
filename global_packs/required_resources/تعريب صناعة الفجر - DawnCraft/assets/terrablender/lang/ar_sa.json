@@ -1,0 +1,4 @@
+{
+  "commands.terrablender.biomeparams.success": "المعلمات عند الموضع %s %s %s: %s",
+  "commands.terrablender.biomeparams.failed": "تعذر تحديد المعلمات"
+}

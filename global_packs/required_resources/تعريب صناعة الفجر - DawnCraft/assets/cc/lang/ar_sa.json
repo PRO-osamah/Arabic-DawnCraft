@@ -1,0 +1,17 @@
+{
+  "item.cc.claim_block": "كتلة المطالبة",
+  "block.cc.claim_block": "كتلة المطالبة",
+  "cc.lore.paper": "وثيقة المطالبة",
+  "cc.message.block.not_owner": "أنت لا تملك هذه الكتلة",
+  "cc.message.block.access": "ليس لديك حق الوصول",
+  "cc.message.spawn": "هذه القطعة قريبة جدًا من نقطة الظهور",
+  "cc.message.claim_limit": "لقد وصلت إلى حد المطالبات لديك",
+  "cc.message.claim": "لقد طالبت بهذه القطعة",
+  "cc.message.unclaim": "لقد ألغيت المطالبة بهذه القطعة",
+  "cc.message.claimed.chunk": "تمت المطالبة بهذه القطعة",
+  "cc.message.noclaims.you": "ليس لديك أي مطالبات",
+  "cc.message.noclaims": "لا مطالبات",
+  "cc.gui.access": "الوصول",
+  "cc.gui.modify": "تعديل",
+  "cc.gui.enable": "تمكين"
+}

@@ -1,0 +1,19 @@
+{
+  "key.callablehorses.category": "خيول قابلة للاستدعاء",
+  "key.sethorse.desc": "تعيين الحصان",
+  "key.callhorse.desc": "استدعاء الحصان",
+  "key.showstats.desc": "إظهار إحصاءات الحصان",
+  "callablehorses.error.dim": "لا يمكنك استدعاء حصانك في هذا البعد!",
+  "callablehorses.error.riding": "لا يمكنك الركوب أثناء استدعاء حصانك!",
+  "callablehorses.error.nohorse": "ليس لديك حاليًا حصان شخصي!",
+  "callablehorses.error.notriding": "تحتاج إلى ركوب حصان للقيام بذلك!",
+  "callablehorses.error.alreadyowned": "لهذا الحصان مالك بالفعل!",
+  "callablehorses.error.alreadypersonal": "هذا بالفعل حصانك الشخصي!",
+  "callablehorses.error.area": "لا يمكنك استدعاء حصانك في هذه المنطقة!",
+  "callablehorses.error.range": "حصانك بعيد جدًا ليسمعك!",
+  "callablehorses.error.setarea": "لا يمكنك تعيين حصانك في هذه المنطقة!",
+  "callablehorses.error.nospace": "لا توجد مساحة كافية هنا لاستدعاء حصانك!",
+  "callablehorses.success": "هذا الآن حصانك الشخصي!",
+  "callablehorses.alert.death": "لقد مات حصانك الشخصي للتو!",
+  "callablehorses.alert.offlinedeath": "مات حصانك الشخصي أثناء عدم اتصالك!"
+}

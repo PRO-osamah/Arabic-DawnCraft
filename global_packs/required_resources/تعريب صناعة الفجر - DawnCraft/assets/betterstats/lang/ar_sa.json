@@ -1,0 +1,19 @@
+{
+  "betterstats": "شاشة الإحصائيات الأفضل",
+  "betterstats.hud": "واجهة HUD للإحصائيات (بيتا)",
+  "betterstats.hud.entity.kills": "عمليات القتل",
+  "betterstats.hud.entity.deaths": "الوفيات",
+  "betterstats.hud.hint.add_widget": "انقر بزر الفأرة الأيمن على إحصائية ([Shift]+RMB) لإضافتها هنا.",
+  "betterstats.hud.hint.del_widget": "اضغط Backspace (<-) لإزالة عنصر تحت المؤشر.",
+  "betterstats.hud.hint.esc_close": "اضغط Escape (ESC) لإغلاق هذه الشاشة.",
+  "betterstats.gui.filters": "عوامل تصفية",
+  "betterstats.gui.show_empty_stats": "عرض الإحصائيات الفارغة",
+  "betterstats.gui.no_stats_yet": "لا توجد إحصائيات للعرض بعد…",
+  "betterstats.gui.ctx_menu.pin_to_hud": "تثبيت في HUD (بيتا)",
+  "betterstats.gui.ctx_menu.close": "إغلاق",
+  "betterstats.gui.menu_bar.view": "عرض",
+  "betterstats.gui.menu_bar.view.vanilla_stats": "عرض الإحصائيات الأصلية",
+  "betterstats.gui.menu_bar.about": "حول",
+  "betterstats.gui.menu_bar.about.source": "الشيفرة المصدرية",
+  "betterstats.gui.menu_bar.mods_other": "أخرى (مودات)"
+}

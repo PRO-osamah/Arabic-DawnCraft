@@ -1,0 +1,36 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 15,
+  "icon": "minecraft:iron_sword",
+  "start": {
+    "title": {
+      "text": "إذن؟"
+    },
+    "description": {
+      "text": "يمكنني تعليمك المهارة - Counter Attack مقابل 20 زمردات. ما رأيك؟"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "شكرا!"
+    },
+    "description": {
+      "text": "استمتع!"
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "minecraft:emerald"
+      },
+      "id": "quest_giver:gift",
+      "times": 20
+    }
+  ],
+  "rewards": [
+    {
+      "command": "give @p epicfight:skillbook{skill:\"wom:counter_attack\"}",
+      "id": "quest_giver:command"
+    }
+  ]
+}

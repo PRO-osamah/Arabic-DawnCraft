@@ -1,0 +1,17 @@
+{
+  "block.zensummoning.altar": "مذبح الاستدعاء",
+  "itemGroup.zensummoning": "استدعاء زن",
+  "chat.zensummoning.success": "يصدر المذبح طنينًا لطيفًا.",
+  "chat.zensummoning.busy": "المذبح مشغول.",
+  "chat.zensummoning.no_match": "لا يعرف المذبح ما ترغب فيه.",
+  "chat.zensummoning.unsatisfied": "المذبح غير راض.",
+  "chat.zensummoning.invalid_ingredient": "ذلك ليس مكونًا صالحًا.",
+  "chat.zensummoning.full": "المذبح ممتلئ.",
+  "chat.zensummoning.unsatisfied_hand": "المذبح غير راض عما تحمله.",
+  "chat.zensummoning.unknown_error": "حدث خطأ غير معروف، ولم يعد من الممكن تنفيذ الاستدعاء المتوقع.",
+  "jei.zensummoning.recipe.altar": "مذبح الاستدعاء",
+  "jei.zensummoning.catalyst.lore": "{\"text\":\"انقر بزر الفأرة الأيمن أثناء الضغط على Shift باستخدام المحفز بعد وضع كل العناصر في المذبح للبدء\", \"color\":\"dark_aqua\"}",
+  "jei.zensummoning.recipe.altar.isCatalystConsumed": "يستهلك المحفز: %1$s",
+  "jei.zensummoning.recipe.altar.weight": "الوزن: %f",
+  "jei.zensummoning.recipe.altar.entity": "%1$dx%2$s"
+}

@@ -1,0 +1,9 @@
+{
+  "entity.guardvillagers.guard": "حارس",
+  "item.guardvillagers.guard_spawn_egg": "بيضة ظهور الحارس",
+  "item.guardvillagers.illusioner_spawn_egg": "بيضة ظهور صانع الأوهام",
+  "item.guardvillagers.iron_golem_spawn_egg": "بيضة ظهور الغولم الحديدي",
+  "item.guardvillagers.snow_golem_spawn_egg": "بيضة ظهور الغولم الثلجي",
+  "guardinventory.health": "الصحة: %s",
+  "guardinventory.armor": "الدرع: %s"
+}

@@ -1,0 +1,40 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 15,
+  "icon": "minecraft:map",
+  "start": {
+    "title": {
+      "text": "أمر هدف مستحيل!"
+    },
+    "description": {
+      "text": "اكسب حق حمل أنتيثيوس بإكمال اثنين من أهداف بما يرضيني: اركب لافاتيان مع ثلاثة ركاب آخرين، وجز مووبلوم."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "شكرا!"
+    },
+    "description": {
+      "text": "تهانينا! ها هو ذا. هذا القاذف يوجه لكمة بقوة كبيرة، ومشحون بمصدر طاقة هائل."
+    }
+  },
+  "tasks": [
+    {
+      "id": "dawncraft:advancement",
+      "advancement": "alexsmobs:alexsmobs/laviathan_four_passengers"
+    },
+    {
+      "id": "dawncraft:advancement",
+      "advancement": "friendsandfoes:husbandry/shear_a_moobloom"
+    }
+  ],
+  "rewards": [
+    {
+      "item": {
+        "item": "wom:antitheus"
+      },
+      "id": "quest_giver:item",
+      "times": 1
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 15,
+  "icon": "minecraft:map",
+  "start": {
+    "title": {
+      "text": "مهمة هدف مستحيلة!"
+    },
+    "description": {
+      "text": "للحصول على هذا السلاح، يجب أن تثبت جدارتك أولًا بإنجاز اثنتين من أهداف، وهما إكمال مهمة الساحرة في كوخ الساحرة، وإغراء بوكا بعيدًا عن البقية وتهدئته بواسطة جزر ذهبية."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "شكرًا!"
+    },
+    "description": {
+      "text": "عمل ممتاز! ها هو السلاح. على الرغم من خفة وزنه، فإنه يحمل قدرًا كبيرًا من الفتك."
+    }
+  },
+  "tasks": [
+    {
+      "id": "dawncraft:advancement",
+      "advancement": "habitat:husbandry/fae_whisperer"
+    },
+    {
+      "id": "dawncraft:advancement",
+      "advancement": "biomemakeover:biomemakeover/witch_quest"
+    }
+  ],
+  "rewards": [
+    {
+      "item": {
+        "item": "wom:satsujin"
+      },
+      "id": "quest_giver:item",
+      "times": 1
+    }
+  ]
+}

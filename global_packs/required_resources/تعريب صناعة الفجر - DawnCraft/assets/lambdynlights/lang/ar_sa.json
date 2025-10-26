@@ -1,0 +1,19 @@
+{
+  "lambdynlights.menu.light_sources": "مصادر الإضاءة الديناميكية",
+  "lambdynlights.menu.title": "إعدادات LambDynamicLights",
+  "lambdynlights.menu.canvas.1": "يوصى بتعطيل الإضاءة الديناميكية للكائنات مع Canvas!",
+  "lambdynlights.menu.canvas.2": "الإضاءة الديناميكية مع Canvas مرهقة للأداء حاليا!",
+  "lambdynlights.menu.tabs.general": "عام",
+  "lambdynlights.option.light_sources.block_entities": "كيانات الكتل",
+  "lambdynlights.option.light_sources.entities": "كيانات",
+  "lambdynlights.option.light_sources.water_sensitive_check": "التحقق من الحساسية للماء",
+  "lambdynlights.option.mode": "الإضاءة الديناميكية",
+  "lambdynlights.tooltip.block_entities": "يتيح الإضاءة الديناميكية لكيانات الكتل.",
+  "lambdynlights.tooltip.creeper_lighting": "يضبط وضع الإضاءة الديناميكية لـ Creeper.\n- %s يعطل الإضاءة الديناميكية لـ Creeper.\n- %s يضبط سطوعا ثابتا.\n- %s يضبط سطوعا ديناميكيا.",
+  "lambdynlights.tooltip.entities": "يتيح الإضاءة الديناميكية للكيانات. ملاحظة: اللاعبون دائما نشطون.",
+  "lambdynlights.tooltip.mode.1": "يتيح الإضاءة الديناميكية. عند التمكين، على سبيل المثال، سيضيء اللاعب الذي يحمل شعلة المنطقة.",
+  "lambdynlights.tooltip.mode.2": "%s و%s سيتأخران قليلا ولكنهما يقللان تحديثات الإضاءة.",
+  "lambdynlights.tooltip.mode.3": "%s هو إضاءة ديناميكية سلسة.",
+  "lambdynlights.tooltip.tnt_lighting": "يضبط وضع الإضاءة الديناميكية لـ TNT.\n- %s يعطل الإضاءة الديناميكية لـ TNT.\n- %s يضبط سطوعا ثابتا.\n- %s يضبط سطوعا ديناميكيا.",
+  "lambdynlights.tooltip.water_sensitive": "يتيح التحقق من مصادر الضوء الحساسة للماء. هذا يعني أن بعض العناصر لن تصدر ضوءا أثناء غمرها في الماء."
+}

@@ -1,0 +1,36 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 15,
+  "icon": "minecraft:iron_sword",
+  "start": {
+    "title": {
+      "text": "إذن؟"
+    },
+    "description": {
+      "text": "أستطيع أن أعلّمك المهارة Precise Roll مقابل 18 زمردات."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "شكرًا!"
+    },
+    "description": {
+      "text": "تفضل، سيدي!"
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "minecraft:emerald"
+      },
+      "id": "quest_giver:gift",
+      "times": 18
+    }
+  ],
+  "rewards": [
+    {
+      "command": "give @p epicfight:skillbook{skill:\"wom:precise_roll\"}",
+      "id": "quest_giver:command"
+    }
+  ]
+}

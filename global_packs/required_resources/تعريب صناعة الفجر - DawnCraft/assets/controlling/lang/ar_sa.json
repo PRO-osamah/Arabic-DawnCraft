@@ -1,0 +1,15 @@
+{
+  "options.search": "بحث",
+  "options.showAll": "إظهار الكل",
+  "options.showConflicts": "إظهار التعارضات",
+  "options.showNone": "إظهار غير المرتبطة",
+  "options.availableKeys": "المفاتيح المتاحة",
+  "options.sort": "فرز",
+  "options.category": "الفئة",
+  "options.key": "مفتاح",
+  "options.sortNone": "بدون",
+  "options.sortAZ": "A->Z",
+  "options.sortZA": "Z->A",
+  "options.toggleFree": "تبديل المتاحة",
+  "options.confirmReset": "تأكيد؟"
+}

@@ -1,0 +1,40 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 15,
+  "icon": "minecraft:map",
+  "start": {
+    "title": {
+      "text": "هدف مستحيلة!"
+    },
+    "description": {
+      "text": "أمامك اثنتان من أهداف… اقتل أي مخلوق من مسافة 100 كتل باستخدام نسر وأنت ترتدي قلنسوة، وأطعم خنزير عين العنكبوت المخمرة ثم ارم عليه كيميائي X. أنجزهما، وسأفكر في أن أعهد إليك بـ العذاب."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "شكرًا!"
+    },
+    "description": {
+      "text": "أحسنت! ها هو ذا. كان سيده السابق بيجلن المحارب مخيفًا."
+    }
+  },
+  "tasks": [
+    {
+      "id": "dawncraft:advancement",
+      "advancement": "alexsmobs:alexsmobs/bald_eagle_challenge"
+    },
+    {
+      "id": "dawncraft:advancement",
+      "advancement": "mutantmonsters:spider_pig_spider_pig"
+    }
+  ],
+  "rewards": [
+    {
+      "item": {
+        "item": "wom:tormented_mind"
+      },
+      "id": "quest_giver:item",
+      "times": 1
+    }
+  ]
+}

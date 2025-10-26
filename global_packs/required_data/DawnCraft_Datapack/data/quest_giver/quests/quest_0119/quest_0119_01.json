@@ -1,0 +1,43 @@
+{
+  "parent": "quest_giver:quest_0119_01b",
+  "reputation": 16,
+  "icon": "minecraft:iron_pickaxe",
+  "start": {
+    "title": {
+      "text": "قلب التنين"
+    },
+    "description": {
+      "text": "لقد رأيت هؤلاء تنانين الجليد مرة واحدة. مخلوقات مرعبة… ومع ذلك فإن خلاصات آسرة بجلال. لا بد أن أدرس العناصر الكامنة فيها."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "شكرا!"
+    },
+    "description": {
+      "text": "رائع! هذه مكافآتك. يجب أن أبدأ بحثي الآن."
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "simple_mobs:icedragon_heart"
+      },
+      "id": "quest_giver:gift",
+      "times": 1
+    }
+  ],
+  "rewards": [
+    {
+      "item": {
+        "item": "paraglider:spirit_orb"
+      },
+      "id": "quest_giver:item",
+      "times": 2
+    },
+    {
+      "command": "/advancement grant @p only custom:trade_oceanographer",
+      "id": "quest_giver:command"
+    }
+  ]
+}

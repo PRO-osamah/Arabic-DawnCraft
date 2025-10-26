@@ -1,0 +1,20 @@
+{
+  "item.citadel.debug": "أداة تصحيح Citadel",
+  "item.citadel.citadel_book": "كتاب Citadel",
+  "item.citadel.effect_item": "تأثير الجرعة",
+  "item.citadel.fancy_item": "عنصر مزخرف",
+  "book.citadel_book.root": "كتاب Citadel!!!",
+  "book.citadel_book.link_example": "مثال الرابط",
+  "book.citadel_book.hover_text_pillager_example": "روابط الكيانات أزرار صغيرة ولطيفة!",
+  "citadel.gui.patreon_rewards_option": "تخصيص Citadel على Patreon...",
+  "citadel.gui.patreon_customization": "تخصيص Citadel على Patreon",
+  "citadel.gui.orbit_dist": "مسافة الدوران",
+  "citadel.gui.orbit_speed": "سرعة الدوران",
+  "citadel.gui.orbit_height": "ارتفاع الدوران",
+  "citadel.gui.reset": "إعادة تعيين",
+  "citadel.gui.follower_type": "النوع: ",
+  "citadel.follower.none": "لا شيء",
+  "citadel.follower.citadel": "محطة فضائية",
+  "citadel.follower.citadel_red": "محطة فضائية (أحمر)",
+  "citadel.follower.citadel_gray": "محطة فضائية (رمادي)"
+}

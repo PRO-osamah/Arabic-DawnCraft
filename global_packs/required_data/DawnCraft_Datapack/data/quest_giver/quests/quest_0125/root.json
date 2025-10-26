@@ -1,0 +1,12 @@
+{
+  "reputation": 15,
+  "icon": "minecraft:iron_sword",
+  "start": {
+    "title": {
+      "text": "مرحبًا!"
+    },
+    "description": {
+      "text": "لدي مهارة لأعلّمك إياها، ولكن مقابل 15 زمردات!"
+    }
+  }
+}

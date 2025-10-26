@@ -1,0 +1,4 @@
+{
+  "bcc.gui.tooltip.compatible_server": "§3الخادم: {0}\n§2العميل (أنت): {1}",
+  "bcc.gui.tooltip.incompatible_server": "§6أنت لا تشغّل نفس إصدار حزمة المودات الذي يعمل به الخادم :(\n \n§4الخادم: {0}\n§4العميل (أنت): {1}"
+}

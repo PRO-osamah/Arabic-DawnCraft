@@ -1,0 +1,578 @@
+drippyloadingscreen.helper.creator.messages.sure = هل أنت متأكد؟
+drippyloadingscreen.helper.creator.empty = فارغ
+
+drippyloadingscreen.helper.creator.layoutempty.title = التخطيط فارغ!
+drippyloadingscreen.helper.creator.layoutempty.desc = تخطيطك لا يحتوي على محتوى.%n%%n%قم ببعض السحر في التخصيص أولًا قبل حفظه!
+
+drippyloadingscreen.helper.creator.invalidaudio.title = ملف صوتي غير صالح!
+drippyloadingscreen.helper.creator.invalidaudio.desc = الملف الذي تريد تحميله غير موجود أو نوعه غير مدعوم.%n%%n%يرجى التحقق من مسار الملف والتأكد من أن الملف صوتي WAV صالح!
+
+drippyloadingscreen.helper.creator.invalidimage.title = ملف صورة غير صالح!
+drippyloadingscreen.helper.creator.invalidimage.desc = الصورة التي تريد تحميلها غير موجودة أو نوعها غير مدعوم.%n%%n%أنواع الملفات المدعومة هي JPG/JPEG وPNG وGIF.
+
+drippyloadingscreen.helper.creator.imagenotfound.title = الصورة غير موجودة!
+drippyloadingscreen.helper.creator.imagenotfound.desc = الصورة التي تريد إضافتها غير موجودة%n%في الموقع المحدد.
+
+drippyloadingscreen.helper.creator.texttooshort.title = النص قصير جدًا!
+drippyloadingscreen.helper.creator.texttooshort.desc = يحتاج نصك إلى حرف واحد على الأقل ليكون نصًا!%n%وإلا.. فإنه... سيكون لا شيء.%n%%n%لا أحد يريد أن يكون لا شيء، فلا تفعل ذلك بنصك!
+
+drippyloadingscreen.helper.creator.cannotdelete.title = لا يمكن حذف العنصر!
+drippyloadingscreen.helper.creator.cannotdelete.desc = عذرًا، لا يمكنك حذف هذا العنصر.%n%%n%ستحتاج إلى تعلم التعايش معه..
+
+drippyloadingscreen.helper.creator.savefile.cancel = إلغاء
+
+drippyloadingscreen.helper.creator.layoutoptions.renderorder = ترتيب العرض
+drippyloadingscreen.helper.creator.layoutoptions.renderorder.background = الخلفية
+drippyloadingscreen.helper.creator.layoutoptions.renderorder.foreground = المقدمة
+
+drippyloadingscreen.helper.creator.layoutoptions.version.mc = إصدار ماينكرافت
+drippyloadingscreen.helper.creator.layoutoptions.version.dl = إصدار DrippyLoadingScreen
+drippyloadingscreen.helper.creator.layoutoptions.version.minimum = ضبط الحد الأدنى
+drippyloadingscreen.helper.creator.layoutoptions.version.minimum.mc = الحد الأدنى لإصدار ماينكرافت
+drippyloadingscreen.helper.creator.layoutoptions.version.minimum.fh = الحد الأدنى لإصدار DrippyLoadingScreen
+drippyloadingscreen.helper.creator.layoutoptions.version.maximum = ضبط الحد الأقصى
+drippyloadingscreen.helper.creator.layoutoptions.version.maximum.mc = الحد الأقصى لإصدار ماينكرافت
+drippyloadingscreen.helper.creator.layoutoptions.version.maximum.dl = الحد الأقصى لإصدار DrippyLoadingScreen
+
+drippyloadingscreen.helper.creator.layoutoptions.resetbackground = إعادة تعيين الخلفية
+
+drippyloadingscreen.helper.creator.layoutoptions.requiredmods = المودات المطلوبة
+drippyloadingscreen.helper.creator.layoutoptions.requiredmods.desc = المودات المطلوبة [modid، مفصولة بفواصل]
+
+drippyloadingscreen.helper.creator.close = هل تريد حقًا إغلاق منشئ التخطيط؟
+
+drippyloadingscreen.helper.creator.audio.delete = حذف
+drippyloadingscreen.helper.creator.audio.delete.msg = هل تريد حقًا حذف هذا الصوت؟
+drippyloadingscreen.helper.creator.audio.enableloop = التكرار: §cإيقاف
+drippyloadingscreen.helper.creator.audio.disableloop = التكرار: §aتشغيل
+
+drippyloadingscreen.helper.creator.add.image = صورة
+drippyloadingscreen.helper.creator.add.image.path = مسار الصورة
+
+drippyloadingscreen.helper.creator.add.animation = حركة
+drippyloadingscreen.helper.creator.add.animation.entername = أضف بالاسم
+drippyloadingscreen.helper.creator.add.animation.entername.title = اسم الحركة
+
+drippyloadingscreen.helper.creator.add.text = نص
+drippyloadingscreen.helper.creator.add.text.newtext = نص جديد
+
+drippyloadingscreen.helper.creator.add.audio = صوت
+
+drippyloadingscreen.helper.creator.vanillabutton.autoclick = انقر الزر
+drippyloadingscreen.helper.creator.vanillabutton.autoclick.popup = نقرات زر تلقائية
+
+drippyloadingscreen.helper.creator.backgroundoptions = خيارات الخلفية
+
+drippyloadingscreen.helper.creator.items.setorientation = ضبط الاتجاه
+drippyloadingscreen.helper.creator.items.delete = حذف
+drippyloadingscreen.helper.creator.items.border.posx = posX
+drippyloadingscreen.helper.creator.items.border.posy = posY
+drippyloadingscreen.helper.creator.items.border.orientation = الاتجاه
+drippyloadingscreen.helper.creator.items.border.width = العرض
+drippyloadingscreen.helper.creator.items.border.height = الارتفاع
+
+drippyloadingscreen.helper.creator.items.string.setscale = ضبط المقياس
+drippyloadingscreen.helper.creator.items.string.setshadow = ظل: §cإيقاف
+drippyloadingscreen.helper.creator.items.string.setnoshadow = ظل: §aتشغيل
+drippyloadingscreen.helper.creator.items.string.edit = تحرير المحتوى
+drippyloadingscreen.helper.creator.items.string.border.centered = متمركز
+drippyloadingscreen.helper.creator.items.string.border.scale = المقياس
+
+drippyloadingscreen.helper.creator.items.string.scale.invalidvalue.title = قيمة غير صالحة!
+drippyloadingscreen.helper.creator.items.string.scale.invalidvalue.desc = القيمة التي تريد ضبطها ليست قيمة مقياس صالحة!%n%%n%أمثلة لقيم المقياس: 1.0 و2.0 و0.5
+
+drippyloadingscreen.helper.creator.deleteobject = هل تريد حقًا §lحذف §rهذا العنصر؟
+
+drippyloadingscreen.helper.creator.choosefile.enterorchoose = §lأدخل المسار أو اختر ملفًا
+drippyloadingscreen.helper.creator.choosefile.choose = اختر ملفًا
+drippyloadingscreen.helper.creator.choosefile.notsupported = §cأداة اختيار الملفات غير مدعومة أو معطلة! يرجى إدخال المسار يدويًا.
+
+drippyloadingscreen.helper.creator.webstring.multiline = متعدد الأسطر: §cإيقاف
+drippyloadingscreen.helper.creator.webstring.nomultiline = متعدد الأسطر: §aتشغيل
+
+drippyloadingscreen.helper.creator.web.invalidurl = §c§lرابط غير صالح!%n%%n%هذا الرابط غير صالح أو غير موجود!
+drippyloadingscreen.helper.creator.web.enterurl = أدخل الرابط
+
+drippyloadingscreen.helper.creator.add.webimage = صورة من الويب
+drippyloadingscreen.helper.creator.add.webtext = نص من الويب
+
+drippyloadingscreen.helper.creator.editlayout = تحرير التخطيطات
+drippyloadingscreen.helper.creator.editlayout.popup.loadall = تحميل الكل
+drippyloadingscreen.helper.creator.editlayout.popup.loadselected = تحميل التخطيط المحدد
+drippyloadingscreen.helper.creator.editlayout.popup.layouts = التخطيطات
+drippyloadingscreen.helper.creator.editlayout.popup.cancel = إلغاء
+drippyloadingscreen.helper.creator.editlayout.popup.actionscount = {} إجراءات تخصيص
+drippyloadingscreen.helper.creator.editlayout.nolayouts.msg = §c§lلم يتم العثور على أي تخطيطات!%n%%n%%n%هذه القائمة لا تحتوي على أي تخطيطات!%n%%n%إذا أردت تخصيص هذه القائمة، يرجى استخدام زر "إنشاء تخطيط"!
+drippyloadingscreen.helper.creator.editlayout.popup.msg = هناك أكثر من ملف تخصيص واحد لهذه الشاشة!%n%%n%هل تريد تحميل التخطيط الكامل ودمجها جميعًا%n%أم تريد تحميل واحد محدد فقط؟%n%%n%§cستُفقد قيم بيانات التخصيص عند دمج عدة تخطيطات!
+
+drippyloadingscreen.helper.creator.editlayout.single.override = استبدال التخطيط الحالي
+drippyloadingscreen.helper.creator.editlayout.single.asnew.keep = احفظ كتخطيط جديد واترك الآخرين مفعّلين
+drippyloadingscreen.helper.creator.editlayout.single.asnew.disable = احفظ كتخطيط جديد وعطّل الآخرين
+
+drippyloadingscreen.helper.creator.items.button.hoverlabel = تسمية عند المرور
+drippyloadingscreen.helper.creator.items.button.hoverlabel.text = نص التسمية عند المرور
+drippyloadingscreen.helper.creator.items.button.hoverlabel.reset = إعادة تعيين تسمية المرور
+drippyloadingscreen.helper.creator.items.button.hoversound = صوت عند المرور
+drippyloadingscreen.helper.creator.items.button.hoversound.path = مسار صوت المرور
+drippyloadingscreen.helper.creator.items.button.hoversound.reset = إعادة تعيين صوت المرور
+
+drippyloadingscreen.helper.creator.editlayout.unsupportedvalues = §c§lقيم غير مدعومة!%n%%n%%n%يحتوي تخطيطك على قيم غير مدعومة!%n%هذه القيم لا تعمل في منشئ التخطيط.%n%%n%ربما تستخدم نوعًا من §lحساب الموضع أو الحجم%n%في إحدى أقسام التخصيص الخاصة بك.%n%%n%يرجى تحويل هذه الحسابات يدويًا إلى قيم مطلقة ثم المحاولة مجددًا.
+
+drippyloadingscreen.helper.creator.textures.invalidcharacters = §c§lأحرف غير صالحة!%n%%n%%n%اسم ملف صورتك يحتوي على أحرف غير صالحة!%n%%n%يرجى استخدام الأحرف "a-z" و"0-9" و"." و"_" و"-" فقط.%n%المسافات والحروف الكبيرة وأي أحرف خاصة أخرى غير مدعومة.
+
+drippyloadingscreen.helper.buttons.tools.customguis = واجهات مخصصة
+drippyloadingscreen.helper.buttons.tools.customguis.open = فتح واجهة
+drippyloadingscreen.helper.buttons.tools.customguis.delete = حذف واجهة
+drippyloadingscreen.helper.buttons.tools.customguis.pickbyname = اختيار بالاسم
+drippyloadingscreen.helper.buttons.tools.customguis.openbyname = فتح بالاسم
+drippyloadingscreen.helper.buttons.tools.customguis.deletebyname = حذف بالاسم
+drippyloadingscreen.helper.buttons.tools.customguis.sure = §c§lهل أنت متأكد؟%n%%n%%n%هل تريد حقًا §lحذف §rهذه الواجهة؟%n%%n%§lلا يمكن التراجع عن هذا الإجراء!%n% %n% %n% %n%
+drippyloadingscreen.helper.buttons.tools.customguis.invalididentifier = §c§lمعرّف غير صالح!%n%%n%%n%لم يتم العثور على واجهة مخصصة بهذا المعرّف!%n% %n% %n% %n%
+
+drippyloadingscreen.helper.buttons.tools.creategui = إنشاء واجهة
+drippyloadingscreen.helper.buttons.tools.creategui.allowesc = سماح
+drippyloadingscreen.helper.buttons.tools.creategui.donotallowesc = عدم السماح
+drippyloadingscreen.helper.buttons.tools.creategui.invalididentifier = §cمعرّف غير صالح!
+drippyloadingscreen.helper.buttons.tools.creategui.identifieralreadyused = §cالمعرّف مستخدم بالفعل! يرجى اختيار آخر!
+drippyloadingscreen.helper.buttons.tools.creategui.allowescdesc = السماح بزر ESC لإغلاق القائمة
+drippyloadingscreen.helper.buttons.tools.creategui.menuidentifier = معرّف القائمة
+drippyloadingscreen.helper.buttons.tools.creategui.menutitle = عنوان القائمة (اختياري)
+drippyloadingscreen.helper.buttons.tools.creategui.create = إنشاء
+
+drippyloadingscreen.gameintro.skip = اضغط مسافة للتخطي
+
+drippyloadingscreen.helper.creator.items.chooselayer = اختر الطبقة
+
+drippyloadingscreen.customization.items.webstring.unabletoload = تعذر تحميل نص الويب! رابط غير صالح أو لا يوجد اتصال بالإنترنت!
+
+drippyloadingscreen.custombuttons.action.opengui.cannotopengui = §c§lتعذر فتح الواجهة!%n%%n%%n%الواجهة التي تريد فتحها إما غير موجودة أو غير مدعومة!%n%%n%إذا كانت هذه واجهة موجودة، يرجى الاتصال بمطور FancyMenu لإضافة دعم لها.
+
+drippyloadingscreen.helper.creator.custombutton.config.actiontype.opengui.desc = يفتح واجهة عبر معرّف قائمتها.
+drippyloadingscreen.helper.creator.custombutton.config.actiontype.opengui.desc.value = معرّف القائمة
+
+drippyloadingscreen.helper.creator.popup.hidefor.delayeverytime = التأخير كل مرة
+drippyloadingscreen.helper.creator.popup.hidefor.delayfirsttime = التأخير في المرة الأولى
+
+drippyloadingscreen.helper.creator.windowsize = قيود حجم النافذة
+drippyloadingscreen.helper.creator.windowsize.biggerthan = أكبر من
+drippyloadingscreen.helper.creator.windowsize.smallerthan = أصغر من
+drippyloadingscreen.helper.creator.windowsize.biggerthan.desc = فعّل التخطيط فقط إذا كان حجم النافذة أكبر من X
+drippyloadingscreen.helper.creator.windowsize.smallerthan.desc = فعّل التخطيط فقط إذا كان حجم النافذة أصغر من X
+drippyloadingscreen.helper.creator.windowsize.currentwidth = عرض النافذة الحالي
+drippyloadingscreen.helper.creator.windowsize.currentheight = ارتفاع النافذة الحالي
+
+drippyloadingscreen.helper.creator.rightclick.scale = مقياس الواجهة
+drippyloadingscreen.helper.creator.rightclick.scale.invalid = §c§lمقياس غير صالح!%n%%n%%n%يجب أن تكون قيم المقياس أكبر من الصفر!
+
+drippyloadingscreen.helper.popup.togglecustomization.enable = التخصيص: §cإيقاف
+drippyloadingscreen.helper.popup.togglecustomization.disable = التخصيص: §aتشغيل
+
+drippyloadingscreen.helper.creator.object.stretch = تمديد
+drippyloadingscreen.helper.creator.object.stretch.x = إلى عرض الشاشة
+drippyloadingscreen.helper.creator.object.stretch.y = إلى ارتفاع الشاشة
+
+drippyloadingscreen.helper.creator.object.stretch.unsupportedorientation = §c§lاتجاه غير مدعوم!%n%%n%%n%الاتجاه الحالي لهذا العنصر غير مدعوم بواسطة إجراء التمديد هذا.%n%%n%§lالاتجاهات المدعومة: {}
+
+drippyloadingscreen.helper.buttons.customization.createlayout.btndesc = خصص القائمة المعروضة حاليًا%n%في محرر واجهة أنيق!%n%%n%§cمهم:%n%يجب استخدامه دائمًا عندما%n%ترغب في تعديل%n%القوائم الموجودة!
+drippyloadingscreen.helper.buttons.customization.editlayout.btndesc = حرّر تخطيطات القائمة%n%المعروضة حاليًا.
+
+drippyloadingscreen.helper.buttons.reload.btndesc = سيُعيد تحميل عناصر HUD، وكل التخطيطات،%n%وإعدادات المود والمزيد.%n%%n%مفيد عند تغيير التخطيطات يدويًا%n%أو بعد تعديل الإعدادات.
+
+drippyloadingscreen.helper.buttons.customization.managelayouts = إدارة التخطيطات
+drippyloadingscreen.helper.buttons.customization.managelayouts.enable = §aتفعيل §rالتخطيط
+drippyloadingscreen.helper.buttons.customization.managelayouts.enabled = §aمفعّل
+drippyloadingscreen.helper.buttons.customization.managelayouts.disable = §cتعطيل §rالتخطيط
+drippyloadingscreen.helper.buttons.customization.managelayouts.disabled = §cمعطّل
+drippyloadingscreen.helper.buttons.customization.managelayouts.delete = حذف التخطيط
+drippyloadingscreen.helper.buttons.customization.managelayouts.delete.msg = §c§lهل أنت متأكد؟%n%%n%%n%هل تريد حقًا §c§lحذف §rهذا التخطيط؟%n%%n%§c§lلا يمكن التراجع عن هذا الإجراء!
+drippyloadingscreen.helper.buttons.customization.managelayouts.btndesc = إدارة جميع تخطيطات%n%القائمة المعروضة حاليًا.
+drippyloadingscreen.helper.buttons.customization.managelayouts.layout.btndesc = §lمعلومات التخطيط:%n%%n%الحالة: {}%n%إجراءات التخصيص: {}%n%%n%§cانقر يسارًا لمزيد من الخيارات!
+
+drippyloadingscreen.helper.creator.object.moveup = نقل للأعلى
+drippyloadingscreen.helper.creator.object.moveup.desc = ينقل العنصر طبقة واحدة للأعلى.%n%%n%§cمهم:%n%العناصر المركزة دائمًا في الأعلى،%n%لذا قد لا ترى التأثير%n%حتى تُزيل التركيز عن العنصر.{}
+drippyloadingscreen.helper.creator.object.moveup.desc.subtext = %n%%n%§6§lآخر إجراء:%n%تم النقل فوق §7{}
+drippyloadingscreen.helper.creator.object.movedown = نقل للأسفل
+drippyloadingscreen.helper.creator.object.movedown.desc = ينقل العنصر طبقة واحدة للأسفل.%n%%n%§cمهم:%n%العناصر المركزة دائمًا في الأعلى،%n%لذا قد لا ترى التأثير%n%حتى تُزيل التركيز عن العنصر.{}
+drippyloadingscreen.helper.creator.object.movedown.desc.subtext = %n%%n%§6§lآخر إجراء:%n%تم النقل خلف §7{}
+
+drippyloadingscreen.helper.buttons.customization.managelayouts.openintexteditor = فتح في محرر نصوص
+drippyloadingscreen.helper.buttons.customization.managelayouts.openintexteditor.desc = يفتح هذا التخطيط في%n%محرر النصوص الافتراضي لديك.%n%%n%§cمهم:%n%تحتاج إلى النقر على زر "إعادة التحميل"%n%بعد تغيير أشياء يدويًا%n%في ملفات التخطيط!
+
+drippyloadingscreen.helper.creator.deleteselectedobjects = هل تريد حقًا §lحذف §rكل العناصر المحددة؟
+
+drippyloadingscreen.helper.creator.multiselect.object.deleteall = حذف الكل
+drippyloadingscreen.helper.creator.multiselect.object.deleteall.btndesc = سيحذف كل العناصر المحددة.
+drippyloadingscreen.helper.creator.multiselect.object.stretchall = تمديد الكل
+drippyloadingscreen.helper.creator.multiselect.object.stretchall.btndesc = يمدد جميع §lالعناصر القابلة للتمديد §r%n%إلى عرض أو ارتفاع القائمة.
+
+drippyloadingscreen.helper.creator.add.playerentity = كيان اللاعب
+
+drippyloadingscreen.helper.creator.items.playerentity.setscale = ضبط المقياس
+drippyloadingscreen.helper.creator.items.playerentity.playername = اسم اللاعب
+drippyloadingscreen.helper.creator.items.playerentity.playername.auto = تلقائي
+drippyloadingscreen.helper.creator.items.playerentity.playername.setname = ضبط الاسم
+drippyloadingscreen.helper.creator.items.playerentity.skin = ضبط السكن
+drippyloadingscreen.helper.creator.items.playerentity.cape = ضبط العباءة
+drippyloadingscreen.helper.creator.items.playerentity.texture.local = نسيج محلي
+drippyloadingscreen.helper.creator.items.playerentity.texture.url = URL
+drippyloadingscreen.helper.creator.items.playerentity.rotation = دوران
+drippyloadingscreen.helper.creator.items.playerentity.rotation.auto = دوران تلقائي
+drippyloadingscreen.helper.creator.items.playerentity.rotation.custom = دوران مخصص
+drippyloadingscreen.helper.creator.items.playerentity.rotation.custom.bodyx = دوران الجسم الأفقي
+drippyloadingscreen.helper.creator.items.playerentity.rotation.custom.bodyy = دوران الجسم العمودي
+drippyloadingscreen.helper.creator.items.playerentity.rotation.custom.headx = دوران الرأس الأفقي
+drippyloadingscreen.helper.creator.items.playerentity.rotation.custom.heady = دوران الرأس العمودي
+drippyloadingscreen.helper.creator.items.playerentity.showname.off = إظهار الاسم: §cإيقاف
+drippyloadingscreen.helper.creator.items.playerentity.showname.on = إظهار الاسم: §aتشغيل
+drippyloadingscreen.helper.creator.items.playerentity.crouching.off = الانحناء: §cإيقاف
+drippyloadingscreen.helper.creator.items.playerentity.crouching.on = الانحناء: §aتشغيل
+drippyloadingscreen.helper.creator.items.playerentity.parrot.off = إظهار الببغاء: §cإيقاف
+drippyloadingscreen.helper.creator.items.playerentity.parrot.on = إظهار الببغاء: §aتشغيل
+drippyloadingscreen.helper.creator.items.playerentity.slim.off = سكن نحيف: §cإيقاف
+drippyloadingscreen.helper.creator.items.playerentity.slim.on = سكن نحيف: §aتشغيل
+
+drippyloadingscreen.helper.creator.items.playerentity.setscale.btndesc = ضبط مقياس اللاعب.
+drippyloadingscreen.helper.creator.items.playerentity.playername.btndesc = ضبط اسم اللاعب.
+drippyloadingscreen.helper.creator.items.playerentity.playername.auto.btndesc = سيضبط اللاعب تلقائيًا%n%على مستخدم العميل.
+drippyloadingscreen.helper.creator.items.playerentity.playername.setname.btndesc = ضبط اسم اللاعب يدويًا.%n%%n%لا يجب أن يكون%n%مستخدمًا موجودًا.
+drippyloadingscreen.helper.creator.items.playerentity.skin.btndesc = ضبط نسيج السكن للاعب.%n%%n%هذا السكن له أولوية فوق%n%سكن اللاعب العادي.
+drippyloadingscreen.helper.creator.items.playerentity.cape.btndesc = ضبط نسيج العباءة للاعب.%n%%n%هذه العباءة لها أولوية فوق%n%عباءة اللاعب العادية.
+drippyloadingscreen.helper.creator.items.playerentity.rotation.btndesc = ضبط دوران الجسم والرأس.
+drippyloadingscreen.helper.creator.items.playerentity.rotation.auto.btndesc = سيتبع اللاعب مؤشر الفأرة.
+drippyloadingscreen.helper.creator.items.playerentity.rotation.custom.btndesc = ضبط دوران مخصص للاعب.
+drippyloadingscreen.helper.creator.items.playerentity.showname.btndesc = ضبط ظهور اسم اللاعب.
+drippyloadingscreen.helper.creator.items.playerentity.crouching.btndesc = تحديد ما إذا كان اللاعب يجب أن ينحني أم لا.
+drippyloadingscreen.helper.creator.items.playerentity.parrot.btndesc = آآرر!
+drippyloadingscreen.helper.creator.items.playerentity.slim.btndesc = تحديد ما إذا كان على اللاعب%n%استخدام تخطيط السكن النحيف.%n%%n%السكنات النحيفة لها أذرع أنحف.
+
+drippyloadingscreen.helper.creator.items.playerentity.texture.invalidtexture.title = نسيج غير صالح!
+drippyloadingscreen.helper.creator.items.playerentity.texture.invalidtexture.desc = هذا النسيج غير موجود أو ليس ملف نسيج صالحًا.%n%%n%§lأنواع الملفات المدعومة: §rPNG
+
+drippyloadingscreen.popup.apply = تطبيق
+
+drippyloadingscreen.helper.creator.items.orientation.btndesc = يضبط نقطة الأصل التي%n%سيتم منها حساب موضع%n%هذا العنصر.%n%%n%§cملاحظة:%n%يمكنك رؤية تأثير الاتجاه%n%على العنصر عند تغيير%n%حجم نافذة المحرر%n%بعد تغيير%n%الاتجاه.
+
+drippyloadingscreen.helper.creator.add.slideshow = عرض شرائح
+drippyloadingscreen.helper.creator.add.slideshow.entername = أضف بالاسم
+drippyloadingscreen.helper.creator.add.slideshow.entername.title = أدخل اسم عرض الشرائح
+
+drippyloadingscreen.helper.creator.backgroundoptions.backgroundslideshow = عرض شرائح الخلفية
+drippyloadingscreen.helper.creator.backgroundoptions.backgroundslideshow.set = تعيين الخلفية
+drippyloadingscreen.helper.creator.backgroundoptions.backgroundslideshow.set.desc = يعيّن عرض الشرائح المحدد%n%كعرض شرائح الخلفية النشط.
+drippyloadingscreen.helper.creator.backgroundoptions.backgroundslideshow.clear = مسح
+drippyloadingscreen.helper.creator.backgroundoptions.backgroundslideshow.clear.desc = يزيل عرض الشرائح%n%النشط الحالي.
+
+drippyloadingscreen.helper.creator.backgroundoptions.slideshows = عروض الشرائح
+
+drippyloadingscreen.helper.creator.slideshownotfound = §c§lلم يتم العثور على عرض الشرائح!%n%%n%عرض الشرائح المُدخل غير موجود!%n%ربما يوجد خطأ مطبعي في الاسم؟
+
+drippyloadingscreen.helper.creator.sidemenu.settings.btndesc = إعدادات محرر التخطيط
+drippyloadingscreen.helper.creator.sidemenu.settings.on = §aتشغيل
+drippyloadingscreen.helper.creator.sidemenu.settings.off = §cإيقاف
+drippyloadingscreen.helper.creator.sidemenu.settings.vanillanotification = تحذير نقل أزرار الفانيلا
+drippyloadingscreen.helper.creator.sidemenu.settings.popupmenuscale = مقياس قائمة النقر بالزر الأيمن
+
+drippyloadingscreen.helper.creator.add.shapes = شكل
+drippyloadingscreen.helper.creator.add.shapes.rectangle = مستطيل
+
+drippyloadingscreen.helper.creator.items.shape.color = اللون
+drippyloadingscreen.helper.creator.items.shape.color.btndesc = ضبط لون HEX للشكل.%n%%n%§cملاحظة:%n%يمكنك استخدام ألوان HEX%n%لتعيين شفافية العنصر!
+
+drippyloadingscreen.helper.creator.object.movedown.desc.subtext.vanillabutton = %n%%n%§cلا يمكنك نقل العناصر خلف%n%§cأزرار الفانيلا.%n%%n%بدلًا من ذلك، يمكنك تعيين%n%§lترتيب العرض§r للتخطيط إلى '§lالخلفية§r'%n%لعرض كل العناصر خلف%n%محتوى القائمة الافتراضي مثل%n%أزرار الفانيلا.%n%%n%§lانقر بالزر الأيمن §rعلى خلفية المحرر%n%لتعيين §lترتيب العرض§r!
+
+drippyloadingscreen.helper.buttons.tools.misc = متفرقات
+drippyloadingscreen.helper.buttons.tools.misc.btndesc = يحتوي على مزيد من الأدوات والخيارات%n%لتخصيص القوائم.
+drippyloadingscreen.helper.buttons.tools.misc.openloadingscreen = فتح شاشة التحميل
+drippyloadingscreen.helper.buttons.tools.misc.openloadingscreen.btndesc = سيفتح نسخة "ميتة" من%n%شاشة تحميل العالم لتمكين%n%تخصيصها.%n%%n%§cملاحظة:%n%يمكنك إغلاق هذه القائمة عبر%n%النقر على زر §lفتح القائمة الرئيسية §r.
+drippyloadingscreen.helper.buttons.tools.misc.openmainmenu = فتح القائمة الرئيسية
+drippyloadingscreen.helper.buttons.tools.misc.openmainmenu.btndesc = سيفتح القائمة الرئيسية.%n%مفيد عند التعليق في قائمة.
+drippyloadingscreen.helper.buttons.tools.misc.openmessagescreen = فتح شاشة الرسائل
+drippyloadingscreen.helper.buttons.tools.misc.openmessagescreen.btndesc = سيفتح نسخة من%n%شاشة الرسائل التي تراها قبل%n%شاشة تحميل العالم أو عند%n%مغادرة عالم، لتمكين%n%تخصيصها.%n%%n%§cملاحظة:%n%يمكنك إغلاق هذه القائمة عبر%n%النقر على زر §lفتح القائمة الرئيسية §r.
+
+drippyloadingscreen.helper.menubar.expand = توسيع شريط القوائم
+drippyloadingscreen.helper.menubar.shrink = تصغير شريط القوائم
+
+drippyloadingscreen.helper.ui.dynamicvariabletextfield.variables.desc = §lقيم نصوص العناصر النائبة%n%%n%أدرج عناصر نائبة داخل النص%n%ستُستبدل لاحقًا%n%بقِيَم حقيقية مثل%n%اسم اللاعب أو إصدار ماينكرافت.%n%%n%§l§cمهم:%n%سترى هذه القِيَم كعناصر نائبة في المحرر%n%وكقيم حقيقية في HUD الفعلي.
+drippyloadingscreen.helper.ui.dynamicvariabletextfield.variables.playername = اسم اللاعب
+drippyloadingscreen.helper.ui.dynamicvariabletextfield.variables.playername.desc = يجلب اسم اللاعب.
+drippyloadingscreen.helper.ui.dynamicvariabletextfield.variables.playeruuid = UUID اللاعب
+drippyloadingscreen.helper.ui.dynamicvariabletextfield.variables.playeruuid.desc = يجلب UUID اللاعب.
+drippyloadingscreen.helper.ui.dynamicvariabletextfield.variables.mcversion = إصدار ماينكرافت
+drippyloadingscreen.helper.ui.dynamicvariabletextfield.variables.mcversion.desc = يجلب إصدار ماينكرافت.
+drippyloadingscreen.helper.ui.dynamicvariabletextfield.variables.forgeversion = إصدار محمّل المودات
+drippyloadingscreen.helper.ui.dynamicvariabletextfield.variables.forgeversion.desc = يجلب إصدار محمّل المودات.
+drippyloadingscreen.helper.ui.dynamicvariabletextfield.variables.modversion = إصدار المود
+drippyloadingscreen.helper.ui.dynamicvariabletextfield.variables.modversion.desc = يجلب إصدار مود عبر معرّف المود الخاص به.%n%%n%فقط استبدل '<modid>' في العنصر النائب%n%بمعرّف مود موجود.
+drippyloadingscreen.helper.ui.dynamicvariabletextfield.variables.totalmods = إجمالي عدد المودات
+drippyloadingscreen.helper.ui.dynamicvariabletextfield.variables.totalmods.desc = يجلب إجمالي عدد المودات.%n%يشمل المودات المعطلة.
+drippyloadingscreen.helper.ui.dynamicvariabletextfield.variables.loadedmods = عدد المودات النشطة
+drippyloadingscreen.helper.ui.dynamicvariabletextfield.variables.loadedmods.desc = يجلب عدد المودات النشطة.%n%لا يشمل المودات المعطلة.
+
+drippyloadingscreen.helper.creator.items.string.alignment = المحاذاة
+drippyloadingscreen.helper.creator.items.string.alignment.desc = يضبط محاذاة النص.%n%%n%§cمفيد عندما لا يكون عرض النص%n%§cثابتًا دائمًا، مثل%n%§cقيم النصوص البديلة.
+drippyloadingscreen.helper.creator.items.string.alignment.left = يسار
+drippyloadingscreen.helper.creator.items.string.alignment.right = يمين
+drippyloadingscreen.helper.creator.items.string.alignment.centered = متمركز
+
+drippyloadingscreen.helper.creator.items.string.border.alignment = المحاذاة
+
+drippyloadingscreen.helper.ui.hud = شاشة التحميل
+drippyloadingscreen.helper.ui.hud.layouts = التخطيطات
+drippyloadingscreen.helper.ui.hud.layouts.desc = أنشئ وأدر تخطيطاتك.
+drippyloadingscreen.helper.ui.hud.layouts.new = جديد
+drippyloadingscreen.helper.ui.hud.layouts.new.desc = أنشئ تخطيطًا جديدًا.
+drippyloadingscreen.helper.ui.hud.layouts.manage = إدارة التخطيطات
+drippyloadingscreen.helper.ui.hud.layouts.manage.desc = إدارة تخطيطاتك الحالية.
+drippyloadingscreen.helper.ui.hud.layouts.manage.edit = تحرير
+drippyloadingscreen.helper.ui.hud.layouts.manage.edit.desc = حرّر هذا التخطيط في محرر التخطيط.
+
+drippyloadingscreen.helper.ui.closehelper = إغلاق مساعد التخصيص
+
+drippyloadingscreen.helper.ui.reload.desc = إعادة تحميل DrippyLoadingScreen.%n%%n%§lسيُعاد تحميل:%n%- عروض الشرائح%n%- إعدادات المود%n%- التخطيطات%n%- التخطيطات العشوائية
+
+drippyloadingscreen.helper.editor.ui.unsavedwarning = §c§lهل أنت متأكد؟%n%%n%%n%ستفقد كل التغييرات غير المحفوظة%n%للتخطيط الحالي!%n% %n% %n%
+
+drippyloadingscreen.helper.editor.ui.layout = تخطيط
+drippyloadingscreen.helper.editor.ui.layout.new = جديد
+drippyloadingscreen.helper.editor.ui.layout.open = فتح
+drippyloadingscreen.helper.editor.ui.layout.save = حفظ
+drippyloadingscreen.helper.editor.ui.layout.saveas = حفظ باسم
+drippyloadingscreen.helper.editor.ui.layout.saveas.entername = §lأدخل اسم التخطيط
+drippyloadingscreen.helper.editor.ui.layout.saveas.failed = §c§lفشل الحفظ!%n%%n%%n%اسم تخطيط غير مدعوم أو التخطيط موجود مسبقًا!%n% %n% %n%
+drippyloadingscreen.helper.editor.ui.layout.properties = الخصائص
+
+drippyloadingscreen.helper.editor.ui.edit = تحرير
+drippyloadingscreen.helper.editor.ui.edit.undo = تراجع
+drippyloadingscreen.helper.editor.ui.edit.redo = إعادة
+drippyloadingscreen.helper.editor.ui.edit.copy = نسخ
+drippyloadingscreen.helper.editor.ui.edit.paste = لصق
+
+drippyloadingscreen.helper.editor.ui.element = عنصر
+drippyloadingscreen.helper.editor.ui.element.new = جديد
+drippyloadingscreen.helper.editor.ui.element.manageaudio = إدارة الأصوات
+drippyloadingscreen.helper.editor.ui.element.manageaudio.loop.on = التكرار: §aتشغيل
+drippyloadingscreen.helper.editor.ui.element.manageaudio.loop.off = التكرار: §cإيقاف
+drippyloadingscreen.helper.editor.ui.element.deletedvanillabuttons = أزرار الفانيلا المحذوفة
+drippyloadingscreen.helper.editor.ui.element.deletedvanillabuttons.entry.desc = انقر يسارًا للتراجع عن الحذف.
+
+drippyloadingscreen.helper.editor.ui.exit = خروج
+drippyloadingscreen.helper.editor.ui.exit.desc = إغلاق المحرر.
+
+drippyloadingscreen.helper.editor.ui.layoutproperties.newelement = عنصر جديد
+
+drippyloadingscreen.helper.ui.warning = §lتحذير!
+drippyloadingscreen.helper.ui.warning.unicode = خطوط يونيكود غير مدعومة بالكامل في واجهة DrippyLoadingScreen!%n%يرجى التفكير في إيقاف خطوط يونيكود من إعدادات اللغة!
+
+drippyloadingscreen.helper.creator.error.invalidfile = §c§lخطأ!%n%%n%%n%ملف غير صالح أو غير موجود!%n% %n% %n% %n%
+
+drippyloadingscreen.helper.creator.add.splash = نص الوميض
+drippyloadingscreen.helper.creator.add.splash.single = نص وميض فردي
+drippyloadingscreen.helper.creator.add.splash.single.popup.headline = أدخل محتوى نص الوميض.
+drippyloadingscreen.helper.creator.add.splash.single.btn.desc = أدخل محتوى نص الوميض.%n%%n%§c§lيتم دعم الأحرف الأساسية فقط!%n%استخدام أحرف خاصة مثل @ أو ä%n%سيسبب أخطاء في العرض!
+drippyloadingscreen.helper.creator.add.splash.multi = نص وميض متعدد
+drippyloadingscreen.helper.creator.add.splash.multi.popup.headline = اختر ملف نص يحتوي على نصوص وميض.
+drippyloadingscreen.helper.creator.add.splash.multi.btn.desc = اختر ملف نص يحتوي على نصوص وميض.%n%%n%§c§lيتم دعم الأحرف الأساسية فقط!%n%استخدام أحرف خاصة مثل @ أو ä%n%سيسبب أخطاء في العرض!
+
+drippyloadingscreen.helper.creator.items.splash.bounce.on = الارتداد: §aتشغيل
+drippyloadingscreen.helper.creator.items.splash.bounce.off = الارتداد: §cإيقاف
+drippyloadingscreen.helper.creator.items.splash.refresh.on = التحديث: §aتشغيل
+drippyloadingscreen.helper.creator.items.splash.refresh.off = التحديث: §cإيقاف
+drippyloadingscreen.helper.creator.items.splash.refresh.desc = اختر نص وميض جديدًا في كل مرة%n%يُعاد فيها تحميل القائمة أو تُفتح.
+drippyloadingscreen.helper.creator.items.splash.basecolor = اللون الأساسي
+drippyloadingscreen.helper.creator.items.splash.rotation = دوران
+
+drippyloadingscreen.helper.ui.tools = أدوات
+
+drippyloadingscreen.helper.editor.elements.vanilla.managedeleted = عناصر الفانيلا المحذوفة
+drippyloadingscreen.helper.editor.elements.vanilla.managedeleted.entry.desc = §cانقر يسارًا لجعله مرئيًا مجددًا!
+
+drippyloadingscreen.helper.openhelper = خصص شاشة التحميل
+
+
+
+drippyloadingscreen.config = إعدادات DrippyLoadingScreen
+
+drippyloadingscreen.config.categories.logging = السجلات
+
+drippyloadingscreen.config.printwarnings = طباعة التحذيرات
+drippyloadingscreen.config.printwarnings.desc = إخراج رسائل التحذير إلى السجل.
+
+drippyloadingscreen.config.categories.layouteditor = محرر التخطيط
+
+drippyloadingscreen.config.editordeleteconfirmation = تأكيد الحذف
+drippyloadingscreen.config.editordeleteconfirmation.desc = ما إذا كان يجب عرض نافذة تأكيد%n%عند حذف عنصر.
+
+drippyloadingscreen.config.categories.customization = التخصيص
+
+drippyloadingscreen.config.showcustomizationcontrols = عناصر تحكم التخصيص
+drippyloadingscreen.config.showcustomizationcontrols.desc = ما إذا كان يجب أن يكون زر التخصيص%n%مرئيًا في القائمة الرئيسية.%n%%n%§c§lمهم:%n%ستحتاج إلى إعادة تمكين هذا الإعداد يدويًا%n%في ملف الإعدادات إذا كانت%n%اختصارات المفاتيح معطلة أيضًا.
+
+drippyloadingscreen.config.enablekeybinds = اختصارات المفاتيح
+drippyloadingscreen.config.enablekeybinds.desc = ما إذا كان يجب تمكين%n%اختصارات المود.%n%%n%§c§lمهم:%n%يلزم إعادة التشغيل بعد%n%تغيير هذه القيمة.
+
+drippyloadingscreen.config.categories.ui = واجهة المود
+
+drippyloadingscreen.config.uiscale = مقياس الواجهة
+drippyloadingscreen.config.uiscale.desc = مقياس واجهة المود.%n%يشمل أشرطة القوائم،%n%قوائم السياق وعناصر أخرى.
+
+
+
+drippyloadingscreen.helper.editor.properties.renderingorder.desc = ما إذا كان يجب عرض §lالعناصر المخصصة §r%n%خلف أو أمام%n%كل عناصر الفانيلا.
+
+drippyloadingscreen.helper.ui.dynamicvariabletextfield.variables.realtimeyear = سنة
+drippyloadingscreen.helper.ui.dynamicvariabletextfield.variables.realtimemonth = شهر
+drippyloadingscreen.helper.ui.dynamicvariabletextfield.variables.realtimeday = يوم
+drippyloadingscreen.helper.ui.dynamicvariabletextfield.variables.realtimehour = ساعة
+drippyloadingscreen.helper.ui.dynamicvariabletextfield.variables.realtimeminute = دقيقة
+drippyloadingscreen.helper.ui.dynamicvariabletextfield.variables.realtimesecond = ثانية
+
+drippyloadingscreen.helper.ui.dynamicvariabletextfield.categories.player = اللاعب
+drippyloadingscreen.helper.ui.dynamicvariabletextfield.categories.other = أخرى
+drippyloadingscreen.helper.ui.dynamicvariabletextfield.categories.realtime = الوقت الحقيقي
+
+drippyloadingscreen.helper.editor.elements.vanilla.resetelement = إعادة تعيين العنصر
+drippyloadingscreen.helper.editor.elements.vanilla.resetelement.btn.desc = سيعيد تعيين العنصر%n%إلى إعداداته الافتراضية.
+
+drippyloadingscreen.helper.ui.dynamicvariabletextfield.variables.fps = معدل الإطارات الحالي
+drippyloadingscreen.helper.ui.dynamicvariabletextfield.variables.percentram = نسبة الرام المستخدمة حاليًا
+drippyloadingscreen.helper.ui.dynamicvariabletextfield.variables.usedram = الرام المستخدمة حاليًا بالميغابايت
+drippyloadingscreen.helper.ui.dynamicvariabletextfield.variables.maxram = أقصى رام بالميغابايت
+drippyloadingscreen.helper.ui.dynamicvariabletextfield.variables.targetblock = الكتلة المستهدفة
+
+drippyloadingscreen.helper.editor.elements.scale = المقياس
+drippyloadingscreen.helper.editor.elements.scale.btn.desc = ضبط مقياس هذا العنصر.
+
+drippyloadingscreen.helper.ui.hud.lightmode.on = وضع خفيف: §aتشغيل
+drippyloadingscreen.helper.ui.hud.lightmode.off = وضع خفيف: §cإيقاف
+drippyloadingscreen.helper.ui.hud.lightmode.btn.desc = إذا تم تمكينه، فلن تعود عناصر HUD الافتراضية%n%قابلة للتخصيص.%n%%n%لا يزال بإمكانك إضافة عناصر جديدة%n%إلى HUD، لكن تخصيصات%n%العناصر الافتراضية سيتم تجاهلها.%n%%n%§cسيُحسّن بشكل كبير%n%§cالتوافق مع المودات الأخرى%n%§cعند تمكينه.%n%%n%§oانقر لتبديل الوضع.
+drippyloadingscreen.helper.ui.hud.lightmode.popup.msg = §c§lهل أنت متأكد؟%n%%n%يتطلب هذا الإجراء إعادة تشغيل§r.%n%%n%هل أنت متأكد أنك تريد §cالخروج من اللعبة §rالآن؟%n% %n% %n% %n% %n%
+
+drippyloadingscreen.helper.editor.elements.string.rainbow.on = وضع قوس قزح: §aتشغيل
+drippyloadingscreen.helper.editor.elements.string.rainbow.off = وضع قوس قزح: §cإيقاف
+drippyloadingscreen.helper.editor.elements.string.rainbow.btn.desc = ما إذا كان يجب عرض النص%n%كـ RGB ملوّن متغير أو لا.
+drippyloadingscreen.helper.editor.elements.string.rainbow.speed = سرعة تلاشي قوس قزح
+drippyloadingscreen.helper.editor.elements.string.rainbow.colors = ضبط تدرجات ألوان قوس قزح
+drippyloadingscreen.helper.editor.elements.string.rainbow.colors.popup.firststartcolor = لون البداية الأول
+drippyloadingscreen.helper.editor.elements.string.rainbow.colors.popup.firstendcolor = لون النهاية الأول
+drippyloadingscreen.helper.editor.elements.string.rainbow.colors.popup.secondstartcolor = لون البداية الثاني
+drippyloadingscreen.helper.editor.elements.string.rainbow.colors.popup.secondendcolor = لون النهاية الثاني
+drippyloadingscreen.helper.editor.elements.string.rainbow.colors.popup.colordesc.line1 = سيكون اللونان الأولان تدرج النص عند بدء التلاشي
+drippyloadingscreen.helper.editor.elements.string.rainbow.colors.popup.colordesc.line2 = واللونان الثانيان سيكونان التدرج عند انتهائه.
+drippyloadingscreen.helper.editor.elements.string.rainbow.colors.popup.colordesc.line3 = يتلاشى النص من التدرج الأول إلى التدرج الثاني.
+
+drippyloadingscreen.helper.editor.backgroundcolor = لون الخلفية
+drippyloadingscreen.helper.editor.backgroundcolor.btn.desc = غيّر لون خلفية%n%شاشة التحميل.
+
+drippyloadingscreen.helper.editor.elements.vanilla.progressbar.color = لون الشريط
+drippyloadingscreen.helper.editor.elements.vanilla.progressbar.color.btn.desc = ضبط لون شريط التقدم.
+
+drippyloadingscreen.helper.editor.elements.text.color = لون النص
+drippyloadingscreen.helper.editor.elements.text.color.btn.desc = ضبط لون هذا النص.
+drippyloadingscreen.helper.editor.elements.text.onlybasicchars = §c§lيتم دعم الأحرف الأساسية فقط!%n%استخدام أحرف خاصة مثل @ أو ä%n%سيسبب أخطاء في العرض!
+
+drippyloadingscreen.helper.creator.add.custombars.barcolor = لون الشريط HEX
+drippyloadingscreen.helper.creator.add.custombars.backgroundcolor = لون الخلفية HEX
+drippyloadingscreen.helper.creator.add.custombars.bartexture = نسيج الشريط
+drippyloadingscreen.helper.creator.add.custombars.bartexture.btn.desc = تعيين نسيج مخصص للشريط.%n%سيستبدل لون الشريط.
+drippyloadingscreen.helper.creator.add.custombars.backgroundtexture = نسيج الخلفية
+drippyloadingscreen.helper.creator.add.custombars.backgroundtexture.btn.desc = تعيين نسيج مخصص%n%لخلفية الشريط.%n%سيستبدل لون الخلفية.
+drippyloadingscreen.helper.creator.add.custombars.direction.left = الاتجاه: §6يسار
+drippyloadingscreen.helper.creator.add.custombars.direction.right = الاتجاه: §6يمين
+drippyloadingscreen.helper.creator.add.custombars.direction.up = الاتجاه: §6أعلى
+drippyloadingscreen.helper.creator.add.custombars.direction.down = الاتجاه: §6أسفل
+
+drippyloadingscreen.helper.creator.add.customprogressbar = شريط تقدم مخصص
+
+drippyloadingscreen.helper.editor.backgroundimage = صورة الخلفية
+drippyloadingscreen.helper.editor.backgroundimage.btn.desc = تعيين صورة كخلفية.
+
+drippyloadingscreen.config.showgrid = إظهار الشبكة
+drippyloadingscreen.config.showgrid.desc = إضافة شبكة إلى المحرر لتسهيل المحاذاة.
+drippyloadingscreen.config.gridsize = حجم الشبكة
+drippyloadingscreen.config.gridsize.desc = الحجم الداخلي لمربع شبكة واحد.
+
+drippyloadingscreen.helper.editor.forcescale = فرض مقياس الواجهة
+drippyloadingscreen.helper.editor.forcescale.btn.desc = فرض مقياس واجهة لشاشة التحميل.
+
+drippyloadingscreen.helper.editor.fadeout.on = تلاشي الشاشة: §aتشغيل
+drippyloadingscreen.helper.editor.fadeout.off = تلاشي الشاشة: §cإيقاف
+drippyloadingscreen.helper.editor.fadeout.btn.desc = ما إذا كان يجب أن تتلاشى شاشة التحميل%n%إلى الشاشة التالية.%n%%n%§cيكون هذا دائمًا معطّلًا عندما%n%يكون FancyMenu مثبتًا.
+
+drippyloadingscreen.helper.editor.properties.autoscale.on = التحجيم التلقائي للتخطيط: §aتشغيل
+drippyloadingscreen.helper.editor.properties.autoscale.off = التحجيم التلقائي للتخطيط: §cإيقاف
+drippyloadingscreen.helper.editor.properties.autoscale.btn.desc = دع Drippy يتولى مقياس%n%شاشة التحميل، لكي يعمل تخطيطك%n%على كل المقاييس والدقات.%n%%n%§cسيجعل هذا عناصر النص تبدو%n%§cضبابية عند بعض المقاييس.%n%§cلا يمكن إصلاح ذلك، وأفضل%n%§cحل بديل هو استخدام صور%n%§cبخلفية كعناصر نص.
+drippyloadingscreen.helper.editor.properties.autoscale.basesize.popup.desc.line1 = هنا يمكنك تعيين حجم نافذة الأساس لتخطيطك.
+drippyloadingscreen.helper.editor.properties.autoscale.basesize.popup.desc.line2 = يجب أن يكون هذا هو الحجم الذي صُمم له تخطيطك.
+drippyloadingscreen.helper.editor.properties.autoscale.basesize.popup.desc.line3 = إذا أنشأته في حجم النافذة الحالي، اترك القيم كما هي.
+drippyloadingscreen.helper.editor.properties.autoscale.error = §c§lحدث خطأ ما!%n%%n%فشل تعيين حجم الأساس للتحجيم التلقائي!%n%يرجى التحقق من أن كلا القيمتين §lأكبر من 0%n%وأنهما §lأرقام صالحة§r.%n% %n% %n% %n% %n%
+
+drippyloadingscreen.helper.editor.windowsize.currentwidth = عرض النافذة الحالي
+drippyloadingscreen.helper.editor.windowsize.currentheight = ارتفاع النافذة الحالي
+
+drippyloadingscreen.helper.editor.layoutoptions.randommode.on = الوضع العشوائي: §aتشغيل
+drippyloadingscreen.helper.editor.layoutoptions.randommode.off = الوضع العشوائي: §cإيقاف
+drippyloadingscreen.helper.editor.layoutoptions.randommode.btn.desc = اختر تخطيطًا عشوائيًا من نفس%n%المجموعة عند فتح القائمة.%n%%n%يمكن استخدامه لتغيير%n%الخلفيات وعناصر أخرى عشوائيًا.
+drippyloadingscreen.helper.editor.layoutoptions.randommode.setgroup = تعيين المجموعة العشوائية
+drippyloadingscreen.helper.editor.layoutoptions.randommode.setgroup.btn.desc = تعيين مجموعة هذا التخطيط العشوائي.%n%يتم اختيار تخطيط واحد لكل مجموعة%n%عند فتح القائمة.
+drippyloadingscreen.helper.editor.layoutoptions.randommode.onlyfirsttime.on = عشوائي مرة أولى فقط: §aتشغيل
+drippyloadingscreen.helper.editor.layoutoptions.randommode.onlyfirsttime.off = عشوائي مرة أولى فقط: §cإيقاف
+drippyloadingscreen.helper.editor.layoutoptions.randommode.onlyfirsttime.btn.desc = ما إذا كان يجب عشوَنة تخطيطات هذه المجموعة%n%كل مرة تُفتح فيها القائمة أم%n%اختيار تخطيط واحد فقط في المرة%n%الأولى التي تُفتح فيها القائمة.
+
+drippyloadingscreen.helper.editor.items.copyid = نسخ معرّف العنصر
+drippyloadingscreen.helper.editor.items.copyid.btn.desc = نسخ معرّف هذا العنصر.
+
+drippyloadingscreen.helper.editor.items.orientation.loading-progress.setidentifier = تعيين معرّف العنصر
+drippyloadingscreen.helper.editor.items.orientation.loading-progress.setidentifier.identifiernotfound = §c§lخطأ!%n%%n%لم يتم العثور على عنصر بهذا المعرّف!%n%%n%%n%%n%
+drippyloadingscreen.helper.editor.items.orientation.loading-progress.setidentifier.invalidtype = §c§lخطأ!%n%%n%هذا العنصر ليس عنصر شريط تقدم مخصص!%n%%n%%n%%n%
+drippyloadingscreen.helper.editor.items.orientation.loading-progress.btn.desc = سيتم تعيين موضع §lنهاية التقدم §rلـ%n%§lشريط تقدم مخصص §rكنقطة أصل للاتجاه، بحيث%n%يتحرك هذا العنصر دائمًا مع%n%تقدم ذلك الشريط المخصص.%n%%n%§cتحتاج إلى معرّف العنصر%n%§cللعنصر الأب هنا.%n%§cيمكنك الحصول على معرّف العنصر%n%§cعند النقر بزر الفأرة الأيمن على عنصر.
+
+drippyloadingscreen.helper.ui.dynamicvariabletextfield.variables.loadingprogress = تقدم التحميل بالنسبة المئوية
+
+drippyloadingscreen.helper.editor.layoutoptions.backgroundoptions.keepaspect.on = الحفاظ على نسبة أبعاد الخلفية: §aتشغيل
+drippyloadingscreen.helper.editor.layoutoptions.backgroundoptions.keepaspect.off = الحفاظ على نسبة أبعاد الخلفية: §cإيقاف
+
+drippyloadingscreen.helper.ui.dynamicvariabletextfield.variables.cpuinfo = معلومات المعالج
+drippyloadingscreen.helper.ui.dynamicvariabletextfield.variables.gpuinfo = معلومات بطاقة الرسوميات
+drippyloadingscreen.helper.ui.dynamicvariabletextfield.variables.javaversion = إصدار جافا
+drippyloadingscreen.helper.ui.dynamicvariabletextfield.variables.osname = اسم نظام التشغيل
+drippyloadingscreen.helper.ui.dynamicvariabletextfield.variables.openglversion = إصدار OpenGL
+drippyloadingscreen.helper.ui.dynamicvariabletextfield.variables.randomtext = نص عشوائي من ملف TXT
+drippyloadingscreen.helper.ui.dynamicvariabletextfield.variables.randomtext.desc = يختار نصًا عشوائيًا من ملف TXT.%n%%n%يدعم فترات تغيير مخصصة للنصوص.%n%%n%فقط استبدل '<filepath>' (أزل < >)%n%بمسار ملف TXT الخاص بك%n%واستبدل '<interval_sec>' (أزل < >)%n%بفترة التغيير بالثواني.%n%قيمة 0 ستجعله%n%يختار نصًا مرة واحدة لكل جلسة.%n%%n%§lمثال:%n%%randomtext:path/to/file.txt:10%
+
+drippyloadingscreen.back = رجوع
+drippyloadingscreen.done = تم
+drippyloadingscreen.cancel = إلغاء
+
+drippyloadingscreen.audio.channel = قناة الصوت: §6{}
+drippyloadingscreen.audio.loop.on = التكرار: §aتشغيل
+drippyloadingscreen.audio.loop.off = التكرار: §cإيقاف
+drippyloadingscreen.audio.once_per_session.on = مرة لكل جلسة: §aتشغيل
+drippyloadingscreen.audio.once_per_session.off = مرة لكل جلسة: §cإيقاف
+drippyloadingscreen.audio.once_per_session.desc = ما إذا كان يجب أن يشغّل العنصر%n%أصواته مرة واحدة فقط لكل جلسة.
+drippyloadingscreen.audio.manage = إدارة الأصوات
+drippyloadingscreen.audio.manage.desc = إضافة أو تحرير أو إزالة أصوات.
+drippyloadingscreen.audio.choose = اختر صوتًا
+drippyloadingscreen.audio.choose.info = §lمعلومات الصوت%n%%n%{}%n%الفهرس: §6{}%n%المستوى: §6{}
+drippyloadingscreen.audio.add = أضف صوتًا
+drippyloadingscreen.audio.remove = إزالة الصوت
+drippyloadingscreen.audio.remove.confirm = §c§lهل أنت متأكد؟%n%%n%هل تريد حقًا §cحذف §rهذا الصوت؟%n% %n% %n% %n%
+drippyloadingscreen.audio.edit = تحرير الصوت
+drippyloadingscreen.audio.add_or_edit = إضافة/تحرير صوت
+drippyloadingscreen.audio.sourcetype.external_local = نوع المصدر: §6محلي
+drippyloadingscreen.audio.sourcetype.external_web = نوع المصدر: §6ويب
+drippyloadingscreen.audio.choosesource = اختر المصدر
+drippyloadingscreen.audio.choosesource.file.invalid = §c§lملف غير صالح!%n%%n%الملف المختار ليس ملف OGG صالحًا!%n% %n% %n% %n%
+drippyloadingscreen.audio.choosesource.url = أدخل رابط الصوت
+drippyloadingscreen.audio.choosesource.url.invalid = §c§lرابط غير صالح!%n%%n%هذا ليس رابطًا صالحًا!%n%يرجى التأكد من أن اتصال الإنترنت يعمل%n%وعدم وجود أخطاء مطبعية.%n% %n% %n% %n%
+drippyloadingscreen.audio.index = الفهرس
+drippyloadingscreen.audio.index.desc = يُستخدم فهرس الصوت لترتيب%n%إدخالات الصوت للعنصر.%n%يمكن استخدامه للتحكم%n%في ترتيب تشغيل الأصوات.%n%%n%الأصوات ذات الفهرس نفسه%n%تُ§lخلط§r عشوائيًا.
+drippyloadingscreen.audio.volume = المستوى
+drippyloadingscreen.audio.volume.desc = مستوى هذا الصوت.
+
+drippyloadingscreen.audio.item = صوت
+drippyloadingscreen.audio.item.desc = أضف معالج صوت إلى تخطيطك.%n%%n%يمكن استخدامه لتشغيل أصوات الخلفية.%n%يمكنه حمل عدة أصوات في وقت واحد.%n%%n%§cهذا العنصر مرئي فقط%n%§cفي المحرر!%n%§cسيكون غير مرئي في القائمة الفعلية.
+
+drippyloadingscreen.config.categories.loading_behaviour = سلوك التحميل
+
+drippyloadingscreen.config.custom_sound_engine_reloading = إعادة تحميل صوت مخصصة
+drippyloadingscreen.config.custom_sound_engine_reloading.desc = ما إذا كان يجب تغيير سلوك%n%إعادة تحميل محرك الصوت، حتى يمكن تشغيل الأصوات%n%في شاشة التحميل.

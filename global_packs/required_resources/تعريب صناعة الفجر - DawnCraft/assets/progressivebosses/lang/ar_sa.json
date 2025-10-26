@@ -1,0 +1,19 @@
+{
+  "item.progressivebosses.nether_star_shard": "شظية نجمة النذر",
+  "item.progressivebosses.elder_guardian_spike": "شوكة الحارس الأكبر",
+  "entity.progressivebosses.wither_minion": "تابع الويذر",
+  "death.attack.progressivebosses:wither_charge_attack": "تعرض %1$s لهجوم اندفاع من %2$s",
+  "entity.progressivebosses.larva": "يرقة التنين",
+  "progressivebosses:dragon_minion": "تابع التنين",
+  "death.attack.progressivebosses:dragon_fireball": "أصيب %1$s بقذيفة نارية من %2$s",
+  "progressivebosses:elder_minion": "تابع المسن",
+  "progressivebosses:command.player_get_wither_difficulty": "استدعى %s %d ويذر",
+  "progressivebosses:command.player_get_dragon_difficulty": "قتل %s %d من التنانين",
+  "progressivebosses:command.player_set_boss_difficulty": "عيّن لـ %s صعوبة %s إلى %d",
+  "progressivebosses:command.player_add_boss_difficulty": "تمت إضافة %d من صعوبة %s إلى %s (الآن %d)",
+  "progressivebosses:command.summoned_entity": "تم استدعاء %s بصعوبة %d",
+  "progressivebosses:command.summon_invalid_entity": "الكيان %s غير صالح",
+  "dragon.first_killed": "تهانينا على قتلك أول تنين. كن على علم بأن كل تنين تقتله سيجعل التالي أصعب قتالا.",
+  "wither.first_summon": "لقد استدعيت أول ويذر. كن على علم بأن كل ويذر تستدعيه سيجعل التالي أصعب قتالا.",
+  "elder_guardian.approach": "يبدو أنك تقترب من نصب المحيط، وحتى تهزم جميع الحراس المسنين ... أو إن هربت ... لن تتمكن من كسر الكتل."
+}

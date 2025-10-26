@@ -1,0 +1,40 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 15,
+  "icon": "minecraft:map",
+  "start": {
+    "title": {
+      "text": "هدف مستحيلة!"
+    },
+    "description": {
+      "text": "قبل أن أعهد إليك بـقاذفات الإندر، عليك إنجاز اثنين من أهداف لإثبات جدارتك: أطفئ حارس خط الأنابيب من كثبان جحيمية في النذر، وقص مستعمرة فطر مكتملة النضج. ضع في اعتبارك أنك ستحتاج إلى تطوير تربة خصبة لتحقيق ذلك."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "شكرًا!"
+    },
+    "description": {
+      "text": "تهانينا! ها هو. يطلق هذا القاذف لكمة بقوة، مدعومًا بمصدر طاقة هائل."
+    }
+  },
+  "tasks": [
+    {
+      "id": "dawncraft:advancement",
+      "advancement": "incendium:infernal_dunes/pipeline/kill_sentry"
+    },
+    {
+      "id": "dawncraft:advancement",
+      "advancement": "farmersdelight:main/get_mushroom_colony"
+    }
+  ],
+  "rewards": [
+    {
+      "item": {
+        "item": "wom:ender_blaster"
+      },
+      "id": "quest_giver:item",
+      "times": 2
+    }
+  ]
+}

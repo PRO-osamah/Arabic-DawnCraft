@@ -1,0 +1,379 @@
+{
+	id: "3FBF22A12EB77153"
+	group: "0A520B482648497B"
+	order_index: 2
+	filename: "magic"
+	title: "السحر"
+	icon: "irons_spellbooks:mana_ring"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "التعاويذ \\& كتب التعاويذ"
+			icon: {
+				id: "endrem:magical_eye"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -2.5d
+			y: 0.0d
+			description: ["يمكنك هنا معرفة كيفية الحصول على قدرات سحرية لتعزيز قدراتك الجسدية، أو استدعاء المخلوقات، أو إطلاق تعاويذ مدمرة على أعدائك!"]
+			size: 2.0d
+			id: "43BE75F09C4043F8"
+			tasks: [{
+				id: "089777A5C1B95D8D"
+				type: "checkmark"
+				title: "فهمت!"
+			}]
+		}
+		{
+			title: "نهب هياكل السحر"
+			icon: {
+				id: "irons_spellbooks:magehunter"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -5.25d
+			y: 1.5d
+			description: [
+				"تبدأ المراحل الأولى من رحلتك السحرية بالعثور على هياكل سحرية، ونهب صناديقها، وربما هزيمة السحرة المقيمين هناك."
+				"\\nهذا سيكون مصدرك الأساسي للّفائف، والتي تتيح لك البدء فعلياً بإلقاء التعاويذ!"
+			]
+			dependencies: ["5D6F2EF2A0FABB1E"]
+			size: 1.5d
+			id: "0614C37C1534939E"
+			tasks: [{
+				id: "21D7529F64458A1B"
+				type: "checkmark"
+				title: "مفهوم!"
+			}]
+		}
+		{
+			title: "كتب التعاويذ"
+			icon: {
+				id: "irons_spellbooks:legendary_spell_book"
+				Count: 1b
+				tag: {
+					ISB_spellbook: {
+						spells: [ ]
+						spellSlots: 12
+						activeSpellIndex: -1
+					}
+				}
+			}
+			x: -2.5d
+			y: -2.0d
+			description: ["لا يمكن استخدام اللفائف إلا مرة واحدة قبل أن تختفي. للاستفادة الكاملة من اللفائف، من الأفضل تخزينها في كتاب تعاويذ. ابدأ بصناعة دفتر هش!\\n\\n(إذا كانت فئتك Astrologer، فتجاوز هذه الخطوة)"]
+			dependencies: ["43BE75F09C4043F8"]
+			id: "1F327242C2CCCF3C"
+			tasks: [{
+				id: "5AFA2C0E12D601FD"
+				type: "checkmark"
+				title: "حسناً!"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -2.0d
+			description: ["تتيح لك طاولة النقش البدء بوضع اللفائف في كتاب التعاويذ. ومع ذلك، لاحظ أنه لا يمكن وضع اللفائف إلا في كتب تعاويذ من نفس الندرة أو أعلى!"]
+			dependencies: ["1F327242C2CCCF3C"]
+			id: "39BD15E37DD2B01C"
+			tasks: [{
+				id: "069021CAEE611130"
+				type: "item"
+				item: "irons_spellbooks:inscription_table"
+				consume_items: false
+				only_from_crafting: false
+			}]
+			rewards: [{
+				id: "364D3C4B4475BC0D"
+				type: "xp"
+				xp: 5
+			}]
+		}
+		{
+			x: -7.5d
+			y: 1.0d
+			description: ["إلى جانب نهب الهياكل، يُعد صنع فرن اللفائف طريقة بديلة جيدة للحصول على اللفائف. يمكن العثور على مواد فرن اللفائف في النذر.\\n\\nاستخدم شريط البحث في جردك للبحث عن وصفات اللفائف المختلفة! لاحظ أنه لا يمكن صنع إلا لفائف المستوى 1. ترقية مستويات اللفائف تأتي لاحقاً."]
+			dependencies: ["5D6F2EF2A0FABB1E"]
+			id: "5178B560C8B827E3"
+			tasks: [{
+				id: "56950BA8A3BB0936"
+				type: "item"
+				item: "irons_spellbooks:scroll_forge"
+				consume_items: false
+				only_from_crafting: false
+			}]
+		}
+		{
+			title: "عتاد الساحر المبتدئ"
+			icon: {
+				id: "irons_spellbooks:wandering_magician_helmet"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 0.5d
+			y: 0.0d
+			description: ["أفضل عتاد بداية للساحر هو طقم الساحر الجوّال، والذي يتطلب طاولة الحدادة لصنعه."]
+			dependencies: ["43BE75F09C4043F8"]
+			id: "4E54C208CEF187D1"
+			tasks: [{
+				id: "63C62CE5AFA476B1"
+				type: "checkmark"
+				title: "مفهوم!"
+			}]
+		}
+		{
+			title: "عتاد الساحر المتقدم"
+			icon: {
+				id: "irons_spellbooks:pyromancer_helmet"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 3.0d
+			y: 0.0d
+			description: [
+				"إضافة إلى عتاد الساحر الجوّال، يمكن للسحرة صنع عتاد خاص بعناصر معينة يعزز قدرات إلقاء التعاويذ لعناصر محددة."
+				"\\nلصنع هذا العتاد الخاص بالفئة، يجب على السحرة الحصول على أحجار رون العناصر. أحياناً تتطلب مواد هذه الأحجار طقوساً لإتمامها. استخدم وظيفة البحث عن الوصفات للاستكشاف!"
+			]
+			dependencies: ["4E54C208CEF187D1"]
+			id: "1EE082F0F108BFBA"
+			tasks: [{
+				id: "21F74BED3827CB09"
+				type: "checkmark"
+				title: "جميل!"
+			}]
+		}
+		{
+			x: -5.0d
+			y: 3.0d
+			description: ["إحدى أهم المواد لصناعة السحر. لا يمكن الحصول عليها إلا عبر النهب وهزيمة مستخدمي السحر."]
+			dependencies: ["0614C37C1534939E"]
+			id: "4CEED19552F9272D"
+			tasks: [{
+				id: "04C0D0354D3DFBA3"
+				type: "item"
+				item: "irons_spellbooks:arcane_essence"
+				consume_items: false
+				only_from_crafting: false
+			}]
+		}
+		{
+			title: "ترقية عتادك"
+			icon: {
+				id: "irons_spellbooks:pumpkin_helmet"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 6.0d
+			y: 0.0d
+			description: [
+				"لترقية عتادك، ستحتاج إلى كرة ترقية وarcane anvil. قد تكون وصفة صنع كرة الترقية مكلفة، وأكثر العناصر صعوبة في الحصول عليها هي arcane salvage و cinder essence."
+				"\\n"
+				"يمكنك ترقية قطعة من عتاد الساحر حتى 3 مرات. توفر كرات ترقية مختلفة مكافآت إحصائيات مختلفة، مثل زيادة ضرر العناصر أو زيادة المانا."
+			]
+			dependencies: [
+				"1EE082F0F108BFBA"
+				"5C76F132FD8587F9"
+				"607E8D1ADA6ED3A0"
+			]
+			id: "37B5F30D3F4B99F6"
+			tasks: [{
+				id: "3BE9AFC332C9476E"
+				type: "checkmark"
+				title: "حسناً!"
+			}]
+			rewards: [{
+				id: "56DD80B6574EC6C2"
+				type: "item"
+				item: "irons_spellbooks:blank_rune"
+				count: 3
+			}]
+		}
+		{
+			x: -4.0d
+			y: 2.5d
+			description: ["الأساس الذي تُصنع منه كل الرونات الأخرى. يمكن العثور عليه في الهياكل السحرية، أو لدى السحرة المقيمين فيها."]
+			dependencies: ["0614C37C1534939E"]
+			id: "49B1AA2C35454C74"
+			tasks: [{
+				id: "1B902538D23196EB"
+				type: "item"
+				item: "irons_spellbooks:blank_rune"
+				consume_items: false
+				only_from_crafting: false
+			}]
+		}
+		{
+			title: "العثور على الملك الميت"
+			x: -0.7d
+			y: 1.4d
+			description: [
+				"الملك الميت مخلوق غير حي قوي يقيم في سراديبه العميقة تحت الأرض. الطريقة الوحيدة للعثور عليه هي صنع البوصلة الضالة واتباعها."
+				"\\nهذا الهيكل العظمي يستخدم تعاويذ قوية لصد سارقي القبور. لا تحاول ذلك ما لم تكن مستعداً تماماً! من ناحية أخرى، إذا تمكنت من إراحته، فالمكافأة مذهلة للغاية... وقد تدفع رحلتك السحرية إلى آفاق جديدة!"
+			]
+			dependencies: ["0614C37C1534939E"]
+			size: 1.4d
+			id: "73A2334F5E27719A"
+			tasks: [{
+				id: "45DD5B0FAD17B43A"
+				type: "item"
+				item: {
+					id: "irons_spellbooks:wayward_compass"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			title: "ساحة المعركة القديمة"
+			icon: {
+				id: "mutantmonsters:mutant_skeleton_skull"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -1.3d
+			y: 2.6d
+			description: ["يمكن العثور على ساحة المعركة القديمة في النذر. يمكنك إحياء الفرسان القدماء بالتنقيب عن أكوام الدروع باستخدام معول."]
+			dependencies: ["0614C37C1534939E"]
+			size: 1.3d
+			id: "28F664AE3CBA9E87"
+			tasks: [{
+				id: "04B7F97553E6079A"
+				type: "checkmark"
+				title: "مخيف..."
+			}]
+		}
+		{
+			x: 3.0d
+			y: 2.0d
+			description: ["مكوّن مطلوب لصناعة كرة الترقية. لا يمكن الحصول عليه إلا بهزيمة الفرسان القدماء في ساحة المعركة القديمة."]
+			dependencies: ["28F664AE3CBA9E87"]
+			id: "0CFC93A854B6EBE1"
+			tasks: [{
+				id: "3727B06E2FE205B4"
+				type: "item"
+				item: "irons_spellbooks:cinder_essence"
+			}]
+			rewards: [{
+				id: "155E77020EC84993"
+				type: "item"
+				item: "irons_spellbooks:arcane_essence"
+				count: 4
+			}]
+		}
+		{
+			title: "الحصول على اللفائف"
+			icon: "ob_core:scroll_primitive_rites"
+			x: -5.25d
+			y: 0.0d
+			description: ["هناك طريقتان رئيسيتان للحصول على اللفائف."]
+			dependencies: ["43BE75F09C4043F8"]
+			size: 1.5d
+			id: "5D6F2EF2A0FABB1E"
+			tasks: [{
+				id: "4DB549B82B05387F"
+				type: "checkmark"
+				title: "أرني!"
+			}]
+		}
+		{
+			x: 6.0d
+			y: -2.0d
+			description: ["تُستخدم لترقية اللفائف، وترقية العتاد، وإضفاء طاقة على الأسلحة."]
+			dependencies: ["39BD15E37DD2B01C"]
+			id: "5C76F132FD8587F9"
+			tasks: [{
+				id: "65079F0A627BA537"
+				type: "item"
+				item: "irons_spellbooks:arcane_anvil"
+				consume_items: false
+				only_from_crafting: false
+			}]
+		}
+		{
+			x: 6.0d
+			y: 2.0d
+			description: ["الكرة الأساسية لترقية عتادك. تحتاج إلى تشريبها بالرونات لاستخدامها."]
+			dependencies: ["0CFC93A854B6EBE1"]
+			id: "607E8D1ADA6ED3A0"
+			tasks: [{
+				id: "450C6924ABAA82D0"
+				type: "item"
+				item: "irons_spellbooks:upgrade_orb"
+			}]
+		}
+		{
+			title: "آثار فريدة \\& كتب التعاويذ"
+			icon: "irons_spellbooks:emerald_stoneplate_ring"
+			x: -6.8d
+			y: -2.55d
+			description: ["في كل مرحلة من مغامراتك، احرص على البحث عن الخواتم، وكتب التعاويذ الفريدة، وكتب التعاويذ المسماة، وموارد السحر!"]
+			hide_dependency_lines: true
+			dependencies: ["43BE75F09C4043F8"]
+			size: 1.7d
+			id: "142D6C7E522A3208"
+			tasks: [{
+				id: "128B025C180FB6B2"
+				type: "checkmark"
+				title: "رائع!"
+			}]
+		}
+		{
+			x: -6.0d
+			y: 3.0d
+			description: ["مكوّن مطلوب لصناعة لفيفة. يمكن العثور عليه في هياكل السحر أو لدى مخلوقات سحرية قوية."]
+			dependencies: ["0614C37C1534939E"]
+			id: "4200E32F0492E2E3"
+			tasks: [{
+				id: "58DEDE820A0E14A3"
+				type: "item"
+				item: "irons_spellbooks:common_ink"
+			}]
+		}
+		{
+			title: "صناعة أول لفيفة لك"
+			icon: {
+				id: "irons_spellbooks:scroll"
+				Count: 1b
+				tag: {
+					ISB_spell: {
+						type: 1
+						level: 1
+					}
+				}
+			}
+			x: -7.5d
+			y: 4.0d
+			description: ["مع الحبر وفرن اللفائف، أصبحت مستعداً لصنع أول لفيفة لك!"]
+			dependencies: [
+				"5178B560C8B827E3"
+				"4200E32F0492E2E3"
+			]
+			id: "55DE5FDCFC67E4A2"
+			tasks: [{
+				id: "454D6DA7C5585A1B"
+				type: "checkmark"
+				title: "شكراً!"
+			}]
+			rewards: [{
+				id: "62DD7A9F0FD11783"
+				type: "item"
+				item: "irons_spellbooks:magic_cloth"
+			}]
+		}
+	]
+	quest_links: [ ]
+}

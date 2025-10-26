@@ -1,0 +1,36 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 10,
+  "icon": "minecraft:iron_axe",
+  "start": {
+    "title": {
+      "text": "عرض"
+    },
+    "description": {
+      "text": "15 زمردات، وسأعلمك كيفية استخدام مهارة Step."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "شكرًا."
+    },
+    "description": {
+      "text": "تفضل. أفضل استخدام هذا بدلًا من التدحرج في طين."
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "minecraft:emerald"
+      },
+      "id": "quest_giver:gift",
+      "amount": 15
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/give @p epicfight:skillbook{skill:\"epicfight:step\"}",
+      "id": "quest_giver:command"
+    }
+  ]
+}
