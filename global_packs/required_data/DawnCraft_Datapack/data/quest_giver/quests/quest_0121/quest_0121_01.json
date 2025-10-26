@@ -1,0 +1,43 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 16,
+  "icon": "minecraft:iron_pickaxe",
+  "start": {
+    "title": {
+      "text": "خريطة إلى حارس الإندر"
+    },
+    "description": {
+      "text": "لا شيء مجاني يا صديقي. أعطني 5 زمردات وسأعطيك الاتجاه إلى حارس الإندر."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "شكرا!"
+    },
+    "description": {
+      "text": "جيد جدا، تفضل. تذكر، لا تفتح هذه خريطة حتى تكون فعليا في عالم الإند. لا تقل إني لم أحذرك."
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "minecraft:emerald"
+      },
+      "id": "quest_giver:gift",
+      "times": 5
+    }
+  ],
+  "rewards": [
+    {
+      "item": {
+        "item": "simple_mobs:rolled_map_3"
+      },
+      "id": "quest_giver:item",
+      "times": 1
+    },
+    {
+      "command": "/gamestage add @p enderian1 true",
+      "id": "quest_giver:command"
+    }
+  ]
+}

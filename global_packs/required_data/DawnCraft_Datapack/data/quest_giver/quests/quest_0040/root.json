@@ -1,0 +1,12 @@
+{
+  "reputation": 15,
+  "icon": "minecraft:map",
+  "start": {
+    "title": {
+      "text": "مرحبًا!"
+    },
+    "description": {
+      "text": "مرحبًا مغامر! لدي تحدٍ لك، هل أنت مستعد له؟"
+    }
+  }
+}

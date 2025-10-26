@@ -1,0 +1,23 @@
+{
+  "fastload.screen.buildingTerrain.building": "بناء مقاطع العميل",
+  "fastload.screen.buildingTerrain.preparing": "توليد مقاطع الخادم",
+  "fastload.buildingTerrain.starting": "بدء الجلسة",
+  "fastload.screen.buildingTerrain.template": "المكتمل / الهدف",
+  "fastload.screen.config": "إعدادات Fastload",
+  "fastload.button.debug": "وضع التصحيح",
+  "fastload.button.debug.tooltip": "هل يجب طباعة معلومات التصحيح في السجلات؟",
+  "fastload.button.instant_load": "تحميل فوري",
+  "fastload.button.instant_load.tooltip": "هل أنت غير صبور؟ هل تكره شاشات التحميل؟ فقط فعّله، حمّل عالماً، وستندم. -_-",
+  "fastload.button.local_render_chunk_radius": "نصف القطر المحلي",
+  "fastload.button.local_render_chunk_radius.tooltip": "نصف القطر الذي يحدد عدد المقاطع ضمن دائرة ليتم عرضها في بناء التضاريس في Fastload للعب الفردي.",
+  "fastload.button.local_render_chunk_radius.min": "معطل",
+  "fastload.button.local_render_chunk_radius.max": "ما هذا",
+  "fastload.button.server_render_chunk_radius": "نصف قطر الخادم",
+  "fastload.button.server_render_chunk_radius.tooltip": "نصف القطر الذي يحدد عدد المقاطع ضمن دائرة ليتم عرضها في بناء التضاريس في Fastload للخوادم.",
+  "fastload.button.server_render_chunk_radius.min": "معطل",
+  "fastload.button.server_render_chunk_radius.max": "ما هذا",
+  "fastload.button.chunk_try_limit": "حد محاولات المقاطع",
+  "fastload.button.chunk_try_limit.tooltip": "كم مرة يُسمح بإرجاع نفس عدد المقاطع على التوالي قبل إيقاف العرض المسبق",
+  "fastload.button.chunk_try_limit.min": "حاسوب NASA",
+  "fastload.button.chunk_try_limit.max": "حلزون"
+}

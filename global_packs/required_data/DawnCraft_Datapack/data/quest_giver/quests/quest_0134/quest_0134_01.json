@@ -1,0 +1,36 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 15,
+  "icon": "minecraft:iron_sword",
+  "start": {
+    "title": {
+      "text": "إذن؟"
+    },
+    "description": {
+      "text": "إذن يمكنني أن أعلّمك المهارة - Swordmaster مقابل 15 زمردات… ما رأيك؟"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "شكراً!"
+    },
+    "description": {
+      "text": "تفضل مغامر!"
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "minecraft:emerald"
+      },
+      "id": "quest_giver:gift",
+      "times": 15
+    }
+  ],
+  "rewards": [
+    {
+      "command": "give @p epicfight:skillbook{skill:\"epicfight:swordmaster\"}",
+      "id": "quest_giver:command"
+    }
+  ]
+}

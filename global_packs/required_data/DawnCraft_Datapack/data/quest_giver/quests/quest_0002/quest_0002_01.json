@@ -1,0 +1,43 @@
+{
+  "parent": "quest_giver:quest_0002_01b",
+  "reputation": 0,
+  "icon": "minecraft:rabbit_foot",
+  "start": {
+    "title": {
+      "text": "خدمة"
+    },
+    "description": {
+      "text": "حسنًا، هل لديك قدم أرنب نيء؟"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "حسنًا، رائع!"
+    },
+    "description": {
+      "text": "حسنًا، رائع! ليس لدي الكثير لأدفعه مقابلها… من فضلك اقبل هذه لحم ضأن مطبوخ، مطهية للتو!"
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "minecraft:rabbit_foot"
+      },
+      "id": "quest_giver:gift",
+      "times": 1
+    }
+  ],
+  "rewards": [
+    {
+      "item": {
+        "item": "minecraft:cooked_mutton"
+      },
+      "id": "quest_giver:item",
+      "times": 1
+    },
+    {
+      "command": "/addreputation reputation:villager @p 2",
+      "id": "quest_giver:command"
+    }
+  ]
+}

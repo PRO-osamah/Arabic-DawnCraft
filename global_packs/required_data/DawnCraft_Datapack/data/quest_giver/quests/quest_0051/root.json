@@ -1,0 +1,12 @@
+{
+  "reputation": 0,
+  "icon": "minecraft:wheat_seeds",
+  "start": {
+    "title": {
+      "text": "أهلا!"
+    },
+    "description": {
+      "text": "مرحبا سيدي الكريم! هل يمكنك مساعدتي في شيء؟"
+    }
+  }
+}

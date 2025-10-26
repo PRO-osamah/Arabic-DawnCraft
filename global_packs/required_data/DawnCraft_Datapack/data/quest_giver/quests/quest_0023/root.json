@@ -1,0 +1,12 @@
+{
+  "reputation": 12,
+  "icon": "minecraft:log",
+  "start": {
+    "title": {
+      "text": "مرحبا!"
+    },
+    "description": {
+      "text": "مرحبا أيها الشاب، هل تريد تعلم بعض مهارات القتال؟"
+    }
+  }
+}

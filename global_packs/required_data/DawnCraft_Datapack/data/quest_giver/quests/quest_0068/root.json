@@ -1,0 +1,12 @@
+{
+  "reputation": 8,
+  "icon": "minecraft:leather",
+  "start": {
+    "title": {
+      "text": "مرحبًا!"
+    },
+    "description": {
+      "text": "مغامر، هل أنت جيد في الطبخ؟"
+    }
+  }
+}

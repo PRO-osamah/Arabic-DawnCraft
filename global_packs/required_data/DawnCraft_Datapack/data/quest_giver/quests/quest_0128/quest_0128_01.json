@@ -1,0 +1,36 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 15,
+  "icon": "minecraft:iron_sword",
+  "start": {
+    "title": {
+      "text": "إذن؟"
+    },
+    "description": {
+      "text": "أستطيع أن أعلمك المهارة Rain Cutter مقابل 25 زمردات"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "شكرا"
+    },
+    "description": {
+      "text": "تفضل مغامر"
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "minecraft:emerald"
+      },
+      "id": "quest_giver:gift",
+      "times": 25
+    }
+  ],
+  "rewards": [
+    {
+      "command": "give @p epicfight:skillbook{skill:\"sword_soaring:rain_cutter\"}",
+      "id": "quest_giver:command"
+    }
+  ]
+}

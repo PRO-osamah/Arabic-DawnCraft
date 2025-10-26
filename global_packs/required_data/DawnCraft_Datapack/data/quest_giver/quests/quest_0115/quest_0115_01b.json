@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 5,
+  "icon": "minecraft:iron_axe",
+  "start": {
+    "title": {
+      "text": "عرض"
+    },
+    "description": {
+      "text": "حين كنت في بُعد النذر، وجدت بنية غريبة يقطن داخلها غولِم وحشي. سأريك مكانها على خريطة إن أعطيتني 6 زمردات."
+    }
+  }
+}

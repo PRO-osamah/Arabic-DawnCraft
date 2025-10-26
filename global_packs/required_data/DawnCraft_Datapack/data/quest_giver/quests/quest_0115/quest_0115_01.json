@@ -1,0 +1,43 @@
+{
+  "parent": "quest_giver:quest_0115_01b",
+  "reputation": 10,
+  "icon": "minecraft:iron_axe",
+  "start": {
+    "title": {
+      "text": "عرض"
+    },
+    "description": {
+      "text": "6 زمردات إذا أردت أن أدلّك على مكان المسخ في بُعد النذر."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "شكرًا!"
+    },
+    "description": {
+      "text": "تفضل، صيد سعيد! تذكر أن هذه خريطة لن تعمل إلا إذا فتحتها في النذر. إنه محيّر فعلًا، أليس كذلك؟"
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "minecraft:emerald"
+      },
+      "id": "quest_giver:gift",
+      "amount": 6
+    }
+  ],
+  "rewards": [
+    {
+      "item": {
+        "item": "simple_mobs:rolled_map_1"
+      },
+      "id": "quest_giver:item",
+      "times": 1
+    },
+    {
+      "command": "/gamestage add @p netherian2 true",
+      "id": "quest_giver:command"
+    }
+  ]
+}

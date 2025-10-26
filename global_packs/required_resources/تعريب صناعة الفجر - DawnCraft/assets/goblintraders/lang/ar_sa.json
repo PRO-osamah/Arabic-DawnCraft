@@ -1,0 +1,21 @@
+{
+  "entity.goblintraders.goblin_trader": "تاجر غوبلن",
+  "entity.goblintraders.vein_goblin_trader": "تاجر غوبلن العروق",
+  "subtitle.goblintraders.goblin_trader.annoyed_grunt": "تأفف منزعج",
+  "subtitle.goblintraders.goblin_trader.idle_grunt": "تأفف خامل",
+  "item.goblintraders.goblin_trader_spawn_egg": "بيضة استدعاء تاجر غوبلن",
+  "item.goblintraders.vein_goblin_trader_spawn_egg": "بيضة استدعاء تاجر غوبلن العروق",
+  "stat.goblintraders.trade_with_goblin": "تاجرت مع الغوبلن",
+  "mob_spawner.type.zombie": "زومبي",
+  "mob_spawner.type.skeleton": "هيكل عظمي",
+  "mob_spawner.type.creeper": "كريبر",
+  "item.minecraft.potion.effect.haste": "جرعة العجلة",
+  "item.minecraft.potion.effect.absorption": "جرعة الامتصاص",
+  "item.minecraft.potion.effect.dolphins_grace": "جرعة نعمة الدلفين",
+  "item.minecraft.splash_potion.effect.haste": "جرعة رش للعجلة",
+  "item.minecraft.splash_potion.effect.absorption": "جرعة رش للامتصاص",
+  "item.minecraft.splash_potion.effect.dolphins_grace": "جرعة رش لنعمة الدلفين",
+  "item.minecraft.lingering_potion.effect.haste": "جرعة متبقية للعجلة",
+  "item.minecraft.lingering_potion.effect.absorption": "جرعة متبقية للامتصاص",
+  "item.minecraft.lingering_potion.effect.dolphins_grace": "جرعة متبقية لنعمة الدلفين"
+}

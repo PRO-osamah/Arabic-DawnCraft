@@ -1,0 +1,12 @@
+{
+  "reputation": 2,
+  "icon": "minecraft:white_wool",
+  "start": {
+    "title": {
+      "text": "مرحبا"
+    },
+    "description": {
+      "text": "مرحبا، هل يمكنك أن تحضر لي مقص الجز؟ لقد انكسر مقصي للتو"
+    }
+  }
+}

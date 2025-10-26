@@ -1,0 +1,12 @@
+{
+  "reputation": 20,
+  "icon": "minecraft:redstone",
+  "start": {
+    "title": {
+      "text": "مرحبًا!"
+    },
+    "description": {
+      "text": "مرحبًا مغامر، هل يمكنك مساعدتي في شيء؟"
+    }
+  }
+}

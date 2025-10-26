@@ -1,0 +1,12 @@
+{
+  "reputation": 10,
+  "icon": "minecraft:bow",
+  "start": {
+    "title": {
+      "text": "مرحبا!"
+    },
+    "description": {
+      "text": "مرحبا، هل يمكنك الحصول على $(red)16 سهام$() من فليتشر المحلي؟ سأدفع لك ثمنها."
+    }
+  }
+}

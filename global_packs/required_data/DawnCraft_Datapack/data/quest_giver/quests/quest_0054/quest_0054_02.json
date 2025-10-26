@@ -1,0 +1,47 @@
+{
+  "parent": "quest_giver:quest_0054_01",
+  "reputation": 5,
+  "icon": "minecraft:wheat_seeds",
+  "start": {
+    "title": {
+      "text": "إذن؟"
+    },
+    "description": {
+      "text": "أعلمني إن كان بإمكانك صنع $(red)2 أرغفة من خبز$() لنا. ولكن بدون اندفاع!"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "شكرا!"
+    },
+    "description": {
+      "text": "شكرا جزيلا! يرجى قبول هذا، إنه ليس كثيرا لكنه كل ما أستطيع تحمله في الوقت الحالي."
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "minecraft:bread"
+      },
+      "id": "quest_giver:gift",
+      "times": 2
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/advancement grant @p only custom:trade_farmer",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/addreputation reputation:villager @p 2",
+      "id": "quest_giver:command"
+    },
+    {
+      "item": {
+        "item": "minecraft:emerald"
+      },
+      "id": "quest_giver:item",
+      "times": 2
+    }
+  ]
+}

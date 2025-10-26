@@ -1,0 +1,44 @@
+{
+  "parent": "quest_giver:quest_0024_01b",
+  "reputation": 6,
+  "icon": "minecraft:iron_sword",
+  "start": {
+    "title": {
+      "text": "مرحبا مجددا!"
+    },
+    "description": {
+      "text": "آه، كدت أنسى. هل يمكنك أن تحضر لي ورقة؟ سأدون موقع مخبئهم."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "تفضل."
+    },
+    "description": {
+      "text": "تفضل. أرجوك أسرع! لا نعلم ما الذي ينوون فعله بالطفل."
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "minecraft:paper"
+      },
+      "id": "quest_giver:gift",
+      "amount": 1
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/dc addWaypoint @p quest_giver:pillager_hideout \"طلب إنقاذ - مخبأ الناهبين\"",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/loot give @p loot minecraft:guard1",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/gamestage add @p guard1 true",
+      "id": "quest_giver:command"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 7,
+  "icon": "minecraft:arrow",
+  "start": {
+    "title": {
+      "text": "أسهم مغموسة"
+    },
+    "description": {
+      "text": "أحاول صنع أسهم مغموسة. هل يمكنك إحضار دزينة من مسحوق الحجر المضيء؟"
+    }
+  }
+}

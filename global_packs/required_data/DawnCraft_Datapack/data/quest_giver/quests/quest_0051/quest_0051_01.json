@@ -1,0 +1,43 @@
+{
+  "parent": "quest_giver:quest_0051_01b",
+  "reputation": 0,
+  "icon": "minecraft:wheat_seeds",
+  "start": {
+    "title": {
+      "text": "إذن؟"
+    },
+    "description": {
+      "text": "هل حصلت على $(red)بذور اليقطين$() بعد؟"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "شكرا!"
+    },
+    "description": {
+      "text": "شكرا جزيلا، الآن أستطيع إنشاء مزرعة يقطين صغيرة خلف منزلي والبدء في دراساتي، هاها!"
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "minecraft:pumpkin_seeds"
+      },
+      "id": "quest_giver:gift",
+      "times": 1
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/addreputation reputation:villager @p 3",
+      "id": "quest_giver:command"
+    },
+    {
+      "item": {
+        "item": "minecraft:emerald"
+      },
+      "id": "quest_giver:item",
+      "times": 1
+    }
+  ]
+}

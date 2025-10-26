@@ -1,0 +1,9 @@
+{
+  "cull-less-leaves.title": "Cull Less Leaves",
+  "cull-less-leaves.option.enabled": "مفعل",
+  "cull-less-leaves.option.depth": "العمق",
+  "cull-less-leaves.option.depth.tooltip": "عدد طبقات الأوراق قبل استبعاد الجزء الداخلي من الأوراق.\n1 = الأسرع لكنه الأقل جمالًا.\n2 = موصى به.\n4 = الأبطأ لكنه الأكثر جمالًا.",
+  "cull-less-leaves.sodium.option.enabled": "استبعاد الأوراق",
+  "cull-less-leaves.sodium.option.enabled.description": "يفعّل معدل Cull Less Leaves.",
+  "cull-less-leaves.sodium.option.depth": "عمق استبعاد الأوراق"
+}

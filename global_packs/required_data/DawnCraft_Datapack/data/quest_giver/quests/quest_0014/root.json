@@ -1,0 +1,12 @@
+{
+  "reputation": 5,
+  "icon": "minecraft:iron_sword",
+  "start": {
+    "title": {
+      "text": "مرحبا!"
+    },
+    "description": {
+      "text": "أهلا بك! يبدو أن هذه زيارتك الأولى للنقابة. هل ترغب في خوض مهمتك الأولى؟"
+    }
+  }
+}

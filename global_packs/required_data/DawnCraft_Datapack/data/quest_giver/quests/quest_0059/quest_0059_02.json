@@ -1,0 +1,47 @@
+{
+  "parent": "quest_giver:quest_0059_01",
+  "reputation": 4,
+  "icon": "minecraft:cod",
+  "start": {
+    "title": {
+      "text": "إذن؟"
+    },
+    "description": {
+      "text": "هل حصلت على مسحوق الريدستون؟ أعتقد أنني أحتاج إلى 1 فقط."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "شكرا!"
+    },
+    "description": {
+      "text": "شكرا! هذا مقابل تعبك."
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "minecraft:redstone"
+      },
+      "id": "quest_giver:gift",
+      "times": 1
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/advancement grant @p only custom:trade_fisherman",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/addreputation reputation:villager @p 1",
+      "id": "quest_giver:command"
+    },
+    {
+      "item": {
+        "item": "minecraft:emerald"
+      },
+      "id": "quest_giver:item",
+      "times": 2
+    }
+  ]
+}

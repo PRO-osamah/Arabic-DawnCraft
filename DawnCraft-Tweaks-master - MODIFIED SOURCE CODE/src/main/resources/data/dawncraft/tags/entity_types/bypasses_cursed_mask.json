@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+	"#dawncraft:bosses",
+	"minecraft:elder_guardian",
+	"minecraft:guardian",
+	"minecraft:piglin_brute",
+	"minecraft:vex"
+  ]
+}

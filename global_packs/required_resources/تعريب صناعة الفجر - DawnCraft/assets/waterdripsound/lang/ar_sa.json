@@ -1,0 +1,10 @@
+{
+  "key.waterdripsound.category": "عام",
+  "config.waterdripsound.general": "إعدادات أصوات التنقيط",
+  "config.waterdripsound.enable": "تفعيل",
+  "config.waterdripsound.volume": "مستوى الصوت",
+  "config.waterdripsound.dripChance": "احتمال التنقيط",
+  "config.waterdripsound.useDripstoneSounds": "استخدام أصوات Dripstone",
+  "tooltip.config.waterdripsound.useDripstoneSounds": "عند التفعيل، يستخدم أصوات\n تنقيط ماء/حمم Dripstone المضافة في 1.17.\nإذا لم يكن كذلك، يستخدم أصوات من إصدارات أقدم\n من التعديل.",
+  "config.waterdripsound.soundCategory": "فئة الصوت"
+}

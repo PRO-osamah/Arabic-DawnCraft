@@ -1,0 +1,47 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 15,
+  "icon": "minecraft:map",
+  "start": {
+    "title": {
+      "text": "مهمة هدف مستحيلة!"
+    },
+    "description": {
+      "text": "للحصول على هذا السلاح، عليك أولًا أن تثبت جدارتك بإنجاز اثنين من أهداف: اصنع كتلة بولترغايس واحتجز بلوفياتور صغيرًا في زجاجة."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "شكرًا!"
+    },
+    "description": {
+      "text": "أحسنت! إليك جيزيتس وهيرشر. وقد تم إشباعهما بقوة محيط، وهما يمتلكان قدرات تآزرية فريدة عند استخدامهما معًا."
+    }
+  },
+  "tasks": [
+    {
+      "id": "dawncraft:advancement",
+      "advancement": "biomemakeover:biomemakeover/poltergeist"
+    },
+    {
+      "id": "dawncraft:advancement",
+      "advancement": "cloudstorage:cloudstorage/angry_cloud_in_a_bottle"
+    }
+  ],
+  "rewards": [
+    {
+      "item": {
+        "item": "wom:herrscher"
+      },
+      "id": "quest_giver:item",
+      "times": 1
+    },
+    {
+      "item": {
+        "item": "wom:gesetz"
+      },
+      "id": "quest_giver:item",
+      "times": 1
+    }
+  ]
+}

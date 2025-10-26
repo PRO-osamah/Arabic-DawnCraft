@@ -1,0 +1,12 @@
+{
+  "reputation": 3,
+  "icon": "minecraft:bow",
+  "start": {
+    "title": {
+      "text": "مرحبا!"
+    },
+    "description": {
+      "text": "هل يمكنك مساعدتي في جمع مكونات إغراء للحيوانات؟"
+    }
+  }
+}

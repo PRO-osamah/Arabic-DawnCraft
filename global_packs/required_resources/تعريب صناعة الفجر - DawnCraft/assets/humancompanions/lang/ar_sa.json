@@ -1,0 +1,11 @@
+{
+  "entity.humancompanions.knight": "فارس",
+  "entity.humancompanions.archer": "رامي",
+  "entity.humancompanions.arbalist": "رامي بالقوس المستعرض",
+  "entity.humancompanions.axeguard": "حارس بفأس",
+  "container.humancompanions.companion_inventory": "مخزون الرفيق",
+  "item.humancompanions.arbalist_spawn_egg": "بيضة استدعاء رامي بالقوس المستعرض",
+  "item.humancompanions.archer_spawn_egg": "بيضة استدعاء رامي",
+  "item.humancompanions.axeguard_spawn_egg": "بيضة استدعاء أكسغورد",
+  "item.humancompanions.knight_spawn_egg": "بيضة استدعاء فارس"
+}

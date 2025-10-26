@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 0,
+  "icon": "minecraft:cod",
+  "start": {
+    "title": {
+      "text": "صنع صنارة صيد"
+    },
+    "description": {
+      "text": "إن صنارة صيد الخاصة بي على وشك أن تنكسر… هل يمكنك صنع واحدة جديدة لي؟ الصانع المعتاد خارج البلدة هذه الأيام…"
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "parent": "quest_giver:quest_0111_01",
+  "reputation": 13,
+  "icon": "minecraft:iron_sword",
+  "start": {
+    "title": {
+      "text": "إذن؟"
+    },
+    "description": {
+      "text": "هل قضيت على عملاق بعد؟ إن كان كذلك فأحضر لي ما يسقطه."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "شكرا!"
+    },
+    "description": {
+      "text": "عمل جيد! هذه بالفعل إحدى عينيه... لنرى، سأعلمك مهارة القتال - Demolition Leap، مقابلا لذلك. هذه المهارة تحسن بشكل كبير رشاقتك أثناء القتال!"
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "simple_mobs:giant_eye_fragment"
+      },
+      "id": "quest_giver:gift",
+      "times": 1
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/give @p epicfight:skillbook{skill:\"epicfight:demolition_leap\"}",
+      "id": "quest_giver:command"
+    }
+  ]
+}

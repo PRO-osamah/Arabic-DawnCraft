@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 1,
+  "icon": "minecraft:wheat_seeds",
+  "start": {
+    "title": {
+      "text": "مرحبا"
+    },
+    "description": {
+      "text": "أنا وصديقي لدينا قبعات قد تهالكت قليلا. نريد صنع قبعة جديدة كما ترى… هل يمكنك أن تجلب لي $(red)بالة من قش$()؟"
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "parent": "quest_giver:quest_0110_01b",
+  "reputation": 16,
+  "icon": "minecraft:iron_sword",
+  "start": {
+    "title": {
+      "text": "مرحبًا مجددًا!"
+    },
+    "description": {
+      "text": "أيها الرجل الشجاع. من فضلك أعطني قطعة من ورقة كي أريك أين يوجد المخلوق."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "تفضل."
+    },
+    "description": {
+      "text": "بالمناسبة، كاهن هو من زودنا بهذه المعلومات. لذلك لست متأكد من دقتها بالكامل. على أي حال، اعثر على هذا المخلوق، واقتله، وأعد أي شيء يسقطه."
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "minecraft:paper"
+      },
+      "id": "quest_giver:gift",
+      "amount": 1
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/dc addWaypoint @p quest_giver:cave_dwelling \"طلب إبادة - ساكن الكهف\"",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/loot give @p loot minecraft:guard3",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/gamestage add @p guard3 true",
+      "id": "quest_giver:command"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "reputation": 0,
+  "icon": "minecraft:brewing_stand",
+  "start": {
+    "title": {
+      "text": "أهلا"
+    },
+    "description": {
+      "text": "مرحبا، هل يمكنك مساعدتي في الحصول على $(red)5 عيون العنكبوت$()؟"
+    }
+  }
+}

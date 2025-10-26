@@ -1,0 +1,30 @@
+{
+  "parent": "quest_giver:quest_0059_01b",
+  "reputation": 4,
+  "icon": "minecraft:cod",
+  "start": {
+    "title": {
+      "text": "تتبع الوقت"
+    },
+    "description": {
+      "text": "هل حصلت على ساعة رملية؟ لا أتذكر حتى متى طلبت منك ذلك. يا إلهي، أنا بحاجة إلى شيء. أرجوك أسرع."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "شكرا!"
+    },
+    "description": {
+      "text": "رائع! ها هو… مهلا، لا يوجد شيء بداخله. كيف أستخدمه؟ همم… هل يمكنك أن تحضر لي بعض $(red)مسحوق الريدستون$()؟ كي أضعه في ساعة رملية."
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "supplementaries:hourglass"
+      },
+      "id": "quest_giver:gift",
+      "times": 1
+    }
+  ]
+}

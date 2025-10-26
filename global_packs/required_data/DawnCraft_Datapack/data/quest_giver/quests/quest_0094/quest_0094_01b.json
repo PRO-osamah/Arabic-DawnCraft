@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 52,
+  "icon": "minecraft:ender_pearl",
+  "start": {
+    "title": {
+      "text": "مساعدة"
+    },
+    "description": {
+      "text": "هناك طبق يسمى معكرونة إينيجل. إنه طبق لا يمكن صنعه إلا بمكونات موجودة في بعد عالم الإند… من فضلك اجمع كل الموارد واطبخ واحدا لي."
+    }
+  }
+}

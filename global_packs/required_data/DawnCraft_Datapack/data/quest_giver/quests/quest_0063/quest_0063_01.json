@@ -1,0 +1,43 @@
+{
+  "parent": "quest_giver:quest_0063_01b",
+  "reputation": 0,
+  "icon": "minecraft:arrow",
+  "start": {
+    "title": {
+      "text": "حرفية سهم"
+    },
+    "description": {
+      "text": "هل حصلت على $(red)4 جذوع التنوب$()) بعد؟"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "شكرًا!"
+    },
+    "description": {
+      "text": "عمل جيد، هذه زمرد مقابل عملك."
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "minecraft:spruce_log"
+      },
+      "id": "quest_giver:gift",
+      "times": 4
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/addreputation reputation:villager @p 1",
+      "id": "quest_giver:command"
+    },
+    {
+      "item": {
+        "item": "minecraft:emerald"
+      },
+      "id": "quest_giver:item",
+      "times": 1
+    }
+  ]
+}

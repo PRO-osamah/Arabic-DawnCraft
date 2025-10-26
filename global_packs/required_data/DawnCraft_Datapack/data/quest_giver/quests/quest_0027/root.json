@@ -1,0 +1,12 @@
+{
+  "reputation": 20,
+  "icon": "minecraft:iron_ingot",
+  "start": {
+    "title": {
+      "text": "أهلًا!"
+    },
+    "description": {
+      "text": "أهلًا أيها الفتى! هل أنت مستعد لتحد صغير؟"
+    }
+  }
+}

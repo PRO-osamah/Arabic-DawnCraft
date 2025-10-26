@@ -1,0 +1,19 @@
+{
+  "blueprint.config.screen_shake_scale": "مقياس اهتزاز الشاشة",
+  "blueprint.config.max_screen_shakers": "أقصى عدد لمؤثرات اهتزاز الشاشة",
+  "blueprint.config.disable_experimental_settings_screen": "تعطيل شاشة الإعدادات التجريبية",
+  "blueprint.config.slabfish_hat.enabled": "قبعة سلابفيش",
+  "blueprint.config.slabfish_hat.enabled.tooltip": "يبدل قبعة سلابفيش. متاح لداعمي المستوى 2 فأعلى.",
+  "blueprint.config.slabfish_hat.sweater": "سترة",
+  "blueprint.config.slabfish_hat.sweater.tooltip": "يبدل سترة قبعة سلابفيش. متاح لداعمي المستوى 2 فأعلى.",
+  "blueprint.config.slabfish_hat.backpack": "حقيبة ظهر",
+  "blueprint.config.slabfish_hat.backpack.tooltip": "يبدل حقيبة ظهر قبعة سلابفيش. متاح لداعمي المستوى 3 فأعلى.",
+  "blueprint.config.slabfish_hat.type": "النوع",
+  "blueprint.config.slabfish_hat.type.tooltip": "يبدل نوع قبعة سلابفيش. متاح لداعمي المستوى 4 فأعلى.",
+  "blueprint.screen.slabfish_settings": "إعدادات قبعة سلابفيش…",
+  "blueprint.screen.slabfish_settings.title": "إعدادات قبعة سلابفيش",
+  "blueprint.screen.slabfish_settings.tooltip": "إعدادات قبعة سلابفيش لداعمي Team Abnormals. كن داعما عبر %s.",
+  "blueprint.message.redirect": "جاري إعادة التوجيه",
+  "biome.blueprint.original_source_marker": "علامة المصدر الأصلي",
+  "entity.blueprint.boat": "قارب"
+}

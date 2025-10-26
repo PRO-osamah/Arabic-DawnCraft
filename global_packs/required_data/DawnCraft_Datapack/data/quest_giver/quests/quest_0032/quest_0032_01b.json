@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 0,
+  "icon": "minecraft:beef",
+  "start": {
+    "title": {
+      "text": "مساعدة بسيطة"
+    },
+    "description": {
+      "text": "أحسنت! هل يمكنك بطريقة ما أن تحضر لي $(red)سكين حديد$()؟ لقد انكسر الذي لدي للتو…"
+    }
+  }
+}

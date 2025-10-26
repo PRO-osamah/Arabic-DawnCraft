@@ -1,0 +1,36 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 15,
+  "icon": "minecraft:iron_sword",
+  "start": {
+    "title": {
+      "text": "إذًا؟"
+    },
+    "description": {
+      "text": "أستطيع أن أعلّمك المهارة - الارتقاء الشبحي مقابل 25 زمردات. صفقة جيدة جدًا إن جاز لي القول."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "شكرًا"
+    },
+    "description": {
+      "text": "تفضل مغامر. فقط اقفز مرتين لاستخدام المهارة."
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "minecraft:emerald"
+      },
+      "id": "quest_giver:gift",
+      "times": 25
+    }
+  ],
+  "rewards": [
+    {
+      "command": "give @p epicfight:skillbook{skill:\"epicfight:phantom_ascent\"}",
+      "id": "quest_giver:command"
+    }
+  ]
+}

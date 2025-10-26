@@ -1,0 +1,12 @@
+{
+  "reputation": 0,
+  "icon": "minecraft:white_wool",
+  "start": {
+    "title": {
+      "text": "مرحبا"
+    },
+    "description": {
+      "text": "هل تهتم ب هدف الخاصة بالإبادة؟"
+    }
+  }
+}

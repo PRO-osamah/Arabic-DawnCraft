@@ -1,0 +1,12 @@
+{
+  "reputation": 24,
+  "icon": "minecraft:arrow",
+  "start": {
+    "title": {
+      "text": "مرحبًا"
+    },
+    "description": {
+      "text": "لدي عمل لك، مغامر."
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "category.spyglass-improvements": "تحسينات المنظار",
+  "key.spyglass-improvements.use": "استخدام المنظار",
+  "options.spyglass-improvements.zoomQuantity": "عدد خطوات التكبير: %s",
+  "options.spyglass-improvements.hideSettingsButton": "إخفاء زر الإعدادات: %s",
+  "options.spyglass-improvements.hideSettingsButton.tooltip": "إخفاء زر الإعدادات في شاشة خيارات Minecraft. ما زال بإمكانك الوصول إلى هذه الشاشة عبر Mod Menu",
+  "options.spyglass-improvements.showCrosshair": "إظهار مؤشر التصويب: %s",
+  "options.spyglass-improvements.smoothCamera": "تنعيم الكاميرا: %s",
+  "options.spyglass-improvements.spyglassOverlay": "تراكب المنظار: %s",
+  "options.spyglass-improvements.spyglassOverlay.Default": "افتراضي",
+  "options.spyglass-improvements.spyglassOverlay.Clear": "شفاف",
+  "options.spyglass-improvements.spyglassOverlay.Circle": "دائرة",
+  "options.spyglass-improvements.spyglassOverlay.None": "لا شيء",
+  "options.spyglass-improvements.title": "إعدادات تحسينات المنظار",
+  "options.spyglass-improvements.reset": "إعادة ضبط الإعدادات"
+}

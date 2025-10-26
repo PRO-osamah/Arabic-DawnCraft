@@ -1,0 +1,36 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 15,
+  "icon": "minecraft:iron_sword",
+  "start": {
+    "title": {
+      "text": "إذن؟"
+    },
+    "description": {
+      "text": "يمكنني أن أعلّمك المهارة - Ender Step مقابل 30 زمردات. ما رأيك؟"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "شكرًا!"
+    },
+    "description": {
+      "text": "هذه هي المهارة التي توارثتها الكائنات الأسطورية - التوأمان. يمكنك العثور عليهم في عالم الإند، أو هكذا سمعت…"
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "minecraft:emerald"
+      },
+      "id": "quest_giver:gift",
+      "times": 30
+    }
+  ],
+  "rewards": [
+    {
+      "command": "give @p epicfight:skillbook{skill:\"wom:ender_step\"}",
+      "id": "quest_giver:command"
+    }
+  ]
+}

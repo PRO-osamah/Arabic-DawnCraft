@@ -1,0 +1,56 @@
+{
+  "parent": "quest_giver:quest_0014_05",
+  "reputation": 10,
+  "icon": "minecraft:iron_sword",
+  "start": {
+    "title": {
+      "text": "الطريق إلى حاملي العيون"
+    },
+    "description": {
+      "text": "هم… ذو الذيول التسعة ليس إنسانا تماما. على أي حال، ستفهم عندما تراه."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "الطريق إلى حاملي العيون"
+    },
+    "description": {
+      "text": "همف… في هذه المرحلة لم أعد مندهشا. أحسنت. كان ذو الذيول التسعة روحا عنيفا سيئ الصيت… لا فكرة لدي عن سبب قراره الاعتزال في حظيرة مهجورة. على أي حال، إليك موقع حامل العين التالي. احذر، فهذا ليس شبيها بمن واجهتهم من قبل."
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "endrem:exotic_eye"
+      },
+      "id": "quest_giver:item_pickup",
+      "times": 1
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/dc addWaypoint @p custom:floating_island \"المهمة الرئيسية - الجزيرة العائمة\"",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/loot give @p loot minecraft:guildmaster4",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/pmmo admin @p add magic level 1",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/pmmo admin @p add smithing level 1",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/advancement grant @p only simple_mobs:nine_tails_quest_complete",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/gamestage add @p guildmaster6 true",
+      "id": "quest_giver:command"
+    }
+  ]
+}

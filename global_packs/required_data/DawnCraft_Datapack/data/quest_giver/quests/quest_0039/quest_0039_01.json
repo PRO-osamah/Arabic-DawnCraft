@@ -1,0 +1,44 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 45,
+  "icon": "minecraft:paper",
+  "start": {
+    "title": {
+      "text": "خارجون أجانب عن القانون"
+    },
+    "description": {
+      "text": "هل يمكنك أن تجلب لي قطعة من ورقة؟ سأرسم لك خريطة."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "تفضل."
+    },
+    "description": {
+      "text": "هنا، أقامت مجموعة من الخارجين الأجانب عن القانون موقعًا حيث يوجد علامة. اذهب واقض على الزعيم."
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "minecraft:paper"
+      },
+      "id": "quest_giver:gift",
+      "amount": 1
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/dc addWaypoint @p custom:dojo \"حلبة الأجانب الخارجين عن القانون\"",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/loot give @p loot minecraft:cartographer1",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/gamestage add @p cartographer1 true",
+      "id": "quest_giver:command"
+    }
+  ]
+}

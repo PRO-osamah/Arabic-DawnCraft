@@ -1,0 +1,12 @@
+{
+  "reputation": 0,
+  "icon": "minecraft:wooden_sword",
+  "start": {
+    "title": {
+      "text": "أوه!"
+    },
+    "description": {
+      "text": "أوه! لدي طلب لأطلبه منك… هل ستستمع؟"
+    }
+  }
+}

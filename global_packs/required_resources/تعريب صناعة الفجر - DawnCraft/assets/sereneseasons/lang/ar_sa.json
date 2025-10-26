@@ -1,0 +1,17 @@
+{
+  "commands.sereneseasons.usage": "/season <get/set> [args]",
+  "commands.sereneseasons.getseason.success": "الفصل الحالي هو %s، اليوم %s/%s، التيك %s/%s",
+  "commands.sereneseasons.setseason.success": "تم تعيين الفصل إلى %s",
+  "commands.sereneseasons.setseason.fail": "الفصل %s غير صالح",
+  "commands.sereneseasons.setseason.disabled": "الفصول معطلة حاليًا!",
+  "itemGroup.tabSereneSeasons": "الفصول الهادئة",
+  "block.sereneseasons.season_sensor": "مستشعر الفصول",
+  "item.sereneseasons.ss_icon": "أيقونة SS",
+  "item.sereneseasons.calendar": "تقويم",
+  "desc.sereneseasons.fertile_seasons": "فصول خصبة",
+  "desc.sereneseasons.year_round": "طوال العام",
+  "desc.sereneseasons.spring": "الربيع",
+  "desc.sereneseasons.summer": "الصيف",
+  "desc.sereneseasons.autumn": "الخريف",
+  "desc.sereneseasons.winter": "الشتاء"
+}

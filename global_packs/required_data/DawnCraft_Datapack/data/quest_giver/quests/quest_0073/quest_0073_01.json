@@ -1,0 +1,61 @@
+{
+  "parent": "quest_giver:quest_0073_01b",
+  "reputation": 8,
+  "icon": "minecraft:book",
+  "start": {
+    "title": {
+      "text": "معرفة في علم الغابات"
+    },
+    "description": {
+      "text": "أنواع الأوراق الـ3 المطلوب جمعها هي: $(red)أوراق الغسق، أوراق القيقب، أوراق مضاءة بالنجوم$()."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "شكرا!"
+    },
+    "description": {
+      "text": "هذا مدهش! كيف يمكن أن تكون هناك سمات مشتركة لدى نباتات تنمو في بيئات مختلفة تماما؟ على أي حال، هذه مكافأتك."
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "blue_skies:dusk_leaves"
+      },
+      "id": "quest_giver:gift",
+      "times": 1
+    },
+    {
+      "item": {
+        "item": "blue_skies:maple_leaves"
+      },
+      "id": "quest_giver:gift",
+      "amount": 1
+    },
+    {
+      "item": {
+        "item": "blue_skies:starlit_leaves"
+      },
+      "id": "quest_giver:gift",
+      "amount": 1
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/advancement grant @p only custom:trade_librarian",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/addreputation reputation:villager @p 3",
+      "id": "quest_giver:command"
+    },
+    {
+      "item": {
+        "item": "irons_spellbooks:arcane_ingot"
+      },
+      "id": "quest_giver:item",
+      "times": 10
+    }
+  ]
+}

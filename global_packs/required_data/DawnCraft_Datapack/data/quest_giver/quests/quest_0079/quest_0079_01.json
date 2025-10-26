@@ -1,0 +1,45 @@
+{
+  "parent": "quest_giver:quest_0079_01b",
+  "reputation": 0,
+  "icon": "minecraft:white_wool",
+  "start": {
+    "title": {
+      "text": "طلب إبادة"
+    },
+    "description": {
+      "text": "يرجى إنهاء هدف الخاصة بالإبادة في أسرع وقت ممكن، فهذا يؤثر في حملاني"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "شكرا"
+    },
+    "description": {
+      "text": "أحسنت، ما زال هناك الكثير منهم، لكنني أظن أنني أرى منهم أقل الآن، هذه مكافأتك"
+    }
+  },
+  "tasks": [
+    {
+      "entity": "minecraft:creeper",
+      "id": "quest_giver:kill",
+      "times": 6
+    }
+  ],
+  "rewards": [
+    {
+      "item": {
+        "item": "minecraft:emerald"
+      },
+      "id": "quest_giver:item",
+      "times": 2
+    },
+    {
+      "command": "/addreputation reputation:villager @p 2",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/advancement grant @p only custom:trade_shepherd",
+      "id": "quest_giver:command"
+    }
+  ]
+}

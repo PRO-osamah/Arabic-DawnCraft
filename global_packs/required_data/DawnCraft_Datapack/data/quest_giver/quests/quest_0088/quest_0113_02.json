@@ -1,0 +1,30 @@
+{
+  "parent": "quest_giver:quest_0113_01",
+  "reputation": 16,
+  "icon": "minecraft:iron_pickaxe",
+  "start": {
+    "title": {
+      "text": "مرحبًا مجددًا!"
+    },
+    "description": {
+      "text": "هل حصلت على  $(red)جوهرة$()؟ قد تضطر إلى إبادة المخلوق لتحصل عليه."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "تفضل."
+    },
+    "description": {
+      "text": "واو… هذا مذهل. هذا ببساطة… مدهش. سأحتاج إلى بعض الوقت معه. هل يمكنك أن تحضر لي عصا خشبيًا؟ أظن أنني قد أتمكن من صنع شيء مميز لك."
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "simple_mobs:gem_item"
+      },
+      "id": "quest_giver:gift",
+      "times": 1
+    }
+  ]
+}

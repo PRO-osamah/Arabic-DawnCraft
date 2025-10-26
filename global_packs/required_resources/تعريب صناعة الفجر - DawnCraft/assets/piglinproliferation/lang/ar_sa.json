@@ -1,0 +1,17 @@
+{
+  "entity.piglinproliferation.piglin_alchemist": "بيجلن كيميائي",
+  "item.piglinproliferation.piglin_alchemist_spawn_egg": "بيضة التفريخ للبيجلن الكيميائي",
+  "subtitles.entity.piglin_alchemist.prepared_to_throw_potion": "البيجلن الكيميائي على وشك أن يرمي جرعة!",
+  "subtitles.entity.piglin_alchemist.walk": "قوارير الجرعات تصطك",
+  "subtitles.entity.piglin_alchemist.idle": "البيجلن الكيميائي ينخر",
+  "subtitles.entity.piglin_alchemist.hurt": "البيجلن الكيميائي يتألم",
+  "subtitles.entity.piglin_alchemist.admire": "البيجلن الكيميائي يبدي إعجابا",
+  "subtitles.entity.piglin_alchemist.jealous": "البيجلن الكيميائي ينخر بحسد",
+  "subtitles.entity.piglin_alchemist.retreat": "البيجلن الكيميائي يتراجع",
+  "subtitles.entity.piglin_alchemist.death": "البيجلن الكيميائي يموت",
+  "subtitles.entity.piglin_alchemist.celebrate": "البيجلن الكيميائي يحتفل",
+  "subtitles.entity.piglin_alchemist.angry": "البيجلن الكيميائي ينخر بغضب",
+  "subtitles.entity.piglin_alchemist.conversion": "البيجلن الكيميائي يتحول إلى بيجلن متحول إلى زومبي",
+  "subtitles.entity.piglin_alchemist.step": "خطوات البيجلن الكيميائي",
+  "subtitles.arrow.regenhealingarrowhit": "السهم يشفي"
+}

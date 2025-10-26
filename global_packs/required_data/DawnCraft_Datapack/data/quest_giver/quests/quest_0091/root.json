@@ -1,0 +1,12 @@
+{
+  "reputation": 46,
+  "icon": "minecraft:ender_pearl",
+  "start": {
+    "title": {
+      "text": "مرحبًا!"
+    },
+    "description": {
+      "text": "مرحبًا مغامر… عندما تهزم تنين النهاية، هل يمكنك أن تفعل شيئًا لأجلي؟"
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "parent": "quest_giver:quest_0123_01b",
+  "reputation": 16,
+  "icon": "minecraft:iron_pickaxe",
+  "start": {
+    "title": {
+      "text": "سكلك"
+    },
+    "description": {
+      "text": "أوه، لقد عدت! هل حصلت على $(red)مستشعرات السكالك$() بعد؟"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "شكرًا!"
+    },
+    "description": {
+      "text": "هذا… يبدو غريبًا للغاية. هل صادفت الحارس؟ حسنًا، أظن أنك لم تفعل، بما أنك ما زلت على قيد الحياة. على أي حال، هذه مكافأتك. هذا غرض ينبغي أن يُبقيك خزنة من سلايمات عادية."
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "wildbackport:sculk_shrieker"
+      },
+      "id": "quest_giver:gift",
+      "times": 1
+    }
+  ],
+  "rewards": [
+    {
+      "item": {
+        "item": "dannys_expansion:gelatinous_diplomacy"
+      },
+      "id": "quest_giver:item",
+      "times": 1
+    },
+    {
+      "command": "/advancement grant @p only custom:trade_miner",
+      "id": "quest_giver:command"
+    }
+  ]
+}

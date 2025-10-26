@@ -1,0 +1,12 @@
+{
+  "reputation": 19,
+  "icon": "minecraft:iron_pickaxe",
+  "start": {
+    "title": {
+      "text": "مرحبا!"
+    },
+    "description": {
+      "text": "أعرف مكانا يذهب إليه مغامرون لاستدعاء كائن قوي. هل تود أن تعرف أين؟"
+    }
+  }
+}

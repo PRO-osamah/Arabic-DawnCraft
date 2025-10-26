@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:gift",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+			"type": "minecraft:item",
+			"name": "minecraft:map",
+			"functions":  [
+				{
+				"function": "minecraft:exploration_map",
+				"destination": "custom:summon_podium",
+				"decoration": "red_x",
+				"zoom": 1,
+				"skip_existing_chunks": false
+				},
+						{
+						    "function": "minecraft:set_name",
+						    "name": "خريطة إلى مذبح الاستدعاء"
+						},
+						{
+						    "function": "minecraft:set_lore",
+						    "lore": [
+						        {
+						            "text": "خريطة قدمها راسم الخرائط لتحديد موقع مذبح الاستدعاء."
+						        }
+						    ]
+						}
+
+			]
+        	}
+  	  ]
+       }
+   ]
+}

@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 7,
+  "icon": "minecraft:brewing_stand",
+  "start": {
+    "title": {
+      "text": "نصيحة"
+    },
+    "description": {
+      "text": "مجرد نصيحة… مع أن معظم الناس هنا لطفاء وما إلى ذلك، فإن بعضهم… ليسوا كذلك حقًا. لا تصدق كل ما يقوله الناس، حسنًا؟"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "reputation": 15,
+  "icon": "minecraft:map",
+  "start": {
+    "title": {
+      "text": "مرحبًا!"
+    },
+    "description": {
+      "text": "أملك السلاح الأسطوري المسمى Hanafubuki، ولكن منحه لك يعتمد على إثباتك للجدارة."
+    }
+  }
+}

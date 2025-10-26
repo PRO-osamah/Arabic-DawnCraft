@@ -1,0 +1,12 @@
+{
+  "reputation": 10,
+  "icon": "minecraft:wooden_sword",
+  "start": {
+    "title": {
+      "text": "تعال إلى هنا!"
+    },
+    "description": {
+      "text": "تعال إلى هنا! هل لك أن تتحدث معي قليلًا؟"
+    }
+  }
+}

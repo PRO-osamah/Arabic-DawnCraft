@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 5,
+  "icon": "minecraft:wheat_seeds",
+  "start": {
+    "title": {
+      "text": "إذن؟"
+    },
+    "description": {
+      "text": "معداتنا مهترئة قليلا… هل تظن أنك تستطيع أن تحصل لنا على $(red)معزقة حديدية$()؟"
+    }
+  }
+}

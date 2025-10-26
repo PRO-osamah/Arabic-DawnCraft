@@ -1,0 +1,40 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 15,
+  "icon": "minecraft:map",
+  "start": {
+    "title": {
+      "text": "هدف مستحيل!"
+    },
+    "description": {
+      "text": "أثبت استعدادك بإكمال اثنين من أهداف: احصل على عذراء نملة قاطعة الأوراق، والتي يمكن وضعها على تراب لبدء مستعمرة نملة قاطعة الأوراق. وقم ببناء قلعة رملية لحماية بيض سلاحف. عندها، وفقط عندها، سأمنحك هذا السلاح."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "شكرا!"
+    },
+    "description": {
+      "text": "تهانينا! ها هو ذا. لقد غيّر تأثير Shulk السلاح إلى حد لا يمكن معه التعرف عليه، وقد طمس هيئته الأصلية بالكامل."
+    }
+  },
+  "tasks": [
+    {
+      "id": "dawncraft:advancement",
+      "advancement": "ecologics:husbandry/sandcastle"
+    },
+    {
+      "id": "dawncraft:advancement",
+      "advancement": "alexsmobs:alexsmobs/leafcutter_ant_pupa"
+    }
+  ],
+  "rewards": [
+    {
+      "item": {
+        "item": "wom:moonless"
+      },
+      "id": "quest_giver:item",
+      "times": 1
+    }
+  ]
+}

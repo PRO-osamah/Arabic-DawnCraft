@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+	"dawncraft:forest_brick_wall",
+	"dawncraft:fire_brick_wall",
+	"dawncraft:coral_wall",
+	"dawncraft:magma_slate_wall",
+	"dawncraft:moss_brick_wall",
+	"dawncraft:mud_brick_wall",
+	"dawncraft:rock_wall",
+	"dawncraft:sand_brick_wall",
+	"dawncraft:sand_slate_wall",
+	"dawncraft:shadow_brick_wall",
+	"dawncraft:water_brick_wall",
+	"dawncraft:moss_slate_wall"
+  ]
+}

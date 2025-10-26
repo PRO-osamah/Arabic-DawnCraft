@@ -1,0 +1,12 @@
+{
+  "reputation": 5,
+  "icon": "minecraft:iron_sword",
+  "start": {
+    "title": {
+      "text": "عرض"
+    },
+    "description": {
+      "text": "لدي مهارة مثيرة يمكنني تعليمك إياها، وهي Step. لكن ذلك سيكلفك 15 زمردات."
+    }
+  }
+}

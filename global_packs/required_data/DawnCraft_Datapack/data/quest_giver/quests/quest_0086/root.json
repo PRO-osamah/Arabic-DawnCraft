@@ -1,0 +1,12 @@
+{
+  "reputation": 37,
+  "icon": "minecraft:iron_sword",
+  "start": {
+    "title": {
+      "text": "مرحبا!"
+    },
+    "description": {
+      "text": "مرحبا يا رفيق. أحتاج إلى مساعدتك في أمر مهم."
+    }
+  }
+}

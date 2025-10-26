@@ -1,0 +1,43 @@
+{
+  "parent": "quest_giver:quest_0064_01b",
+  "reputation": 18,
+  "icon": "supplementaries:slingshot",
+  "start": {
+    "title": {
+      "text": "صناعة مقلاع"
+    },
+    "description": {
+      "text": "لم تتمكن من صنع $(red)مقلاع$() بعد، صحيح؟ حسنًا، أفهم ذلك… إن صنع واحد جيد صعب على نحو غريب."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "شكرًا!"
+    },
+    "description": {
+      "text": "نعم، هذا تمامًا ما تخيلته! همم… لا يبدو مبهرًا جدًا. يبدو أنه يستخدم أحجار كذخيرة… حسنًا، تفضل، لست بحاجة إليه حقًا. شكرًا لإطلاعي عليه!"
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "supplementaries:slingshot"
+      },
+      "id": "quest_giver:gift",
+      "times": 1
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/addreputation reputation:villager @p 2",
+      "id": "quest_giver:command"
+    },
+    {
+      "item": {
+        "item": "supplementaries:slingshot"
+      },
+      "id": "quest_giver:item",
+      "times": 1
+    }
+  ]
+}

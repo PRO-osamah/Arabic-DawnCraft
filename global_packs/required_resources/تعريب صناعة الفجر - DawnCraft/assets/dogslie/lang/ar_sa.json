@@ -1,0 +1,14 @@
+{
+  "config.dogslie.prop.dogsSpawnLying.name": "ظهور الكلاب وهي مستلقية",
+  "config.dogslie.prop.dogsSpawnLying.desc": "ما إذا كانت الكلاب ستظهر في العالم وهي مستلقية إذا كانت جالسة بالفعل.",
+  "config.dogslie.prop.timeBeforeLie.name": "الوقت قبل الاستلقاء",
+  "config.dogslie.prop.timeBeforeLie.desc": "الوقت المستغرق في الجلوس (بالتيكات) قبل أن تستلقي الكلاب.",
+  "config.dogslie.prop.rangeBeforeGettingUp.name": "المدى قبل النهوض",
+  "config.dogslie.prop.rangeBeforeGettingUp.desc": "مدى اقتراب الهدف من الكلب قبل أن ينهض الكلب (بالكتل)",
+  "config.dogslie.prop.getsUpTo.name": "ينهض لـ...",
+  "config.dogslie.prop.getsUpTo.desc": "لمن ينهض الكلب.\n0 = لا أحد\n1 = المالك\n2 = اللاعبون\n3 = أي كيان حي",
+  "config.dogslie.prop.enabledPoses.name": "أوضاع الاستلقاء المفعلة",
+  "config.dogslie.prop.enabledPoses.desc": "الأوضاع المفعلة للاستلقاء. إذا لم يتمكن المود من العثور على أوضاع متوافقة، فسيختار مجموعة واحدة عشوائيًا.",
+  "config.dogslie.prop.attemptModWolfSupport.name": "محاولة دعم ذئاب المود",
+  "config.dogslie.prop.attemptModWolfSupport.desc": "السماح للمود بمحاولة إضافة دعم لذئاب المود؟ (لا يزال لا يسمح بدعم Doggy Talents)"
+}

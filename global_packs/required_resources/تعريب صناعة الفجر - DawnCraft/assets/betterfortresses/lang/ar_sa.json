@@ -1,0 +1,10 @@
+{
+  "Use /locate betterfortresses:fortress instead!": "استخدم /locate betterfortresses:fortress بدلا من ذلك!",
+  "text.autoconfig.betterfortresses-fabric-1_18_2.title": "حصون العالم السفلي المحسنة من YUNG",
+  "text.autoconfig.betterfortresses-fabric-1_18_2.option.general.disableVanillaFortresses": "تعطيل حصون العالم السفلي الافتراضية",
+  "text.autoconfig.betterfortresses-fabric-1_18_2.option.general.disableVanillaFortresses.@Tooltip": "ما إذا كان يجب تعطيل حصون العالم السفلي الافتراضية.",
+  "text.autoconfig.betterfortresses-fabric-1_18_2.option.general.startMinY": "الحد الأدنى لارتفاع البدء",
+  "text.autoconfig.betterfortresses-fabric-1_18_2.option.general.startMinY.@Tooltip": "الحد الأدنى لقيمة y التي يمكن أن يظهر عندها Keep.",
+  "text.autoconfig.betterfortresses-fabric-1_18_2.option.general.startMaxY": "الحد الأقصى لارتفاع البدء",
+  "text.autoconfig.betterfortresses-fabric-1_18_2.option.general.startMaxY.@Tooltip": "الحد الأقصى لقيمة y التي يمكن أن يظهر عندها Keep."
+}

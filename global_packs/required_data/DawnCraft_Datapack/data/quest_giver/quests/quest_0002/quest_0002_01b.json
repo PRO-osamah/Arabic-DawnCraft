@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 0,
+  "icon": "minecraft:beef",
+  "start": {
+    "title": {
+      "text": "خدمة"
+    },
+    "description": {
+      "text": "يا الرجل الطيب! لقد مر وقت منذ أن قام صيادين لدينا بصيد أي أرنب نيء… سأكون ممتنًا لو تمكنت من إعطائي أي $(red)قدم أرنب نيء$() لديك."
+    }
+  }
+}

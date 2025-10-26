@@ -1,0 +1,12 @@
+{
+  "reputation": 0,
+  "icon": "minecraft:bow",
+  "start": {
+    "title": {
+      "text": "مرحبًا"
+    },
+    "description": {
+      "text": "هل يمكنك أن تصنع لي $(red) قوس$()؟ حدادة الأسلحة لدينا مشغول هذه الأيام."
+    }
+  }
+}

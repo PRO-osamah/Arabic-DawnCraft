@@ -1,0 +1,12 @@
+{
+  "reputation": 4,
+  "icon": "minecraft:wheat_seeds",
+  "start": {
+    "title": {
+      "text": "مرحبًا!"
+    },
+    "description": {
+      "text": "مرحبًا مغامر، تبدو وكأنك مررت بالجحيم، هاها! أمزح فقط، هل يمكنك مساعدتي في شيء؟"
+    }
+  }
+}

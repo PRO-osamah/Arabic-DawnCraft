@@ -1,0 +1,44 @@
+{
+  "parent": "quest_giver:quest_0113_01b",
+  "reputation": 16,
+  "icon": "minecraft:iron_pickaxe",
+  "start": {
+    "title": {
+      "text": "إذن؟"
+    },
+    "description": {
+      "text": "هل يمكنك أن تجلب لي قطعة من ورقة؟ سأرسم لك خريطة."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "شكرًا!"
+    },
+    "description": {
+      "text": "يرجى الذهاب إلى هذا الموقع وحاول أن… تنتزع جواهر من المخلوق. أحضر لي جواهر من فضلك. سأحرص على أن يكون الأمر مجديًا لك."
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "minecraft:paper"
+      },
+      "id": "quest_giver:gift",
+      "times": 1
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/dc addWaypoint @p custom:obsidian_spikes \"افحص المنطقة التي ذكرها صانع الأسلحة\"",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/loot give @p loot minecraft:weaponsmith1",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/gamestage add @p weaponsmith1 true",
+      "id": "quest_giver:command"
+    }
+  ]
+}

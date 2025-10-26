@@ -1,0 +1,334 @@
+{
+	id: "7FB6749A5C23A010"
+	group: "0A520B482648497B"
+	order_index: 1
+	filename: "storage"
+	title: "التخزين"
+	icon: "minecraft:chest"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			description: ["الصناديق الأساسية لن تفيدك إلا إلى حدٍّ ما في هذه الحزمة من التعديلات، إذ توجد آلاف العناصر الفريدة، وستجد نفسك سريعًا تغرق في بحر من الصناديق التي تحتاج إلى فرز. لحسن الحظ، هناك تعديلات مضمنة في هذه الحزمة تجعل فرز كنوزك (والمهملات) أسهل بكثير."]
+			size: 2.0d
+			id: "4D1B105EE54EDEAF"
+			tasks: [{
+				id: "3B86BA54AA15287D"
+				type: "item"
+				item: "minecraft:chest"
+			}]
+			rewards: [{
+				id: "40A712D85762E768"
+				type: "xp"
+				xp: 1
+			}]
+		}
+		{
+			title: "أدراج التخزين"
+			x: 2.25d
+			y: 0.0d
+			description: ["أدراج التخزين هي الحل المثالي عندما تحتاج إلى تخزين كمية كبيرة جدًا من نوع واحد من العناصر. رائعة للأشياء التي سيكون لديك منها الكثير وترغب في الوصول إليها بسهولة (أو التخلص منها). يمكن صنعها بنُسخ تحتوي على أدراج إضافية لتخزين عدة أكوام مختلفة في كتلة واحدة، ويمكن ترقيتها لتستوعب عددًا أكبر من الأكوام من العناصر."]
+			dependencies: ["4D1B105EE54EDEAF"]
+			size: 1.5d
+			id: "15C8700EFE52353A"
+			tasks: [{
+				id: "6FC7DD9A5732C9B4"
+				type: "item"
+				item: "storagedrawers:oak_full_drawers_1"
+			}]
+			rewards: [{
+				id: "36BF6F96178BAC7D"
+				type: "xp"
+				xp: 5
+			}]
+		}
+		{
+			title: "التخزين السحابي"
+			icon: "cloudstorage:cloud_chest"
+			x: 0.0d
+			y: -2.0d
+			description: ["قد يتطلب التخزين السحابي بعض الوقت للحصول على المواد المطلوبة، لكنه يقدم نظام تخزين مرنًا للغاية. هل تريد شبكة تخزين كبيرة واحدة؟ عدة شبكات أصغر؟ عدة شبكات كبيرة منفصلة؟ يمكن للتخزين السحابي فعل كل ذلك - فقط تأكد أنك لا تخاف المرتفعات!"]
+			dependencies: ["4D1B105EE54EDEAF"]
+			size: 1.5d
+			id: "6578C82B120DE0EA"
+			tasks: [{
+				id: "7F2BD0E1BBFBF5C1"
+				type: "checkmark"
+				title: "اقرأ"
+			}]
+			rewards: [{
+				id: "6529B7B6EEBBFEB9"
+				type: "item"
+				item: "cloudstorage:guide_book"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -3.5d
+			description: ["لبدء استخدام التخزين السحابي، ستحتاج إلى قطع بالون لصنع بالون، وإلى كتل سحابة. تظهر وحوش البالون فوق Y=196، وكذلك وحوش السحابة، لذا من الأفضل أن تجد بعض الجبال! ليس من السيئ بناء منصة في الجو لقتالهم بسهولة أكبر، كما أن القوس يساعد بالتأكيد. تسقط البالونات قطعًا يمكن صنع بالون منها مع الخيط، وتسقط وحوش السحابة كتل سحابة يمكن استخدامها لصنع صناديق سحابة. "]
+			dependencies: ["6578C82B120DE0EA"]
+			id: "34A5470646A4CE63"
+			tasks: [{
+				id: "24C6540B62EB8438"
+				type: "item"
+				item: "cloudstorage:balloon"
+			}]
+			rewards: [{
+				id: "381FB78BCB25EFCD"
+				type: "item"
+				item: "minecraft:iron_ingot"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -5.0d
+			description: ["الخطوة الأخيرة لإعداد التخزين السحابي هي وضع صندوق سحابة في أي مكان مباشرة أسفل كتلة سماء (ليس في الأماكن المغلقة!). انقر بزر الفأرة الأيمن عليه وأنت تحمل بالونًا، وسيتزامن مخزونه مع جميع صناديق السحابة ذات لون البالون نفسه. ستتصل الصناديق الإضافية ذات لون البالون نفسه بنفس شبكة التخزين."]
+			dependencies: ["34A5470646A4CE63"]
+			id: "5209737ECC6EC599"
+			tasks: [{
+				id: "7FF35AF151CD8866"
+				type: "item"
+				item: "cloudstorage:cloud_chest"
+			}]
+			rewards: [{
+				id: "4F9D60196696D136"
+				type: "item"
+				item: "minecraft:cookie"
+				count: 2
+			}]
+		}
+		{
+			x: 0.0d
+			y: -6.5d
+			description: ["يمكن استخدام البالونات الساكنة والصناديق الساكنة لإنشاء مخزون سحابي يمكن لجميع اللاعبين الوصول إليه. هذا رائع للمجموعات التي ترغب في مشاركة المخزونات. يمكن الحصول على كتل السحابة الساكنة بقتال وحوش السحابة أثناء العواصف الرعدية. ضع كتلة سحابة ساكنة وانقر عليها بزر الفأرة الأيمن وأنت تحمل بالونًا لشحن البالون. اصنع صندوق السحابة الساكن من كتل السحابة الساكنة."]
+			dependencies: ["5209737ECC6EC599"]
+			id: "34ABF0F5257443E6"
+			tasks: [
+				{
+					id: "33C6E3483B23CF98"
+					type: "item"
+					item: {
+						id: "cloudstorage:balloon"
+						Count: 1b
+						tag: {
+							static: 1b
+						}
+					}
+				}
+				{
+					id: "678B002C4D1F8897"
+					type: "item"
+					item: "cloudstorage:static_cloud_chest"
+				}
+			]
+			rewards: [{
+				id: "0479D333C18E8CDD"
+				type: "item"
+				item: "minecraft:emerald"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 0.0d
+			dependencies: ["15C8700EFE52353A"]
+			id: "6FD59A149FE6F418"
+			tasks: [{
+				id: "3E3F18BC2D0ABD54"
+				type: "item"
+				item: "storagedrawers:obsidian_storage_upgrade"
+			}]
+			rewards: [{
+				id: "6B0892B3374394B0"
+				type: "item"
+				item: "minecraft:emerald"
+			}]
+		}
+		{
+			x: 5.5d
+			y: 0.0d
+			dependencies: ["6FD59A149FE6F418"]
+			id: "23DC4D6E70E1091B"
+			tasks: [{
+				id: "7A41BCB24FB670A9"
+				type: "item"
+				item: "storagedrawers:iron_storage_upgrade"
+			}]
+			rewards: [{
+				id: "0D98ACD81721DA04"
+				type: "item"
+				item: "minecraft:emerald"
+			}]
+		}
+		{
+			x: 7.0d
+			y: 0.0d
+			dependencies: ["23DC4D6E70E1091B"]
+			id: "10F1F3EE7889A104"
+			tasks: [{
+				id: "0164BB76D1530FF3"
+				type: "item"
+				item: "storagedrawers:gold_storage_upgrade"
+			}]
+			rewards: [{
+				id: "3A6CDC0B496DDE3A"
+				type: "item"
+				item: "minecraft:emerald"
+			}]
+		}
+		{
+			x: 8.5d
+			y: 0.0d
+			dependencies: ["10F1F3EE7889A104"]
+			id: "4D9FF3E44947668F"
+			tasks: [{
+				id: "1D5A13D0B94B358C"
+				type: "item"
+				item: "storagedrawers:diamond_storage_upgrade"
+			}]
+			rewards: [{
+				id: "0B6CB1C244B83877"
+				type: "item"
+				item: "minecraft:emerald"
+			}]
+		}
+		{
+			x: 10.0d
+			y: 0.0d
+			dependencies: ["4D9FF3E44947668F"]
+			id: "7EA6B2AC631D999B"
+			tasks: [{
+				id: "7ECEED4FDCDC4207"
+				type: "item"
+				item: "storagedrawers:emerald_storage_upgrade"
+			}]
+			rewards: [{
+				id: "4FEECDB57A7D0881"
+				type: "item"
+				item: "minecraft:emerald"
+			}]
+		}
+		{
+			x: 3.5d
+			y: 1.5d
+			dependencies: ["6FD59A149FE6F418"]
+			id: "5D0AAAB1C81D93FE"
+			tasks: [{
+				id: "5B08046B1D94ED72"
+				type: "item"
+				item: "storagedrawers:illumination_upgrade"
+			}]
+			rewards: [{
+				id: "285FE0FC1227A653"
+				type: "item"
+				item: "minecraft:emerald"
+			}]
+		}
+		{
+			x: 3.5d
+			y: -1.5d
+			dependencies: ["6FD59A149FE6F418"]
+			id: "41BD563E10B1AB25"
+			tasks: [{
+				id: "753B857BD925D870"
+				type: "item"
+				item: "storagedrawers:fill_level_upgrade"
+			}]
+			rewards: [{
+				id: "4F9606161F063677"
+				type: "item"
+				item: "minecraft:emerald"
+			}]
+		}
+		{
+			x: -1.7999999999999998d
+			y: 0.0d
+			description: ["اضغط B للفتح (افتراضيًا). يمكن تجهيزه في خانة معدات الحقيبة في قائمة Curios."]
+			dependencies: ["4D1B105EE54EDEAF"]
+			size: 1.2d
+			id: "31FF51CECF71BD12"
+			tasks: [{
+				id: "18D2ED50E69DD56E"
+				type: "item"
+				item: "sophisticatedbackpacks:backpack"
+			}]
+			rewards: [{
+				id: "33C3CA210D92BE3E"
+				type: "item"
+				item: {
+					id: "magistuarmory:iron_pike"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -3.0d
+			y: 0.0d
+			dependencies: ["31FF51CECF71BD12"]
+			id: "50C80EA544AF9A52"
+			tasks: [{
+				id: "5AF5BA1AFCB59BC6"
+				type: "item"
+				item: "sophisticatedbackpacks:iron_backpack"
+			}]
+			rewards: [{
+				id: "152D37AEDA50B4C0"
+				type: "xp"
+				xp: 3
+			}]
+		}
+		{
+			x: -4.0d
+			y: 0.0d
+			dependencies: ["50C80EA544AF9A52"]
+			id: "0B6F5DE85FF4D3D7"
+			tasks: [{
+				id: "4D5A2790DD9BA7A3"
+				type: "item"
+				item: "sophisticatedbackpacks:gold_backpack"
+			}]
+			rewards: [{
+				id: "0F3DF4CEA2C74515"
+				type: "xp"
+				xp: 3
+			}]
+		}
+		{
+			x: -5.0d
+			y: 0.0d
+			dependencies: ["0B6F5DE85FF4D3D7"]
+			id: "403035C8DC095962"
+			tasks: [{
+				id: "001E09CBCD7C498F"
+				type: "item"
+				item: "sophisticatedbackpacks:diamond_backpack"
+			}]
+			rewards: [{
+				id: "00DAF7B21BA69BCE"
+				type: "xp"
+				xp: 3
+			}]
+		}
+		{
+			x: -6.0d
+			y: 0.0d
+			dependencies: ["403035C8DC095962"]
+			id: "7CE65DEF92EE89EA"
+			tasks: [{
+				id: "65F64EF3ED2783F3"
+				type: "item"
+				item: "sophisticatedbackpacks:netherite_backpack"
+			}]
+			rewards: [{
+				id: "65DCCAAFAC3FABCB"
+				type: "item"
+				item: "plushies:cow"
+			}]
+		}
+	]
+	quest_links: [ ]
+}

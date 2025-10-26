@@ -1,0 +1,44 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 16,
+  "icon": "minecraft:iron_pickaxe",
+  "start": {
+    "title": {
+      "text": "قلب التنين"
+    },
+    "description": {
+      "text": "ستكلفك خريطة المؤدية إلى منصة الاستدعاء 5 زمردات."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "شكرا!"
+    },
+    "description": {
+      "text": "سررت بالتعامل معك، يا صديقي."
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "minecraft:emerald"
+      },
+      "id": "quest_giver:gift",
+      "times": 5
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/dc addWaypoint @p custom:summon_podium \"منصة الاستدعاء\"",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/loot give @p loot minecraft:cartographer2",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/gamestage add @p cartographer2 true",
+      "id": "quest_giver:command"
+    }
+  ]
+}

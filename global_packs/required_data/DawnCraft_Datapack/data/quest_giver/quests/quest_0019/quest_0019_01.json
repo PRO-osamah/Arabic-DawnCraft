@@ -1,0 +1,44 @@
+{
+  "parent": "quest_giver:quest_0019_01b",
+  "reputation": 16,
+  "icon": "minecraft:iron_pickaxe",
+  "start": {
+    "title": {
+      "text": "إذن؟"
+    },
+    "description": {
+      "text": "هل يمكنك أن تجلب لي ورقة؟ سأرسم لك خريطة."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "شكرا!"
+    },
+    "description": {
+      "text": "تفضل. أرجو أن تخبره أني أرسل تحياتي. ما كنت لأكون هنا لولاه."
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "minecraft:paper"
+      },
+      "id": "quest_giver:gift",
+      "times": 1
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/dc addWaypoint @p custom:fallen_house \"طلب المنقب - روح شقيقة\"",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/loot give @p loot minecraft:miner1",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/gamestage add @p miner1 true",
+      "id": "quest_giver:command"
+    }
+  ]
+}

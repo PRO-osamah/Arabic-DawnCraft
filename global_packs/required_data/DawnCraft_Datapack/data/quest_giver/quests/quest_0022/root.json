@@ -1,0 +1,12 @@
+{
+  "reputation": 6,
+  "icon": "minecraft:log",
+  "start": {
+    "title": {
+      "text": "مرحبا!"
+    },
+    "description": {
+      "text": "يا فتى، هل يمكنك أن تحضر لي قطعة من $(red)جذع ماهوغاني$()؟"
+    }
+  }
+}

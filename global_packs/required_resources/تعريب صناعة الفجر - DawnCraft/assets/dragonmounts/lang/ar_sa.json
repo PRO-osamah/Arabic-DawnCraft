@@ -1,0 +1,16 @@
+{
+  "entity.dragonmounts.dragon": "تنين",
+  "dragon_breed.dragonmounts.aether": "تنين الأثير",
+  "dragon_breed.dragonmounts.fire": "تنين النار",
+  "dragon_breed.dragonmounts.end": "تنين النهاية",
+  "dragon_breed.dragonmounts.forest": "تنين الغابة",
+  "dragon_breed.dragonmounts.ghost": "تنين الشبح",
+  "dragon_breed.dragonmounts.ice": "تنين الجليد",
+  "dragon_breed.dragonmounts.nether": "تنين النيذر",
+  "dragon_breed.dragonmounts.water": "تنين الماء",
+  "item.dragonmounts.spawn_egg": "بيضة استدعاء %s",
+  "block.dragonmounts.dragon_egg": "بيضة %s",
+  "block.dragonmounts.dragon_egg.remaining_time": "سيفقس خلال %s ثانية.",
+  "block.dragonmounts.dragon_egg.change_breeds": "وضع الإبداع: التفاعل مع تنين سيغير سلالته إلى سلالة هذه البيضة.",
+  "key.dragonmounts.flight_descent": "الهبوط أثناء الطيران"
+}

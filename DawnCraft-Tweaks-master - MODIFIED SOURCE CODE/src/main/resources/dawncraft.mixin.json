@@ -1,0 +1,23 @@
+{
+	"required": true,
+	"package": "com.afunproject.dawncraft.mixin",
+	"compatibilityLevel": "JAVA_17",
+	"refmap": "dawncraft.refmap.json",
+	"mixins": [
+		"MixinEntity",
+		"MixinInventory",
+		"MixinItem",
+		"MixinItemStack",
+		"MixinLivingEntity",
+		"MixinMob",
+		"MixinPlayer"
+	],
+	"client": [
+      	"MixinEntityRenderer",
+      	"MixinItemRenderer",
+      	"MixinKeyboardHandler",
+      	"MixinKeyMapping",
+      	"MixinMouseHandler"
+    ],
+	"minVersion": "0.8"
+}

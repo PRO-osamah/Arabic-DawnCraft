@@ -1,0 +1,36 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 15,
+  "icon": "minecraft:iron_sword",
+  "start": {
+    "title": {
+      "text": "إذن؟"
+    },
+    "description": {
+      "text": "يمكنني أن أعلّمك المهارة - سهم Tenacity مقابل 15 زمردات. ما رأيك؟"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "شكرًا"
+    },
+    "description": {
+      "text": "ها أنت ذا"
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "minecraft:emerald"
+      },
+      "id": "quest_giver:gift",
+      "times": 30
+    }
+  ],
+  "rewards": [
+    {
+      "command": "give @p epicfight:skillbook{skill:\"wom:arrow_tenacity\"}",
+      "id": "quest_giver:command"
+    }
+  ]
+}

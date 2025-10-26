@@ -1,0 +1,48 @@
+{
+  "parent": "quest_giver:quest_0014_06",
+  "reputation": 10,
+  "icon": "minecraft:iron_sword",
+  "start": {
+    "title": {
+      "text": "الطريق إلى حاملي العيون"
+    },
+    "description": {
+      "text": "حامل العين التالي من الموتى الأحياء. وللتحديد، إنه ميت حي يملك كثيرا من الحيل في جعبته… إنه محاط بأتباعه، لذا قد تواجه صعوبة في الوصول إليه."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "الطريق إلى حاملي العيون"
+    },
+    "description": {
+      "text": "هيكل عظمي اللورد هو على الأرجح أقوى ميت حي رأيته في حياتي. أنا مندهش لقدرتك على إسقاطه. حسنا، لنر… العين التالية يحرسها فارس مقدس مرموق. لست واثقا من أن ذلك ممكن حتى بالنسبة لك. على أي حال، سأعطيك موقعها. تقدم بحذر."
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "endrem:magical_eye"
+      },
+      "id": "quest_giver:item_pickup",
+      "times": 1
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/dc addWaypoint @p custom:sentinel_tree \"المهمة الرئيسية - شجرة الحارس\"",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/loot give @p loot minecraft:guildmaster5",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/advancement grant @p only simple_mobs:skeleton_lord_quest_complete",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/gamestage add @p guildmaster7 true",
+      "id": "quest_giver:command"
+    }
+  ]
+}

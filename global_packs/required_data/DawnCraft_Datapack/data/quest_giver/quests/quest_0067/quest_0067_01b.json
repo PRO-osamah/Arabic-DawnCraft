@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 24,
+  "icon": "minecraft:leather",
+  "start": {
+    "title": {
+      "text": "مساعدة"
+    },
+    "description": {
+      "text": "أحتاج منك أن تجمع $(red)2 قطع من فراء دب أبيض$(). قد تكون أقوى قليلًا من أنواع دب الأخرى، فكن حذرًا. عد عندما تحصل على البضاعة."
+    }
+  }
+}

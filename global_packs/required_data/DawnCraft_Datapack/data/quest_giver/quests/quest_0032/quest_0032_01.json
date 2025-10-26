@@ -1,0 +1,40 @@
+{
+  "parent": "quest_giver:quest_0032_01b",
+  "reputation": 0,
+  "icon": "minecraft:beef",
+  "start": {
+    "title": {
+      "text": "مساعدة بسيطة"
+    },
+    "description": {
+      "text": "مرحبًا، هل معك السكين؟ تذكّر، يجب أن تكون مصنوعة من الحديد."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "تم"
+    },
+    "description": {
+      "text": "أحسنت صنعًا! إنها سكين ممتازة، شكرًا."
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "farmersdelight:iron_knife"
+      },
+      "id": "quest_giver:gift",
+      "amount": 1
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/advancement grant @p only custom:trade_butcher",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/addreputation reputation:villager @p 2",
+      "id": "quest_giver:command"
+    }
+  ]
+}

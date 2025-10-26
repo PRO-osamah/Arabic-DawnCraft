@@ -1,0 +1,47 @@
+{
+  "parent": "quest_giver:quest_0030_01b",
+  "reputation": 12,
+  "icon": "minecraft:iron_helmet",
+  "start": {
+    "title": {
+      "text": "صناعة فرن صهر المعادن"
+    },
+    "description": {
+      "text": "مرحبا. هل صنعت فرن صهر المعادن بالفعل؟ تأكد من صنع واحد جديد بدلا من أخذ واحد من الآخرين!"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "رائع!"
+    },
+    "description": {
+      "text": "رائع! يمكنني بالتأكيد صنع معدات أفضل بهذه المنشأة الجديدة. شكرا!"
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "minecraft:blast_furnace"
+      },
+      "id": "quest_giver:craft",
+      "times": 1
+    },
+    {
+      "item": {
+        "item": "minecraft:blast_furnace"
+      },
+      "id": "quest_giver:gift",
+      "times": 1
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/advancement grant @p only custom:trade_armorer",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/addreputation reputation:villager @p 2",
+      "id": "quest_giver:command"
+    }
+  ]
+}

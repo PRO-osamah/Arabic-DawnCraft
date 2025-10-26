@@ -1,0 +1,12 @@
+{
+  "reputation": 4,
+  "icon": "minecraft:ender_pearl",
+  "start": {
+    "title": {
+      "text": "مرحبا!"
+    },
+    "description": {
+      "text": "مغامر، هل يمكنك مساعدتي في الحصول على 5 إندر لآلئ؟"
+    }
+  }
+}

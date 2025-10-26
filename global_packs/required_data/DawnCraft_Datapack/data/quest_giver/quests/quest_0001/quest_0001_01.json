@@ -1,0 +1,30 @@
+{
+  "parent": "quest_giver:quest_0001_01b",
+  "reputation": 5,
+  "icon": "minecraft:iron_ingot",
+  "start": {
+    "title": {
+      "text": "أحضر لي شيئًا!"
+    },
+    "description": {
+      "text": "مرحبًا! هل حصلت على $(red)4 سبائك حديد$() لي بعد؟"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "شكرًا لك!"
+    },
+    "description": {
+      "text": "شكرًا لك! الآن سأتمكن أخيرًا من صنع الدرع لذاك حارس… لم يتوقف عن الحديث عنه! لا أملك لك شيئًا الآن، لكني أقسم أني سأرد لك الجميل يومًا ما!"
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "minecraft:iron_ingot"
+      },
+      "id": "quest_giver:gift",
+      "times": 4
+    }
+  ]
+}

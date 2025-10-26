@@ -1,0 +1,64 @@
+{
+  "parent": "quest_giver:quest_0014_03",
+  "reputation": 10,
+  "icon": "minecraft:iron_sword",
+  "start": {
+    "title": {
+      "text": "الطريق إلى حاملي العيون"
+    },
+    "description": {
+      "text": "غول في مستوى مختلف مقارنة بـ ملك الغوبلن. تقدم بحذر."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "الطريق إلى حاملي العيون"
+    },
+    "description": {
+      "text": "أحسنت. ربما ستتمكن الآن من مواجهة $(red)فارس روبر$(). إنه أضعف بكثير مما كان عليه، لكني أفترض أنه ما يزال شديد الخطورة، إذ لا يزال قادرا على احتواء طاقة العين التي يحملها. إليك خريطة إلى مكانه الحالي."
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "endrem:lost_eye"
+      },
+      "id": "quest_giver:item_pickup",
+      "times": 1
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/dc addWaypoint @p custom:arena \"المهمة الرئيسية - حلبة الفارس روبر\"",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/loot give @p loot minecraft:guildmaster2",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/dc enableInvasions @p",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/pmmo admin @p add endurance level 1",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/pmmo admin @p add cooking level 1",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/gamestage add @p AdvancedSmelting true",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/advancement grant @p only simple_mobs:corrupt_ogre_quest_complete",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/gamestage add @p guildmaster4 true",
+      "id": "quest_giver:command"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "parent": "quest_giver:quest_0046_01b",
+  "reputation": 15,
+  "icon": "minecraft:paper",
+  "start": {
+    "title": {
+      "text": "مرحبا"
+    },
+    "description": {
+      "text": "يبدو أنك لم تكمل عقدك بعد. أم أنك نسيت ما كان عقدك؟ اهزم $(red)2 من الوحوش الفضية$()."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "تفضل."
+    },
+    "description": {
+      "text": "لقد أحسنت. أستطيع ان اشعر بقوى الشر توقف تقدمها لفترة وجيزة. لكن غزوهم لا ينتهي ابدا، حدثني مجددا إن رغبت بعقد آخر."
+    }
+  },
+  "tasks": [
+    {
+      "entity": "bloodandmadness:silverbeast",
+      "id": "quest_giver:kill",
+      "times": 2
+    }
+  ],
+  "rewards": [
+    {
+      "item": {
+        "item": "minecraft:emerald"
+      },
+      "id": "quest_giver:item",
+      "times": 4
+    },
+    {
+      "command": "/addreputation reputation:villager @p 2",
+      "id": "quest_giver:command"
+    }
+  ]
+}

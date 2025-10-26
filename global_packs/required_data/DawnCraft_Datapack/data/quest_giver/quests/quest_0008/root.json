@@ -1,0 +1,12 @@
+{
+  "reputation": 13,
+  "icon": "minecraft:arrow",
+  "start": {
+    "title": {
+      "text": "مرحبًا!"
+    },
+    "description": {
+      "text": "أحتاج مساعدتك في جمع شيء ما، مغامر."
+    }
+  }
+}

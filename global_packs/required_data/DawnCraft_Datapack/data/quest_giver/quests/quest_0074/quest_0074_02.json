@@ -1,0 +1,50 @@
+{
+  "parent": "quest_giver:quest_0074_01",
+  "reputation": 4,
+  "icon": "minecraft:book",
+  "start": {
+    "title": {
+      "text": "إذًا؟"
+    },
+    "description": {
+      "text": "أحتاج واحدا آخر من $(red)كرات الروح$() لديك."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "شكرا!"
+    },
+    "description": {
+      "text": "هاها… يا فتى، أنت ساذج جدا. لا تضع ثقتك في شخص بالكاد تحدثت معه. سأعيد إليك الكرات لأنني أشعر بالسوء، لكن تذكر هذا: ليس الجميع لطفاء مثلي."
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "paraglider:spirit_orb"
+      },
+      "id": "quest_giver:gift",
+      "times": 1
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/addreputation reputation:villager @p 2",
+      "id": "quest_giver:command"
+    },
+    {
+      "item": {
+        "item": "paraglider:spirit_orb"
+      },
+      "id": "quest_giver:item",
+      "times": 2
+    },
+    {
+      "item": {
+        "item": "minecraft:cookie"
+      },
+      "id": "quest_giver:item",
+      "times": 1
+    }
+  ]
+}

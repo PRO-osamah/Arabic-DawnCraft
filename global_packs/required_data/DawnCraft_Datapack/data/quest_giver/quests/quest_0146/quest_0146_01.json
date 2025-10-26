@@ -1,0 +1,36 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 15,
+  "icon": "minecraft:iron_sword",
+  "start": {
+    "title": {
+      "text": "إذًا؟"
+    },
+    "description": {
+      "text": "يمكنني أن أعلّمك المهارة - ثور Charge مقابل 30 زمردات. ما رأيك؟"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "شكرًا"
+    },
+    "description": {
+      "text": "تفضل. لا تندفع من فوق جرف، انتبه."
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "minecraft:emerald"
+      },
+      "id": "quest_giver:gift",
+      "times": 30
+    }
+  ],
+  "rewards": [
+    {
+      "command": "give @p epicfight:skillbook{skill:\"wom:bull_charge\"}",
+      "id": "quest_giver:command"
+    }
+  ]
+}

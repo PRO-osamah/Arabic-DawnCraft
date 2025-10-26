@@ -1,0 +1,36 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 10,
+  "icon": "minecraft:stone",
+  "start": {
+    "title": {
+      "text": "تعلم كيفية استخدام قاطع الحجارة"
+    },
+    "description": {
+      "text": "هم.. حسنا. أعطني 15 زمردات إذا أردت تعلم كيفية استخدام قاطع الحجارة."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "شكرا!"
+    },
+    "description": {
+      "text": "ها أنت ذا!"
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "minecraft:emerald"
+      },
+      "id": "quest_giver:gift",
+      "times": 15
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/pmmo admin @p add woodcutting level 1",
+      "id": "quest_giver:command"
+    }
+  ]
+}

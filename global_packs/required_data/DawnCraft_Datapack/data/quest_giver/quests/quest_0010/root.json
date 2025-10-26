@@ -1,0 +1,12 @@
+{
+  "reputation": 10,
+  "icon": "minecraft:stone",
+  "start": {
+    "title": {
+      "text": "مرحبا!"
+    },
+    "description": {
+      "text": "هل تريد تعلم كيفية استخدام قاطع الحجارة؟ سيكون ذلك فقط 10 زمردات!"
+    }
+  }
+}

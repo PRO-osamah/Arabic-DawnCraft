@@ -1,0 +1,44 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 40,
+  "icon": "minecraft:book",
+  "start": {
+    "title": {
+      "text": "استرجاع غرض ثمين"
+    },
+    "description": {
+      "text": "أحضر لي قطعة من ورقة من فضلك لأرسم لك خريطة"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "تفضل"
+    },
+    "description": {
+      "text": "آسف على الإزعاج. هذا هو المكان الذي أريدك أن تذهب إليه. هناك كتاب كان يخصني. كان ذلك المكان معبدًا يعج بالعلماء من جميع أنحاء البعد، لكنني لا أعلم كيف هو الآن. الرجاء التقدم بحذر، وأحضر لي كتاب الخاص بي"
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "minecraft:paper"
+      },
+      "id": "quest_giver:gift",
+      "times": 1
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/dc addWaypoint @p custom:librarian_ruin \"طلب أمين المكتبة\"",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/loot give @p loot minecraft:librarian1",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/gamestage add @p librarian1 true",
+      "id": "quest_giver:command"
+    }
+  ]
+}

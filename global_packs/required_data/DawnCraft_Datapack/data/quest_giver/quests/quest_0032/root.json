@@ -1,0 +1,12 @@
+{
+  "reputation": 0,
+  "icon": "minecraft:beef",
+  "start": {
+    "title": {
+      "text": "هل لديك وقت؟"
+    },
+    "description": {
+      "text": "مرحبًا، هل يمكنك مساعدتي في شيء ما؟ لن يستغرق وقتًا طويلًا."
+    }
+  }
+}

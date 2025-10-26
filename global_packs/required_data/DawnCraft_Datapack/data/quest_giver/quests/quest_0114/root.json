@@ -1,0 +1,12 @@
+{
+  "reputation": 19,
+  "icon": "minecraft:iron_pickaxe",
+  "start": {
+    "title": {
+      "text": "مرحبا"
+    },
+    "description": {
+      "text": "مرحبا أيها المسافر الشجاع، هل أنت مستعد لتحد؟"
+    }
+  }
+}

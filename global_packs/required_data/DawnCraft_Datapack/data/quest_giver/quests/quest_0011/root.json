@@ -1,0 +1,12 @@
+{
+  "reputation": 10,
+  "icon": "minecraft:white_wool",
+  "start": {
+    "title": {
+      "text": "مرحبًا!"
+    },
+    "description": {
+      "text": "هل تريد تعلّم كيفية استخدام منسج؟ يمكنني أن أعلّمك مقابل 10 زمردات."
+    }
+  }
+}

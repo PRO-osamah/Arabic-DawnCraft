@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:quest_0014_01",
+  "reputation": 10,
+  "icon": "minecraft:iron_sword",
+  "start": {
+    "title": {
+      "text": "الطريق إلى حاملي العيون"
+    },
+    "description": {
+      "text": "جيد، يبدو أنك مستعد لمغامرة! هل أنت مستعد للعثور على عينك الأولى؟"
+    }
+  }
+}

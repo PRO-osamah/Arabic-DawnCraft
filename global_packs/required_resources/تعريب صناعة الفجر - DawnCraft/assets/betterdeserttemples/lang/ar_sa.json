@@ -1,0 +1,12 @@
+{
+  "text.autoconfig.betterdeserttemples-fabric-1_18.title": "معابد الصحراء الأفضل من YUNG",
+  "text.autoconfig.betterdeserttemples-fabric-1_18.option.general.startMinY": "أدنى قيمة Y لبدء معبد الصحراء",
+  "text.autoconfig.betterdeserttemples-fabric-1_18.option.general.startMinY.@Tooltip": "أدنى قيمة Y يمكن أن يتولد عندها معبد الصحراء.",
+  "text.autoconfig.betterdeserttemples-fabric-1_18.option.general.startMaxY": "أعلى قيمة Y لبدء معبد الصحراء",
+  "text.autoconfig.betterdeserttemples-fabric-1_18.option.general.startMaxY.@Tooltip": "أعلى قيمة Y يمكن أن يتولد عندها معبد الصحراء.",
+  "text.autoconfig.betterdeserttemples-fabric-1_18.option.general.disableVanillaPyramids": "تعطيل الأهرام الأصلية",
+  "text.autoconfig.betterdeserttemples-fabric-1_18.option.general.disableVanillaPyramids.@Tooltip": "ما إذا كان ينبغي تعطيل أهرام الصحراء الأصلية.",
+  "text.autoconfig.betterdeserttemples-fabric-1_18.option.general.applyMiningFatigue": "تطبيق إرهاق التعدين",
+  "text.autoconfig.betterdeserttemples-fabric-1_18.option.general.applyMiningFatigue.@Tooltip[0]": "ما إذا كان سيتم تطبيق إرهاق التعدين على اللاعبين في المعبد",
+  "text.autoconfig.betterdeserttemples-fabric-1_18.option.general.applyMiningFatigue.@Tooltip[1]": "إذا لم يتم تطهيره بعد."
+}

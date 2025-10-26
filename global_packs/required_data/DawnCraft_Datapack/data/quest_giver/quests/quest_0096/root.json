@@ -1,0 +1,12 @@
+{
+  "reputation": 6,
+  "icon": "minecraft:redstone",
+  "start": {
+    "title": {
+      "text": "مرحبا!"
+    },
+    "description": {
+      "text": "هل يمكنك أن تعطيني $(red)10 مسحوق الريدستون$()؟ سأدفع ثمنها بالطبع."
+    }
+  }
+}

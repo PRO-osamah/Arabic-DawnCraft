@@ -1,0 +1,12 @@
+{
+  "reputation": 15,
+  "icon": "minecraft:map",
+  "start": {
+    "title": {
+      "text": "مرحبًا!"
+    },
+    "description": {
+      "text": "السلاح الأسطوري - Spellbound Blaster، بحوزتي، لكن يجب أن تثبت جدارتك قبل أن يُمنح لك."
+    }
+  }
+}

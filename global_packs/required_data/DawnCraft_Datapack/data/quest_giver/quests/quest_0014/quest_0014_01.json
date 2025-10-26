@@ -1,0 +1,49 @@
+{
+  "parent": "quest_giver:quest_0014_01b",
+  "reputation": 5,
+  "icon": "minecraft:enchanted_book",
+  "start": {
+    "title": {
+      "text": "المهمة الأولى"
+    },
+    "description": {
+      "text": "عد بعد أن تستوفي المتطلبات - $(red)اقتل 10 ناهبون$()."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "المهمة الأولى"
+    },
+    "description": {
+      "text": "تفضل، استخدم هذه لتحصل على أول ترقية لك من $(أخضر)تماثيل الحكام$()! أوصي بأن تتحدث مع بعض حراس هنا إذا أردت تعلم مهارات جديدة. أتمنى لك حظ في رحلتك."
+    }
+  },
+  "tasks": [
+    {
+      "entity": "minecraft:pillager",
+      "id": "quest_giver:kill",
+      "times": 10
+    }
+  ],
+  "rewards": [
+    {
+      "item": {
+        "item": "paraglider:spirit_orb"
+      },
+      "id": "quest_giver:item",
+      "times": 4
+    },
+    {
+      "command": "/dc addWaypoint @p goblinsanddungeons:ruined_keep \"المهمة الرئيسية - قلعة ملك العفاريت\"",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/loot give @p loot minecraft:guildmaster0",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/gamestage add @p guildmaster2 true",
+      "id": "quest_giver:command"
+    }
+  ]
+}

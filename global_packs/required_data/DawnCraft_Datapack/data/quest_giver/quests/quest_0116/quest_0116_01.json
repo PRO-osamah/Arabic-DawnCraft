@@ -1,0 +1,43 @@
+{
+  "parent": "quest_giver:quest_0116_01b",
+  "reputation": 10,
+  "icon": "minecraft:iron_axe",
+  "start": {
+    "title": {
+      "text": "عرض"
+    },
+    "description": {
+      "text": "4 زمردات، وسأريك أين يمكنك العثور على المواد اللازمة لاستدعاء إغنيس."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "شكرا!"
+    },
+    "description": {
+      "text": "ها هو. لا تستدع ذلك المسخ قرب هذه القرية. وتذكر، هذه خريطة ستعمل فقط إذا فتحتها في النيذر. لا تسألني لماذا… لا فكرة لدي."
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "minecraft:emerald"
+      },
+      "id": "quest_giver:gift",
+      "amount": 4
+    }
+  ],
+  "rewards": [
+    {
+      "item": {
+        "item": "simple_mobs:rolled_map_2"
+      },
+      "id": "quest_giver:item",
+      "times": 1
+    },
+    {
+      "command": "/gamestage add @p netherian3 true",
+      "id": "quest_giver:command"
+    }
+  ]
+}

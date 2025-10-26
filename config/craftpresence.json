@@ -1,0 +1,375 @@
+{
+  "_README": "https://gitlab.com/CDAGaming/CraftPresence/-/wikis/home",
+  "_SOURCE": "https://gitlab.com/CDAGaming/CraftPresence",
+  "_schemaVersion": 6,
+  "_lastMCVersionId": 758,
+  "generalSettings": {
+    "detectATLauncherInstance": true,
+    "detectCurseManifest": true,
+    "detectMultiMCManifest": true,
+    "detectMCUpdaterInstance": true,
+    "detectTechnicPack": true,
+    "detectModrinthPack": true,
+    "detectBiomeData": false,
+    "detectDimensionData": true,
+    "detectWorldData": true,
+    "clientId": "1429713052227469424",
+    "defaultIcon": "dawncraft",
+    "enableJoinRequests": true,
+    "partyPrivacyLevel": 1,
+    "preferredClientLevel": 3,
+    "resetTimeOnInit": false,
+    "autoRegister": false
+  },
+  "biomeSettings": {
+    "fallbackBiomeIcon": "unknown",
+    "biomeData": {
+      "default": {
+        "textOverride": "يلعب في {biome.name}",
+        "data": {
+          "enabled": true,
+          "useAsMain": false,
+          "details": "",
+          "gameState": "",
+          "largeImageKey": "",
+          "largeImageText": "",
+          "smallImageKey": "",
+          "smallImageText": "",
+          "startTimestamp": "",
+          "endTimestamp": "",
+          "buttons": {
+            "default": {
+              "label": "مثال على نص",
+              "url": "https://google.com"
+            }
+          }
+        }
+      }
+    }
+  },
+  "dimensionSettings": {
+    "fallbackDimensionIcon": "dawncraft",
+    "dimensionData": {
+      "default": {
+        "textOverride": "في عالم {dimension.name}",
+        "data": {
+          "enabled": true,
+          "useAsMain": false,
+          "details": "",
+          "gameState": "",
+          "largeImageKey": "",
+          "largeImageText": "",
+          "smallImageKey": "",
+          "smallImageText": "",
+          "startTimestamp": "",
+          "endTimestamp": "",
+          "buttons": {
+            "default": {
+              "label": "مثال على نص",
+              "url": "https://google.com"
+            }
+          }
+        }
+      }
+    }
+  },
+  "serverSettings": {
+    "fallbackServerIcon": "dawncraft",
+    "fallbackServerName": "خادم ماينكرافت",
+    "fallbackServerMotd": "أحد خوادم ماينكرافت",
+    "serverData": {
+      "default": {
+        "textOverride": "يلعب على {server.motd.raw}",
+        "data": {
+          "enabled": true,
+          "useAsMain": false,
+          "details": "",
+          "gameState": "",
+          "largeImageKey": "",
+          "largeImageText": "",
+          "smallImageKey": "",
+          "smallImageText": "",
+          "startTimestamp": "",
+          "endTimestamp": "",
+          "buttons": {
+            "default": {
+              "label": "مثال على نص",
+              "url": "https://google.com"
+            }
+          }
+        }
+      }
+    }
+  },
+  "statusMessages": {
+    "mainMenuData": {
+      "textOverride": "في القائمة الرئيسية",
+      "data": {
+        "enabled": true,
+        "useAsMain": false,
+        "details": "",
+        "gameState": "",
+        "largeImageKey": "",
+        "largeImageText": "",
+        "smallImageKey": "",
+        "smallImageText": "",
+        "startTimestamp": "",
+        "endTimestamp": "",
+        "buttons": {
+          "default": {
+            "label": "مثال على نص",
+            "url": "https://google.com"
+          }
+        }
+      }
+    },
+    "loadingData": {
+      "textOverride": "...تحميل",
+      "data": {
+        "enabled": true,
+        "useAsMain": false,
+        "details": "",
+        "gameState": "",
+        "largeImageKey": "",
+        "largeImageText": "",
+        "smallImageKey": "",
+        "smallImageText": "",
+        "startTimestamp": "",
+        "endTimestamp": "",
+        "buttons": {
+          "default": {
+            "label": "مثال على نص",
+            "url": "https://google.com"
+          }
+        }
+      }
+    },
+    "lanData": {
+      "textOverride": "يلعب على خادم محلي",
+      "data": {
+        "enabled": true,
+        "useAsMain": false,
+        "details": "",
+        "gameState": "",
+        "largeImageKey": "",
+        "largeImageText": "",
+        "smallImageKey": "",
+        "smallImageText": "",
+        "startTimestamp": "",
+        "endTimestamp": "",
+        "buttons": {
+          "default": {
+            "label": "مثال على نص",
+            "url": "https://google.com"
+          }
+        }
+      }
+    },
+    "singleplayerData": {
+      "textOverride": "يلعب في الوضع الفردي",
+      "data": {
+        "enabled": true,
+        "useAsMain": false,
+        "details": "",
+        "gameState": "",
+        "largeImageKey": "",
+        "largeImageText": "",
+        "smallImageKey": "",
+        "smallImageText": "",
+        "startTimestamp": "",
+        "endTimestamp": "",
+        "buttons": {
+          "default": {
+            "label": "مثال على نص",
+            "url": "https://google.com"
+          }
+        }
+      }
+    }
+  },
+  "advancedSettings": {
+    "enablePerGui": false,
+    "enablePerItem": false,
+    "enablePerEntity": false,
+    "formatWords": true,
+    "debugMode": false,
+    "verboseMode": false,
+    "refreshRate": 2,
+    "allowPlaceholderPreviews": false,
+    "guiSettings": {
+      "fallbackGuiIcon": "unknown",
+      "guiData": {
+        "default": {
+          "textOverride": "في {screen.name}",
+          "data": {
+            "enabled": true,
+            "useAsMain": false,
+            "details": "",
+            "gameState": "",
+            "largeImageKey": "",
+            "largeImageText": "",
+            "smallImageKey": "",
+            "smallImageText": "",
+            "startTimestamp": "",
+            "endTimestamp": "",
+            "buttons": {
+              "default": {
+                "label": "مثال على نص",
+                "url": "https://google.com"
+              }
+            }
+          }
+        }
+      }
+    },
+    "itemMessages": {
+      "default": "يحمل {item.message.holding}"
+    },
+    "entitySettings": {
+      "fallbackEntityIcon": "unknown",
+      "targetData": {
+        "default": {
+          "textOverride": "يستهدف {entity.target.name}",
+          "data": {
+            "enabled": true,
+            "useAsMain": false,
+            "details": "",
+            "gameState": "",
+            "largeImageKey": "",
+            "largeImageText": "",
+            "smallImageKey": "",
+            "smallImageText": "",
+            "startTimestamp": "",
+            "endTimestamp": "",
+            "buttons": {
+              "default": {
+                "label": "مثال على نص",
+                "url": "https://google.com"
+              }
+            }
+          }
+        }
+      },
+      "ridingData": {
+        "default": {
+          "textOverride": "يركب {entity.riding.name}",
+          "data": {
+            "enabled": true,
+            "useAsMain": false,
+            "details": "",
+            "gameState": "",
+            "largeImageKey": "",
+            "largeImageText": "",
+            "smallImageKey": "",
+            "smallImageText": "",
+            "startTimestamp": "",
+            "endTimestamp": "",
+            "buttons": {
+              "default": {
+                "label": "مثال على نص",
+                "url": "https://google.com"
+              }
+            }
+          }
+        }
+      }
+    },
+    "allowEndpointIcons": true,
+    "serverIconEndpoint": "https://api.mcsrvstat.us/icon/{server.address.short}",
+    "playerSkinEndpoint": "https://crafatar.com/avatars/%1$s",
+    "allowDuplicatePackets": false,
+    "maxConnectionAttempts": 10
+  },
+  "accessibilitySettings": {
+    "tooltipBackground": {
+      "start": {
+        "red": 16,
+        "green": 0,
+        "blue": 16,
+        "alpha": 240
+      }
+    },
+    "tooltipBorder": {
+      "start": {
+        "red": 80,
+        "green": 0,
+        "blue": 255,
+        "alpha": 80
+      },
+      "end": {
+        "red": 40,
+        "green": 0,
+        "blue": 127,
+        "alpha": 80
+      }
+    },
+    "guiBackground": {
+      "start": {
+        "red": 64,
+        "green": 64,
+        "blue": 64,
+        "alpha": 255
+      },
+      "texLocation": "minecraft:textures/gui/options_background.png"
+    },
+    "altGuiBackground": {
+      "start": {
+        "red": 16,
+        "green": 16,
+        "blue": 16,
+        "alpha": 192
+      },
+      "end": {
+        "red": 16,
+        "green": 16,
+        "blue": 16,
+        "alpha": 208
+      }
+    },
+    "languageId": "ar_sa",
+    "stripTranslationColors": false,
+    "stripTranslationFormatting": false,
+    "stripExtraGuiElements": false,
+    "renderTooltips": true,
+    "configKeyCode": 92
+  },
+  "displaySettings": {
+    "presenceData": {
+      "enabled": true,
+      "useAsMain": false,
+      "details": "{menu.message}{dimension.message}",
+      "gameState": "{server.message} {custom.pack}",
+      "largeImageKey": "{menu.icon}{dimension.icon}",
+      "largeImageText": "{menu.message}{dimension.message}",
+      "smallImageKey": "{server.icon}{pack.icon}",
+      "smallImageText": "{server.message} {custom.pack}",
+      "startTimestamp": "{data.general.time}",
+      "endTimestamp": "",
+      "buttons": {
+        "default": {
+          "label": "مثال على نص",
+          "url": "https://google.com"
+        }
+      }
+    },
+    "dynamicIcons": {
+      "default": "https://via.placeholder.com/256.png",
+      "InteJason": "https://crafatar.com/avatars/41a42a8c3fe545639f0b4f7d8fa19c7f",
+      "178.32.188.86": "https://api.mcsrvstat.us/icon/178.32.188.86",
+      "dcsmp.modded.fun": "https://api.mcsrvstat.us/icon/dcsmp.modded.fun",
+      "5.135.246.179": "https://api.mcsrvstat.us/icon/5.135.246.179"
+    },
+    "dynamicVariables": {
+      "default": "مثال على نص",
+      "mods": "{general.mods} تعديل/لات",
+      "player_info_coordinate": "عند {player.position.x}, {player.position.z}",
+      "players": "{server.players.current} / {server.players.max} لاعبين",
+      "player_info_in": "({custom.player_info_health})",
+      "player_info_items": "غرض: {item.main_hand.message}",
+      "player_info_out": "كـ {player.name}",
+      "player_info_health": "الصحة: {player.health.current}/{player.health.max}",
+      "world_info": "في {world.name}",
+      "pack": "{pack.name}"
+    }
+  }
+}
