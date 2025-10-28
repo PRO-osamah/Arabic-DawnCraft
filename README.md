@@ -55,9 +55,10 @@
 
 ## **ا📦 طريقة التثبيت والاستخدام**
 #### الطريقة مختلفة نهائيا عن أي ريسورس باك (حزمة موارد) أو حزمة تعديلات (مود باك) أخرى، يجب عليك مشاهدة الفيديو القصير لمعرفة الطريقة ولا يمكن أن يعمل التعريب بدون هذه الطريقة.
-### :إضغط على مشغل اللعبة (لانشر) الذي تستخدمه من الأسفل للذهاب إلى الفيديو القصير الخاص به
 
-![](https://media.forgecdn.net/attachments/description/1368980/description_7d746e22-6115-4a0b-bf8c-eeec6e57babe.png)  ![](https://media.forgecdn.net/attachments/description/1368980/description_3f222483-657a-40bf-afe8-6332b327b005.png)  ![](https://media.forgecdn.net/attachments/description/1368980/description_942db643-80a2-49e9-b31b-d2d51cd7c751.png)</p><p style="text-align: right;">![](https://media.forgecdn.net/attachments/description/1368980/description_597405d7-37ec-454c-a6e2-10db3f5eebb8.png)  ![](https://media.forgecdn.net/attachments/description/1368980/description_31280d48-0074-4003-b7f5-206faf8a4fd7.png)  ![](https://media.forgecdn.net/attachments/description/1368980/description_2a87a310-3f80-4db0-a09b-a6d96d9d7669.png)  ![](https://media.forgecdn.net/attachments/description/1368980/description_51c7b4e6-4f56-4746-815e-20a31aeeea31.png)
+### [رابط مقطع الشرح >>(إضغط هنا)<<](https://www.youtube.com/watch?v=M59oFa6w9eU)
+
+
 
 ***
 
